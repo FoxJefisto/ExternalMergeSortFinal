@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="4874d893-73c5-4017-834e-0435fa6f951e" name="ExternalMergeSort" linkedPackageId="71ddfa58-5f80-4f4b-8ced-28f957b73bdd" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="c3434a58-0490-4ebf-996d-fcb3e6a74434">
+      <elementDefinition Id="31d6e21a-917f-4698-85d4-fa3dc65170b9" />
+      <body>Входной файл
+k-размер сегментов
+type-тип внутренней стортировки
+Выходной файл
+</body>
+    </comment>
+    <comment Id="0ba086d3-05f0-4c86-8691-4fc80a99600b">
+      <elementDefinition Id="60e242cd-d6c4-4c76-9246-42e75e091d78" />
+      <body>А на В или В на А</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="2189747f-4dea-476f-95b8-16dcbbde3db0" name="ExternalMergeSort" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="cbd46571-f3d5-4dc1-98dd-5134f326069f" />
+        <nodes>
+          <initialNode Id="901a92f2-86ab-4edf-b53c-9c7bfcce6e5e" name="Initial1" isLeaf="false">
+            <elementDefinition Id="dba6aedb-076b-49b1-9671-3caffef7e211" />
+            <flowNodeTargets>
+              <controlFlow Id="eaac15a1-b3f0-4fa8-ba0b-bd674fa6a5a6" isLeaf="false">
+                <opaqueActionMoniker Id="f3d5008c-76eb-4856-abbb-4db7ec55211b" LastKnownName="Измерить начальное состояние таймера" />
+                <elementDefinition Id="2f55123b-2125-4367-a862-b29742cf55bc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="edb60f07-ea1b-47e2-b638-48b587678ed2" name="Прочитать k записей из входного файла()" isLeaf="false">
+            <elementDefinition Id="3416f358-4de6-4d0a-97c2-9fdeca792ef8" />
+            <flowNodeTargets>
+              <controlFlow Id="910ab406-8114-4cc0-b049-53ec9f85f052" isLeaf="false">
+                <opaqueActionMoniker Id="7f7f7faf-da09-4bce-b4d6-251e03bcc76b" LastKnownName="Отсортировать полученный сегмент type-сортировкой()" />
+                <elementDefinition Id="ed935fd0-1821-4f32-a4e1-a7d3cc4a1668" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="7f7f7faf-da09-4bce-b4d6-251e03bcc76b" name="Отсортировать полученный сегмент type-сортировкой()" isLeaf="false">
+            <elementDefinition Id="e0825633-0576-4cf5-a393-8daac985b2b9" />
+            <flowNodeTargets>
+              <controlFlow Id="1cfbad57-906e-40c8-858f-0f83e0bd7cec" isLeaf="false">
+                <opaqueActionMoniker Id="ac0bc7f6-d797-457a-900e-8b755db0b29a" LastKnownName="Записать в выходной файл()" />
+                <elementDefinition Id="a2f65c37-58ab-482d-87b0-291f0a8c5a06" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ac0bc7f6-d797-457a-900e-8b755db0b29a" name="Записать в выходной файл()" isLeaf="false">
+            <elementDefinition Id="9cd6d704-1147-4f31-bb37-2c6502d45546" />
+            <flowNodeTargets>
+              <controlFlow Id="18e8d8c1-4b18-4174-a970-9dd62174b5ca" isLeaf="false">
+                <opaqueActionMoniker Id="423165b3-c112-4ae0-99fa-027c83c1e9cf" LastKnownName="Выбрать другой выходной файл" />
+                <elementDefinition Id="cd975b15-de16-4a97-97d3-1f129210b407" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="423165b3-c112-4ae0-99fa-027c83c1e9cf" name="Выбрать другой выходной файл" isLeaf="false">
+            <elementDefinition Id="62227e52-17e9-45bc-bed8-d0dd9b1c4c52" />
+            <flowNodeTargets>
+              <controlFlow Id="647e00ca-fb66-42a6-b9d5-38230248ac4a" isLeaf="false">
+                <mergeNodeMoniker Id="5eaa3d27-100e-4ed5-9b4f-c6901b5c3bd0" LastKnownName="Merge1" />
+                <elementDefinition Id="23be422d-ba24-4164-8bd1-30f6cef62129" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="5eaa3d27-100e-4ed5-9b4f-c6901b5c3bd0" name="Merge1" isLeaf="false">
+            <elementDefinition Id="ef9e33e3-ff2f-47e1-9060-8026078d1983" />
+            <flowNodeTargets>
+              <controlFlow Id="20d1a581-2c95-451d-a940-2a22583378bf" isLeaf="false">
+                <decisionNodeMoniker Id="b61addbf-95d4-4d14-9a8d-f149fddaca55" LastKnownName="Decision1" />
+                <elementDefinition Id="4ab26706-211f-4a87-b600-21d1f307cf38" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <decisionNode Id="b61addbf-95d4-4d14-9a8d-f149fddaca55" name="Decision1" isLeaf="false">
+            <elementDefinition Id="6b8d4348-53c7-4c7a-9112-a483c3e086a3" />
+            <flowNodeTargets>
+              <controlFlow Id="6a812e82-5ef4-4408-9f94-8b05a52bd20a" guard="Файл не закончился" isLeaf="false">
+                <opaqueActionMoniker Id="edb60f07-ea1b-47e2-b638-48b587678ed2" LastKnownName="Прочитать k записей из входного файла()" />
+                <elementDefinition Id="89a804c0-8a1e-44ea-9f5e-6e1412dac9b5" />
+              </controlFlow>
+              <controlFlow Id="1f9e9929-8d39-4163-9dae-6e8c1d42e14b" guard="Конец файла" isLeaf="false">
+                <opaqueActionMoniker Id="9120a777-384b-44c5-bbbc-0e6708068bf3" LastKnownName="Задаем выходные файлы, буферные файлы и Size = k" />
+                <elementDefinition Id="8aa8b7fb-31c6-44a1-bc56-6173af747320" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="220dedaa-77cf-42c6-974b-720e005bae43" name="Слить отрезок длины Size из input1 с отрезком из  input 2()" isLeaf="false">
+            <elementDefinition Id="38c016e1-6219-47f6-a5e9-81e8f74844e5" />
+            <flowNodeTargets>
+              <controlFlow Id="acb2b5c9-9e41-430c-8033-f11f5f406849" isLeaf="false">
+                <opaqueActionMoniker Id="de2022db-9fc2-429b-af52-4c28a5846269" LastKnownName="Выбрать другой выходной файл" />
+                <elementDefinition Id="70b0df2c-b1ac-4710-ad20-74927506fb56" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="de2022db-9fc2-429b-af52-4c28a5846269" name="Выбрать другой выходной файл" isLeaf="false">
+            <elementDefinition Id="58d55f44-da56-444f-a9b3-229b9192551a" />
+            <flowNodeTargets>
+              <controlFlow Id="f16c723b-ef8a-4986-9f34-39502a8bafac" isLeaf="false">
+                <mergeNodeMoniker Id="850dc880-f757-4ddd-9bb5-f68fd2517b80" LastKnownName="Merge2" />
+                <elementDefinition Id="44d883e5-96bc-49fb-bf87-cf09d66e8b44" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="1c3ecb62-5ff0-4104-adef-363cc5484d25" name="Decision2" isLeaf="false">
+            <elementDefinition Id="c37823c7-eb45-4699-a69c-34219e72d893" />
+            <flowNodeTargets>
+              <controlFlow Id="b6412d62-d9a7-4a90-903a-c1b391bb45cc" guard="Size&lt;размера исходной последовательности" isLeaf="false">
+                <mergeNodeMoniker Id="850dc880-f757-4ddd-9bb5-f68fd2517b80" LastKnownName="Merge2" />
+                <elementDefinition Id="8defccfe-595c-4d8d-bca7-c8405449bdd7" />
+              </controlFlow>
+              <controlFlow Id="a317e116-50a9-4ac2-a427-b9678682288b" guard="Size&gt;=размеру иходной последовательности" isLeaf="false">
+                <opaqueActionMoniker Id="d061a7b4-9f9d-4218-9e05-f7c1bfa55655" LastKnownName="Измерить время работы алгоритма" />
+                <elementDefinition Id="34cf4b86-1811-4350-9a6a-d491a2d759a6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="953d4076-3b80-4cf3-bc25-b1d5aefb8ef9" name="Decision3" isLeaf="false">
+            <elementDefinition Id="d2a1cc96-5b7d-4193-8899-fa1cc15fb37c" />
+            <flowNodeTargets>
+              <controlFlow Id="e5a6e5a5-2b2b-429e-ab78-09f78d760526" guard="Конец файлов не достигнут" isLeaf="false">
+                <opaqueActionMoniker Id="220dedaa-77cf-42c6-974b-720e005bae43" LastKnownName="Слить отрезок длины Size из input1 с отрезком из  input 2()" />
+                <elementDefinition Id="0e784b82-723a-47ec-b4c1-d210e2035300" />
+              </controlFlow>
+              <controlFlow Id="ea85fc38-98c9-4c0e-9ae2-df2378ace3d5" guard="Достигнут конец файлов" isLeaf="false">
+                <opaqueActionMoniker Id="c8891170-adad-4ab9-911a-05db1f590612" LastKnownName="Size = Size*2&#xD;&#xA;Меняем пары буферных файлов" />
+                <elementDefinition Id="44edd32f-3761-4156-85bc-ea306b2df5da" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="c8891170-adad-4ab9-911a-05db1f590612" name="Size = Size*2&#xD;&#xA;Меняем пары буферных файлов" isLeaf="false">
+            <elementDefinition Id="939f061f-434f-49c7-8e81-ede820ad502f" />
+            <flowNodeTargets>
+              <controlFlow Id="2f7374d5-8183-4c54-a032-ee2884dcb950" isLeaf="false">
+                <mergeNodeMoniker Id="a06e4f49-781c-4764-95de-0211d9f5ebee" LastKnownName="Merge3" />
+                <elementDefinition Id="ae272ca6-77c3-4889-b48b-48aece66ed5f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9120a777-384b-44c5-bbbc-0e6708068bf3" name="Задаем выходные файлы, буферные файлы и Size = k" isLeaf="false">
+            <elementDefinition Id="b04b808a-dd85-4ec4-8d45-981353ae6c03" />
+            <flowNodeTargets>
+              <controlFlow Id="0214b545-d565-4424-a67f-735bfda78e4f" isLeaf="false">
+                <mergeNodeMoniker Id="a06e4f49-781c-4764-95de-0211d9f5ebee" LastKnownName="Merge3" />
+                <elementDefinition Id="6cbcc022-bdcf-486e-bdd3-97c42bfabff6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="850dc880-f757-4ddd-9bb5-f68fd2517b80" name="Merge2" isLeaf="false">
+            <elementDefinition Id="a16ff4b6-1e20-4748-959d-1ef2258d6192" />
+            <flowNodeTargets>
+              <controlFlow Id="03a152df-d3c3-4cbe-85e7-9053daed6bb9" isLeaf="false">
+                <decisionNodeMoniker Id="953d4076-3b80-4cf3-bc25-b1d5aefb8ef9" LastKnownName="Decision3" />
+                <elementDefinition Id="bf053e82-7442-4bc9-a544-9acf55dec2bf" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <mergeNode Id="a06e4f49-781c-4764-95de-0211d9f5ebee" name="Merge3" isLeaf="false">
+            <elementDefinition Id="bcfce366-dc2d-4cd1-ac26-9d7ea4d63c7b" />
+            <flowNodeTargets>
+              <controlFlow Id="1fefedae-8cd7-4725-812a-d18d99decabf" isLeaf="false">
+                <decisionNodeMoniker Id="1c3ecb62-5ff0-4104-adef-363cc5484d25" LastKnownName="Decision2" />
+                <elementDefinition Id="4c6c540b-4cdb-4ea4-9143-dae27c08f7ad" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <activityFinalNode Id="bd9fc67d-f13b-4d44-87b7-7977a0603b81" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="039eef1a-4d04-42fd-8162-505e7e5413fe" />
+          </activityFinalNode>
+          <opaqueAction Id="f3d5008c-76eb-4856-abbb-4db7ec55211b" name="Измерить начальное состояние таймера" isLeaf="false">
+            <elementDefinition Id="e208ad8d-f65f-4af0-ac59-ecaeb7ba2034" />
+            <flowNodeTargets>
+              <controlFlow Id="3b193662-6dd4-4d0f-b129-b38567ef2c1c" isLeaf="false">
+                <mergeNodeMoniker Id="5eaa3d27-100e-4ed5-9b4f-c6901b5c3bd0" LastKnownName="Merge1" />
+                <elementDefinition Id="8b2e375a-5b5a-44dd-9410-57f2933c6796" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d061a7b4-9f9d-4218-9e05-f7c1bfa55655" name="Измерить время работы алгоритма" isLeaf="false">
+            <elementDefinition Id="6489887a-2a7f-4beb-91fe-4cae0396ba9d" />
+            <flowNodeTargets>
+              <controlFlow Id="562e4f56-61ce-455e-b2ea-3b4f61a6cdab" isLeaf="false">
+                <opaqueActionMoniker Id="56ca4ea0-2357-4d60-8988-28ae4319e7ef" LastKnownName="Определить используемую алгоритмом память" />
+                <elementDefinition Id="9d274bb0-133f-4d62-92c7-b0990095974b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="56ca4ea0-2357-4d60-8988-28ae4319e7ef" name="Определить используемую алгоритмом память" isLeaf="false">
+            <elementDefinition Id="e6a3100a-18f0-4357-8e1d-0ff97e039d70" />
+            <flowNodeTargets>
+              <controlFlow Id="fd14603b-84fd-4a71-af5a-680dbd19b03f" isLeaf="false">
+                <activityFinalNodeMoniker Id="bd9fc67d-f13b-4d44-87b7-7977a0603b81" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="440aaf9d-86f3-4790-8990-8bbf9afbe833" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="71ddfa58-5f80-4f4b-8ced-28f957b73bdd" name="ModelingProjectEMS">
+    <elementDefinition Id="4088c82e-617d-4a53-a600-f65f0aab66fb" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0b0cbb71-b63a-4ed8-82e4-a221fcc82197">
+        <profileInstance Id="0ea2c97d-4ff6-45da-a72b-b71736781733" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5bd91f45-e9fc-4208-8c79-d1749931a8ff">
+        <profileInstance Id="4dc0d399-5613-4b88-9092-c041c7e795eb" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

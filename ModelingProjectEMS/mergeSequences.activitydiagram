@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="7fb62ce5-8fb6-4655-adee-56864304ef0c" name="mergeSequences" linkedPackageId="8a8f0670-0f53-4b6b-a15c-a9573e2e70fc" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="062e994b-aa41-459d-b26e-a020fac1237b" name="mergeSequences" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="b8c4565d-c42c-4228-89ce-b1939f16ce9a" />
+        <nodes>
+          <initialNode Id="979d6db5-04ce-4be7-83e9-d5d03d35a596" name="Initial1" isLeaf="false">
+            <elementDefinition Id="7f8b1845-956b-46f4-8a41-004cbee886b3" />
+            <flowNodeTargets>
+              <controlFlow Id="ed4a70b0-c705-45fe-89ff-b00aa92f849c" isLeaf="false">
+                <opaqueActionMoniker Id="26683de5-82a5-44ee-a0a2-772b2bef5858" LastKnownName="Получить первые элементы последовательностей, обнулить счетчики" />
+                <elementDefinition Id="0c03d5ce-959e-4de4-8459-9cf6936f9f05" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="26683de5-82a5-44ee-a0a2-772b2bef5858" name="Получить первые элементы последовательностей, обнулить счетчики" isLeaf="false">
+            <elementDefinition Id="c20ff318-80ee-4528-804d-dc92f2923190" />
+            <flowNodeTargets>
+              <controlFlow Id="9cb0d62c-48d1-42e4-b770-5d0a2321d918" isLeaf="false">
+                <mergeNodeMoniker Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" LastKnownName="Merge1" />
+                <elementDefinition Id="fb77ff1b-3aa2-4775-9526-fcd35ad82697" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" name="Merge1" isLeaf="false">
+            <elementDefinition Id="13a6b25a-5d2a-45b4-9ac0-125b761459a0" />
+            <flowNodeTargets>
+              <controlFlow Id="7f81542f-a733-405f-8a23-6074becad9a9" isLeaf="false">
+                <decisionNodeMoniker Id="ed686b58-abcb-4dec-8d7f-baf42c0f28d1" LastKnownName="Decision2" />
+                <elementDefinition Id="d529c80b-2a1f-4345-b9e9-2950c2b19d92" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <decisionNode Id="ba37c77b-05a8-4e25-b106-b9afe700c74f" name="Decision1" isLeaf="false">
+            <elementDefinition Id="cb43e1e0-7363-4418-9f62-44917c02f7f5" />
+            <flowNodeTargets>
+              <controlFlow Id="f9ec52c7-6965-4c8f-91b7-66ecde0ba923" guard="Элемент первой последовательности меньше" isLeaf="false">
+                <opaqueActionMoniker Id="86932fce-e7ad-4346-9b21-cfb678fa8230" LastKnownName="Увеличить счетчик сравнений" />
+                <elementDefinition Id="5be6feb0-7cca-4cec-aa7e-788c334e7861" />
+              </controlFlow>
+              <controlFlow Id="6eada1ee-8a12-4764-a90e-da559c9168c9" guard="Элемент второй последовательности меньше" isLeaf="false">
+                <opaqueActionMoniker Id="616c51a0-31b1-4967-9724-0bd5ce688699" LastKnownName="Увеличить счетчик сравнений" />
+                <elementDefinition Id="83fef9d7-6538-4e7e-9ef2-5ac5c5ff8ae2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="4de97c8c-eae3-404e-8aa8-026a559f79f7" name="Записать в конец выходной последовательности элемент из первой последовательности" isLeaf="false">
+            <elementDefinition Id="c4117883-933b-4f1a-a7f7-9a6217cdd286" />
+            <flowNodeTargets>
+              <controlFlow Id="946b18cb-8e17-4285-84fe-6cc3f936e673" isLeaf="false">
+                <opaqueActionMoniker Id="d0287083-ea09-4f7b-b0e4-e117bec983a1" LastKnownName="Получить следующий элемент первой последовательности" />
+                <elementDefinition Id="ba3366d9-3be2-4754-96f3-b698eb8ad1fe" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d0287083-ea09-4f7b-b0e4-e117bec983a1" name="Получить следующий элемент первой последовательности" isLeaf="false">
+            <elementDefinition Id="bd7291df-cdda-46b5-8048-9992a0d0c625" />
+            <flowNodeTargets>
+              <controlFlow Id="f650cea4-bc51-4d55-b432-332f473d5581" isLeaf="false">
+                <mergeNodeMoniker Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" LastKnownName="Merge1" />
+                <elementDefinition Id="e6ffefd8-909b-4c89-9356-441746df62f1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="875d757d-0b2a-43bd-b92b-3f7f1652a886" name="Записать в конец выходной последовательности элемент из второй последовательности" isLeaf="false">
+            <elementDefinition Id="44a64414-2ad6-4591-ab36-6a569cef36ee" />
+            <flowNodeTargets>
+              <controlFlow Id="6f35fa3d-557d-4622-a1ff-806afb4347f6" isLeaf="false">
+                <opaqueActionMoniker Id="f72dbd5f-7f59-484d-899c-df1ad828b0b6" LastKnownName="Получить следующий элемент второй последовательности" />
+                <elementDefinition Id="2e60af59-d149-47b0-9943-4adef65e9cbc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f72dbd5f-7f59-484d-899c-df1ad828b0b6" name="Получить следующий элемент второй последовательности" isLeaf="false">
+            <elementDefinition Id="b6033042-65ef-4867-8cd2-6424eaf45cd4" />
+            <flowNodeTargets>
+              <controlFlow Id="e4e38f59-ec7c-487d-94f0-e7e8e868c3ea" isLeaf="false">
+                <mergeNodeMoniker Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" LastKnownName="Merge1" />
+                <elementDefinition Id="c7b7fd19-e2ed-4b3b-954d-47b90f277a85" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="ed686b58-abcb-4dec-8d7f-baf42c0f28d1" name="Decision2" isLeaf="false">
+            <elementDefinition Id="093b3b33-c545-41f5-ab4d-e609e3f592ee" />
+            <flowNodeTargets>
+              <controlFlow Id="e94b1a20-f199-4bbe-ba02-105e7aa778df" guard="Последовательности не закончились" isLeaf="false">
+                <decisionNodeMoniker Id="ba37c77b-05a8-4e25-b106-b9afe700c74f" LastKnownName="Decision1" />
+                <elementDefinition Id="48f5e5c7-8bd1-4cc5-8a63-2bebe52e2d8a" />
+              </controlFlow>
+              <controlFlow Id="2b0f0657-3cea-44e3-8474-25dbd4a1bfb6" guard="Последовательности закончились" isLeaf="false">
+                <opaqueActionMoniker Id="af622b8a-20d7-4a61-bd30-7706f33597f5" LastKnownName="Сохранить значения счетчиков" />
+                <elementDefinition Id="0fac7dc1-9f33-4f57-8fe9-7d706d331164" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="616c51a0-31b1-4967-9724-0bd5ce688699" name="Увеличить счетчик сравнений" isLeaf="false">
+            <elementDefinition Id="6f70c6b9-11e7-4667-883c-60bf2de83750" />
+            <flowNodeTargets>
+              <controlFlow Id="f3038cc0-0d1e-4164-8e25-4148802a654a" isLeaf="false">
+                <opaqueActionMoniker Id="875d757d-0b2a-43bd-b92b-3f7f1652a886" LastKnownName="Записать в конец выходной последовательности элемент из второй последовательности" />
+                <elementDefinition Id="1d2d75f1-db64-4d9c-94d0-3c4a3225e084" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="86932fce-e7ad-4346-9b21-cfb678fa8230" name="Увеличить счетчик сравнений" isLeaf="false">
+            <elementDefinition Id="cd35ab06-5c17-4135-965c-fd90bd52d5f8" />
+            <flowNodeTargets>
+              <controlFlow Id="ff75c2f7-7a2c-43d6-a77a-8d9a9a397dc0" isLeaf="false">
+                <opaqueActionMoniker Id="4de97c8c-eae3-404e-8aa8-026a559f79f7" LastKnownName="Записать в конец выходной последовательности элемент из первой последовательности" />
+                <elementDefinition Id="c6355fe3-03cd-4d58-99e2-31dbe20a1657" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="af622b8a-20d7-4a61-bd30-7706f33597f5" name="Сохранить значения счетчиков" isLeaf="false">
+            <elementDefinition Id="11880749-f630-4a74-9ebd-0ef9cc21e4a7" />
+            <flowNodeTargets>
+              <controlFlow Id="e2273c4d-65f7-49a5-8fac-5b2debeb1e31" isLeaf="false">
+                <activityFinalNodeMoniker Id="88f5c37d-3f44-44c7-a683-d408990eca06" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="1ee50ba7-767c-4be3-b782-ddbc9426aae0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="88f5c37d-3f44-44c7-a683-d408990eca06" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="898e88eb-c822-418f-9538-d3b74d0baaa7" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="8a8f0670-0f53-4b6b-a15c-a9573e2e70fc" name="ModelingProjectEMS">
+    <elementDefinition Id="4088c82e-617d-4a53-a600-f65f0aab66fb" />
+    <profileInstances>
+      <packageHasProfileInstances Id="2e2b8f2c-0567-4fa9-a85d-70738e18e304">
+        <profileInstance Id="e1486574-350f-4626-a008-6a914156ad72" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="da871364-341b-4179-8cf9-b34214d78224">
+        <profileInstance Id="cbf47fbf-a1c3-4029-9f64-79bfa1333219" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

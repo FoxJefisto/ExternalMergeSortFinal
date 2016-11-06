@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="90cbc0a3-7ed7-48a9-9b03-e4ac0279fa2e" name="measureCharacteristicsStateDiagram" linkedPackageId="6c232e32-dc27-4099-9ae9-fffb75c05469" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="896eb318-edcf-426f-9b92-474d5a79aea3">
+      <elementDefinition Id="4fda5491-02b5-45cf-ba51-2900da93354a" />
+      <body>[Характеристика задана неверно]</body>
+    </comment>
+    <comment Id="34c9a366-5179-4bb5-953c-ba880d7dd10d">
+      <elementDefinition Id="0bb840aa-5bdf-4ae7-8621-bf617528c937" />
+      <body>[Характеристика задана верно]</body>
+    </comment>
+    <comment Id="6a312969-e4e1-4210-9d7a-e171963eafb2">
+      <elementDefinition Id="2ed44da1-1791-4a51-a4b9-6a3b59c85871" />
+      <body>[Размер сегментов, тип сортировки]</body>
+    </comment>
+    <comment Id="cbda48ba-3f33-4535-9571-65d7d81e54e1">
+      <elementDefinition Id="c19444b8-bcaa-4707-ac7d-f9092147a206" />
+      <body>[Некорректный выбор]</body>
+    </comment>
+    <comment Id="2b857d29-7c8a-4803-ac52-63f3f0d7c5d0">
+      <elementDefinition Id="5d265fd6-2cea-47fe-a13f-19e8b9298c77" />
+      <body>[Ошибка памяти]</body>
+    </comment>
+    <comment Id="3620d2ef-a585-48cf-991b-f144bb7aa994">
+      <elementDefinition Id="def512f8-30c7-4b4d-8bd7-d4db18df5e2f" />
+      <body>[Сортировка успешна]</body>
+    </comment>
+    <comment Id="4ff9b2ab-6af3-4e16-98e2-bf9e0b4926fb">
+      <elementDefinition Id="1e6c0664-9df8-4397-bbd6-d56976cc245c" />
+      <body>Параметры сортировки: тип внутренней сортировки, размер сегментов, количество элементов исходной последовательности
+</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="e498bd34-085a-4341-861d-6e90a1c263fc" name="measureCharacteristicsStateDiagram" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="1af7bd24-ca92-4134-92db-13145d8863fa" />
+        <nodes>
+          <opaqueAction Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" name="Выбор измеряемой характеристики" isLeaf="false">
+            <elementDefinition Id="71635f9d-c230-4bf0-a0e0-57800b610a1b" />
+            <flowNodeTargets>
+              <controlFlow Id="e7786e7a-b439-40d5-b1a5-cd9fbdbe7151" isLeaf="false">
+                <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор измеряемой характеристики" />
+                <elementDefinition Id="1ccb8816-5bcf-42a3-8503-fdb76820127f" />
+              </controlFlow>
+              <controlFlow Id="dbb8c5ac-f790-40af-aedb-11d365f7e7b9" isLeaf="false">
+                <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Выбор изменяемой характеристики" />
+                <elementDefinition Id="23896d4a-8008-42bf-b5b1-90ff61169ae5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" name="Выбор изменяемой характеристики" isLeaf="false">
+            <elementDefinition Id="f5cc18ef-01d3-444c-8995-22711362f4c7" />
+            <flowNodeTargets>
+              <controlFlow Id="dbf5c3b3-b8f4-4e48-8580-94f87e385199" isLeaf="false">
+                <opaqueActionMoniker Id="b86b0342-3d2d-4de5-8dfe-75b8fecf5654" LastKnownName="Сгенерировать новую последовательность" />
+                <elementDefinition Id="d96837d3-48ac-45f2-80e0-17402fabe935" />
+              </controlFlow>
+              <controlFlow Id="781423d6-164d-4e76-9794-01f92f09e66b" isLeaf="false">
+                <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Выбор изменяемой характеристики" />
+                <elementDefinition Id="7649cf0e-5a2b-4225-957f-a386d3f38343" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b86b0342-3d2d-4de5-8dfe-75b8fecf5654" name="Сгенерировать новую последовательность" isLeaf="false">
+            <elementDefinition Id="7ed0a624-b22e-42b7-980a-c8770b054de3" />
+            <flowNodeTargets>
+              <controlFlow Id="018e4a8d-52a7-4a12-b035-847b3bb58230" guard="Количество элементов" isLeaf="false">
+                <opaqueActionMoniker Id="b3fc738b-b53b-4a37-932a-f43fd1d454ac" LastKnownName="Выполнение сортировки" />
+                <elementDefinition Id="0d4d58d3-7d74-46b6-9b25-adf5ef8425ff" />
+              </controlFlow>
+              <controlFlow Id="90b32c99-ae8f-454c-b9fe-83650e136d57" isLeaf="false">
+                <opaqueActionMoniker Id="43e1e0c4-a16e-4f50-8645-3c1061573ea6" LastKnownName="Изменение параметра" />
+                <elementDefinition Id="54825f6c-875d-4c21-b585-33a9a0feaef4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="43e1e0c4-a16e-4f50-8645-3c1061573ea6" name="Изменение параметра" isLeaf="false">
+            <elementDefinition Id="31b46dd2-dfff-45ec-aa5e-bd6c0c04db3b" />
+            <flowNodeTargets>
+              <controlFlow Id="537e4677-4ec1-41ea-930d-2b3da9f3bb47" isLeaf="false">
+                <opaqueActionMoniker Id="b3fc738b-b53b-4a37-932a-f43fd1d454ac" LastKnownName="Выполнение сортировки" />
+                <elementDefinition Id="6d1d4e00-205d-4f76-92b8-c23a4cea8aaf" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b3fc738b-b53b-4a37-932a-f43fd1d454ac" name="Выполнение сортировки" isLeaf="false">
+            <elementDefinition Id="012475a1-1539-465d-ba1b-880396e26ea9" />
+            <flowNodeTargets>
+              <controlFlow Id="f6e5c42c-371d-4ee0-b56e-cf9715ea967f" isLeaf="false">
+                <opaqueActionMoniker Id="cfdb8e39-cea1-4bf0-968d-28ec728b7b49" LastKnownName="Ошибка" />
+                <elementDefinition Id="a405c726-6db9-4b69-9b6b-c96860caaaa8" />
+              </controlFlow>
+              <controlFlow Id="adc3abb3-c06b-406b-9f48-1496f549f94f" isLeaf="false">
+                <opaqueActionMoniker Id="b07e9447-1eae-45c5-91fd-afa7be8a0f10" LastKnownName="Измерение характеристики" />
+                <elementDefinition Id="1610a8f6-8e40-4ab6-aa4a-dc93cc3392bb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9aa76244-3187-418b-95b1-19c0dc791ce5" name="Сохранение измеряемой характеристики" isLeaf="false">
+            <elementDefinition Id="4c47ba89-5903-4ed4-926a-73fce8c94e87" />
+            <flowNodeTargets>
+              <controlFlow Id="c70f7cb3-7a81-4fae-9c09-2e0eed0dd79c" guard="Итерации не закнчены, изменяем тип сортировки или размер сегментов" isLeaf="false">
+                <opaqueActionMoniker Id="43e1e0c4-a16e-4f50-8645-3c1061573ea6" LastKnownName="Изменение параметра" />
+                <elementDefinition Id="bf81f852-0fa7-4a0c-a19b-46df4b61b099" />
+              </controlFlow>
+              <controlFlow Id="0be4ff38-641b-4015-a7e1-3165cffacc88" guard="Итерации не закончены, изменяем размер последовательности" isLeaf="false">
+                <opaqueActionMoniker Id="b86b0342-3d2d-4de5-8dfe-75b8fecf5654" LastKnownName="Сгенерировать новую последовательность" />
+                <elementDefinition Id="81719fb7-a1f0-4eda-8e89-393349d7630b" />
+              </controlFlow>
+              <controlFlow Id="4e99cce5-e7fb-467d-82e3-01668bf63808" guard="Все итерации выполнены" isLeaf="false">
+                <opaqueActionMoniker Id="cf71b62a-c265-4b3d-b36a-cbedca43a72f" LastKnownName="Получение зависимости" />
+                <elementDefinition Id="338b70af-2cf5-4bcf-ad31-41fd02e3d850" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="cf71b62a-c265-4b3d-b36a-cbedca43a72f" name="Получение зависимости" isLeaf="false">
+            <elementDefinition Id="a99b640b-da8d-4e24-be9c-7b54f85ce66e" />
+            <flowNodeTargets>
+              <controlFlow Id="36b0f993-0d10-422a-992d-f51070cd76dd" isLeaf="false">
+                <activityFinalNodeMoniker Id="2d47e5f6-3cc3-42a5-8dae-1d24ff73df34" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="f3c53cc9-2a99-4d55-8b74-eba536dce552" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b07e9447-1eae-45c5-91fd-afa7be8a0f10" name="Измерение характеристики" isLeaf="false">
+            <elementDefinition Id="9a10b07d-9aef-4690-b2a0-15e5c2a0bd69" />
+            <flowNodeTargets>
+              <controlFlow Id="bc2910d0-5e85-4b23-81f9-0c1f91b42ed5" isLeaf="false">
+                <opaqueActionMoniker Id="9aa76244-3187-418b-95b1-19c0dc791ce5" LastKnownName="Сохранение измеряемой характеристики" />
+                <elementDefinition Id="7175fdb8-f4fb-44d6-a26b-ff2d0fb293c2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode Id="8736e79b-85ff-4423-96b4-fc580ba4fc4f" name="Initial1" isLeaf="false">
+            <elementDefinition Id="a0382ac2-2418-4ff0-b9f2-99bc15b7db44" />
+            <flowNodeTargets>
+              <controlFlow Id="711bac63-2c52-4fac-ac6a-8796dcc7958c" isLeaf="false">
+                <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор измеряемой характеристики" />
+                <elementDefinition Id="84bd0f00-b0f7-465b-95e3-f3d0b451b4a0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode Id="2d47e5f6-3cc3-42a5-8dae-1d24ff73df34" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="9da96f8f-c406-4a97-9c44-eef33a2791a5" />
+          </activityFinalNode>
+          <opaqueAction Id="cfdb8e39-cea1-4bf0-968d-28ec728b7b49" name="Ошибка" isLeaf="false">
+            <elementDefinition Id="3f597c53-438f-48aa-b4dd-2ab04c2cf1f1" />
+            <flowNodeTargets>
+              <controlFlow Id="667d2590-56d4-494c-a3e0-54f0f6843f8c" isLeaf="false">
+                <activityFinalNodeMoniker Id="2d47e5f6-3cc3-42a5-8dae-1d24ff73df34" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="178ba2e7-b85a-4fc1-875a-35428ce5d958" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="6c232e32-dc27-4099-9ae9-fffb75c05469" name="ModelingProjectEMS">
+    <elementDefinition Id="4088c82e-617d-4a53-a600-f65f0aab66fb" />
+    <profileInstances>
+      <packageHasProfileInstances Id="608bf7fa-80ca-4753-bffc-1c4bc3bfb8ea">
+        <profileInstance Id="ff860eec-e14c-487f-912c-ab597e24fd88" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="00f9e876-1dfb-4076-94f1-a06703453c41">
+        <profileInstance Id="5e15caa4-71e4-468b-8dd6-76c8897b87f0" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

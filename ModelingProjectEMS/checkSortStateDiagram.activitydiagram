@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="d43ff155-da2b-48b9-be77-1e9b8b7b0d86" name="Activity1" linkedPackageId="37941cd6-f6d8-48e4-9281-1bd44b9b813a" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="2891dd56-2407-4e15-ba2d-8dd13c37f52a">
+      <elementDefinition Id="e4a7c674-f0ee-4174-a68e-d33da26ed113" />
+      <body>[Файл существует и не пуст]</body>
+    </comment>
+    <comment Id="5876d2da-6dec-4089-9c50-98ba23dfb168">
+      <elementDefinition Id="1dce79d4-93a4-4121-b0f6-61a2db1b0d68" />
+      <body>[Файл не существует или пуст]</body>
+    </comment>
+    <comment Id="128b3981-fe68-41c5-9a3d-ba525e90d95d">
+      <elementDefinition Id="1985ae36-a277-42eb-856d-c248c37cc428" />
+      <body>[Параметры заданы неверно]</body>
+    </comment>
+    <comment Id="111f5a23-f6b0-4e10-a534-7733dff78764">
+      <elementDefinition Id="f28ec3c8-978d-48e4-be4a-35b0e20565a8" />
+      <body>[Параметры заданы верно]</body>
+    </comment>
+    <comment Id="9c2785ea-f43c-4b3c-9ceb-f97c683f79b6">
+      <elementDefinition Id="a6a5cea8-0d15-450e-8652-22efb3c320b9" />
+      <body>[Ошибка памяти]</body>
+    </comment>
+    <comment Id="c6d63a2a-c0c4-4b47-8485-b90009d61f73">
+      <elementDefinition Id="4daf409f-240b-4ede-b20e-e36bb62c3117" />
+      <body>[Ошибка сравнения]</body>
+    </comment>
+    <comment Id="c4ee9c6b-0c6f-4b48-aa7e-1c28599a69ad">
+      <elementDefinition Id="8a6de145-1170-4890-9a7a-9fa783f18dd2" />
+      <body>[Сортировка корректна]</body>
+    </comment>
+    <comment Id="a41402a0-3550-4b54-ae72-9872e66a6a95">
+      <elementDefinition Id="63c8f728-20f7-46a6-a46c-c3d65c230951" />
+      <body>[Не все тестовые последовательности проверены]</body>
+    </comment>
+    <comment Id="6a222964-1fec-4509-8c7e-e760592688aa">
+      <elementDefinition Id="c8b3bd33-d4c7-4433-b062-037bbe8c9dc3" />
+      <body>[Не все тестовые последовательности проверены]</body>
+    </comment>
+    <comment Id="b4f4cec2-33d3-4330-a780-44a055d4c9b5">
+      <elementDefinition Id="81ee0c9d-2497-4a0c-8fac-d0b14f928f25" />
+      <body>[Все тесты пройдены]</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="201307a2-455f-4bbb-8862-f7d3904bbd63" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="b872d028-1946-40cf-8ac6-68e77d4c2eea" />
+        <nodes>
+          <initialNode Id="b120a443-6159-4c81-b2e1-0de1da7d1ed3" name="Initial1" isLeaf="false">
+            <elementDefinition Id="ca722c8b-316f-4036-9a29-c881efedbf11" />
+            <flowNodeTargets>
+              <controlFlow Id="5c512b3f-a9af-4396-83d2-c6e1dc767b5d" isLeaf="false">
+                <opaqueActionMoniker Id="21a07a1d-e9ce-4705-9a93-b0f53e62ee3a" LastKnownName="Получение пути к файлу исходной последовательности" />
+                <elementDefinition Id="3f02a006-ba8c-4735-95c3-644f68b7b62d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="21a07a1d-e9ce-4705-9a93-b0f53e62ee3a" name="Получение пути к файлу исходной последовательности" isLeaf="false">
+            <elementDefinition Id="f3a2b965-2c24-4df8-a2ec-3cf547bf723a" />
+            <flowNodeTargets>
+              <controlFlow Id="b57c9ca9-2d50-4356-9853-696b4aa3f147" name="[Файл существует и не пустой]" isLeaf="false">
+                <opaqueActionMoniker Id="694909cd-6147-4ad1-a1c2-1fde1684ba6e" LastKnownName="Получение параметров сортировки" />
+                <description>идфидф</description>
+                <elementDefinition Id="85ca90de-7d60-42a5-aecb-cec18e0b875a" />
+              </controlFlow>
+              <controlFlow Id="6545acce-4467-46fd-b922-bc0e7793cc41" isLeaf="false">
+                <opaqueActionMoniker Id="21a07a1d-e9ce-4705-9a93-b0f53e62ee3a" LastKnownName="Получение пути к файлу исходной последовательности" />
+                <elementDefinition Id="59470285-b70c-4c5f-994a-086152488def" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="694909cd-6147-4ad1-a1c2-1fde1684ba6e" name="Получение параметров сортировки" isLeaf="false">
+            <elementDefinition Id="373c4337-1279-4747-a1f2-3d1bfb63b779" />
+            <flowNodeTargets>
+              <controlFlow Id="70ef2dea-b12e-481c-aac8-11bb2d4d8b07" isLeaf="false">
+                <opaqueActionMoniker Id="694909cd-6147-4ad1-a1c2-1fde1684ba6e" LastKnownName="Получение параметров сортировки" />
+                <elementDefinition Id="8ea23123-abb6-457a-95f5-8793db028092" />
+              </controlFlow>
+              <controlFlow Id="7e4e0258-4dd3-480f-aa53-ea3e566c11e8" isLeaf="false">
+                <opaqueActionMoniker Id="dbb0c96c-b628-44a3-b54b-10db76a179ca" LastKnownName="Выполнение сортировки" />
+                <elementDefinition Id="80f770d7-8c04-4577-b5a5-151a18abdd0b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="dbb0c96c-b628-44a3-b54b-10db76a179ca" name="Выполнение сортировки" isLeaf="false">
+            <elementDefinition Id="6337890c-fc4f-4114-bd0a-1baa2629f85b" />
+            <flowNodeTargets>
+              <controlFlow Id="1247b570-7d47-499a-9d0c-675ce494a111" isLeaf="false">
+                <opaqueActionMoniker Id="d03cd594-6194-4ca3-a759-85f4b1440beb" LastKnownName="Проверка на корректность сортировки" />
+                <elementDefinition Id="e772a820-9281-45b3-9b7b-8c8ebb1cab00" />
+              </controlFlow>
+              <controlFlow Id="58c29020-cb79-4fad-8840-59fb96ce1cb4" isLeaf="false">
+                <opaqueActionMoniker Id="e505b153-9c1c-4683-ae15-7ce354d78879" LastKnownName="Ошибка" />
+                <elementDefinition Id="01640aa2-68d0-40d2-93f7-d37dff10bb39" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d03cd594-6194-4ca3-a759-85f4b1440beb" name="Проверка на корректность сортировки" isLeaf="false">
+            <elementDefinition Id="370ca2fa-d26b-4bb7-be6e-43210f45f6fb" />
+            <flowNodeTargets>
+              <controlFlow Id="4caa43ae-be1d-4af4-a1fd-afc23e6a067b" isLeaf="false">
+                <opaqueActionMoniker Id="e505b153-9c1c-4683-ae15-7ce354d78879" LastKnownName="Ошибка" />
+                <elementDefinition Id="00492c16-e765-46b9-9066-f744df617318" />
+              </controlFlow>
+              <controlFlow Id="cc4ebb4e-119d-4732-a9ea-31d5cd932440" isLeaf="false">
+                <opaqueActionMoniker Id="dda17df6-da48-4a22-a081-923f88ab485f" LastKnownName="Тест успешен" />
+                <elementDefinition Id="d7e48370-ec6c-4781-a5ce-781e41de7750" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="dda17df6-da48-4a22-a081-923f88ab485f" name="Тест успешен" isLeaf="false">
+            <elementDefinition Id="69a31458-ca9f-4c51-b6c3-36f9a375d2ae" />
+            <flowNodeTargets>
+              <controlFlow Id="e437d786-825c-46ff-a0ce-8699c89f53d0" isLeaf="false">
+                <opaqueActionMoniker Id="21a07a1d-e9ce-4705-9a93-b0f53e62ee3a" LastKnownName="Получение пути к файлу исходной последовательности" />
+                <elementDefinition Id="ec5028d8-289d-45ff-9c19-3d4de60c442b" />
+              </controlFlow>
+              <controlFlow Id="6cc9afe1-2fbe-4299-a4f1-2b1c968ec12a" isLeaf="false">
+                <activityFinalNodeMoniker Id="f9ba9191-0f46-4e88-834f-841f7a52c889" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="8937e56e-a52f-4f80-8ffa-238bc94b7dd6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e505b153-9c1c-4683-ae15-7ce354d78879" name="Ошибка" isLeaf="false">
+            <elementDefinition Id="b9cc5245-0347-424b-a865-89435b382c03" />
+            <flowNodeTargets>
+              <controlFlow Id="9e1277ff-19a5-4ef2-89a3-ed5279b7078c" isLeaf="false">
+                <opaqueActionMoniker Id="21a07a1d-e9ce-4705-9a93-b0f53e62ee3a" LastKnownName="Получение пути к файлу исходной последовательности" />
+                <elementDefinition Id="b82789ca-f308-46a4-9682-52299126cca2" />
+              </controlFlow>
+              <controlFlow Id="bd76daa1-00b6-4518-952b-073a70f939ae" isLeaf="false">
+                <activityFinalNodeMoniker Id="f9ba9191-0f46-4e88-834f-841f7a52c889" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="8ee0eb2e-c965-441c-8a23-f6381dba05b1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="f9ba9191-0f46-4e88-834f-841f7a52c889" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="27bcfb2b-b26f-4d8e-ae1f-0965db0de9d7" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="37941cd6-f6d8-48e4-9281-1bd44b9b813a" name="ModelingProjectEMS">
+    <elementDefinition Id="4088c82e-617d-4a53-a600-f65f0aab66fb" />
+    <profileInstances>
+      <packageHasProfileInstances Id="c0204364-df13-4de3-8a5d-45664fd6b6e0">
+        <profileInstance Id="c9cf17b4-02a9-4495-92ef-7f7de359b385" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e32c0394-e3e7-408c-bd63-50901459ec75">
+        <profileInstance Id="76dc22bc-e093-4df3-be48-627fb0fe0fbb" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

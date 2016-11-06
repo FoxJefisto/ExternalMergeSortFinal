@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="7d2a0ef4-3397-414e-b41f-e72d068eb8f0" name="UMLUseCaseDiagram" linkedPackageId="eb546c48-6aaf-4889-b6a7-a0a06460920a" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="88ef1b92-6b40-435f-8657-a261c247b611">
+      <elementDefinition Id="4d567859-2973-44a0-b057-94c576cf4bf4" />
+      <body>Возможно будет больше наследников, а может и нет)
+</body>
+      <annotatedElements>
+        <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+      </annotatedElements>
+    </comment>
+    <comment Id="ceb01a8e-bf69-4418-bacd-977dff5c93f6">
+      <elementDefinition Id="f21ae06b-0dfb-429b-acef-de88fbe9010d" />
+      <body>Входной файл
+Выходной файл
+Размер сегментов
+Тип сортировки
+</body>
+      <annotatedElements>
+        <useCaseMoniker Id="e815fd50-a488-4a48-9e1a-764f8a323263" LastKnownName="Задать входные параметры&#xD;&#xA;алгоритма" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3dc78738-7473-4e9a-9668-263e21cd2f20" name="Внешняя система" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85012755-e161-43d1-93ae-41b97d9348fe" />
+        <targetEnds>
+          <association Id="34f710f1-f863-4e98-971d-7b499585edaa" isDerived="false" sourceEndRoleName="Внешнее приложение" targetEndRoleName="Задать входные параметры" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e815fd50-a488-4a48-9e1a-764f8a323263" LastKnownName="Задать входные параметры&#xD;&#xA;алгоритма" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a38d465b-e31f-432c-8240-9c03107b035a" name="Внешнее приложение" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fec17138-71aa-449b-ab75-4ff785102084" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8184c50f-6fb2-4ff4-a0c7-59a0eefe6a85" name="Задать входные параметры" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0d15e104-5457-4222-9726-c3d0cd68ed7e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="152e3dca-9292-49bf-a4d8-8f2de3a9ae57" />
+          </association>
+          <association Id="01d04c27-d163-46b6-b07a-ead95d98de40" isDerived="false" sourceEndRoleName="Внешнее приложение" targetEndRoleName="Выполнить сортировку" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="440adaf5-a435-4103-8111-2a3961d6afe9" name="Внешнее приложение" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="952e3176-8785-401c-a54e-e0516130d59a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be58d8a5-a241-4971-940c-c326254b6045" name="Выполнить сортировку" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c13041eb-373c-41a4-bc61-bf5e279a4d26" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="592f3447-00de-4c85-9306-ae0e7123e273" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a17a18c7-dced-48ae-b07e-6270e76d426d" name="Пользователь" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ec8f34c6-673d-4f36-bb88-34e742036b2b" />
+        <targetEnds>
+          <association Id="e8f8ba67-6cd6-4473-9e92-978f8e047292" isDerived="false" sourceEndRoleName="Ядро приложения" targetEndRoleName="Сгенерировать последовательность" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="06dada82-9ed0-46f7-bc9e-8c73b7ea9fd8" LastKnownName="Сгенерировать последовательность" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b350541d-d4a6-48b8-8875-46c42578f639" name="Ядро приложения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="56c1a290-de54-48ea-842a-21f0a7a7f3bd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d3018111-b31a-47fe-a6ea-909ae1bfe5f4" name="Сгенерировать последовательность" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6e3de0d7-7a5d-4678-bcb2-a85581786de3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="598c493d-75a6-40ed-a60c-73525e459684" />
+          </association>
+          <association Id="3d2b89b3-8e1c-4a97-933e-8836eb40e586" isDerived="false" sourceEndRoleName="Ядро приложения" targetEndRoleName="Задать входные параметры" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e815fd50-a488-4a48-9e1a-764f8a323263" LastKnownName="Задать входные параметры&#xD;&#xA;алгоритма" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="26b4debc-16f6-4d8f-969f-b66cb4b14c1a" name="Ядро приложения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c18c1843-ff3b-48ce-89e0-202fc0571efb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="473eace2-e32c-4acd-a06f-fe38aee23596" name="Задать входные параметры" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1e33bd3d-da5f-4a0f-9c1b-d576acc845ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0f7cdb1a-1751-49bf-82eb-8cf542fed809" />
+          </association>
+          <association Id="8dd9ff12-f909-48eb-ba64-7215db0642d7" isDerived="false" sourceEndRoleName="Ядро приложения" targetEndRoleName="Выполнить сортировку" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="89f00e6f-d865-4beb-bf7f-56b462bbcd5c" name="Ядро приложения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="926d6352-0d77-4904-a34e-fb29885212e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6360328-6503-46d9-9c96-0aab9ecc18b8" name="Выполнить сортировку" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="02c10ff4-fb41-46d6-b8ea-bfac1e20875f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="95e4fc3f-809f-4ade-a156-754ceb2ac7d4" />
+          </association>
+          <association Id="38bcc78e-a062-427e-be95-80b507e750f0" isDerived="false" sourceEndRoleName="Ядро приложения" targetEndRoleName="Протестировать " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8dfbb8ed-2ead-4ceb-addb-4c7b39050a5c" LastKnownName="Протестировать&#xD;&#xA;корректность сортировки " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d52730c8-f01d-43ae-854f-ba9de0767888" name="Ядро приложения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5bb4a853-9107-408a-932d-643af7f4a077" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="78a26a7a-86c7-473d-9a8d-63762e34411f" name="Протестировать " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="afbb8a49-d0f8-4845-96b2-f45af4aa5b97" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="155c11fd-4d61-4ee7-9faa-5ae2328a63fa" />
+          </association>
+          <association Id="7e09b786-cc93-44fa-9e55-a513952f45d3" isDerived="false" sourceEndRoleName="Ядро приложения" targetEndRoleName="Оценить временные характеристики" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="90e64c12-0eed-42e7-a8df-fc7d37d03b26" LastKnownName="Оценить характеристики&#xD;&#xA;алгоритма" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="05811b46-7dc3-40cf-8356-22b07cdfd471" name="Ядро приложения" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0957cb56-732f-42dc-a585-535e4723f5f2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8d32ec7b-455e-4998-8352-4e5da77219d0" name="Оценить временные характеристики" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a3958970-328d-43c2-b541-437a8d90e9c9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ed6745d6-c1c1-4ce5-96bd-af3c6358941e" />
+          </association>
+          <association Id="6fbeca86-96d7-4a17-bca7-a3cb9fc00981" isDerived="false" sourceEndRoleName="Пользователь" targetEndRoleName="Получить зависимость времени от размера входных данных" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f69be376-5dc3-4544-8dd1-ec227d04b387" LastKnownName="Получить зависимости характеристик алгоритма от размера входных данных, размера сегментов, типа внутренней сортировки" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8151fee7-e68e-4ef8-a829-e00f94e2173d" name="Пользователь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4eca146d-9fac-4cd3-b12c-72d02a6b2f47" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f3a726c5-2290-4375-8fd5-aa9748722027" name="Получить зависимость времени от размера входных данных" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9206f60c-21a7-4a16-b8da-516826101891" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d85e83f8-94d9-4daf-9332-771cb1395234" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="06dada82-9ed0-46f7-bc9e-8c73b7ea9fd8" name="Сгенерировать последовательность" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="840f691f-a99b-46f6-8f97-6519d3544a66" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e815fd50-a488-4a48-9e1a-764f8a323263" name="Задать входные параметры&#xD;&#xA;алгоритма" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a272f574-e0e7-46d6-a595-c18fd4f01749" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" name="Выполнить сортировку" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8a423ca3-5430-47d2-b231-abc9b66354ae" />
+        <suppliersInternal>
+          <dependency Id="6933e180-27fa-4480-baae-dc2739f23aa1">
+            <useCaseMoniker Id="e815fd50-a488-4a48-9e1a-764f8a323263" LastKnownName="Задать входные параметры&#xD;&#xA;алгоритма" />
+            <elementDefinition Id="dcfab4d4-b861-4e3a-bedc-1ece743329cb" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8dfbb8ed-2ead-4ceb-addb-4c7b39050a5c" name="Протестировать&#xD;&#xA;корректность сортировки " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eeccbffb-2fec-4f16-8197-6a9698f2944e" />
+        <suppliersInternal>
+          <dependency Id="8cc2d9a9-f4d7-4400-9f20-badb5413d7ee">
+            <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+            <elementDefinition Id="bfa0fe3d-4037-4659-b428-076bc68042b1" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="90e64c12-0eed-42e7-a8df-fc7d37d03b26" name="Оценить характеристики&#xD;&#xA;алгоритма" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fe8dc3fa-3f3a-4cd0-8a6a-815e50bec808" />
+        <suppliersInternal>
+          <dependency Id="e779dc0b-d9ca-43b6-89a2-acbae7e97863">
+            <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+            <elementDefinition Id="c43968d4-865f-4d4c-86f5-be68b4cf3008" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="082c62a1-6214-4db0-82e4-33fd08aa52fa" name="Выполнить, используя BubbleSort" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="da83dd52-1b3d-4982-9b16-90f137315b11" />
+        <generalsInternal>
+          <generalization Id="cd97eb47-7d9d-4bca-8e66-a718bf94493d" isSubstitutable="false">
+            <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+            <elementDefinition Id="e077b7ba-1501-4e7b-956e-bfebecec9545" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a76c2fac-e5ec-4305-8913-b30c492618d6" name="Выполнить, используя qSort" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1f056214-c801-4cb4-b6b6-1f0751496371" />
+        <generalsInternal>
+          <generalization Id="5d5d52a6-94ed-4fb7-b253-96c8d863ba61" isSubstitutable="false">
+            <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+            <elementDefinition Id="ca6c2c0b-2c30-4982-adeb-0d951e5b5f8f" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="36e9a13b-fcfc-4f8b-a5cc-e93394310f5f" name="Выполнить, используя HeapSort" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="35227698-e649-4f5d-aff6-7a21a54f64f8" />
+        <generalsInternal>
+          <generalization Id="acaa2157-4e72-4550-854c-6c1f23dc1021" isSubstitutable="false">
+            <useCaseMoniker Id="8b6eb1f8-9008-4aa8-9f67-0ae2527fe1ab" LastKnownName="Выполнить сортировку" />
+            <elementDefinition Id="c5bcd478-7e97-4b86-87ad-3d22631e9f9b" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5c7bbfe1-69f3-45e4-a170-25c5a575ab06" name="Средний случай" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="04a75534-2ba1-47fc-a447-2f3201251d82" />
+        <extendedCases>
+          <extend Id="f22c0a0e-f9ec-417f-b362-3d1aa657843f">
+            <useCaseMoniker Id="06dada82-9ed0-46f7-bc9e-8c73b7ea9fd8" LastKnownName="Сгенерировать последовательность" />
+            <elementDefinition Id="0ae0732b-b020-4968-8646-72b038b57f1b" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4c6750b4-6e8e-4028-a8a8-0690736e1ea0" name="Худший случай" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1c77b0ea-1236-4e24-8b14-9e0eb7af6543" />
+        <extendedCases>
+          <extend Id="0e63d782-fd6f-47b0-ae88-f8202346a308">
+            <useCaseMoniker Id="06dada82-9ed0-46f7-bc9e-8c73b7ea9fd8" LastKnownName="Сгенерировать последовательность" />
+            <elementDefinition Id="78527a40-9894-4dfe-9237-4b8de8be0963" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d5b89a2d-71e7-4dca-96ba-0aaf24219f4f" name="Лучший случай" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4818f649-ad2d-41f2-973e-4810046fc90c" />
+        <extendedCases>
+          <extend Id="88126a63-dd65-4d8b-91ad-9ed20f25d048">
+            <useCaseMoniker Id="06dada82-9ed0-46f7-bc9e-8c73b7ea9fd8" LastKnownName="Сгенерировать последовательность" />
+            <elementDefinition Id="5646ac31-028b-4251-8323-78b0a2f39276" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="da623982-6be3-4d2a-ad64-7220fc417c8b" name="Оценить время" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2e290d74-1a61-4d3f-8590-153365b194d1" />
+        <extendedCases>
+          <extend Id="e253f6f9-fd9e-4a62-b6e3-186c652519d9">
+            <useCaseMoniker Id="90e64c12-0eed-42e7-a8df-fc7d37d03b26" LastKnownName="Оценить характеристики&#xD;&#xA;алгоритма" />
+            <elementDefinition Id="c6b635c0-8c00-4c3c-8ccd-014d7785faf8" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="06e719e5-1549-418e-9815-b7a477a26d7d" name="Оценить память" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0ec1a950-cd0a-41df-9882-0a5318cb18d1" />
+        <extendedCases>
+          <extend Id="f97587b1-f94b-4aa0-b720-85e47ab69ca1">
+            <useCaseMoniker Id="90e64c12-0eed-42e7-a8df-fc7d37d03b26" LastKnownName="Оценить характеристики&#xD;&#xA;алгоритма" />
+            <elementDefinition Id="b577e120-d4e0-4e99-a8e0-00a917f9709a" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="74e94bd8-eb15-411c-856d-1c60595f696c" name="Оценить&#xD;&#xA;кол-во сравнений" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7ff9654d-a80a-49af-b8b7-4e6515c07134" />
+        <extendedCases>
+          <extend Id="82f38eb5-fb8a-4cd8-b527-a9442d896f11">
+            <useCaseMoniker Id="90e64c12-0eed-42e7-a8df-fc7d37d03b26" LastKnownName="Оценить характеристики&#xD;&#xA;алгоритма" />
+            <elementDefinition Id="081f1c5a-9b7b-4b18-8963-31f6864f21bc" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6781b351-ee42-404d-86a9-05b67d687a71" name="Оценить кол-во перестановок" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="af2d0742-a56f-4f8c-91fd-1ecbc709d18a" />
+        <extendedCases>
+          <extend Id="0378c2f6-95ca-49e0-8e1e-cc99e9c3bde2">
+            <useCaseMoniker Id="90e64c12-0eed-42e7-a8df-fc7d37d03b26" LastKnownName="Оценить характеристики&#xD;&#xA;алгоритма" />
+            <elementDefinition Id="2dc770f9-b7a4-47e5-ae1d-1cefaba0ea29" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f69be376-5dc3-4544-8dd1-ec227d04b387" name="Получить зависимости характеристик алгоритма от размера входных данных, размера сегментов, типа внутренней сортировки" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f383fafb-1652-484d-984d-bc1b1e0eca07" />
+        <suppliersInternal>
+          <dependency Id="17398c1c-6f7d-4ddd-86f7-067d7b19b5de">
+            <useCaseMoniker Id="90e64c12-0eed-42e7-a8df-fc7d37d03b26" LastKnownName="Оценить характеристики&#xD;&#xA;алгоритма" />
+            <elementDefinition Id="fb1ebb2a-cce2-44b2-99a1-bbe731711e03" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="eb546c48-6aaf-4889-b6a7-a0a06460920a" name="ModelingProjectEMS">
+    <elementDefinition Id="4088c82e-617d-4a53-a600-f65f0aab66fb" />
+    <profileInstances>
+      <packageHasProfileInstances Id="02527344-8e1f-45ab-a52d-654833c4d560">
+        <profileInstance Id="5950c749-f299-444c-9381-c7af8f01e060" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="93237bbe-fd5a-491c-b776-66685ed75483">
+        <profileInstance Id="4ed56dbc-42ca-4ac6-9c6b-fc7a180e7d95" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

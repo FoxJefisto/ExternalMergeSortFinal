@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{737762d3-caea-4e2a-b6bb-4fd903920102}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ModelingProjectEMS</Name>
+    <RootNamespace>ModelingProjectEMS</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="checkSort.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="checkSort.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>checkSort.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="checkSortStateDiagram.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="checkSortStateDiagram.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>checkSortStateDiagram.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ExternalMergeSort.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ExternalMergeSort.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ExternalMergeSort.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ExternalMergeSort.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ExternalMergeSort.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ExternalMergeSort.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="measureCharacteristicsStateDiagram.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="measureCharacteristicsStateDiagram.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>measureCharacteristicsStateDiagram.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="measureCharacters.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="measureCharacters.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>measureCharacters.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="mergeSequences.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mergeSequences.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>mergeSequences.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="setSortParameters.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="setSortParameters.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>setSortParameters.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="trivialCUStateDiagram.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="trivialCUStateDiagram.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>trivialCUStateDiagram.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="UMLUseCaseDiagram.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLUseCaseDiagram.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLUseCaseDiagram.usecasediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ModelingProjectEMS.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>
