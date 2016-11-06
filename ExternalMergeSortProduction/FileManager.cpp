@@ -4,6 +4,14 @@
 #include <ctime>
 #include <iostream>
 using namespace std;
+#include <sstream>
+
+void FileManager::closeIFile()
+{
+	if (iFile->is_open()) {
+		iFile->close();
+	}
+}
 
 bool FileManager::getEndOfFile()
 {
@@ -19,6 +27,7 @@ void FileManager::clearOutFile()
 {
 	if (oFileStr != nullptr) {
 		oFile->open(oFileStr->c_str(), ios_base::trunc);
+		oFile->close();
 	}
 }
 
@@ -47,6 +56,18 @@ Responce FileManager::read(long int *arr, long long size, long long *readNumber)
 	}
 	arr[n] = -1;
 	*readNumber = n;
+	if (f == false) {
+		*iFile >> buf;
+		if (iFile->eof()) {
+			f = true;
+		}
+		else {
+			ostringstream str;
+			str << buf;
+			int disp = str.str().length();
+			iFile->seekg(-disp, ios::cur);
+		}
+	}
 	if (f == true) {
 		iFile->close();
 		endOfFile = true;
@@ -65,7 +86,7 @@ Responce FileManager::write(long int num)
 	}
 	*oFile << num << " ";
 	oFile->close();
-	return Responce();
+	return Success;
 }
 
 
@@ -81,7 +102,7 @@ Responce FileManager::write(long int * arr, long long size)
 		*oFile << arr[i] << " ";
 	}
 	oFile->close();
-	return Responce();
+	return Success;
 }
 
 Responce FileManager::setFiles(string file, FileState st)

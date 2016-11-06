@@ -13,6 +13,7 @@ private:
 	FileState state;
 	bool endOfFile;
 public:
+	void closeIFile();
 	bool getEndOfFile();
 	void setEndOfFile(bool b);
 	void clearOutFile();

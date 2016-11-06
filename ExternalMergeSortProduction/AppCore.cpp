@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "AppCore.h"
 #include "BubbleExternalSort.h"
+#include "QuickExternalSort.h"
 
 Responce AppCore::setSortParams(FileManager *file, long long sizeOfSegments, TypeOfSort type)
 {
@@ -24,6 +25,11 @@ Responce AppCore::setSortParams(FileManager *file, long long sizeOfSegments, Typ
 	case Bubble:
 		s = new BubbleExternalSort();
 		s->setParams(file, sizeOfSegments);
+		break;
+	case Quick:
+		s = new QuickExternalSort();
+		s->setParams(file, sizeOfSegments);
+		break;
 	}
 	this->type = type;
 	sort = s;
