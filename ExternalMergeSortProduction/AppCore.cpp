@@ -12,6 +12,10 @@ Responce AppCore::setSortParams(FileManager *file, long long sizeOfSegments, Typ
 		this->type = Fail;
 		return Responce::SizeError;
 	}
+	if (sizeOfSegments%2==1) {
+		this->type = Fail;
+		return Responce::SizeError;
+	}
 	if (file->checkForEquality()) {
 		return Responce::InputAndOutputIsEqual;
 	}

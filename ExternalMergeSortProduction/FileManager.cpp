@@ -5,6 +5,16 @@
 #include <iostream>
 using namespace std;
 
+bool FileManager::getEndOfFile()
+{
+	return endOfFile;
+}
+
+void FileManager::setEndOfFile(bool b)
+{
+	endOfFile = b;
+}
+
 void FileManager::clearOutFile()
 {
 	if (oFileStr != nullptr) {
@@ -38,10 +48,26 @@ Responce FileManager::read(long int *arr, long long size, long long *readNumber)
 	arr[n] = -1;
 	*readNumber = n;
 	if (f == true) {
+		iFile->close();
+		endOfFile = true;
 		return EndOfFile;
 	}
 	return Success;
 }
+
+Responce FileManager::write(long int num)
+{
+	if (!oFile->is_open()) {
+		oFile->open(oFileStr->c_str(), ios_base::app);
+	}
+	if (state != WriteOnly && state != ReadAndWrite) {
+		return FileManagerFail;
+	}
+	*oFile << num << " ";
+	oFile->close();
+	return Responce();
+}
+
 
 Responce FileManager::write(long int * arr, long long size)
 {
@@ -113,6 +139,7 @@ Responce FileManager::setFiles(string inFile, string outFile)
 
 FileManager::FileManager(string file, FileState st)
 {
+	endOfFile = false;
 	iFile = nullptr;
 	oFile = nullptr;
 	iFileStr = nullptr;
@@ -134,6 +161,7 @@ bool FileManager::checkForEquality()
 
 FileManager::FileManager(string inFile, string outFile)
 {
+	endOfFile = false;
 	iFile = nullptr;
 	oFile = nullptr;
 	iFileStr = nullptr;
@@ -143,6 +171,7 @@ FileManager::FileManager(string inFile, string outFile)
 
 FileManager::FileManager()
 {
+	endOfFile = false;
 	iFile = nullptr;
 	oFile = nullptr;
 	iFileStr = nullptr;

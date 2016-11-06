@@ -11,9 +11,13 @@ private:
 	string *oFileStr;
 	string *iFileStr;
 	FileState state;
+	bool endOfFile;
 public:
+	bool getEndOfFile();
+	void setEndOfFile(bool b);
 	void clearOutFile();
 	Responce read(long int * arr,long long size, long long* readNumber);
+	Responce write(long int num);
 	Responce write(long int *arr, long long size);
 	Responce setFiles(string file, FileState st);
 	Responce setFiles(string inFile, string outFile);
