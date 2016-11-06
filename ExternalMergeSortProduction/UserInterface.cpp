@@ -2,6 +2,8 @@
 #include "UserInterface.h"
 #include <iostream>
 #include "FileManager.h"
+#include "ExternalMergeSort.h"
+
 
 using namespace std;
 
@@ -52,6 +54,12 @@ Responce UserInterface::callGenerate() {
 	return fileManager.generateSequence(size,SeqType(ch));
 }
 
+Responce UserInterface::callSetParams()
+{
+	1
+	return Responce();
+}
+
 bool UserInterface::callMethod(int choise)
 {
 	char* responceString[] = { "Успешно", "Ошибка генерации", "Файл не существует", "Ошибка размера", "Ошибка файл-менеджера" };
@@ -62,7 +70,8 @@ bool UserInterface::callMethod(int choise)
 	case 1:
 		resp = callGenerate();
 		if (resp == Success) {
-			cout << "Генерация успешна!" << endl;
+			system("cls");
+			cout << "Генерация последовательности:\nВыполнение: 100%\n" << "Генерация успешна!" << endl;
 			return true;
 		}
 		else {

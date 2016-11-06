@@ -1,5 +1,5 @@
 #pragma once
-#include <iostream>;
+#include <iostream>
 
 enum FileState { NotEnable, ReadOnly, WriteOnly, ReadAndWrite };
 enum Responce { Success, GenerateError, FileNotExist, SizeError, FileManagerFail};

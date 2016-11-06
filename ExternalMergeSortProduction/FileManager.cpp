@@ -7,26 +7,26 @@ using namespace std;
 
 Responce FileManager::setFiles(string file, FileState st)
 {
-	iFile = nullptr;
-	oFile = nullptr;
-	ifstream f;
 	switch (st) {
 	case FileState::ReadOnly:
-		iFile = new string();
-		iFile->resize(file.size());
-		iFile->assign(file);
-		f.open(iFile->c_str());
-		if (f.fail()) {
+		iFile = new ifstream();
+		iFileStr = new string();
+		iFileStr->resize(file.size());
+		iFileStr->assign(file);
+		iFile->open(iFileStr->c_str());
+		if (iFile->fail()) {
+			iFile = nullptr;
 			state = FileState::NotEnable;
 			return Responce::FileNotExist;
 		}
-		f.close();
+		iFile->close();
 		state = st;
 		break;
 	case FileState::WriteOnly:
-		oFile = new string();
-		oFile->resize(file.size());
-		oFile->assign(file);
+		oFile = new ofstream();
+		oFileStr = new string();
+		oFileStr->resize(file.size());
+		oFileStr->assign(file);
 		state = st;
 		break;
 	default: state = FileState::NotEnable;
@@ -37,19 +37,21 @@ Responce FileManager::setFiles(string file, FileState st)
 
 Responce FileManager::setFiles(string inFile, string outFile)
 {
-	ifstream f;
-	iFile = new string();
-	iFile->resize(inFile.size());
-	iFile->assign(inFile);
-	f.open(iFile->c_str());
-	if (f.fail()) {
+	iFile = new ifstream();
+	iFileStr = new string();
+	iFileStr->resize(inFile.size());
+	iFileStr->assign(inFile);
+	iFile->open(iFileStr->c_str());
+	if (iFile->fail()) {
+		iFile = nullptr;
 		state = FileState::NotEnable;
 		return Responce::FileNotExist;
 	}
-	f.close();
-	oFile = new string();
-	oFile->resize(outFile.size());
-	oFile->assign(outFile);
+	iFile->close();
+	oFile = new ofstream();
+	oFileStr = new string();
+	oFileStr->resize(outFile.size());
+	oFileStr->assign(outFile);
 	state = FileState::ReadAndWrite;
 	return Responce::Success;
 }
@@ -58,6 +60,10 @@ Responce FileManager::setFiles(string inFile, string outFile)
 
 FileManager::FileManager(string file, FileState st)
 {
+	iFile = nullptr;
+	oFile = nullptr;
+	iFileStr = nullptr;
+	oFileStr = nullptr;
 	setFiles(file, st);
 }
 
@@ -68,6 +74,10 @@ FileState FileManager::getState()
 
 FileManager::FileManager(string inFile, string outFile)
 {
+	iFile = nullptr;
+	oFile = nullptr;
+	iFileStr = nullptr;
+	oFileStr = nullptr;
 	setFiles(inFile, outFile);
 }
 
@@ -75,6 +85,8 @@ FileManager::FileManager()
 {
 	iFile = nullptr;
 	oFile = nullptr;
+	iFileStr = nullptr;
+	oFileStr = nullptr;
 	state = FileState::NotEnable;
 }
 
@@ -84,8 +96,7 @@ Responce FileManager::generateSequence(long long size, SeqType type)
 		return Responce::FileNotExist;
 	}
 	srand(time(0));
-	ofstream file;
-	file.open(*oFile);
+	oFile->open(*oFileStr);
 	long int buf;
 	int proc = 0;
 	int j = 0;
@@ -101,7 +112,7 @@ Responce FileManager::generateSequence(long long size, SeqType type)
 			buf = size - i;
 			break;
 		}
-		file << buf << " ";
+		*oFile << buf << " ";
 		j++;
 		if (j > size / 100) {
 			proc++;
@@ -111,7 +122,7 @@ Responce FileManager::generateSequence(long long size, SeqType type)
 			cout << "Выполнение: " << proc << "%" << endl;
 		}
 	}
-	file.close();
+	oFile->close();
 	return Responce::Success;
 }
 
@@ -120,4 +131,6 @@ FileManager::~FileManager()
 	state = FileState::NotEnable;
 	iFile = nullptr;
 	oFile = nullptr;
+	iFileStr = nullptr;
+	oFileStr = nullptr;
 }

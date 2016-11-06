@@ -6,8 +6,10 @@ using namespace std;
 class FileManager
 {
 private:
-	string *oFile;
-	string *iFile;
+	ifstream *iFile;
+	ofstream *oFile;
+	string *oFileStr;
+	string *iFileStr;
 	FileState state;
 public:
 	Responce setFiles(string file, FileState st);
