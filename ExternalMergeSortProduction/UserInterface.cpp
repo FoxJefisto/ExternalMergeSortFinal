@@ -14,7 +14,7 @@ void UserInterface::initSession()
 	cout << menu.c_str() << ch.c_str();
 	int choise = -1;
 	cin >> choise;
-	while (choise < 0 || choise > 2) {
+	while (choise < 0 || choise > 3) {
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> choise;
 	}
@@ -23,7 +23,7 @@ void UserInterface::initSession()
 		system("cls");
 		cout << menu.c_str() << ch.c_str();
 		cin >> choise;
-		while (choise < 0 || choise > 2) {
+		while (choise < 0 || choise > 3) {
 			cout << "Вы ошиблись, пожалуйста, повторите --> ";
 			cin >> choise;
 		}
@@ -78,10 +78,16 @@ Responce UserInterface::callSetParams()
 	return appCore->setSortParams(file, size, TypeOfSort(ch));
 }
 
+Responce UserInterface::callSort()
+{	
+	cout << "Выполнение сортировки:" << endl;
+	return appCore->externalSort();
+}
+
 bool UserInterface::callMethod(int choise)
 {
 	char* responceString[] = { "Успешно", "Ошибка генерации", "Файл не существует", "Ошибка размера", "Ошибка файл-менеджера",
-	"Исходный файл и файл результата совпадают"};
+	"Исходный файл и файл результата совпадают", "Достигнут конец файла", "Ошибка выделения памяти", "Параметры не заданы или заданы неверно"};
 	Responce resp;
 	system("cls");
 	switch (choise) {
@@ -108,6 +114,18 @@ bool UserInterface::callMethod(int choise)
 		}
 		else {
 			cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] << endl;
+			return true;
+		}
+		break;
+	case 3:
+		resp = callSort();
+		if (resp == Success) {
+			system("cls");
+			cout << "Последовательность успешно отсортирована!" << endl;
+			return true;
+		}
+		else {
+			cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
 			return true;
 		}
 		break;

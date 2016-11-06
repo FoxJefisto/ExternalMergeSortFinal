@@ -5,6 +5,59 @@
 #include <iostream>
 using namespace std;
 
+void FileManager::clearOutFile()
+{
+	if (oFileStr != nullptr) {
+		oFile->open(oFileStr->c_str(), ios_base::trunc);
+	}
+}
+
+Responce FileManager::read(long int *arr, long long size, long long *readNumber)
+{
+	if (iFile == nullptr)
+		return Responce::FileNotExist;
+	if (state != FileState::ReadAndWrite && state != FileState::ReadOnly) {
+		return Responce::FileManagerFail;
+	}
+	if (!iFile->is_open()) {
+		iFile->open(iFileStr->c_str());
+	}
+	long int buf = 0;
+	bool f = false;
+	int n = 0;
+	for (int i = 0; i < size; i++) {
+		if (iFile->eof()) {
+			n--;
+			f = true;
+			break;
+		}
+		n++;
+		*iFile >> buf;
+		arr[i] = buf;
+	}
+	arr[n] = -1;
+	*readNumber = n;
+	if (f == true) {
+		return EndOfFile;
+	}
+	return Success;
+}
+
+Responce FileManager::write(long int * arr, long long size)
+{
+	if (!oFile->is_open()) {
+		oFile->open(oFileStr->c_str(),ios_base::app);
+	}
+	if (state != WriteOnly && state != ReadAndWrite) {
+		return FileManagerFail;
+	}
+	for (int i = 0; i < size; i++) {
+		*oFile << arr[i] << " ";
+	}
+	oFile->close();
+	return Responce();
+}
+
 Responce FileManager::setFiles(string file, FileState st)
 {
 	switch (st) {

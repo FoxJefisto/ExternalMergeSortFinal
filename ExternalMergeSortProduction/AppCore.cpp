@@ -26,6 +26,14 @@ Responce AppCore::setSortParams(FileManager *file, long long sizeOfSegments, Typ
 	return Responce::Success;
 }
 
+Responce AppCore::externalSort()
+{
+	if (sort == nullptr) {
+		return Responce::ParamsFail;
+	}
+	return sort->externalSort();
+}
+
 AppCore::AppCore()
 {
 	sort = nullptr;

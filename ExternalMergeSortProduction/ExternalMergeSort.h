@@ -14,6 +14,7 @@ public:
 	Responce setParams(FileManager *file, long long sizeOfSegments);
 	Responce externalSort();
 	Responce createRuns();
+	virtual void sort(long int*, long long) = 0;
 	virtual ~ExternalMergeSort();
 };
 

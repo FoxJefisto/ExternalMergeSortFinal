@@ -12,6 +12,9 @@ private:
 	string *iFileStr;
 	FileState state;
 public:
+	void clearOutFile();
+	Responce read(long int * arr,long long size, long long* readNumber);
+	Responce write(long int *arr, long long size);
 	Responce setFiles(string file, FileState st);
 	Responce setFiles(string inFile, string outFile);
 	FileState getState();
