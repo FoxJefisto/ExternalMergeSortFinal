@@ -15,6 +15,7 @@ public:
 	Responce setFiles(string file, FileState st);
 	Responce setFiles(string inFile, string outFile);
 	FileState getState();
+	bool checkForEquality();
 	Responce generateSequence(long long size, SeqType type);
 	FileManager(string iFile, FileState state);
 	FileManager(string inFile,string outFile);

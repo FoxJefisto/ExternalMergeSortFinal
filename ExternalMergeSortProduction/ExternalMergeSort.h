@@ -5,13 +5,13 @@ using namespace std;
 
 class ExternalMergeSort
 {
-	FileManager fileManager;
+	FileManager *fileManager;
 	long long sizeOfSegments;
-	bool ok;
+	bool ok; 
 public:
 	ExternalMergeSort();
-	ExternalMergeSort(FileManager file, long long sizeOfSegments);
-	Responce setParams(FileManager file, long long sizeOfSegments);
+	ExternalMergeSort(FileManager *file, long long sizeOfSegments);
+	Responce setParams(FileManager *file, long long sizeOfSegments);
 	Responce externalSort();
 	Responce createRuns();
 	virtual ~ExternalMergeSort();

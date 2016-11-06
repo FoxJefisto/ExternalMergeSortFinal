@@ -72,6 +72,13 @@ FileState FileManager::getState()
 	return state;
 }
 
+bool FileManager::checkForEquality()
+{
+	if (state==ReadAndWrite && *iFileStr==*oFileStr)
+		return true;
+	return false;
+}
+
 FileManager::FileManager(string inFile, string outFile)
 {
 	iFile = nullptr;

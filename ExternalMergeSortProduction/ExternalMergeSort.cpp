@@ -7,7 +7,7 @@ ExternalMergeSort::ExternalMergeSort()
 	ok = false;
 }
 
-ExternalMergeSort::ExternalMergeSort(FileManager file, long long sizeOfSegments)
+ExternalMergeSort::ExternalMergeSort(FileManager *file, long long sizeOfSegments)
 {
 	exception errorOfCreation;
 	Responce resp = setParams(file, sizeOfSegments);
@@ -17,9 +17,9 @@ ExternalMergeSort::ExternalMergeSort(FileManager file, long long sizeOfSegments)
 	}
 }
 
-Responce ExternalMergeSort::setParams(FileManager file, long long size)
+Responce ExternalMergeSort::setParams(FileManager *file, long long size)
 {
-	if (file.getState() != ReadAndWrite) {
+	if (file->getState() != ReadAndWrite) {
 		ok = false;
 		return Responce::FileManagerFail;
 	}

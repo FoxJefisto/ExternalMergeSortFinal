@@ -9,12 +9,12 @@ using namespace std;
 
 void UserInterface::initSession()
 {
-	const string menu = "0. Выход\n1. Сгенерировать последовательность\n";
+	appCore = new AppCore();
 	const string ch = "Пожалуйста, сделайте выбор --> ";
 	cout << menu.c_str() << ch.c_str();
 	int choise = -1;
 	cin >> choise;
-	while (choise < 0 || choise > 1) {
+	while (choise < 0 || choise > 2) {
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> choise;
 	}
@@ -23,7 +23,7 @@ void UserInterface::initSession()
 		system("cls");
 		cout << menu.c_str() << ch.c_str();
 		cin >> choise;
-		while (choise < 0 || choise > 1) {
+		while (choise < 0 || choise > 2) {
 			cout << "Вы ошиблись, пожалуйста, повторите --> ";
 			cin >> choise;
 		}
@@ -56,14 +56,34 @@ Responce UserInterface::callGenerate() {
 
 Responce UserInterface::callSetParams()
 {
-	1
-	return Responce();
+	cout << "Определение параметров сортировки: " << endl;
+	cout << "Введите путь к исходной последовательности:" << endl;
+	char buf[50];
+	cin >> buf;
+	string iFile(buf);
+	cout << "Введите путь файла результата:" << endl;
+	cin >> buf;
+	string oFile(buf);
+	FileManager *file = new FileManager(iFile, oFile);
+	cout << "Введите размер сегментов: ";
+	int size;
+	cin >> size;
+	while (size < 0) {
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> size;
+	}
+	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
+	int ch;
+	cin >> ch;
+	return appCore->setSortParams(file, size, TypeOfSort(ch));
 }
 
 bool UserInterface::callMethod(int choise)
 {
-	char* responceString[] = { "Успешно", "Ошибка генерации", "Файл не существует", "Ошибка размера", "Ошибка файл-менеджера" };
+	char* responceString[] = { "Успешно", "Ошибка генерации", "Файл не существует", "Ошибка размера", "Ошибка файл-менеджера",
+	"Исходный файл и файл результата совпадают"};
 	Responce resp;
+	system("cls");
 	switch (choise) {
 	case 0: 
 		return false;
@@ -76,6 +96,18 @@ bool UserInterface::callMethod(int choise)
 		}
 		else {
 			cout << "Генерация завершилась с ошибкой: " << responceString[resp] << endl;
+			return true;
+		}
+		break;
+	case 2:
+		resp = callSetParams();
+		if (resp == Success) {
+			system("cls");
+			cout << "Параметры успешно заданы!" << endl;
+			return true;
+		}
+		else {
+			cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] << endl;
 			return true;
 		}
 		break;
