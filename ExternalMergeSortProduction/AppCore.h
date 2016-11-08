@@ -12,6 +12,7 @@ private:
 public:
 	Responce setSortParams(FileManager *file, long long sizeOfSegments, TypeOfSort type);
 	Responce externalSort();
+	Counter getCounter();
 	AppCore();
 	~AppCore();
 };

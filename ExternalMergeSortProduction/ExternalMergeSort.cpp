@@ -5,6 +5,7 @@
 ExternalMergeSort::ExternalMergeSort()
 {
 	ok = false;
+	log = CLI;
 }
 
 ExternalMergeSort::ExternalMergeSort(FileManager *file, long long sizeOfSegments)
@@ -15,7 +16,10 @@ ExternalMergeSort::ExternalMergeSort(FileManager *file, long long sizeOfSegments
 	{
 		throw errorOfCreation;
 	}
+	log = CLI;
 }
+
+
 
 Responce ExternalMergeSort::setParams(FileManager *file, long long size)
 {
@@ -65,6 +69,7 @@ Responce ExternalMergeSort::externalSort()
 		do {
 			cout << "Слияние последовательностей размера: " << size << endl;
 			resp = mergeSequencesNew(input1, input2, curOut, size);
+			counter.incFileOp(size*4);
 			cout << "Выполнено!" << endl;
 			if (curOut == bufA) {
 				curOut = bufB;
@@ -105,7 +110,15 @@ Responce ExternalMergeSort::externalSort()
 			curOut = fileManager;
 		}
 	}
+	counter.setEndTime();
 	return Success;
+}
+
+Responce ExternalMergeSort::setLog(LogType log)
+{
+	this->log = log;
+	return Success;
+
 }
 
 Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
@@ -129,9 +142,14 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 	Responce resp=Success;
 	do{
 		resp = fileManager->read(bufArr, sizeOfSegments, readNumber);
+		counter.incFileOp(*readNumber);
 		*sizeOfSequence += *readNumber;
+		cout << "Выполнение сортировки: " << endl;
 		sort(bufArr, *readNumber);
+		cout << "Выполнение!" << endl;
 		cur->write(bufArr, *readNumber);
+		counter.incFileOp(*readNumber);
+		cur->closeOFile();
 		if (cur == bufA) {
 			cur = bufB;
 		}
@@ -155,11 +173,18 @@ Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager 
 	bool A=false, B=false;
 	if (input1->getEndOfFile()) {
 		ia = size;
-	} else input1->read(bufArrA, size/2, readNumberA);
+	}
+	else {
+		input1->read(bufArrA, size / 2, readNumberA);
+	}
 	if (input2->getEndOfFile()) {
 		ib = size;
-	} else input2->read(bufArrB, size/2, readNumberB);
+	}
+	else {
+		input2->read(bufArrB, size / 2, readNumberB);
+	}
 	while (ia < size && ib < size) {
+		counter.incComparsion(1);
 		if (bufArrA[curA] < bufArrB[curB]) {
 			out->write(bufArrA[curA]);
 			ia++;
@@ -314,6 +339,19 @@ Responce ExternalMergeSort::mergeSequences(FileManager * input1, FileManager * i
 	}
 	
 	return Success;
+}
+
+void ExternalMergeSort::print(char * msg)
+{
+	if (log == WithOut) return;
+	if (log == CLI) {
+		cout << msg;
+	}
+	else {
+		fstream log;
+		log.open("log.txt");
+		log << msg;
+	}
 }
 
 

@@ -44,6 +44,11 @@ Responce AppCore::externalSort()
 	return sort->externalSort();
 }
 
+Counter AppCore::getCounter()
+{
+	return sort->counter;
+}
+
 AppCore::AppCore()
 {
 	sort = nullptr;

@@ -9,12 +9,15 @@ using namespace std;
 
 void UserInterface::initSession()
 {
+	char *respString[] = { "Успешно", "Ошибка генерации", "Файл не существует", "Ошибка размера", "Ошибка файл-менеджера",
+		"Исходный файл и файл результата совпадают", "Достигнут конец файла", "Ошибка выделения памяти", "Параметры не заданы или заданы неверно" };
+	responceString = respString;
 	appCore = new AppCore();
 	const string ch = "Пожалуйста, сделайте выбор --> ";
 	cout << menu.c_str() << ch.c_str();
 	int choise = -1;
 	cin >> choise;
-	while (choise < 0 || choise > 3) {
+	while (choise < 0 || choise > 4) {
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> choise;
 	}
@@ -23,7 +26,7 @@ void UserInterface::initSession()
 		system("cls");
 		cout << menu.c_str() << ch.c_str();
 		cin >> choise;
-		while (choise < 0 || choise > 3) {
+		while (choise < 0 || choise > 4) {
 			cout << "Вы ошиблись, пожалуйста, повторите --> ";
 			cin >> choise;
 		}
@@ -51,7 +54,15 @@ Responce UserInterface::callGenerate() {
 		cin >> ch;
 	}
 	FileManager fileManager(file, WriteOnly);
-	return fileManager.generateSequence(size,SeqType(ch));
+	Responce resp = fileManager.generateSequence(size,SeqType(ch));
+	if (resp == Success) {
+		system("cls");
+		cout << "Генерация последовательности:\nВыполнение: 100%\n" << "Генерация успешна!" << endl;
+	}
+	else {
+		cout << "Генерация завершилась с ошибкой: " << responceString[resp] << endl;
+	}
+	return resp;
 }
 
 Responce UserInterface::callSetParams()
@@ -75,19 +86,50 @@ Responce UserInterface::callSetParams()
 	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
 	int ch;
 	cin >> ch;
-	return appCore->setSortParams(file, size, TypeOfSort(ch));
+	Responce resp = appCore->setSortParams(file, size, TypeOfSort(ch));
+	if (resp == Success) {
+		system("cls");
+		cout << "Параметры успешно заданы!" << endl;
+	}
+	else {
+		cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] << endl;
+	}
+	return resp;
 }
 
 Responce UserInterface::callSort()
 {	
 	cout << "Выполнение сортировки:" << endl;
-	return appCore->externalSort();
+	Responce resp = appCore->externalSort();
+	if (resp == Success) {
+		system("cls");
+		cout << "Последовательность успешно отсортирована за " << appCore->getCounter().getTimeInterval() << " миллисекунд!" << endl;
+	}
+	else {
+		cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+	}
+	return resp;
+}
+
+Responce UserInterface::callEstimate()
+{
+	cout << "Оценка характеристик сортировки:" << endl;
+	Responce resp = appCore->externalSort();
+	if (resp == Success) {
+		system("cls");
+		cout << "Последовательность успешно отсортирована за " << appCore->getCounter().getTimeInterval() << " миллисекунд!" << endl;
+		cout << "Количество чтений и записей в файл: " << appCore->getCounter().getFileOp() << endl;
+		cout << "Количество сравнений: " << appCore->getCounter().getComparsion() << endl;
+		cout << "Количество перестановок: " << appCore->getCounter().getSwaps() << endl;
+	}
+	else {
+		cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+	}
+	return resp;
 }
 
 bool UserInterface::callMethod(int choise)
 {
-	char* responceString[] = { "Успешно", "Ошибка генерации", "Файл не существует", "Ошибка размера", "Ошибка файл-менеджера",
-	"Исходный файл и файл результата совпадают", "Достигнут конец файла", "Ошибка выделения памяти", "Параметры не заданы или заданы неверно"};
 	Responce resp;
 	system("cls");
 	switch (choise) {
@@ -95,41 +137,18 @@ bool UserInterface::callMethod(int choise)
 		return false;
 	case 1:
 		resp = callGenerate();
-		if (resp == Success) {
-			system("cls");
-			cout << "Генерация последовательности:\nВыполнение: 100%\n" << "Генерация успешна!" << endl;
-			return true;
-		}
-		else {
-			cout << "Генерация завершилась с ошибкой: " << responceString[resp] << endl;
-			return true;
-		}
 		break;
 	case 2:
 		resp = callSetParams();
-		if (resp == Success) {
-			system("cls");
-			cout << "Параметры успешно заданы!" << endl;
-			return true;
-		}
-		else {
-			cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] << endl;
-			return true;
-		}
 		break;
 	case 3:
 		resp = callSort();
-		if (resp == Success) {
-			system("cls");
-			cout << "Последовательность успешно отсортирована!" << endl;
-			return true;
-		}
-		else {
-			cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
-			return true;
-		}
+		break;
+	case 4:
+		resp = callEstimate();
 		break;
 	}
+	return true;
 }
 
 UserInterface::UserInterface()

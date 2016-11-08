@@ -107,7 +107,6 @@ Responce FileManager::write(long int * arr, long long size)
 	for (int i = 0; i < size; i++) {
 		*oFile << arr[i] << " ";
 	}
-	oFile->close();
 	return Success;
 }
 

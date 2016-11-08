@@ -23,6 +23,16 @@ long Counter::getTimeInterval()
 	return (endTime - begTime) * 1000 / CLOCKS_PER_SEC; //число миллисекунд
 }
 
+void Counter::incSwaps()
+{
+	swaps++;
+}
+
+long Counter::getSwaps()
+{
+	return swaps;
+}
+
 void Counter::incComparsion(long n)
 {
 	comparsion += n;
@@ -49,6 +59,7 @@ void Counter::clear()
 	endTime = 0;
 	comparsion = 0;
 	fileOp = 0;
+	swaps = 0;
 }
 
 
