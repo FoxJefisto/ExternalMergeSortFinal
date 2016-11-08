@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "ExternalMergeSort.h"
-
+#include <sstream>
 
 ExternalMergeSort::ExternalMergeSort()
 {
@@ -47,9 +47,9 @@ Responce ExternalMergeSort::externalSort()
 	counter.setBegTime();
 	long long *sizeOfSequence = new long long();
 	*sizeOfSequence = 0;
-	cout << "Начало предформирования отрезков:\n";
+	print("Начало предформирования отрезков:\n");
 	Responce resp = createRuns(sizeOfSequence);
-	cout << "Выполнено!\n";
+	print("Выполнено!\n");
 	FileManager *bufA = new FileManager("bufA.txt", "bufA.txt");
 	FileManager *bufB = new FileManager("bufB.txt", "bufB.txt");
 	FileManager *bufC = new FileManager("bufC.txt", "bufC.txt");
@@ -61,16 +61,21 @@ Responce ExternalMergeSort::externalSort()
 	FileManager *input2 = bufB;
 	bool done = false;
 	long long size = sizeOfSegments;
+	stringstream bufstr;
 	while (!done) {
 		input1->setEndOfFile(false);
 		input1->closeIFile();
 		input2->setEndOfFile(false);
 		input2->closeIFile();
 		do {
-			cout << "Слияние последовательностей размера: " << size << endl;
+			bufstr.seekp(0, ios::beg);
+			bufstr << "Слияние последовательностей размера: " << size << "\n" << '\0';
+			print(bufstr.str().c_str());
 			resp = mergeSequencesNew(input1, input2, curOut, size);
 			counter.incFileOp(size*4);
-			cout << "Выполнено!" << endl;
+			bufstr.seekp(0, ios::beg);
+			bufstr << "Выполнено!" << "\n" << '\0';
+			print(bufstr.str().c_str());
 			if (curOut == bufA) {
 				curOut = bufB;
 			}
@@ -144,9 +149,9 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 		resp = fileManager->read(bufArr, sizeOfSegments, readNumber);
 		counter.incFileOp(*readNumber);
 		*sizeOfSequence += *readNumber;
-		cout << "Выполнение сортировки: " << endl;
+		print("Выполнение внутренней сортировки:\n");
 		sort(bufArr, *readNumber);
-		cout << "Выполнение!" << endl;
+		print("Выполнено!\n");
 		cur->write(bufArr, *readNumber);
 		counter.incFileOp(*readNumber);
 		cur->closeOFile();
@@ -341,7 +346,7 @@ Responce ExternalMergeSort::mergeSequences(FileManager * input1, FileManager * i
 	return Success;
 }
 
-void ExternalMergeSort::print(char * msg)
+void ExternalMergeSort::print(const char * msg)
 {
 	if (log == WithOut) return;
 	if (log == CLI) {

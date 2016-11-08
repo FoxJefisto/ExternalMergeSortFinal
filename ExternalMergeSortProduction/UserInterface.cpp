@@ -3,7 +3,7 @@
 #include <iostream>
 #include "FileManager.h"
 #include "ExternalMergeSort.h"
-
+#include <sstream>
 
 using namespace std;
 
@@ -17,7 +17,7 @@ void UserInterface::initSession()
 	cout << menu.c_str() << ch.c_str();
 	int choise = -1;
 	cin >> choise;
-	while (choise < 0 || choise > 4) {
+	while (choise < 0 || choise > 5) {
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> choise;
 	}
@@ -26,7 +26,7 @@ void UserInterface::initSession()
 		system("cls");
 		cout << menu.c_str() << ch.c_str();
 		cin >> choise;
-		while (choise < 0 || choise > 4) {
+		while (choise < 0 || choise > 5) {
 			cout << "Вы ошиблись, пожалуйста, повторите --> ";
 			cin >> choise;
 		}
@@ -128,8 +128,70 @@ Responce UserInterface::callEstimate()
 	return resp;
 }
 
-bool UserInterface::callMethod(int choise)
+Responce UserInterface::callGetDependencies()
 {
+	cout << "Получение зависимости: " << endl;
+	cout << "Выберите изменяемую характеристику:\n0. Размер последовательности\n1. Размер сегментов\n2. Тип внутренней сортировки\n->>";
+	int choise = -1;
+	cin >> choise;
+	while (choise < 0 || choise > 2) {
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> choise;
+	}
+	switch (choise) {
+	case 0:
+		//FileManager *file = new FileManager(iFile, oFile);
+		cout << "Введите размер сегментов, 0 если размер сегментов равен размеру последовательности: ";
+		int size;
+		cin >> size;
+		while (size < 0 || size >101) {
+			cout << "Вы ошиблись, пожалуйста, повторите --> ";
+			cin >> size;
+		}
+		cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
+		int ch;
+		cin >> ch;
+		FileManager *file;
+		Responce resp;
+		for (long i = 100; i < 100000000; i = i * 10) {
+			stringstream buf;
+			buf << "input" << i << ".txt" << '\0';
+			file = new FileManager(buf.str(), WriteOnly);
+			file->generateSequence(i, SeqType::Worst);
+		}
+		system("cls");
+		for (long i = 100; i < 100000000; i = i * 10) {
+			stringstream buf;
+			buf << "input" << i << ".txt" << '\0';
+			string out("out.txt");
+			file = new FileManager(buf.str(), out);
+			if (size == 0) {
+				resp = appCore->setSortParams(file, i, TypeOfSort(ch));
+			} else
+				resp = appCore->setSortParams(file, size, TypeOfSort(ch));
+			if (resp != Success) {
+				cout << "Ошибка! Не удалось задать параметры!" << endl;
+				return resp;
+			}
+			appCore->setLog(WithOut);
+			resp = appCore->externalSort();
+			if (resp != Success) {
+				cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+				return resp;
+			}
+			cout << "Размер входной последовательности: " << i << endl;
+			cout << "Время сортировки: " << appCore->getCounter().getTimeInterval() << endl;
+			cout << "Число операций с файлами: " << appCore->getCounter().getFileOp() << endl;
+			cout << "Число сравнений: " << appCore->getCounter().getComparsion() << endl;
+			cout << "Число перестановок: " << appCore->getCounter().getSwaps() << endl;
+			cout << endl;
+		}
+		break;
+	}
+	return Success;
+}
+
+bool UserInterface::callMethod(int choise){
 	Responce resp;
 	system("cls");
 	switch (choise) {
@@ -146,6 +208,9 @@ bool UserInterface::callMethod(int choise)
 		break;
 	case 4:
 		resp = callEstimate();
+		break;
+	case 5:
+		resp = callGetDependencies();
 		break;
 	}
 	return true;

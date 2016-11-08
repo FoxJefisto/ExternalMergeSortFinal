@@ -49,6 +49,11 @@ Counter AppCore::getCounter()
 	return sort->counter;
 }
 
+void AppCore::setLog(LogType type)
+{
+	sort->setLog(type);
+}
+
 AppCore::AppCore()
 {
 	sort = nullptr;

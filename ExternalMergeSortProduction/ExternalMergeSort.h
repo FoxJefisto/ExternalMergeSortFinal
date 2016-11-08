@@ -15,7 +15,7 @@ private:
 	Responce mergeSequencesNew(FileManager *input1, FileManager *input2, FileManager *out, long long size);
 	Responce mergeSequences(FileManager *input1, FileManager *input2, FileManager *out, long long size);
 	LogType log;
-	void print(char *);
+	void print(const char *);
 public:
 	Counter counter;
 	ExternalMergeSort();

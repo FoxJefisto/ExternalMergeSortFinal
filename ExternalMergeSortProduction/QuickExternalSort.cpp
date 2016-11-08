@@ -44,7 +44,9 @@ void QuickExternalSort::qSortI(long int *a, long long size) {
 			do {
 				while (a[i] < pivot) i++;
 				while (pivot < a[j]) j--;
+				counter.incComparsion(1);
 				if (i <= j) {
+					counter.incSwaps();
 					temp = a[i]; a[i] = a[j]; a[j] = temp;
 					i++; j--;
 				}
@@ -55,7 +57,9 @@ void QuickExternalSort::qSortI(long int *a, long long size) {
 			// ¬озможен случай, когда указатель i или j выходит за границу массива
 
 			// Ўаги 2, 3. ќтправл€ем большую часть в стек и двигаем lb,ub
+			counter.incComparsion(1);
 			if (i < ppos) { // права€ часть больше
+				counter.incComparsion(1);
 				if (i < ub) { // если в ней больше 1 элемента - нужно
 					stackpos++; // сортировать, запрос в стек
 					lbstack[stackpos] = i;
@@ -65,6 +69,7 @@ void QuickExternalSort::qSortI(long int *a, long long size) {
 						// будет работать с левой частью
 			}
 			else { // лева€ часть больше
+				counter.incComparsion(1);
 				if (j > lb) {
 					stackpos++;
 					lbstack[stackpos] = lb;
