@@ -138,6 +138,78 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 	return Success;
 }
 
+
+Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager * input2, FileManager *out, long long size)
+{
+	long int *bufArrA = new long int[size/2];
+	long int *bufArrB = new long int[size/2];
+	long long * readNumberA = new long long();
+	long long * readNumberB = new long long();
+	long long ia = 0, ib = 0;
+	long long curA = 0, curB = 0;
+	input1->read(bufArrA, size/2, readNumberA);
+	input2->read(bufArrB, size/2, readNumberB);
+	if (input1->getEndOfFile())
+		ia = size - *readNumberA;
+	if (input2->getEndOfFile())
+		ib = size - *readNumberB;
+	for (; (ia < size) && (ib < size);) {
+		if (*bufArrA < *bufArrB) {
+			out->write(bufArrA[ia]);
+			ia++;
+			curA++;
+			if (curA >= *readNumberA) {
+				input1->read(bufArrA, size / 2, readNumberA);
+				curA = 0;
+			}
+			if (input1->getEndOfFile())
+				ia = size - *readNumberA;
+		}
+		else {
+			out->write(bufArrB[ib]);
+			ib++;
+			curB++;
+			if (curB >= *readNumberB) {
+				input2->read(bufArrB, size / 2, readNumberB);
+				curB = 0;
+			}
+			if (input2->getEndOfFile())
+				ib = size - *readNumberB;
+		}
+	}
+
+	for (; ia < size; ia++) {
+
+		out->write(bufArrA[ia]);
+		ia++;
+		curA++;
+		if (curA >= *readNumberA) {
+			input1->read(bufArrA, size / 2, readNumberA);
+			curA = 0;
+		}
+		if (input1->getEndOfFile())
+			ia = size - *readNumberA;
+	}
+	for (; ib < size; ib++) {
+
+		out->write(bufArrB[ib]);
+		ib++;
+		curB++;
+		if (curB >= *readNumberB) {
+			input2->read(bufArrB, size / 2, readNumberB);
+			curB = 0;
+		}
+		if (input2->getEndOfFile())
+			ib = size - *readNumberB;
+	}
+	if (input1->getEndOfFile() && input2->getEndOfFile()) {
+		return EndOfFile;
+	}
+
+	return Success;
+}
+
+
 Responce ExternalMergeSort::mergeSequences(FileManager * input1, FileManager * input2, FileManager *out, long long size)
 {
 	long int *bufArrA = new long int();

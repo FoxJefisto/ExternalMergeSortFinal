@@ -10,6 +10,7 @@ private:
 	long long sizeOfSegments;
 	bool ok;
 	Responce createRuns(long long *);
+	Responce mergeSequencesNew(FileManager *input1, FileManager *input2, FileManager *out, long long size);
 	Responce mergeSequences(FileManager *input1, FileManager *input2, FileManager *out, long long size);
 public:
 	ExternalMergeSort();
