@@ -14,6 +14,7 @@ private:
 	bool endOfFile;
 public:
 	void closeIFile();
+	void closeOFile();
 	bool getEndOfFile();
 	void setEndOfFile(bool b);
 	void clearOutFile();

@@ -13,6 +13,13 @@ void FileManager::closeIFile()
 	}
 }
 
+void FileManager::closeOFile()
+{
+	if (oFile->is_open()) {
+		oFile->close();
+	}
+}
+
 bool FileManager::getEndOfFile()
 {
 	return endOfFile;
@@ -54,7 +61,6 @@ Responce FileManager::read(long int *arr, long long size, long long *readNumber)
 		*iFile >> buf;
 		arr[i] = buf;
 	}
-	arr[n] = -1;
 	*readNumber = n;
 	if (f == false) {
 		*iFile >> buf;
@@ -69,6 +75,7 @@ Responce FileManager::read(long int *arr, long long size, long long *readNumber)
 		}
 	}
 	if (f == true) {
+		arr[n] = -1;
 		iFile->close();
 		endOfFile = true;
 		return EndOfFile;
@@ -85,7 +92,6 @@ Responce FileManager::write(long int num)
 		return FileManagerFail;
 	}
 	*oFile << num << " ";
-	oFile->close();
 	return Success;
 }
 

@@ -39,9 +39,13 @@ Responce ExternalMergeSort::setParams(FileManager *file, long long size)
 
 Responce ExternalMergeSort::externalSort()
 {
+	counter.clear();
+	counter.setBegTime();
 	long long *sizeOfSequence = new long long();
 	*sizeOfSequence = 0;
+	cout << "Start create runs:\n";
 	Responce resp = createRuns(sizeOfSequence);
+	cout << "End create runs:\n";
 	FileManager *bufA = new FileManager("bufA.txt", "bufA.txt");
 	FileManager *bufB = new FileManager("bufB.txt", "bufB.txt");
 	FileManager *bufC = new FileManager("bufC.txt", "bufC.txt");
@@ -59,9 +63,9 @@ Responce ExternalMergeSort::externalSort()
 		input2->setEndOfFile(false);
 		input2->closeIFile();
 		do {
-			cout << "Begin" << endl;
-			resp = mergeSequences(input1, input2, curOut, size);
-			cout << "End" << endl;
+			cout << "Start merge" << endl;
+			resp = mergeSequencesNew(input1, input2, curOut, size);
+			cout << "End merge" << endl;
 			if (curOut == bufA) {
 				curOut = bufB;
 			}
@@ -99,6 +103,8 @@ Responce ExternalMergeSort::externalSort()
 			curOut = bufC;
 		}
 	}
+	cout << "Time in millesec: " << counter.setEndTime();
+	system("pause");
 	return Success;
 }
 
@@ -147,65 +153,102 @@ Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager 
 	long long * readNumberB = new long long();
 	long long ia = 0, ib = 0;
 	long long curA = 0, curB = 0;
-	input1->read(bufArrA, size/2, readNumberA);
-	input2->read(bufArrB, size/2, readNumberB);
-	if (input1->getEndOfFile())
-		ia = size - *readNumberA;
-	if (input2->getEndOfFile())
-		ib = size - *readNumberB;
-	for (; (ia < size) && (ib < size);) {
-		if (*bufArrA < *bufArrB) {
-			out->write(bufArrA[ia]);
+	bool A=false, B=false;
+	if (input1->getEndOfFile()) {
+		ia = size;
+	} else input1->read(bufArrA, size/2, readNumberA);
+	if (input2->getEndOfFile()) {
+		ib = size;
+	} else input2->read(bufArrB, size/2, readNumberB);
+	while (ia < size && ib < size) {
+		if (bufArrA[curA] < bufArrB[curB]) {
+			out->write(bufArrA[curA]);
 			ia++;
 			curA++;
+			if (input1->getEndOfFile() && !A) 
+			{
+				if (ia < size - *readNumberA) {
+					ia = size - *readNumberA + 1;
+				}
+				A = true;
+			}
 			if (curA >= *readNumberA) {
-				input1->read(bufArrA, size / 2, readNumberA);
+				if (size / 2 > size - ia) {
+					input1->read(bufArrA, size - 1 - ia, readNumberA);
+				}
+				else {
+					input1->read(bufArrA, size/2, readNumberA);
+				}
 				curA = 0;
 			}
-			if (input1->getEndOfFile())
-				ia = size - *readNumberA;
 		}
 		else {
-			out->write(bufArrB[ib]);
+			out->write(bufArrB[curB]);
 			ib++;
 			curB++;
+			if (input2->getEndOfFile() && !B) {
+				if (ib < size - *readNumberB) {
+					ib = size - *readNumberB + 1;
+				}
+				B = true;
+			}
 			if (curB >= *readNumberB) {
-				input2->read(bufArrB, size / 2, readNumberB);
+				if (size / 2 > size - ib) {
+					input2->read(bufArrB, size - 1 - ib, readNumberB);
+				}
+				else {
+					input2->read(bufArrB, size / 2, readNumberB);
+				}
 				curB = 0;
 			}
-			if (input2->getEndOfFile())
-				ib = size - *readNumberB;
 		}
 	}
-
-	for (; ia < size; ia++) {
-
-		out->write(bufArrA[ia]);
+	for (; ia < size;) {
+		out->write(bufArrA[curA]);
 		ia++;
 		curA++;
+		if (input1->getEndOfFile() && !A) {
+			if (ia < size - *readNumberA) {
+				ia = size - *readNumberA + 1;
+			}
+			A = true;
+		}
 		if (curA >= *readNumberA) {
-			input1->read(bufArrA, size / 2, readNumberA);
+			if (size / 2 > size - ia) {
+				input1->read(bufArrA, size - 1 - ia, readNumberA);
+			}
+			else {
+				input1->read(bufArrA, size / 2, readNumberA);
+			}
 			curA = 0;
 		}
-		if (input1->getEndOfFile())
-			ia = size - *readNumberA;
 	}
-	for (; ib < size; ib++) {
-
-		out->write(bufArrB[ib]);
+	for (; ib < size;) {
+		out->write(bufArrB[curB]);
 		ib++;
 		curB++;
+		if (input2->getEndOfFile() && !B) {
+			if (ib < size - *readNumberB) {
+				ib = size - *readNumberB + 1;
+			}
+			B = true;
+		}
 		if (curB >= *readNumberB) {
-			input2->read(bufArrB, size / 2, readNumberB);
+			if (size / 2 > size - ib) {
+				input2->read(bufArrB, size - 1 - ib, readNumberB);
+			}
+			else {
+				input2->read(bufArrB, size / 2, readNumberB);
+			}
 			curB = 0;
 		}
-		if (input2->getEndOfFile())
-			ib = size - *readNumberB;
-	}
-	if (input1->getEndOfFile() && input2->getEndOfFile()) {
-		return EndOfFile;
 	}
 
+	if (input1->getEndOfFile() && input2->getEndOfFile()) {
+		out->closeOFile();
+		return EndOfFile;
+	}
+	out->closeOFile();
 	return Success;
 }
 
