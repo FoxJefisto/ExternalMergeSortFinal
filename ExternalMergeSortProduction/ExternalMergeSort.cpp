@@ -43,9 +43,9 @@ Responce ExternalMergeSort::externalSort()
 	counter.setBegTime();
 	long long *sizeOfSequence = new long long();
 	*sizeOfSequence = 0;
-	cout << "Start create runs:\n";
+	cout << "Начало предформирования отрезков:\n";
 	Responce resp = createRuns(sizeOfSequence);
-	cout << "End create runs:\n";
+	cout << "Выполнено!\n";
 	FileManager *bufA = new FileManager("bufA.txt", "bufA.txt");
 	FileManager *bufB = new FileManager("bufB.txt", "bufB.txt");
 	FileManager *bufC = new FileManager("bufC.txt", "bufC.txt");
@@ -63,9 +63,9 @@ Responce ExternalMergeSort::externalSort()
 		input2->setEndOfFile(false);
 		input2->closeIFile();
 		do {
-			cout << "Start merge" << endl;
+			cout << "Слияние последовательностей размера: " << size << endl;
 			resp = mergeSequencesNew(input1, input2, curOut, size);
-			cout << "End merge" << endl;
+			cout << "Выполнено!" << endl;
 			if (curOut == bufA) {
 				curOut = bufB;
 			}
@@ -85,7 +85,6 @@ Responce ExternalMergeSort::externalSort()
  		} while (resp != EndOfFile);
 		size = size * 2;
 		if (size >= *sizeOfSequence) {
-
 			done = true;
 		}
 		if (input1 == bufA) {
@@ -102,9 +101,10 @@ Responce ExternalMergeSort::externalSort()
 			input2 = bufB;
 			curOut = bufC;
 		}
+		if (size * 2 >= *sizeOfSequence) {
+			curOut = fileManager;
+		}
 	}
-	cout << "Time in millesec: " << counter.setEndTime();
-	system("pause");
 	return Success;
 }
 
@@ -143,7 +143,6 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 	} while (resp != EndOfFile);
 	return Success;
 }
-
 
 Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager * input2, FileManager *out, long long size)
 {
@@ -251,7 +250,6 @@ Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager 
 	out->closeOFile();
 	return Success;
 }
-
 
 Responce ExternalMergeSort::mergeSequences(FileManager * input1, FileManager * input2, FileManager *out, long long size)
 {
