@@ -1,0 +1,24 @@
+#pragma once
+#include "Structures.h"
+#include "AppCore.h"
+
+class UserInterface
+{
+private:
+	//AppCore *appCore;
+	const string menu = "0. Выход\n1. Сгенерировать последовательность\n2. Задать параметры сортировки\n3. Отсоритровать последовательность\n4. Оценить характеристики сортировки\n5. Получение зависимостей\n";
+	char **responceString;
+	ExternalMergeSort *sort;
+	bool callMethod(int ch);
+	void callGenerate();
+	void callSetParams();
+	void callSort();
+	void callEstimate();
+	void callGetDependencies();
+	Responce setParams(FileManager *file, long long sizeOfSegments, TypeOfSort type);
+public:
+	void initSession();
+	UserInterface();
+	~UserInterface();
+};
+

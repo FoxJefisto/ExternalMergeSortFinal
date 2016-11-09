@@ -35,6 +35,9 @@ Responce ExternalMergeSort::setParams(FileManager *file, long long size)
 		ok = false;
 		return SizeError;
 	}
+	if (file->checkForEquality()) {
+		return Responce::InputAndOutputIsEqual;
+	}
 	sizeOfSegments = size;
 	fileManager = file;
 	ok = true;
