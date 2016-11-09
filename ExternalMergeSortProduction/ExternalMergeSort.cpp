@@ -111,7 +111,8 @@ Responce ExternalMergeSort::externalSort()
 			input2 = bufB;
 			curOut = bufC;
 		}
-		if (size * 2 >= *sizeOfSequence) {
+		if (size * 2 >= *sizeOfSequence && size < *sizeOfSequence) {
+			fileManager->clearOutFile();
 			curOut = fileManager;
 		}
 	}

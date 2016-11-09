@@ -153,14 +153,14 @@ Responce UserInterface::callGetDependencies()
 		cin >> ch;
 		FileManager *file;
 		Responce resp;
-		for (long i = 100; i < 100000000; i = i * 10) {
+		for (long i = 100; i < 10000000; i = i * 10) {
 			stringstream buf;
 			buf << "input" << i << ".txt" << '\0';
 			file = new FileManager(buf.str(), WriteOnly);
 			file->generateSequence(i, SeqType::Worst);
 		}
 		system("cls");
-		for (long i = 100; i < 100000000; i = i * 10) {
+		for (long i = 100; i < 10000000; i = i * 10) {
 			stringstream buf;
 			buf << "input" << i << ".txt" << '\0';
 			string out("out.txt");

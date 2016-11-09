@@ -218,7 +218,7 @@ Responce FileManager::generateSequence(long long size, SeqType type)
 	for (int i = 0; i < size; i++) {
 		switch (type) {
 		case SeqType::Average:
-			buf = 10000 * (rand() % size) + rand() % 10000;
+			buf = 1000 * (rand() % 1000) + rand() % 1000;
 			break;
 		case SeqType::Best:
 			buf = i;
