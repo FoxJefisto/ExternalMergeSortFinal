@@ -1,0 +1,224 @@
+\hypertarget{class_user_interface}{}\section{User\+Interface Class Reference}
+\label{class_user_interface}\index{User\+Interface@{User\+Interface}}
+
+
+Класс пользовательского интерфейса.  
+
+
+
+
+{\ttfamily \#include $<$User\+Interface.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_user_interface_a6c7f9ef9faa40eaf4760d57e89228786}{init\+Session} ()
+\item 
+\hyperlink{class_user_interface_ae6fb70370701b3bd6120e923df9705b0}{User\+Interface} ()
+\item 
+\hyperlink{class_user_interface_ae588b2ff1711a016dd4c6fc5002c0841}{$\sim$\+User\+Interface} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_user_interface_ad388ff348c0a124038f4ea9756b80041}{call\+Method} (int ch)
+\begin{DoxyCompactList}\small\item\em Вызов необходимого метода. \end{DoxyCompactList}\item 
+void \hyperlink{class_user_interface_a27c547dadfd5588d5b734e253b2e8a4a}{call\+Generate} ()
+\begin{DoxyCompactList}\small\item\em Вызов генерации последовательности. Получает необходимые параметры для генерации исходной последовательности. Оповещает о возникающих ошибках. \end{DoxyCompactList}\item 
+void \hyperlink{class_user_interface_adcabf6c8f2be4b4ec712c4674156bf59}{call\+Set\+Params} ()
+\begin{DoxyCompactList}\small\item\em Вызов метода, задающего параметры сортировки. Задает параметр sort необходимым указателем на один из классов сортировки. Получает необходимые параметры сортировки. Оповещает о возникающих ошибках. \end{DoxyCompactList}\item 
+void \hyperlink{class_user_interface_a0e03dfecee7e890ad1e076888062d5cb}{call\+Sort} ()
+\begin{DoxyCompactList}\small\item\em Вызов метода внешней сортировки. Вызывает необходимый метод сортировки, если это возможно. Оповещает о возникающих ошибках. \end{DoxyCompactList}\item 
+void \hyperlink{class_user_interface_a7957201b3543ea0561d48bcc0a0d329e}{call\+Estimate} ()
+\begin{DoxyCompactList}\small\item\em Вызов метода оценки характеристик внешней сортировки. Вызывает метод сортировки, если это возможно. Оповещает о возникающих ошибках. \end{DoxyCompactList}\item 
+void \hyperlink{class_user_interface_a332db63dca89d684f7e9e1272f4c3745}{call\+Get\+Dependencies} ()
+\begin{DoxyCompactList}\small\item\em Вызов метода получения зависимостей характеристик сортировки. Вызывает метод сортировки, если это возможно. Оповещает о возникающих ошибках. \end{DoxyCompactList}\item 
+\hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_user_interface_a595a469d83a351719c75c65fbf4a6fbe}{set\+Params} (\hyperlink{class_file_manager}{File\+Manager} $\ast$file, long long size\+Of\+Segments, \hyperlink{_structures_8h_adbb15722785daaf5166f7ea34323854c}{Type\+Of\+Sort} type)
+\item 
+void \hyperlink{class_user_interface_af7c9d93ec693f70dcfbdd9e6a080abc7}{get\+Dependence\+Size} ()
+\item 
+void \hyperlink{class_user_interface_aaac8a635efdb79276275f9d1ea265cd7}{get\+Dependence\+Size\+Of\+Segments} ()
+\item 
+void \hyperlink{class_user_interface_ab726cdce7e7518aae70cf42594139589}{get\+Dependence\+Type} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_external_merge_sort}{External\+Merge\+Sort} $\ast$ \hyperlink{class_user_interface_af3405ffdb7e2834c2cf63662b5415a91}{sort}
+\begin{DoxyCompactList}\small\item\em Указатель на экземпляр класса сортировки. \end{DoxyCompactList}\item 
+const string \hyperlink{class_user_interface_a24b9a8a0a253382b0737a86f7ecf7d8b}{menu} = \char`\"{}0. Выход\textbackslash{}n1. Сгенерировать последовательность\textbackslash{}n2. Задать параметры сортировки\textbackslash{}n3. Отсоритровать последовательность\textbackslash{}n4. Оценить характеристики сортировки\textbackslash{}n5. Получение зависимостей\textbackslash{}n\char`\"{}
+\begin{DoxyCompactList}\small\item\em Константная строка меню. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{class_user_interface_a3ec4a2871150fd6b83ddf9d459aa0afc}{responce\+String} \mbox{[}9\mbox{]}
+\begin{DoxyCompactList}\small\item\em Константный массив, строк, расшифровывающих коды ошибок. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Класс пользовательского интерфейса. 
+
+\begin{DoxyAuthor}{Author}
+Alexander Filippov 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Ноябрь 2016 года
+\end{DoxyDate}
+Класс, отвечающий за взаимодействие пользователя с приложением, а также содержащий в себе некоторые методы, которые позволяют исследовать характеристики сортировки. Сообщает об ошибках и выводит результаты в консоль. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_user_interface_ae6fb70370701b3bd6120e923df9705b0}{}\label{class_user_interface_ae6fb70370701b3bd6120e923df9705b0} 
+\index{User\+Interface@{User\+Interface}!User\+Interface@{User\+Interface}}
+\index{User\+Interface@{User\+Interface}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{User\+Interface()}{UserInterface()}}
+{\footnotesize\ttfamily User\+Interface\+::\+User\+Interface (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\hypertarget{class_user_interface_ae588b2ff1711a016dd4c6fc5002c0841}{}\label{class_user_interface_ae588b2ff1711a016dd4c6fc5002c0841} 
+\index{User\+Interface@{User\+Interface}!````~User\+Interface@{$\sim$\+User\+Interface}}
+\index{````~User\+Interface@{$\sim$\+User\+Interface}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{$\sim$\+User\+Interface()}{~UserInterface()}}
+{\footnotesize\ttfamily User\+Interface\+::$\sim$\+User\+Interface (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_user_interface_a7957201b3543ea0561d48bcc0a0d329e}{}\label{class_user_interface_a7957201b3543ea0561d48bcc0a0d329e} 
+\index{User\+Interface@{User\+Interface}!call\+Estimate@{call\+Estimate}}
+\index{call\+Estimate@{call\+Estimate}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{call\+Estimate()}{callEstimate()}}
+{\footnotesize\ttfamily void User\+Interface\+::call\+Estimate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Вызов метода оценки характеристик внешней сортировки. Вызывает метод сортировки, если это возможно. Оповещает о возникающих ошибках. 
+
+\hypertarget{class_user_interface_a27c547dadfd5588d5b734e253b2e8a4a}{}\label{class_user_interface_a27c547dadfd5588d5b734e253b2e8a4a} 
+\index{User\+Interface@{User\+Interface}!call\+Generate@{call\+Generate}}
+\index{call\+Generate@{call\+Generate}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{call\+Generate()}{callGenerate()}}
+{\footnotesize\ttfamily void User\+Interface\+::call\+Generate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Вызов генерации последовательности. Получает необходимые параметры для генерации исходной последовательности. Оповещает о возникающих ошибках. 
+
+\hypertarget{class_user_interface_a332db63dca89d684f7e9e1272f4c3745}{}\label{class_user_interface_a332db63dca89d684f7e9e1272f4c3745} 
+\index{User\+Interface@{User\+Interface}!call\+Get\+Dependencies@{call\+Get\+Dependencies}}
+\index{call\+Get\+Dependencies@{call\+Get\+Dependencies}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{call\+Get\+Dependencies()}{callGetDependencies()}}
+{\footnotesize\ttfamily void User\+Interface\+::call\+Get\+Dependencies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Вызов метода получения зависимостей характеристик сортировки. Вызывает метод сортировки, если это возможно. Оповещает о возникающих ошибках. 
+
+\hypertarget{class_user_interface_ad388ff348c0a124038f4ea9756b80041}{}\label{class_user_interface_ad388ff348c0a124038f4ea9756b80041} 
+\index{User\+Interface@{User\+Interface}!call\+Method@{call\+Method}}
+\index{call\+Method@{call\+Method}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{call\+Method()}{callMethod()}}
+{\footnotesize\ttfamily bool User\+Interface\+::call\+Method (\begin{DoxyParamCaption}\item[{int}]{ch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Вызов необходимого метода. 
+
+Вызывает метод, получающий необходимые параметры для выбранной пользователем функциональности. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em ch} & Выбор пользователя \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Булево значение -\/ если true, то продолжаем работу программу, если нет, то выход из бесконечного цикла. 
+\end{DoxyReturn}
+\hypertarget{class_user_interface_adcabf6c8f2be4b4ec712c4674156bf59}{}\label{class_user_interface_adcabf6c8f2be4b4ec712c4674156bf59} 
+\index{User\+Interface@{User\+Interface}!call\+Set\+Params@{call\+Set\+Params}}
+\index{call\+Set\+Params@{call\+Set\+Params}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{call\+Set\+Params()}{callSetParams()}}
+{\footnotesize\ttfamily void User\+Interface\+::call\+Set\+Params (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Вызов метода, задающего параметры сортировки. Задает параметр sort необходимым указателем на один из классов сортировки. Получает необходимые параметры сортировки. Оповещает о возникающих ошибках. 
+
+\hypertarget{class_user_interface_a0e03dfecee7e890ad1e076888062d5cb}{}\label{class_user_interface_a0e03dfecee7e890ad1e076888062d5cb} 
+\index{User\+Interface@{User\+Interface}!call\+Sort@{call\+Sort}}
+\index{call\+Sort@{call\+Sort}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{call\+Sort()}{callSort()}}
+{\footnotesize\ttfamily void User\+Interface\+::call\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Вызов метода внешней сортировки. Вызывает необходимый метод сортировки, если это возможно. Оповещает о возникающих ошибках. 
+
+\hypertarget{class_user_interface_af7c9d93ec693f70dcfbdd9e6a080abc7}{}\label{class_user_interface_af7c9d93ec693f70dcfbdd9e6a080abc7} 
+\index{User\+Interface@{User\+Interface}!get\+Dependence\+Size@{get\+Dependence\+Size}}
+\index{get\+Dependence\+Size@{get\+Dependence\+Size}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{get\+Dependence\+Size()}{getDependenceSize()}}
+{\footnotesize\ttfamily void User\+Interface\+::get\+Dependence\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_user_interface_aaac8a635efdb79276275f9d1ea265cd7}{}\label{class_user_interface_aaac8a635efdb79276275f9d1ea265cd7} 
+\index{User\+Interface@{User\+Interface}!get\+Dependence\+Size\+Of\+Segments@{get\+Dependence\+Size\+Of\+Segments}}
+\index{get\+Dependence\+Size\+Of\+Segments@{get\+Dependence\+Size\+Of\+Segments}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{get\+Dependence\+Size\+Of\+Segments()}{getDependenceSizeOfSegments()}}
+{\footnotesize\ttfamily void User\+Interface\+::get\+Dependence\+Size\+Of\+Segments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_user_interface_ab726cdce7e7518aae70cf42594139589}{}\label{class_user_interface_ab726cdce7e7518aae70cf42594139589} 
+\index{User\+Interface@{User\+Interface}!get\+Dependence\+Type@{get\+Dependence\+Type}}
+\index{get\+Dependence\+Type@{get\+Dependence\+Type}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{get\+Dependence\+Type()}{getDependenceType()}}
+{\footnotesize\ttfamily void User\+Interface\+::get\+Dependence\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_user_interface_a6c7f9ef9faa40eaf4760d57e89228786}{}\label{class_user_interface_a6c7f9ef9faa40eaf4760d57e89228786} 
+\index{User\+Interface@{User\+Interface}!init\+Session@{init\+Session}}
+\index{init\+Session@{init\+Session}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{init\+Session()}{initSession()}}
+{\footnotesize\ttfamily void User\+Interface\+::init\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\hypertarget{class_user_interface_a595a469d83a351719c75c65fbf4a6fbe}{}\label{class_user_interface_a595a469d83a351719c75c65fbf4a6fbe} 
+\index{User\+Interface@{User\+Interface}!set\+Params@{set\+Params}}
+\index{set\+Params@{set\+Params}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{set\+Params()}{setParams()}}
+{\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} User\+Interface\+::set\+Params (\begin{DoxyParamCaption}\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{file,  }\item[{long long}]{size\+Of\+Segments,  }\item[{\hyperlink{_structures_8h_adbb15722785daaf5166f7ea34323854c}{Type\+Of\+Sort}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_user_interface_a24b9a8a0a253382b0737a86f7ecf7d8b}{}\label{class_user_interface_a24b9a8a0a253382b0737a86f7ecf7d8b} 
+\index{User\+Interface@{User\+Interface}!menu@{menu}}
+\index{menu@{menu}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{menu}{menu}}
+{\footnotesize\ttfamily const string User\+Interface\+::menu = \char`\"{}0. Выход\textbackslash{}n1. Сгенерировать последовательность\textbackslash{}n2. Задать параметры сортировки\textbackslash{}n3. Отсоритровать последовательность\textbackslash{}n4. Оценить характеристики сортировки\textbackslash{}n5. Получение зависимостей\textbackslash{}n\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Константная строка меню. 
+
+\hypertarget{class_user_interface_a3ec4a2871150fd6b83ddf9d459aa0afc}{}\label{class_user_interface_a3ec4a2871150fd6b83ddf9d459aa0afc} 
+\index{User\+Interface@{User\+Interface}!responce\+String@{responce\+String}}
+\index{responce\+String@{responce\+String}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{responce\+String}{responceString}}
+{\footnotesize\ttfamily const char$\ast$ User\+Interface\+::responce\+String\mbox{[}9\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{ \textcolor{stringliteral}{"Успешно"}, \textcolor{stringliteral}{"Ошибка генерации"}, \textcolor{stringliteral}{"Файл не существует"}, \textcolor{stringliteral}{"Ошибка размера"}, \textcolor{stringliteral}{"Ошибка файл-менеджера"},
+        \textcolor{stringliteral}{"Исходный файл и файл результата совпадают"}, \textcolor{stringliteral}{"Достигнут конец файла"}, \textcolor{stringliteral}{"Ошибка выделения памяти"}, \textcolor{stringliteral}{"
+      Параметры не заданы или заданы неверно"} \}
+\end{DoxyCode}
+
+
+Константный массив, строк, расшифровывающих коды ошибок. 
+
+\hypertarget{class_user_interface_af3405ffdb7e2834c2cf63662b5415a91}{}\label{class_user_interface_af3405ffdb7e2834c2cf63662b5415a91} 
+\index{User\+Interface@{User\+Interface}!sort@{sort}}
+\index{sort@{sort}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{sort}{sort}}
+{\footnotesize\ttfamily \hyperlink{class_external_merge_sort}{External\+Merge\+Sort}$\ast$ User\+Interface\+::sort\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Указатель на экземпляр класса сортировки. 
+
+Позволяет использовать методы внешней многофазной сортировки слиянием. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/админ/\+Documents/\+Projects\+C++/\+External\+Merge\+Sort\+Production/\+External\+Merge\+Sort\+Production/\hyperlink{_user_interface_8h}{User\+Interface.\+h}\item 
+C\+:/\+Users/админ/\+Documents/\+Projects\+C++/\+External\+Merge\+Sort\+Production/\+External\+Merge\+Sort\+Production/\hyperlink{_user_interface_8cpp}{User\+Interface.\+cpp}\end{DoxyCompactItemize}
