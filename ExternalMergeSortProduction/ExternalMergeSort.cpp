@@ -19,8 +19,6 @@ ExternalMergeSort::ExternalMergeSort(FileManager *file, long long sizeOfSegments
 	log = CLI;
 }
 
-
-
 Responce ExternalMergeSort::setParams(FileManager *file, long long size)
 {
 	if (file->getState() != ReadAndWrite) {
@@ -120,14 +118,17 @@ Responce ExternalMergeSort::externalSort()
 		}
 	}
 	counter.setEndTime();
+	free(sizeOfSequence);
+	free(bufA);
+	free(bufB);
+	free(bufC);
+	free(bufD);
 	return Success;
 }
 
-Responce ExternalMergeSort::setLog(LogType log)
+void ExternalMergeSort::setLog(LogType log)
 {
 	this->log = log;
-	return Success;
-
 }
 
 Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
@@ -138,7 +139,7 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 	FileManager *bufA = new FileManager("bufA.txt", WriteOnly);
 	FileManager *bufB = new FileManager("bufB.txt", WriteOnly);
 	FileManager *cur = bufA;
-	long long *bufArr = new long long[sizeOfSegments];
+	long long *bufArr = new long long[sizeOfSegments+1];
 	if (bufArr == nullptr) {
 		return MemoryError;
 	}
@@ -168,6 +169,9 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 			}
 		}
 	} while (resp != EndOfFile);
+	free(bufA);
+	free(bufB);
+	free(bufArr);
 	return Success;
 }
 
@@ -282,6 +286,10 @@ Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager 
 		return EndOfFile;
 	}
 	out->closeOFile();
+	free(bufArrA);
+	free(bufArrB);
+	free(readNumberA);
+	free(readNumberB);
 	return Success;
 }
 
@@ -302,4 +310,5 @@ void ExternalMergeSort::print(const char * msg)
 
 ExternalMergeSort::~ExternalMergeSort()
 {
+	free(fileManager);
 }

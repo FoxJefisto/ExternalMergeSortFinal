@@ -4,9 +4,9 @@ class HeapExternalSort :
 	public ExternalMergeSort
 {
 private: 
-	void HeapExternalSort::iswap(long long &n1, long long &n2);
+	void HeapExternalSort::siftDown(long long *numbers, long long root, long long bottom);
 public:
-	virtual void HeapExternalSort::sort(long long*  heap, long long n);
+	virtual void HeapExternalSort::sort(long long *numbers, long long array_size);
 	HeapExternalSort();
 	~HeapExternalSort();
 };

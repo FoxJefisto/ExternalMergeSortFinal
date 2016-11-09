@@ -17,7 +17,6 @@ void UserInterface::initSession()
 		"Исходный файл и файл результата совпадают", "Достигнут конец файла", "Ошибка выделения памяти", "Параметры не заданы или заданы неверно" };
 	responceString = respString;
 	const string ch = "Пожалуйста, сделайте выбор --> ";
-	cout << "int=" << sizeof(int) << "long int = " << sizeof(long long) << endl;
 	cout << menu.c_str() << ch.c_str();
 	int choise = -1;
 	cin >> choise;
@@ -89,7 +88,6 @@ void UserInterface::callSetParams()
 	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
 	int ch;
 	cin >> ch;
-	//Responce resp = appCore->setSortParams(file, size, TypeOfSort(ch));
 	Responce resp = setParams(file, size, TypeOfSort(ch));
 	if (resp == Success) {
 		system("cls");
@@ -138,6 +136,136 @@ void UserInterface::callEstimate()
 	}
 }
 
+void UserInterface::getDependenceSize() {
+	cout << "Получение зависимости от размера последовательности: " << endl;
+	cout << "Введите размер сегментов, 0 если размер сегментов равен размеру последовательности: ";
+	long long size;
+	cin >> size;
+	while (size < 0 || size >101) {
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> size;
+	}
+	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
+	int ch;
+	cin >> ch;
+	FileManager *file;
+	Responce resp;
+	for (long i = 100; i < 1000000; i = i * 10) {
+		stringstream buf;
+		buf << "input" << i << ".txt" << '\0';
+		file = new FileManager(buf.str(), WriteOnly);
+		file->generateSequence(i, SeqType::Worst);
+	}
+	system("cls");
+	for (long i = 100; i < 1000000; i = i * 10) {
+		stringstream buf;
+		buf << "input" << i << ".txt" << '\0';
+		string out("out.txt");
+		file = new FileManager(buf.str(), out);
+		if (size == 0) {
+			resp = setParams(file, i, TypeOfSort(ch));
+		}
+		else
+			resp = setParams(file, size, TypeOfSort(ch));
+		if (resp != Success) {
+			cout << "Ошибка! Не удалось задать параметры!" << endl;
+		}
+		sort->setLog(WithOut);
+		resp = sort->externalSort();
+		if (resp != Success) {
+			cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+		}
+		cout << "Размер входной последовательности: " << i << endl;
+		cout << "Время сортировки: " << sort->counter.getTimeInterval() << endl;
+		cout << "Число операций с файлами: " << sort->counter.getFileOp() << endl;
+		cout << "Число сравнений: " << sort->counter.getComparsion() << endl;
+		cout << "Число перестановок: " << sort->counter.getSwaps() << endl;
+		cout << endl;
+	}
+}
+
+void UserInterface::getDependenceSizeOfSegments() {
+	cout << "Получение зависимости от размера сегментов:" << endl;
+	stringstream buf;
+	cout << "Введите размер тестовой последовательности: ";
+	long long size;
+	cin >> size;
+
+	while (size < 0) {
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> size;
+	}
+	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
+	int ch;
+	cin >> ch;
+	buf << "input" << size << ".txt" << '\0';
+	FileManager *file;
+	file = new FileManager(buf.str(), WriteOnly);
+	file->generateSequence(size, SeqType::Worst);
+
+	string out("out.txt");
+	file = new FileManager(buf.str(), out);
+	Responce resp;
+	for (long long i = 100; i <= size; i = i * 10) {
+		 resp = setParams(file, i, TypeOfSort(ch));
+		 if (resp != Success) {
+			 cout << "Ошибка! Не удалось задать параметры!" << endl;
+		 }
+		 sort->setLog(WithOut);
+		 sort->externalSort();
+		 if (resp != Success) {
+			 cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+		 }
+		 cout << "Размер сегментов: " << i << endl;
+		 cout << "Время сортировки: " << sort->counter.getTimeInterval() << endl;
+		 cout << "Число операций с файлами: " << sort->counter.getFileOp() << endl;
+		 cout << "Число сравнений: " << sort->counter.getComparsion() << endl;
+		 cout << "Число перестановок: " << sort->counter.getSwaps() << endl;
+		 cout << endl;
+	}
+}
+
+void UserInterface::getDependenceType()
+{
+	cout << "Получение зависимости от типа сортировки: " << endl;
+	cout << "Введите размер тестовой последовательности: ";
+	long long size;
+	cin >> size;
+	cout << "Введите размер сегментов, 0 если размер сегментов равен размеру последовательности: ";
+	long long sizeOfSegments;
+	cin >> sizeOfSegments;
+	FileManager *file;
+	stringstream buf;
+	buf << "input" << size << ".txt" << '\0';
+	Responce resp;
+	file = new FileManager(buf.str(), WriteOnly);
+	resp = file->generateSequence(size, SeqType::Worst);
+	
+	if (resp != Success) {
+		cout << "Ошибка! Не удалось сгенерировать последовательность!" << endl;
+	}
+	string out("out.txt");
+	file = new FileManager(buf.str(), out);
+	for (int i = 0; i < 3; i++) {
+		resp = setParams(file, sizeOfSegments, TypeOfSort(i));
+		if (resp != Success) {
+			cout << "Ошибка! Не удалось задать параметры!" << endl;
+		}
+		sort->setLog(WithOut);
+		sort->externalSort();
+		if (resp != Success) {
+			cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+		}
+		sort->setLog(WithOut);
+		cout << "Тип сортировки: " << TypeOfSort(i) << endl;
+		cout << "Время сортировки: " << sort->counter.getTimeInterval() << endl;
+		cout << "Число операций с файлами: " << sort->counter.getFileOp() << endl;
+		cout << "Число сравнений: " << sort->counter.getComparsion() << endl;
+		cout << "Число перестановок: " << sort->counter.getSwaps() << endl;
+		cout << endl;
+	}
+}
+
 void UserInterface::callGetDependencies()
 {
 	cout << "Получение зависимости: " << endl;
@@ -149,51 +277,14 @@ void UserInterface::callGetDependencies()
 		cin >> choise;
 	}
 	switch (choise) {
-	case 0:
-		//FileManager *file = new FileManager(iFile, oFile);
-		cout << "Введите размер сегментов, 0 если размер сегментов равен размеру последовательности: ";
-		long long size;
-		cin >> size;
-		while (size < 0 || size >101) {
-			cout << "Вы ошиблись, пожалуйста, повторите --> ";
-			cin >> size;
-		}
-		cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
-		int ch;
-		cin >> ch;
-		FileManager *file;
-		Responce resp;
-		for (long i = 100; i < 10000000; i = i * 10) {
-			stringstream buf;
-			buf << "input" << i << ".txt" << '\0';
-			file = new FileManager(buf.str(), WriteOnly);
-			file->generateSequence(i, SeqType::Worst);
-		}
-		system("cls");
-		for (long i = 100; i < 10000000; i = i * 10) {
-			stringstream buf;
-			buf << "input" << i << ".txt" << '\0';
-			string out("out.txt");
-			file = new FileManager(buf.str(), out);
-			if (size == 0) {
-				resp = setParams(file, i, TypeOfSort(ch));
-			} else
-				resp = setParams(file, size, TypeOfSort(ch));
-			if (resp != Success) {
-				cout << "Ошибка! Не удалось задать параметры!" << endl;
-			}
-			sort->setLog(WithOut);
-			resp = sort->externalSort();
-			if (resp != Success) {
-				cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
-			}
-			cout << "Размер входной последовательности: " << i << endl;
-			cout << "Время сортировки: " << sort->counter.getTimeInterval() << endl;
-			cout << "Число операций с файлами: " << sort->counter.getFileOp() << endl;
-			cout << "Число сравнений: " << sort->counter.getComparsion() << endl;
-			cout << "Число перестановок: " << sort->counter.getSwaps() << endl;
-			cout << endl;
-		}
+	case 0: 
+		getDependenceSize();
+		break;
+	case 1:
+		getDependenceSizeOfSegments();
+		break;
+	case 2:
+		getDependenceType();
 		break;
 	}
 }

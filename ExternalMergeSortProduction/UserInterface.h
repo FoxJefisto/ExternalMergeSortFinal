@@ -15,6 +15,9 @@ private:
 	void callGetDependencies();
 	char **responceString;
 	Responce setParams(FileManager *file, long long sizeOfSegments, TypeOfSort type);
+	void getDependenceSize();
+	void getDependenceSizeOfSegments();
+	void getDependenceType();
 public:
 	void initSession();
 	UserInterface();

@@ -1,10 +1,9 @@
 #include "stdafx.h"
 #include "QuickExternalSort.h"
-#define MAXSTACK 100000
+#define MAXSTACK 10000
 
 void QuickExternalSort::sort(long long * mas, long long size)
 {
-	//run_sort(mas, 0, size-1);
 	qSortI(mas, size);
 }
 
