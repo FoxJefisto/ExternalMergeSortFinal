@@ -6,11 +6,11 @@ using namespace std;
 class Counter
 {
 private:
-	long begTime;
-	long endTime;
-	long comparsion;
-	long fileOp;
-	long swaps;
+	long long begTime;
+	long long endTime;
+	long long comparsion;
+	long long fileOp;
+	long long swaps;
 public:
 	Counter();
 	void setBegTime();
@@ -18,9 +18,9 @@ public:
 	long getTimeInterval();
 	void incSwaps();
 	long getSwaps();
-	void incComparsion(long n);
+	void incComparsion(long long n);
 	long getComparsion();
-	void incFileOp(long n);
+	void incFileOp(long long n);
 	long getFileOp();
 	void clear();
 	~Counter();

@@ -33,7 +33,7 @@ long Counter::getSwaps()
 	return swaps;
 }
 
-void Counter::incComparsion(long n)
+void Counter::incComparsion(long long n)
 {
 	comparsion += n;
 }
@@ -43,7 +43,7 @@ long Counter::getComparsion()
 	return comparsion;
 }
 
-void Counter::incFileOp(long n)
+void Counter::incFileOp(long long n)
 {
 	fileOp += n;
 }

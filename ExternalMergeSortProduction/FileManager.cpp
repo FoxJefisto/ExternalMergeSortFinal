@@ -38,7 +38,7 @@ void FileManager::clearOutFile()
 	}
 }
 
-Responce FileManager::read(long int *arr, long long size, long long *readNumber)
+Responce FileManager::read(long long *arr, long long size, long long *readNumber)
 {
 	if (iFile == nullptr)
 		return Responce::FileNotExist;
@@ -48,7 +48,7 @@ Responce FileManager::read(long int *arr, long long size, long long *readNumber)
 	if (!iFile->is_open()) {
 		iFile->open(iFileStr->c_str());
 	}
-	long int buf = 0;
+	long long buf = 0;
 	bool f = false;
 	int n = 0;
 	for (int i = 0; i < size; i++) {
@@ -83,7 +83,7 @@ Responce FileManager::read(long int *arr, long long size, long long *readNumber)
 	return Success;
 }
 
-Responce FileManager::write(long int num)
+Responce FileManager::write(long long num)
 {
 	if (!oFile->is_open()) {
 		oFile->open(oFileStr->c_str(), ios_base::app);
@@ -96,7 +96,7 @@ Responce FileManager::write(long int num)
 }
 
 
-Responce FileManager::write(long int * arr, long long size)
+Responce FileManager::write(long long * arr, long long size)
 {
 	if (!oFile->is_open()) {
 		oFile->open(oFileStr->c_str(),ios_base::app);
@@ -212,7 +212,7 @@ Responce FileManager::generateSequence(long long size, SeqType type)
 	}
 	srand(time(0));
 	oFile->open(*oFileStr);
-	long int buf;
+	long long buf;
 	int proc = 0;
 	int j = 0;
 	for (int i = 0; i < size; i++) {

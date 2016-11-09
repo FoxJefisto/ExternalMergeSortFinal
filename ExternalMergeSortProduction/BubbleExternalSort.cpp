@@ -2,9 +2,9 @@
 #include "BubbleExternalSort.h"
 
 
-void BubbleExternalSort::sort(long int *a, long long length)
+void BubbleExternalSort::sort(long long *a, long long length)
 {
-	int b;
+	long long b;
 	bool swapped;
 	for (int i = 0; i < length - 1; i++) {
 		swapped = false;

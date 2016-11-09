@@ -1,8 +1,8 @@
 #include "stdafx.h"
 #include "QuickExternalSort.h"
-#define MAXSTACK 10000
+#define MAXSTACK 100000
 
-void QuickExternalSort::sort(long int * mas, long long size)
+void QuickExternalSort::sort(long long * mas, long long size)
 {
 	//run_sort(mas, 0, size-1);
 	qSortI(mas, size);
@@ -14,19 +14,19 @@ QuickExternalSort::QuickExternalSort()
 }
 
 
-void QuickExternalSort::qSortI(long int *a, long long size) {
+void QuickExternalSort::qSortI(long long *a, long long size) {
 
-	long i, j; // указатели, участвующие в разделении
-	long lb, ub; // границы сортируемого в цикле фрагмента
+	long long i, j; // указатели, участвующие в разделении
+	long long lb, ub; // границы сортируемого в цикле фрагмента
 
-	long lbstack[MAXSTACK], ubstack[MAXSTACK]; // стек запросов
+	long long lbstack[MAXSTACK], ubstack[MAXSTACK]; // стек запросов
 											   // каждый запрос задается парой значений,
 											   // а именно: левой(lbstack) и правой(ubstack)
 											   // границами промежутка
-	long stackpos = 1; // текущая позиция стека
-	long ppos; // середина массива
-	long int pivot; // опорный элемент
-	long int temp;
+	long long stackpos = 1; // текущая позиция стека
+	long long ppos; // середина массива
+	long long pivot; // опорный элемент
+	long long temp;
 
 	lbstack[1] = 0;
 	ubstack[1] = size - 1;
@@ -79,44 +79,6 @@ void QuickExternalSort::qSortI(long int *a, long long size) {
 			}
 		} while (lb < ub); // пока в меньшей части более 1 элемента
 	} while (stackpos != 0); // пока есть запросы в стеке
-}
-
-
-int QuickExternalSort::run_sort(long int *mas, long long first, long long last) {
-	long long pivot = 0;
-	counter.incComparsion(1);
-	if (first < last) {
-		pivot = pivot_mas(mas, first, last);
-		//run_sort(mas, first, pivot - 1);
-		last = pivot - 1;
-		run_sort(mas, pivot + 1, last);
-	}
-	return 1;
-}
-
-long int * QuickExternalSort::swap(long int *mas, long long x, long long y) {
-	counter.incSwaps();
-	long int buf = 0;
-	buf = mas[x];
-	mas[x] = mas[y];
-	mas[y] = buf;
-	return mas;
-}
-
-long long QuickExternalSort::pivot_mas(long int *mas, long long first, long long last) {
-	long long PivotValue = mas[first];
-	long long	PivotPoint = first;
-	long long index = 0;
-	for (index = first + 1; index <= last; index++) {
-		counter.incComparsion(1);
-		if (mas[index] < PivotValue) {
-			PivotPoint = PivotPoint + 1;
-			mas = swap(mas, PivotPoint, index);
-		}
-	}
-	mas = swap(mas, first, PivotPoint); // перенососевогозначениянанужноеместо
-	return PivotPoint;
-
 }
 
 QuickExternalSort::~QuickExternalSort()

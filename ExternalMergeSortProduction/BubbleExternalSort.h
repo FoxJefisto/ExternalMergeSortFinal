@@ -4,7 +4,7 @@ class BubbleExternalSort :
 	public ExternalMergeSort
 {
 public:
-	virtual void sort(long int *, long long);
+	virtual void sort(long long *, long long);
 	BubbleExternalSort();
 	~BubbleExternalSort();
 };

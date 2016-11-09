@@ -18,9 +18,9 @@ public:
 	bool getEndOfFile();
 	void setEndOfFile(bool b);
 	void clearOutFile();
-	Responce read(long int * arr,long long size, long long* readNumber);
-	Responce write(long int num);
-	Responce write(long int *arr, long long size);
+	Responce read(long long * arr,long long size, long long* readNumber);
+	Responce write(long long num);
+	Responce write(long long *arr, long long size);
 	Responce setFiles(string file, FileState st);
 	Responce setFiles(string inFile, string outFile);
 	FileState getState();

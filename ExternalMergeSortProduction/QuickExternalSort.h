@@ -4,12 +4,9 @@ class QuickExternalSort :
 	public ExternalMergeSort
 {
 private:
-	int QuickExternalSort::run_sort(long int *mas, long long first, long long last);
-	long int * QuickExternalSort::swap(long int *mas, long long x, long long y);
-	long long QuickExternalSort::pivot_mas(long int *mas, long long first, long long last);
-	void QuickExternalSort::qSortI(long int *mas, long long size);
+	void QuickExternalSort::qSortI(long long *mas, long long size);
 public:
-	virtual void QuickExternalSort::sort(long int *mas, long long);
+	virtual void QuickExternalSort::sort(long long *mas, long long);
 	QuickExternalSort();
 	~QuickExternalSort();
 };

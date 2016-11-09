@@ -17,6 +17,7 @@ void UserInterface::initSession()
 		"Исходный файл и файл результата совпадают", "Достигнут конец файла", "Ошибка выделения памяти", "Параметры не заданы или заданы неверно" };
 	responceString = respString;
 	const string ch = "Пожалуйста, сделайте выбор --> ";
+	cout << "int=" << sizeof(int) << "long int = " << sizeof(long long) << endl;
 	cout << menu.c_str() << ch.c_str();
 	int choise = -1;
 	cin >> choise;
@@ -39,7 +40,7 @@ void UserInterface::initSession()
 void UserInterface::callGenerate() {
 	cout << "Генерация последовательности:" << endl;
 	cout << "Пожалуйста введите размер последовательности: " << endl;
-	int size;
+	long long size;
 	cin >> size;
 	while (size < 0) {
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
@@ -65,7 +66,6 @@ void UserInterface::callGenerate() {
 	else {
 		cout << "Генерация завершилась с ошибкой: " << responceString[resp] << endl;
 	}
-	return resp;
 }
 
 void UserInterface::callSetParams()
@@ -80,7 +80,7 @@ void UserInterface::callSetParams()
 	string oFile(buf);
 	FileManager *file = new FileManager(iFile, oFile);
 	cout << "Введите размер сегментов: ";
-	int size;
+	long long size;
 	cin >> size;
 	while (size < 0) {
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
@@ -90,23 +90,7 @@ void UserInterface::callSetParams()
 	int ch;
 	cin >> ch;
 	//Responce resp = appCore->setSortParams(file, size, TypeOfSort(ch));
-	ExternalMergeSort *s = nullptr;
-	Responce resp;
-	switch (TypeOfSort(ch)) {
-	case Bubble:
-		s = new BubbleExternalSort();
-		resp = s->setParams(file, size);
-		break;
-	case Quick:
-		s = new QuickExternalSort();
-		resp = s->setParams(file, size);
-		break;
-	case Heap:
-		s = new HeapExternalSort();
-		resp = s->setParams(file, size);
-		break;
-	}
-	sort = s;
+	Responce resp = setParams(file, size, TypeOfSort(ch));
 	if (resp == Success) {
 		system("cls");
 		cout << "Параметры успешно заданы!" << endl;
@@ -114,7 +98,6 @@ void UserInterface::callSetParams()
 	else {
 		cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] << endl;
 	}
-	return resp;
 }
 
 void UserInterface::callSort()
@@ -127,12 +110,11 @@ void UserInterface::callSort()
 		resp = sort->externalSort();
 	if (resp == Success) {
 		system("cls");
-		cout << "Последовательность успешно отсортирована за " << appCore->getCounter().getTimeInterval() << " миллисекунд!" << endl;
+		cout << "Последовательность успешно отсортирована за " << sort->counter.getTimeInterval() << " миллисекунд!" << endl;
 	}
 	else {
 		cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
 	}
-	return resp;
 }
 
 void UserInterface::callEstimate()
@@ -170,7 +152,7 @@ void UserInterface::callGetDependencies()
 	case 0:
 		//FileManager *file = new FileManager(iFile, oFile);
 		cout << "Введите размер сегментов, 0 если размер сегментов равен размеру последовательности: ";
-		int size;
+		long long size;
 		cin >> size;
 		while (size < 0 || size >101) {
 			cout << "Вы ошиблись, пожалуйста, повторите --> ";
@@ -194,9 +176,9 @@ void UserInterface::callGetDependencies()
 			string out("out.txt");
 			file = new FileManager(buf.str(), out);
 			if (size == 0) {
-				resp = appCore->setSortParams(file, i, TypeOfSort(ch));
+				resp = setParams(file, i, TypeOfSort(ch));
 			} else
-				resp = appCore->setSortParams(file, size, TypeOfSort(ch));
+				resp = setParams(file, size, TypeOfSort(ch));
 			if (resp != Success) {
 				cout << "Ошибка! Не удалось задать параметры!" << endl;
 			}
@@ -250,7 +232,6 @@ Responce UserInterface::setParams(FileManager * file, long long sizeOfSegments, 
 }
 
 bool UserInterface::callMethod(int choise){
-	Responce resp;
 	system("cls");
 	switch (choise) {
 	case 0: 

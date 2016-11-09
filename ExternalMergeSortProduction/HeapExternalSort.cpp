@@ -7,16 +7,16 @@ HeapExternalSort::HeapExternalSort()
 }
 
 
-void HeapExternalSort::iswap(long int &n1, long int &n2)
+void HeapExternalSort::iswap(long long &n1, long long &n2)
 {
-	long int temp = n1;
+	long long temp = n1;
 	n1 = n2;
 	n2 = temp;
 }
 
-void HeapExternalSort::sort(long int*  a, long long n)
+void HeapExternalSort::sort(long long*  a, long long n)
 {   //Пирамидальная сортировка массива heap.
-	int sh = 0; //смещение
+	long long sh = 0; //смещение
 	bool b = false;
 	for (;;)
 	{

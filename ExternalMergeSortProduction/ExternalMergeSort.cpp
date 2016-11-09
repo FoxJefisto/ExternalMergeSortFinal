@@ -138,7 +138,7 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 	FileManager *bufA = new FileManager("bufA.txt", WriteOnly);
 	FileManager *bufB = new FileManager("bufB.txt", WriteOnly);
 	FileManager *cur = bufA;
-	long int *bufArr = new long int[sizeOfSegments];
+	long long *bufArr = new long long[sizeOfSegments];
 	if (bufArr == nullptr) {
 		return MemoryError;
 	}
@@ -173,8 +173,8 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 
 Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager * input2, FileManager *out, long long size)
 {
-	long int *bufArrA = new long int[size/2];
-	long int *bufArrB = new long int[size/2];
+	long long *bufArrA = new long long[size/2];
+	long long *bufArrB = new long long[size/2];
 	long long * readNumberA = new long long();
 	long long * readNumberB = new long long();
 	long long ia = 0, ib = 0;
@@ -285,70 +285,6 @@ Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager 
 	return Success;
 }
 
-Responce ExternalMergeSort::mergeSequences(FileManager * input1, FileManager * input2, FileManager *out, long long size)
-{
-	long int *bufArrA = new long int();
-	long int *bufArrB = new long int();
-	long long * readNumberA = new long long();
-	long long * readNumberB = new long long();
-	long long ia = 0, ib = 0;
-	*bufArrA = LLONG_MAX;
-	*bufArrB = LLONG_MAX;
-	input1->read(bufArrA, 1, readNumberA);
-	input2->read(bufArrB, 1, readNumberB);
-	if (input1->getEndOfFile())
-		ia = size;
-	if (input2->getEndOfFile())
-		ib = size;
-	for (; (ia < size) && (ib < size);) {
-		if (*bufArrA < *bufArrB) {
-			ia++;
-			out->write(*bufArrA);
-			if (input1->getEndOfFile()) {
-				ia = size;
-				break;
-			}
-			if (ia != size)
-				input1->read(bufArrA, 1, readNumberA);
-		}
-		else {
-			ib++;
-			out->write(*bufArrB);
-			if (input2->getEndOfFile()) {
-				ib = size;
-				break;
-			}
-			if (ib != size)
-				input2->read(bufArrB, 1, readNumberB);
-		}
-	}
-
-	for (; ia < size; ia++) {
-		
-		out->write(*bufArrA);
-		if (input1->getEndOfFile()) {
-			ia = size;
-			break;
-		}
-		if (ia !=size-1)
-			input1->read(bufArrA, 1, readNumberA);
-	}
-	for (; ib < size; ib++) {
-		
-		out->write(*bufArrB);
-		if (input2->getEndOfFile()) {
-			ib = size;
-			break;
-		}
-		if (ib != size - 1)
-			input2->read(bufArrB, 1, readNumberB);
-	}
-	if (input1->getEndOfFile() && input2->getEndOfFile()) {
-		return EndOfFile;
-	}
-	
-	return Success;
-}
 
 void ExternalMergeSort::print(const char * msg)
 {
