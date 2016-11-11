@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_external_merge_sort_8h" kind="file" language="C++">
+    <compoundname>ExternalMergeSort.h</compoundname>
+    <includes refid="_file_manager_8h" local="yes">FileManager.h</includes>
+    <includes refid="_counter_8h" local="yes">Counter.h</includes>
+    <includedby refid="_bubble_external_sort_8h" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h</includedby>
+    <includedby refid="_external_merge_sort_8cpp" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp</includedby>
+    <includedby refid="_user_interface_8h" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h</includedby>
+    <includedby refid="_heap_external_sort_8h" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h</includedby>
+    <includedby refid="_quick_external_sort_8h" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h</includedby>
+    <includedby refid="_user_interface_8cpp" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</includedby>
+    <incdepgraph>
+      <node id="70">
+        <label>Counter.h</label>
+        <link refid="_counter_8h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Structures.h</label>
+        <link refid="_structures_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>fstream</label>
+      </node>
+      <node id="65">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h</label>
+        <link refid="_external_merge_sort_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>ctime</label>
+      </node>
+      <node id="69">
+        <label>iostream</label>
+      </node>
+      <node id="66">
+        <label>FileManager.h</label>
+        <link refid="_file_manager_8h"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="77">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h</label>
+        <link refid="_user_interface_8h"/>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.cpp</label>
+        <link refid="_quick_external_sort_8cpp"/>
+      </node>
+      <node id="78">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp</label>
+        <link refid="_external_merge_sort_production_8cpp"/>
+      </node>
+      <node id="80">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp</label>
+        <link refid="_heap_external_sort_8cpp"/>
+      </node>
+      <node id="72">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h</label>
+        <link refid="_external_merge_sort_8h"/>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h</label>
+        <link refid="_bubble_external_sort_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp</label>
+        <link refid="_external_merge_sort_8cpp"/>
+      </node>
+      <node id="75">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</label>
+        <link refid="_user_interface_8cpp"/>
+      </node>
+      <node id="81">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h</label>
+        <link refid="_quick_external_sort_8h"/>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp</label>
+        <link refid="_bubble_external_sort_8cpp"/>
+      </node>
+      <node id="79">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h</label>
+        <link refid="_heap_external_sort_8h"/>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_external_merge_sort" prot="public">ExternalMergeSort</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_file_manager_8h" kindref="compound">FileManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_counter_8h" kindref="compound">Counter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_external_merge_sort" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_external_merge_sort" kindref="compound">ExternalMergeSort</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10" refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*<ref refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" kindref="member">fileManager</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" kindref="member">sizeOfSegments</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" kindref="member">ok</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87c" kindref="member">LogType</ref><sp/><ref refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" kindref="member">log</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref><sp/>createRuns(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref><sp/>mergeSequencesNew(<ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*input1,<sp/><ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*input2,<sp/><ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*out,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>print(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter" kindref="compound">Counter</ref><sp/><ref refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kindref="member">counter</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_external_merge_sort" kindref="compound">ExternalMergeSort</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_external_merge_sort" kindref="compound">ExternalMergeSort</ref>(<ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*file,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>sizeOfSegments);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref><sp/>setParams(<ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*file,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>sizeOfSegments);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref><sp/>externalSort();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setLog(<ref refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87c" kindref="member">LogType</ref><sp/>log);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>sort(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_external_merge_sort" kindref="compound">ExternalMergeSort</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h"/>
+  </compounddef>
+</doxygen>

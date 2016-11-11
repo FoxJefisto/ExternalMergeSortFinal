@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_2fadde2e9abc0a1dff4e48bfd352cb1b" kind="dir">
+    <compoundname>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction</compoundname>
+    <innerfile refid="_bubble_external_sort_8cpp">BubbleExternalSort.cpp</innerfile>
+    <innerfile refid="_bubble_external_sort_8h">BubbleExternalSort.h</innerfile>
+    <innerfile refid="_counter_8cpp">Counter.cpp</innerfile>
+    <innerfile refid="_counter_8h">Counter.h</innerfile>
+    <innerfile refid="_external_merge_sort_8cpp">ExternalMergeSort.cpp</innerfile>
+    <innerfile refid="_external_merge_sort_8h">ExternalMergeSort.h</innerfile>
+    <innerfile refid="_external_merge_sort_production_8cpp">ExternalMergeSortProduction.cpp</innerfile>
+    <innerfile refid="_file_manager_8cpp">FileManager.cpp</innerfile>
+    <innerfile refid="_file_manager_8h">FileManager.h</innerfile>
+    <innerfile refid="_heap_external_sort_8cpp">HeapExternalSort.cpp</innerfile>
+    <innerfile refid="_heap_external_sort_8h">HeapExternalSort.h</innerfile>
+    <innerfile refid="_quick_external_sort_8cpp">QuickExternalSort.cpp</innerfile>
+    <innerfile refid="_quick_external_sort_8h">QuickExternalSort.h</innerfile>
+    <innerfile refid="stdafx_8cpp">stdafx.cpp</innerfile>
+    <innerfile refid="stdafx_8h">stdafx.h</innerfile>
+    <innerfile refid="_structures_8h">Structures.h</innerfile>
+    <innerfile refid="targetver_8h">targetver.h</innerfile>
+    <innerfile refid="_user_interface_8cpp">UserInterface.cpp</innerfile>
+    <innerfile refid="_user_interface_8h">UserInterface.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/"/>
+  </compounddef>
+</doxygen>

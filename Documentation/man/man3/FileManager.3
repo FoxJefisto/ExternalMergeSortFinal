@@ -1,0 +1,138 @@
+.TH "FileManager" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FileManager \- \fC#include <FileManager\&.h>\fP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBcloseIFile\fP ()"
+.br
+.ti -1c
+.RI "void \fBcloseOFile\fP ()"
+.br
+.ti -1c
+.RI "bool \fBgetEndOfFile\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetEndOfFile\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBclearOutFile\fP ()"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBread\fP (long long *arr, long long size, long long *readNumber)"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBwrite\fP (long long num)"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBwrite\fP (long long *arr, long long size)"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBsetFiles\fP (string file, \fBFileState\fP st)"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBsetFiles\fP (string inFile, string outFile)"
+.br
+.ti -1c
+.RI "\fBFileState\fP \fBgetState\fP ()"
+.br
+.ti -1c
+.RI "bool \fBcheckForEquality\fP ()"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBgenerateSequence\fP (long long size, \fBSeqType\fP type)"
+.br
+.ti -1c
+.RI "\fBFileManager\fP (string \fBiFile\fP, \fBFileState\fP \fBstate\fP)"
+.br
+.ti -1c
+.RI "\fBFileManager\fP (string inFile, string outFile)"
+.br
+.ti -1c
+.RI "\fBFileManager\fP ()"
+.br
+.ti -1c
+.RI "\fB~FileManager\fP ()"
+.br
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "ifstream * \fBiFile\fP"
+.br
+.ti -1c
+.RI "ofstream * \fBoFile\fP"
+.br
+.ti -1c
+.RI "string * \fBoFileStr\fP"
+.br
+.ti -1c
+.RI "string * \fBiFileStr\fP"
+.br
+.ti -1c
+.RI "\fBFileState\fP \fBstate\fP"
+.br
+.ti -1c
+.RI "bool \fBendOfFile\fP"
+.br
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "FileManager::FileManager (string iFile, \fBFileState\fP state)"
+
+.SS "FileManager::FileManager (string inFile, string outFile)"
+
+.SS "FileManager::FileManager ()"
+
+.SS "FileManager::~FileManager ()"
+
+.SH "Методы"
+.PP 
+.SS "bool FileManager::checkForEquality ()"
+
+.SS "void FileManager::clearOutFile ()"
+
+.SS "void FileManager::closeIFile ()"
+
+.SS "void FileManager::closeOFile ()"
+
+.SS "\fBResponce\fP FileManager::generateSequence (long long size, \fBSeqType\fP type)"
+
+.SS "bool FileManager::getEndOfFile ()"
+
+.SS "\fBFileState\fP FileManager::getState ()"
+
+.SS "\fBResponce\fP FileManager::read (long long * arr, long long size, long long * readNumber)"
+
+.SS "void FileManager::setEndOfFile (bool b)"
+
+.SS "\fBResponce\fP FileManager::setFiles (string file, \fBFileState\fP st)"
+
+.SS "\fBResponce\fP FileManager::setFiles (string inFile, string outFile)"
+
+.SS "\fBResponce\fP FileManager::write (long long num)"
+
+.SS "\fBResponce\fP FileManager::write (long long * arr, long long size)"
+
+.SH "Данные класса"
+.PP 
+.SS "bool FileManager::endOfFile\fC [private]\fP"
+
+.SS "ifstream* FileManager::iFile\fC [private]\fP"
+
+.SS "string* FileManager::iFileStr\fC [private]\fP"
+
+.SS "ofstream* FileManager::oFile\fC [private]\fP"
+
+.SS "string* FileManager::oFileStr\fC [private]\fP"
+
+.SS "\fBFileState\fP FileManager::state\fC [private]\fP"
+
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen из исходного текста\&.

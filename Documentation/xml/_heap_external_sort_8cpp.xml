@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_heap_external_sort_8cpp" kind="file" language="C++">
+    <compoundname>HeapExternalSort.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="_heap_external_sort_8h" local="yes">HeapExternalSort.h</includes>
+    <incdepgraph>
+      <node id="141">
+        <label>Counter.h</label>
+        <link refid="_counter_8h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="132" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="139">
+        <label>Structures.h</label>
+        <link refid="_structures_8h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>fstream</label>
+      </node>
+      <node id="129">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp</label>
+        <link refid="_heap_external_sort_8cpp"/>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>ExternalMergeSort.h</label>
+        <link refid="_external_merge_sort_8h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>ctime</label>
+      </node>
+      <node id="140">
+        <label>iostream</label>
+      </node>
+      <node id="134">
+        <label>tchar.h</label>
+      </node>
+      <node id="133">
+        <label>stdio.h</label>
+      </node>
+      <node id="135">
+        <label>HeapExternalSort.h</label>
+        <link refid="_heap_external_sort_8h"/>
+        <childnode refid="136" relation="include">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>FileManager.h</label>
+        <link refid="_file_manager_8h"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_heap_external_sort_8h" kindref="compound">HeapExternalSort.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_heap_external_sort_1a9e6236e47430f0b530b287a6d7cf3a8b" refkind="member"><highlight class="normal"><ref refid="class_heap_external_sort_1a9e6236e47430f0b530b287a6d7cf3a8b" kindref="member">HeapExternalSort::HeapExternalSort</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" kindref="member">HeapExternalSort::siftDown</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*numbers,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>root,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>bottom)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>done,<sp/>maxChild,<sp/>temp;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>done<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((root<sp/>*<sp/>2<sp/>&lt;=<sp/>bottom)<sp/>&amp;&amp;<sp/>(!done))<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kindref="member">counter</ref>.<ref refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" kindref="member">incComparsion</ref>(1);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(root<sp/>*<sp/>2<sp/>==<sp/>bottom)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxChild<sp/>=<sp/>root<sp/>*<sp/>2;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(numbers[root<sp/>*<sp/>2]<sp/>&gt;<sp/>numbers[root<sp/>*<sp/>2<sp/>+<sp/>1])</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxChild<sp/>=<sp/>root<sp/>*<sp/>2;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>maxChild<sp/>=<sp/>root<sp/>*<sp/>2<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kindref="member">counter</ref>.<ref refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" kindref="member">incComparsion</ref>(1);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(numbers[root]<sp/>&lt;<sp/>numbers[maxChild])<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>numbers[root];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kindref="member">counter</ref>.<ref refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" kindref="member">incSwaps</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>numbers[root]<sp/>=<sp/>numbers[maxChild];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>numbers[maxChild]<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>root<sp/>=<sp/>maxChild;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>done<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33" refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" kindref="member">HeapExternalSort::sort</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*numbers,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>array_size)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i,<sp/>temp;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>(array_size<sp/>/<sp/>2)<sp/>-<sp/>1;<sp/>i<sp/>&gt;=<sp/>0;<sp/>i--)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" kindref="member">siftDown</ref>(numbers,<sp/>i,<sp/>array_size);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>array_size<sp/>-<sp/>1;<sp/>i<sp/>&gt;=<sp/>1;<sp/>i--)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kindref="member">counter</ref>.<ref refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" kindref="member">incSwaps</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>numbers[0];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>numbers[0]<sp/>=<sp/>numbers[i];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>numbers[i]<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" kindref="member">siftDown</ref>(numbers,<sp/>0,<sp/>i<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_heap_external_sort_1afa76473510a8cb610bb94bca5b5202c9" refkind="member"><highlight class="normal"><ref refid="class_heap_external_sort_1afa76473510a8cb610bb94bca5b5202c9" kindref="member">HeapExternalSort::~HeapExternalSort</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp"/>
+  </compounddef>
+</doxygen>

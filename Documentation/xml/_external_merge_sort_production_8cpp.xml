@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_external_merge_sort_production_8cpp" kind="file" language="C++">
+    <compoundname>ExternalMergeSortProduction.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="_user_interface_8h" local="yes">UserInterface.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="95">
+        <label>Counter.h</label>
+        <link refid="_counter_8h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>UserInterface.h</label>
+        <link refid="_user_interface_8h"/>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="90">
+        <label>Structures.h</label>
+        <link refid="_structures_8h"/>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp</label>
+        <link refid="_external_merge_sort_production_8cpp"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>fstream</label>
+      </node>
+      <node id="84">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>ExternalMergeSort.h</label>
+        <link refid="_external_merge_sort_8h"/>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>ctime</label>
+      </node>
+      <node id="91">
+        <label>iostream</label>
+      </node>
+      <node id="88">
+        <label>tchar.h</label>
+      </node>
+      <node id="87">
+        <label>stdio.h</label>
+      </node>
+      <node id="93">
+        <label>FileManager.h</label>
+        <link refid="_file_manager_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_external_merge_sort_production_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp" line="8" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp" bodystart="8" bodyend="14"/>
+        <references refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" compoundref="_user_interface_8cpp" startline="14" endline="34">UserInterface::initSession</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>ExternalMergeSortProduction.cpp:<sp/>определяет<sp/>точку<sp/>входа<sp/>для<sp/>консольного<sp/>приложения.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_user_interface_8h" kindref="compound">UserInterface.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_external_merge_sort_production_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_external_merge_sort_production_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>setlocale(LC_ALL,<sp/></highlight><highlight class="stringliteral">&quot;Russian&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_user_interface" kindref="compound">UserInterface</ref><sp/>ui;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui.<ref refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" kindref="member">initSession</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp"/>
+  </compounddef>
+</doxygen>

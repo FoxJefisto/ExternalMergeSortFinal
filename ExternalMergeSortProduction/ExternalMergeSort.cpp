@@ -177,8 +177,8 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 
 Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager * input2, FileManager *out, long long size)
 {
-	long long *bufArrA = new long long[size/2];
-	long long *bufArrB = new long long[size/2];
+	long long *bufArrA = new long long[size/2+1];
+	long long *bufArrB = new long long[size/2+1];
 	long long * readNumberA = new long long();
 	long long * readNumberB = new long long();
 	long long ia = 0, ib = 0;

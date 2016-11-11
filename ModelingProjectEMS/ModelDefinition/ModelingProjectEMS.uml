@@ -6970,6 +6970,7 @@ type-тип внутренней стортировки
           <property
             Id="56e12490-2ba5-499e-8ee8-3a9831017671"
             name="sort"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -6979,9 +6980,9 @@ type-тип внутренней стортировки
             aggregation="None"
             isComposite="false">
             <type_NamedElement>
-              <activityMoniker
-                Id="cbd46571-f3d5-4dc1-98dd-5134f326069f"
-                LastKnownName="ExternalMergeSort"
+              <undefinedTypeMoniker
+                Id="e225ac07-fbc0-46fe-b5cd-69518bcb21d9"
+                LastKnownName="ExternalMergeSort*"
                 LastKnownLocation="ModelingProjectEMS.uml" />
             </type_NamedElement>
           </property>
@@ -7832,6 +7833,25 @@ type-тип внутренней стортировки
                 LastKnownLocation="ModelingProjectEMS.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="ecb22902-45a1-484f-a142-2a008fa9e54b"
+            name="endOfFile"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="e3fc153a-ecd3-469f-8ac1-8283ff7c5885"
+                LastKnownName="bool"
+                LastKnownLocation="ModelingProjectEMS.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
@@ -8067,7 +8087,20 @@ type-тип внутренней стортировки
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="1604b2b5-810a-4da1-9304-1e3e04c52186"
+                  Id="55ae396f-383a-4543-b4d3-09924e8beef1"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="5d6b65ed-d3ab-4fdf-84fc-0b0a5d78ce30"
+                      LastKnownName="Responce"
+                      LastKnownLocation="ModelingProjectEMS.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a0f0f559-e44a-4545-b794-31076939e01b"
                   name="file"
                   direction="In"
                   isUnique="false">
@@ -8081,7 +8114,7 @@ type-тип внутренней стортировки
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="b0600ad5-0594-407c-929a-9e826f79f62c"
+                  Id="ca422546-d15c-4f52-98fb-34cb956421b4"
                   name="st"
                   direction="In"
                   isUnique="false">
@@ -8093,24 +8126,11 @@ type-тип внутренней стортировки
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="55ae396f-383a-4543-b4d3-09924e8beef1"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="414961d2-7ddb-4ef9-a961-c66ae909f105"
-                      LastKnownName="Recponce"
-                      LastKnownLocation="ModelingProjectEMS.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
           <operation
             Id="db25296a-2af2-4971-83c7-8589e37c08b3"
-            name="SetFiles"
+            name="setFiles"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -8119,7 +8139,20 @@ type-тип внутренней стортировки
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="89425b00-3e8f-4fcc-8f48-0be8a3fae459"
+                  Id="842c0018-0ea9-4de2-ad67-cbdb0117c2d2"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="5d6b65ed-d3ab-4fdf-84fc-0b0a5d78ce30"
+                      LastKnownName="Responce"
+                      LastKnownLocation="ModelingProjectEMS.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6273863d-ec07-4e0e-8357-172ad2ea699c"
                   name="inFile"
                   direction="In"
                   isUnique="false">
@@ -8133,7 +8166,7 @@ type-тип внутренней стортировки
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="23c38471-588e-4b42-9cbf-9bf177a9e8b8"
+                  Id="0f21ad1e-3113-4f44-88d8-deb4fd4bcbb8"
                   name="outFile"
                   direction="In"
                   isUnique="false">
@@ -8141,19 +8174,6 @@ type-тип внутренней стортировки
                     <undefinedTypeMoniker
                       Id="39584563-ec5a-4367-aa7d-15606f8ddd2a"
                       LastKnownName="string"
-                      LastKnownLocation="ModelingProjectEMS.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="842c0018-0ea9-4de2-ad67-cbdb0117c2d2"
-                  direction="Return"
-                  isUnique="false">
-                  <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="5d6b65ed-d3ab-4fdf-84fc-0b0a5d78ce30"
-                      LastKnownName="Responce"
                       LastKnownLocation="ModelingProjectEMS.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -8273,7 +8293,7 @@ type-тип внутренней стортировки
         <ownedAttributesInternal>
           <property
             Id="9a2c3693-b9a6-42fa-ab49-9f33dbad92d9"
-            name="begType"
+            name="begTime"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -8664,6 +8684,16 @@ type-тип внутренней стортировки
       <undefinedType
         Id="a60c52f9-ed5f-4eea-902b-9a85877f5168"
         name="const char*" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="9adadf8a-5c4f-41ab-b5f0-be5ddccb0817"
+        name="ModelingProjectEMS::ExternalMergeSort*" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="e225ac07-fbc0-46fe-b5cd-69518bcb21d9"
+        name="ExternalMergeSort*" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

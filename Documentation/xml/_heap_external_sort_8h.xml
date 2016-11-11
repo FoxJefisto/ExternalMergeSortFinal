@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_heap_external_sort_8h" kind="file" language="C++">
+    <compoundname>HeapExternalSort.h</compoundname>
+    <includes refid="_external_merge_sort_8h" local="yes">ExternalMergeSort.h</includes>
+    <includedby refid="_heap_external_sort_8cpp" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp</includedby>
+    <includedby refid="_user_interface_8cpp" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</includedby>
+    <incdepgraph>
+      <node id="150">
+        <label>Counter.h</label>
+        <link refid="_counter_8h"/>
+        <childnode refid="151" relation="include">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>Structures.h</label>
+        <link refid="_structures_8h"/>
+        <childnode refid="149" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>fstream</label>
+      </node>
+      <node id="145">
+        <label>ExternalMergeSort.h</label>
+        <link refid="_external_merge_sort_8h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>ctime</label>
+      </node>
+      <node id="149">
+        <label>iostream</label>
+      </node>
+      <node id="144">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h</label>
+        <link refid="_heap_external_sort_8h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>FileManager.h</label>
+        <link refid="_file_manager_8h"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="153">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp</label>
+        <link refid="_heap_external_sort_8cpp"/>
+      </node>
+      <node id="154">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</label>
+        <link refid="_user_interface_8cpp"/>
+      </node>
+      <node id="152">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h</label>
+        <link refid="_heap_external_sort_8h"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_heap_external_sort" prot="public">HeapExternalSort</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_external_merge_sort_8h" kindref="compound">ExternalMergeSort.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_heap_external_sort" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_heap_external_sort" kindref="compound">HeapExternalSort</ref><sp/>:</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_external_merge_sort" kindref="compound">ExternalMergeSort</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" kindref="member">HeapExternalSort::siftDown</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*numbers,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>root,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>bottom);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" kindref="member">HeapExternalSort::sort</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*numbers,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>array_size);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_heap_external_sort_1a9e6236e47430f0b530b287a6d7cf3a8b" kindref="member">HeapExternalSort</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_heap_external_sort_1afa76473510a8cb610bb94bca5b5202c9" kindref="member">~HeapExternalSort</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h"/>
+  </compounddef>
+</doxygen>

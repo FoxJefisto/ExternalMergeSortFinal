@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="targetver_8h" kind="file" language="C++">
+    <compoundname>targetver.h</compoundname>
+    <includes local="no">SDKDDKVer.h</includes>
+    <includedby refid="stdafx_8h" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.h</includedby>
+    <incdepgraph>
+      <node id="220">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>SDKDDKVer.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="222">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="223" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.cpp</label>
+        <link refid="_quick_external_sort_8cpp"/>
+      </node>
+      <node id="225">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp</label>
+        <link refid="_counter_8cpp"/>
+      </node>
+      <node id="227">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp</label>
+        <link refid="_external_merge_sort_production_8cpp"/>
+      </node>
+      <node id="229">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp</label>
+        <link refid="_heap_external_sort_8cpp"/>
+      </node>
+      <node id="223">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.cpp</label>
+        <link refid="stdafx_8cpp"/>
+      </node>
+      <node id="228">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp</label>
+        <link refid="_file_manager_8cpp"/>
+      </node>
+      <node id="226">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp</label>
+        <link refid="_external_merge_sort_8cpp"/>
+      </node>
+      <node id="232">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</label>
+        <link refid="_user_interface_8cpp"/>
+      </node>
+      <node id="224">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp</label>
+        <link refid="_bubble_external_sort_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Включение<sp/>SDKDDKVer.h<sp/>обеспечивает<sp/>определение<sp/>самой<sp/>последней<sp/>доступной<sp/>платформы<sp/>Windows.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Если<sp/>требуется<sp/>выполнить<sp/>сборку<sp/>приложения<sp/>для<sp/>предыдущей<sp/>версии<sp/>Windows,<sp/>включите<sp/>WinSDKVer.h<sp/>и</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>задайте<sp/>для<sp/>макроса<sp/>_WIN32_WINNT<sp/>значение<sp/>поддерживаемой<sp/>платформы<sp/>перед<sp/>включением<sp/>SDKDDKVer.h.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SDKDDKVer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/targetver.h"/>
+  </compounddef>
+</doxygen>

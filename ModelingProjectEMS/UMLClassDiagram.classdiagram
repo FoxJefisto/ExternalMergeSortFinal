@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="2c5d8dd7-c7e1-4a94-a49e-7069c2d9e947" name="UMLClassDiagram" linkedPackageId="46449c52-9609-45bd-8a6d-085d795d23d3" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="0c93c083-6172-4539-93fa-df03dc3ffab2">
-      <profileInstance Id="a14ac6de-90df-454b-8ebd-10c4be1e4e16" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="ea9c00d5-6abc-457d-9197-7a9cdf2cc0aa">
-      <profileInstance Id="b3ab7059-a5a6-4836-b63f-353ed9123cd4" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="010b3451-b2eb-4add-b430-079155458650" name="UserInterface" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -37,10 +23,10 @@
           </association>
         </targetEnds>
         <ownedAttributesInternal>
-          <property Id="246cb1cc-4289-417d-a3ab-300b1c471a2e" name="sort" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="246cb1cc-4289-417d-a3ab-300b1c471a2e" name="sort" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="56e12490-2ba5-499e-8ee8-3a9831017671" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="3c55d2ee-ae51-4d43-8785-671a4edb86eb" LastKnownName="ExternalMergeSort" />
+              <referencedTypeMoniker Id="919949ca-f841-4303-9604-eba1dbb453c9" LastKnownName="ExternalMergeSort*" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
@@ -446,6 +432,12 @@
               <referencedTypeMoniker Id="2d5d4896-1afe-4a3f-add3-40d4d8e4f191" LastKnownName="string*" />
             </type_NamedElement>
           </property>
+          <property Id="d93d131e-708e-489a-b1eb-6fe0ca0a5d69" name="endOfFile" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ecb22902-45a1-484f-a142-2a008fa9e54b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="51e4d563-9d28-47f6-a02c-fe379cb225ad" LastKnownName="bool" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="0ec21f7d-433e-4d12-ac62-2dea3a1f0ffb" name="closeIFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -571,55 +563,55 @@
             <elementDefinition Id="330b67ab-aca8-4311-951e-766d7627f651" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="97d87d1b-5ccd-44a8-a53a-5c0f2529e835" name="file" direction="In" isUnique="false">
-                  <elementDefinition Id="1604b2b5-810a-4da1-9304-1e3e04c52186" />
+                <parameter Id="6379c85b-beed-4131-b3f0-45181fd88646" direction="Return" isUnique="false">
+                  <elementDefinition Id="55ae396f-383a-4543-b4d3-09924e8beef1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7eb4120d-1bbf-4551-96cc-e54fb0bc3980" LastKnownName="Responce" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f70673a2-ab86-4c77-8385-3de964260990" name="file" direction="In" isUnique="false">
+                  <elementDefinition Id="a0f0f559-e44a-4545-b794-31076939e01b" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="35dd2921-11d9-4cb9-9447-c4f179818180" LastKnownName="string" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="63e5218d-7a0f-4d6a-b161-144a0cef3ec0" name="st" direction="In" isUnique="false">
-                  <elementDefinition Id="b0600ad5-0594-407c-929a-9e826f79f62c" />
+                <parameter Id="4f376a18-d9b5-47c1-9907-bc3aa9ad7707" name="st" direction="In" isUnique="false">
+                  <elementDefinition Id="ca422546-d15c-4f52-98fb-34cb956421b4" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="a0fc68e1-5bed-474b-bea9-6700b0a73a3c" LastKnownName="FileState" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="6379c85b-beed-4131-b3f0-45181fd88646" direction="Return" isUnique="false">
-                  <elementDefinition Id="55ae396f-383a-4543-b4d3-09924e8beef1" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="63dad322-1e9a-4c2f-aeae-a01a09ac648c" LastKnownName="Recponce" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="3614c787-5790-4e35-a146-3597434fd7c9" name="SetFiles" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="3614c787-5790-4e35-a146-3597434fd7c9" name="setFiles" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="db25296a-2af2-4971-83c7-8589e37c08b3" />
             <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="8bb5bb5f-c9b7-46ae-9732-23633e40da57" name="inFile" direction="In" isUnique="false">
-                  <elementDefinition Id="89425b00-3e8f-4fcc-8f48-0be8a3fae459" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="35dd2921-11d9-4cb9-9447-c4f179818180" LastKnownName="string" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="30f2f7b3-4bd5-415a-88ee-e00e32a79e65" name="outFile" direction="In" isUnique="false">
-                  <elementDefinition Id="23c38471-588e-4b42-9cbf-9bf177a9e8b8" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="35dd2921-11d9-4cb9-9447-c4f179818180" LastKnownName="string" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter Id="afe0466b-6cc0-4983-b2a7-a5ac61346a0d" direction="Return" isUnique="false">
                   <elementDefinition Id="842c0018-0ea9-4de2-ad67-cbdb0117c2d2" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="7eb4120d-1bbf-4551-96cc-e54fb0bc3980" LastKnownName="Responce" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a9ae782f-0593-4790-af83-18051e2effb7" name="inFile" direction="In" isUnique="false">
+                  <elementDefinition Id="6273863d-ec07-4e0e-8357-172ad2ea699c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="35dd2921-11d9-4cb9-9447-c4f179818180" LastKnownName="string" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e53929c4-551d-46ce-8439-e2f13c9c3245" name="outFile" direction="In" isUnique="false">
+                  <elementDefinition Id="0f21ad1e-3113-4f44-88d8-deb4fd4bcbb8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="35dd2921-11d9-4cb9-9447-c4f179818180" LastKnownName="string" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -687,10 +679,10 @@
       <class Id="68e9626a-4934-40a7-9875-a09241457712" name="Counter" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="c8fd15d7-9177-4eff-b630-478d34292c19" />
         <ownedAttributesInternal>
-          <property Id="c1d6bcd6-f9b2-489d-a4e2-0c4997944998" name="begType" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="c1d6bcd6-f9b2-489d-a4e2-0c4997944998" name="begTime" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="9a2c3693-b9a6-42fa-ab49-9f33dbad92d9" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="99bcb9b5-a394-42a2-b326-5e2696aad3c6" LastKnownName="long long" />
+              <referencedTypeMoniker Id="befed506-62e1-4e02-9015-07e71425eba6" LastKnownName="long long" />
             </type_NamedElement>
           </property>
           <property Id="24663797-2769-4e1c-8e06-3da2d9bdbd80" name="endTime" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -823,11 +815,6 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <packageHasNamedElement>
-      <referencedType Id="3c55d2ee-ae51-4d43-8785-671a4edb86eb" name="ExternalMergeSort" isAbstract="false" isLeaf="false" cachedFullName="ModelingProjectEMS::ExternalMergeSort">
-        <elementDefinition Id="cbd46571-f3d5-4dc1-98dd-5134f326069f" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="cd013065-7735-4a62-92e1-da9ccba51550" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
         <elementDefinition Id="99a5f924-c725-441f-a369-deca7c4fbfef" />
       </referencedType>
@@ -883,11 +870,6 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="63dad322-1e9a-4c2f-aeae-a01a09ac648c" name="Recponce" isAbstract="false" isLeaf="false" cachedFullName="Recponce">
-        <elementDefinition Id="414961d2-7ddb-4ef9-a961-c66ae909f105" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="a7e37fa8-631c-4fbf-bf1f-1e13fec8bcb6" name="SeqType" isAbstract="false" isLeaf="false" cachedFullName="SeqType">
         <elementDefinition Id="ddacd8ed-f1ec-482e-a745-a3416a752618" />
       </referencedType>
@@ -917,8 +899,32 @@
         <elementDefinition Id="a60c52f9-ed5f-4eea-902b-9a85877f5168" />
       </referencedType>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="919949ca-f841-4303-9604-eba1dbb453c9" name="ExternalMergeSort*" isAbstract="false" isLeaf="false" cachedFullName="ExternalMergeSort*">
+        <elementDefinition Id="e225ac07-fbc0-46fe-b5cd-69518bcb21d9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="befed506-62e1-4e02-9015-07e71425eba6" name="long long" isAbstract="false" isLeaf="false" cachedFullName="long long">
+        <elementDefinition Id="707f72d9-2fcb-4314-85cc-866afc15c1ca" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="46449c52-9609-45bd-8a6d-085d795d23d3" name="ModelingProjectEMS">
     <elementDefinition Id="4088c82e-617d-4a53-a600-f65f0aab66fb" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0c93c083-6172-4539-93fa-df03dc3ffab2">
+        <profileInstance Id="a14ac6de-90df-454b-8ebd-10c4be1e4e16" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ea9c00d5-6abc-457d-9197-7a9cdf2cc0aa">
+        <profileInstance Id="b3ab7059-a5a6-4836-b63f-353ed9123cd4" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

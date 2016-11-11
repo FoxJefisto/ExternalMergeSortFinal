@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_structures_8h" kind="file" language="C++">
+    <compoundname>Structures.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includedby refid="_file_manager_8h" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h</includedby>
+    <includedby refid="_user_interface_8h" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h</includedby>
+    <incdepgraph>
+      <node id="204">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h</label>
+        <link refid="_structures_8h"/>
+        <childnode refid="205" relation="include">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="213">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h</label>
+        <link refid="_user_interface_8h"/>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.cpp</label>
+        <link refid="_quick_external_sort_8cpp"/>
+      </node>
+      <node id="206">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h</label>
+        <link refid="_structures_8h"/>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp</label>
+        <link refid="_external_merge_sort_production_8cpp"/>
+      </node>
+      <node id="216">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp</label>
+        <link refid="_heap_external_sort_8cpp"/>
+      </node>
+      <node id="208">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h</label>
+        <link refid="_external_merge_sort_8h"/>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp</label>
+        <link refid="_file_manager_8cpp"/>
+      </node>
+      <node id="209">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h</label>
+        <link refid="_bubble_external_sort_8h"/>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp</label>
+        <link refid="_external_merge_sort_8cpp"/>
+      </node>
+      <node id="211">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</label>
+        <link refid="_user_interface_8cpp"/>
+      </node>
+      <node id="217">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h</label>
+        <link refid="_quick_external_sort_8h"/>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp</label>
+        <link refid="_bubble_external_sort_8cpp"/>
+      </node>
+      <node id="215">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h</label>
+        <link refid="_heap_external_sort_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h</label>
+        <link refid="_file_manager_8h"/>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7" prot="public" static="no">
+        <name>FileState</name>
+        <enumvalue id="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" prot="public">
+          <name>NotEnable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" prot="public">
+          <name>ReadOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" prot="public">
+          <name>WriteOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" prot="public">
+          <name>ReadAndWrite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" line="4" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" bodystart="4" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="enum" id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" prot="public" static="no">
+        <name>Responce</name>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" prot="public">
+          <name>Success</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aeec752b095431b8fca92ea1de18c3d4b" prot="public">
+          <name>GenerateError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" prot="public">
+          <name>FileNotExist</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aff5e0c4e167b2a74a058ba96eb0ee149" prot="public">
+          <name>SizeError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" prot="public">
+          <name>FileManagerFail</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aebd38049a88fe839c522d0352fedda6c" prot="public">
+          <name>InputAndOutputIsEqual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" prot="public">
+          <name>EndOfFile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ae78c711dd9a3a19d8175eb124b17611c" prot="public">
+          <name>MemoryError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4" prot="public">
+          <name>ParamsFail</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" line="5" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="enum" id="_structures_8h_1af67907baa897e9fb84df0cb89795b87c" prot="public" static="no">
+        <name>LogType</name>
+        <enumvalue id="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" prot="public">
+          <name>WithOut</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca172e8dc95b033321bf58a216636307c9" prot="public">
+          <name>CLI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca1ab5ebbd194ab0b95e5697aca9ba274f" prot="public">
+          <name>File</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" line="6" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="enum" id="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1" prot="public" static="no">
+        <name>SeqType</name>
+        <enumvalue id="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a29d9ba0e499ea8fcd3d7b4e3fdc89b75" prot="public">
+          <name>Best</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1ab3c87ec2c47256239220b24e46acda7f" prot="public">
+          <name>Average</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" prot="public">
+          <name>Worst</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" line="7" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="enum" id="_structures_8h_1adbb15722785daaf5166f7ea34323854c" prot="public" static="no">
+        <name>TypeOfSort</name>
+        <enumvalue id="_structures_8h_1adbb15722785daaf5166f7ea34323854ca2bd4f97892c8b7d060e9f67527f0b9ef" prot="public">
+          <name>Bubble</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1adbb15722785daaf5166f7ea34323854cab6dc6b578a22d35f3d364f3c4ba34c02" prot="public">
+          <name>Quick</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1adbb15722785daaf5166f7ea34323854ca139b64ba62923e002df5e9124e778c64" prot="public">
+          <name>Heap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_structures_8h_1adbb15722785daaf5166f7ea34323854ca2c88d6b09611bebcfd079df624ae3bfe" prot="public">
+          <name>Fail</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" line="8" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7" kindref="member">FileState</ref><sp/>{<sp/><ref refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" kindref="member">NotEnable</ref>,<sp/><ref refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" kindref="member">ReadOnly</ref>,<sp/><ref refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" kindref="member">WriteOnly</ref>,<sp/><ref refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" kindref="member">ReadAndWrite</ref><sp/>};</highlight></codeline>
+<codeline lineno="5" refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref><sp/>{<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" kindref="member">Success</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aeec752b095431b8fca92ea1de18c3d4b" kindref="member">GenerateError</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" kindref="member">FileNotExist</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aff5e0c4e167b2a74a058ba96eb0ee149" kindref="member">SizeError</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" kindref="member">FileManagerFail</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aebd38049a88fe839c522d0352fedda6c" kindref="member">InputAndOutputIsEqual</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" kindref="member">EndOfFile</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ae78c711dd9a3a19d8175eb124b17611c" kindref="member">MemoryError</ref>,<sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4" kindref="member">ParamsFail</ref>};</highlight></codeline>
+<codeline lineno="6" refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87c" kindref="member">LogType</ref><sp/>{<sp/><ref refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" kindref="member">WithOut</ref>,<sp/><ref refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca172e8dc95b033321bf58a216636307c9" kindref="member">CLI</ref>,<sp/><ref refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca1ab5ebbd194ab0b95e5697aca9ba274f" kindref="member">File</ref><sp/>};</highlight></codeline>
+<codeline lineno="7" refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1" kindref="member">SeqType</ref><sp/>{<ref refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a29d9ba0e499ea8fcd3d7b4e3fdc89b75" kindref="member">Best</ref>,<sp/><ref refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1ab3c87ec2c47256239220b24e46acda7f" kindref="member">Average</ref>,<sp/><ref refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" kindref="member">Worst</ref>};</highlight></codeline>
+<codeline lineno="8" refid="_structures_8h_1adbb15722785daaf5166f7ea34323854c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_structures_8h_1adbb15722785daaf5166f7ea34323854c" kindref="member">TypeOfSort</ref><sp/>{<ref refid="_structures_8h_1adbb15722785daaf5166f7ea34323854ca2bd4f97892c8b7d060e9f67527f0b9ef" kindref="member">Bubble</ref>,<sp/><ref refid="_structures_8h_1adbb15722785daaf5166f7ea34323854cab6dc6b578a22d35f3d364f3c4ba34c02" kindref="member">Quick</ref>,<sp/><ref refid="_structures_8h_1adbb15722785daaf5166f7ea34323854ca139b64ba62923e002df5e9124e778c64" kindref="member">Heap</ref>,<sp/><ref refid="_structures_8h_1adbb15722785daaf5166f7ea34323854ca2c88d6b09611bebcfd079df624ae3bfe" kindref="member">Fail</ref>};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h"/>
+  </compounddef>
+</doxygen>

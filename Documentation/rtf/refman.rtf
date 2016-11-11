@@ -1,0 +1,2882 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset204\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\info 
+{\title {\comment \'CE\'E3\'EB\'E0\'E2\'EB\'E5\'ED\'E8\'E5}}
+{\comment \'D1\'EE\'E7\'E4\'E0\'ED\'EE \'F1\'E8\'F1\'F2\'E5\'EC\'EE\'E9Doxgyen. }
+{\creatim \yr2016\mo11\dy11\hr3\min33\sec23}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt }}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+\'C2\'E5\'F0\'F1\'E8\'FF \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt \'CF\'F2 11 \'CD\'EE\'FF 2016 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CE\'E3\'EB\'E0\'E2\'EB\'E5\'ED\'E8\'E5\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2.}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Counter\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+ExternalMergeSort\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACU \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+BubbleExternalSort\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+HeapExternalSort\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+QuickExternalSort\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+FileManager\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+UserInterface\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAER \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CA\'EB\'E0\'F1\'F1\'FB \'F1 \'E8\'F5 \'EA\'F0\'E0\'F2\'EA\'E8\'EC \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\'EC.}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b BubbleExternalSort} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Counter} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b ExternalMergeSort} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b FileManager} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b HeapExternalSort} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b QuickExternalSort} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b UserInterface} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'F1\'EA\'EE\'E3\'EE \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAER \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2\par \pard\plain 
+{\tc \v \'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2.}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b BubbleExternalSort.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b BubbleExternalSort.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b Counter.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b Counter.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b ExternalMergeSort.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b ExternalMergeSort.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b ExternalMergeSortProduction.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b FileManager.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b FileManager.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b HeapExternalSort.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b HeapExternalSort.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b QuickExternalSort.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b QuickExternalSort.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b stdafx.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b stdafx.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b Structures.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b targetver.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b UserInterface.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b UserInterface.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB{\tc \v \'CA\'EB\'E0\'F1\'F1\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 BubbleExternalSort\par \pard\plain 
+{\tc\tcl2 \v BubbleExternalSort}
+{\xe \v BubbleExternalSort}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\par
+{
+{\f2 #include <BubbleExternalSort.h>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:BubbleExternalSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_bubble_external_sort__inherit__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 BubbleExternalSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_bubble_external_sort__coll__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b sort} (long long *, long long)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b BubbleExternalSort} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~BubbleExternalSort} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v BubbleExternalSort\:BubbleExternalSort}
+{\xe \v BubbleExternalSort\:BubbleExternalSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+BubbleExternalSort::BubbleExternalSort ()}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ~BubbleExternalSort\:BubbleExternalSort}
+{\xe \v BubbleExternalSort\:~BubbleExternalSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+BubbleExternalSort::~BubbleExternalSort ()}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v sort\:BubbleExternalSort}
+{\xe \v BubbleExternalSort\:sort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void BubbleExternalSort::sort (long long *  {\i a}, long long  {\i length}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b ExternalMergeSort} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7625c_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b BubbleExternalSort.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b BubbleExternalSort.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Counter\par \pard\plain 
+{\tc\tcl2 \v Counter}
+{\xe \v Counter}
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+\par
+{
+{\f2 #include <Counter.h>}}\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 Counter:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter__coll__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Counter} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setBegTime} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b setEndTime} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b getTimeInterval} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b incSwaps} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b getSwaps} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b incComparsion} (long long n)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b getComparsion} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b incFileOp} (long long n)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b getFileOp} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b clear} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~Counter} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long long {\b begTime}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long long {\b endTime}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long long {\b comparsion}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long long {\b fileOp}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long long {\b swaps}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Counter\:Counter}
+{\xe \v Counter\:Counter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Counter::Counter ()}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_a1e05f69b5240fbab3e7ab351672167f0_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v ~Counter\:Counter}
+{\xe \v Counter\:~Counter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Counter::~Counter ()}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v clear\:Counter}
+{\xe \v Counter\:clear}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Counter::clear ()}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_af66c74ac2bc69fa4f30c34377f869596_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v getComparsion\:Counter}
+{\xe \v Counter\:getComparsion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long Counter::getComparsion ()}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getFileOp\:Counter}
+{\xe \v Counter\:getFileOp}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long Counter::getFileOp ()}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getSwaps\:Counter}
+{\xe \v Counter\:getSwaps}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long Counter::getSwaps ()}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v getTimeInterval\:Counter}
+{\xe \v Counter\:getTimeInterval}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long Counter::getTimeInterval ()}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_a25b1a1a6cd43fb23c2d1563d5b05aec6_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v incComparsion\:Counter}
+{\xe \v Counter\:incComparsion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Counter::incComparsion (long long  {\i n})}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_a224d93150c0fe2982d3efd7aa99668e6_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v incFileOp\:Counter}
+{\xe \v Counter\:incFileOp}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Counter::incFileOp (long long  {\i n})}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_a63310182709c321ad8fe8e78b81d12aa_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v incSwaps\:Counter}
+{\xe \v Counter\:incSwaps}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Counter::incSwaps ()}}
+\par
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_aa0cd30379394257e44aa7afc84ed1fce_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v setBegTime\:Counter}
+{\xe \v Counter\:setBegTime}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Counter::setBegTime ()}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_a71dea1262b81493aa9734f62a72b2691_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v setEndTime\:Counter}
+{\xe \v Counter\:setEndTime}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long Counter::setEndTime ()}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_a338ac4f04d6f5924aa7ace3b14d9ffb9_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_counter_a338ac4f04d6f5924aa7ace3b14d9ffb9_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v begTime\:Counter}
+{\xe \v Counter\:begTime}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long long Counter::begTime{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v comparsion\:Counter}
+{\xe \v Counter\:comparsion}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long long Counter::comparsion{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v endTime\:Counter}
+{\xe \v Counter\:endTime}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long long Counter::endTime{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v fileOp\:Counter}
+{\xe \v Counter\:fileOp}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long long Counter::fileOp{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v swaps\:Counter}
+{\xe \v Counter\:swaps}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long long Counter::swaps{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b Counter.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b Counter.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 ExternalMergeSort\par \pard\plain 
+{\tc\tcl2 \v ExternalMergeSort}
+{\xe \v ExternalMergeSort}
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+\par
+{
+{\f2 #include <ExternalMergeSort.h>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:ExternalMergeSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort__inherit__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 ExternalMergeSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort__coll__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ExternalMergeSort} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ExternalMergeSort} ({\b FileManager} *file, long long {\b sizeOfSegments})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b setParams} ({\b FileManager} *file, long long {\b sizeOfSegments})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b externalSort} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setLog} ({\b LogType} {\b log})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b sort} (long long *, long long)=0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual {\b ~ExternalMergeSort} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Counter} {\b counter}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b createRuns} (long long *)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b mergeSequencesNew} ({\b FileManager} *input1, {\b FileManager} *input2, {\b FileManager} *out, long long size)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b print} (const char *)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b FileManager} * {\b fileManager}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long long {\b sizeOfSegments}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b ok}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b LogType} {\b log}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v ExternalMergeSort\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:ExternalMergeSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ExternalMergeSort::ExternalMergeSort ()}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ExternalMergeSort\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:ExternalMergeSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ExternalMergeSort::ExternalMergeSort ({\b FileManager} *  {\i file}, long long  {\i sizeOfSegments})}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a37df182916b341d5466f2fff0d50dfed_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v ~ExternalMergeSort\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:~ExternalMergeSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ExternalMergeSort::~ExternalMergeSort (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v createRuns\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:createRuns}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} ExternalMergeSort::createRuns (long long *  {\i sizeOfSequence}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a54203f48d659003f5a75425354d4e262_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a54203f48d659003f5a75425354d4e262_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v externalSort\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:externalSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} ExternalMergeSort::externalSort ()}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_aa0d80e41effe3a13c0d63b33e208918f_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v mergeSequencesNew\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:mergeSequencesNew}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} ExternalMergeSort::mergeSequencesNew ({\b FileManager} *  {\i input1}, {\b FileManager} *  {\i input2}, {\b FileManager} *  {\i out}, long long  {\i size}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a8b4f951d9ee53818b8d3d4e84e2a1aa4_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a8b4f951d9ee53818b8d3d4e84e2a1aa4_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v print\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:print}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ExternalMergeSort::print (const char *  {\i msg}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a5e19d768fb9ef81e36e22e2eff498ca4_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v setLog\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:setLog}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void ExternalMergeSort::setLog ({\b LogType}  {\i log})}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v setParams\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:setParams}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} ExternalMergeSort::setParams ({\b FileManager} *  {\i file}, long long  {\i sizeOfSegments})}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v sort\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:sort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void ExternalMergeSort::sort (long long * , long  {\i long}){\f2 [pure virtual]}}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2\'F1\'FF \'E2 {\b HeapExternalSort} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADE \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b QuickExternalSort} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b BubbleExternalSort} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_external_merge_sort_af6412221cc797a846243a343ccc12dba_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v counter\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:counter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Counter} ExternalMergeSort::counter}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v fileManager\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:fileManager}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b FileManager}* ExternalMergeSort::fileManager{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v log\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:log}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b LogType} ExternalMergeSort::log{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ok\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:ok}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool ExternalMergeSort::ok{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v sizeOfSegments\:ExternalMergeSort}
+{\xe \v ExternalMergeSort\:sizeOfSegments}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long long ExternalMergeSort::sizeOfSegments{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b ExternalMergeSort.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b ExternalMergeSort.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 FileManager\par \pard\plain 
+{\tc\tcl2 \v FileManager}
+{\xe \v FileManager}
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+\par
+{
+{\f2 #include <FileManager.h>}}\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 FileManager:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager__coll__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b closeIFile} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b closeOFile} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b getEndOfFile} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setEndOfFile} (bool b)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b clearOutFile} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b read} (long long *arr, long long size, long long *readNumber)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b write} (long long num)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b write} (long long *arr, long long size)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b setFiles} (string file, {\b FileState} st)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b setFiles} (string inFile, string outFile)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b FileState} {\b getState} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b checkForEquality} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b generateSequence} (long long size, {\b SeqType} type)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b FileManager} (string {\b iFile}, {\b FileState} {\b state})\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b FileManager} (string inFile, string outFile)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b FileManager} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~FileManager} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ifstream * {\b iFile}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ofstream * {\b oFile}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string * {\b oFileStr}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string * {\b iFileStr}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b FileState} {\b state}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b endOfFile}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v FileManager\:FileManager}
+{\xe \v FileManager\:FileManager}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+FileManager::FileManager (string  {\i iFile}, {\b FileState}  {\i state})}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v FileManager\:FileManager}
+{\xe \v FileManager\:FileManager}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+FileManager::FileManager (string  {\i inFile}, string  {\i outFile})}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v FileManager\:FileManager}
+{\xe \v FileManager\:FileManager}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+FileManager::FileManager ()}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ~FileManager\:FileManager}
+{\xe \v FileManager\:~FileManager}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+FileManager::~FileManager ()}}
+\par
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v checkForEquality\:FileManager}
+{\xe \v FileManager\:checkForEquality}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool FileManager::checkForEquality ()}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_ab490a5a5882d33781dcb6d1d42945d97_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v clearOutFile\:FileManager}
+{\xe \v FileManager\:clearOutFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void FileManager::clearOutFile ()}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_a2f1102abfd0a5a9d7e178968a3fdc56c_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v closeIFile\:FileManager}
+{\xe \v FileManager\:closeIFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void FileManager::closeIFile ()}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_a4a4719a410ca31985e8b75ad75485ce6_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v closeOFile\:FileManager}
+{\xe \v FileManager\:closeOFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void FileManager::closeOFile ()}}
+\par
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_a6a1f1ddbf047fc7e9531f483e4c62148_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v generateSequence\:FileManager}
+{\xe \v FileManager\:generateSequence}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} FileManager::generateSequence (long long  {\i size}, {\b SeqType}  {\i type})}}
+\par
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_a654c8bf606626cd419f5828839cb21a1_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v getEndOfFile\:FileManager}
+{\xe \v FileManager\:getEndOfFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool FileManager::getEndOfFile ()}}
+\par
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_a49df99509ff2700e0e5edd06adca345c_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v getState\:FileManager}
+{\xe \v FileManager\:getState}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b FileState} FileManager::getState ()}}
+\par
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_abd4cbc2b218ab1828ae376a4a9137057_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v read\:FileManager}
+{\xe \v FileManager\:read}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} FileManager::read (long long *  {\i arr}, long long  {\i size}, long long *  {\i readNumber})}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_aba031d681752c80f52a8a8af9b69834e_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v setEndOfFile\:FileManager}
+{\xe \v FileManager\:setEndOfFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void FileManager::setEndOfFile (bool  {\i b})}}
+\par
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_ace8ce2677414831b5a9e7030248fc832_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v setFiles\:FileManager}
+{\xe \v FileManager\:setFiles}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} FileManager::setFiles (string  {\i file}, {\b FileState}  {\i st})}}
+\par
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v setFiles\:FileManager}
+{\xe \v FileManager\:setFiles}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} FileManager::setFiles (string  {\i inFile}, string  {\i outFile})}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v write\:FileManager}
+{\xe \v FileManager\:write}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} FileManager::write (long long  {\i num})}}
+\par
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v write\:FileManager}
+{\xe \v FileManager\:write}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} FileManager::write (long long *  {\i arr}, long long  {\i size})}}
+\par
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v endOfFile\:FileManager}
+{\xe \v FileManager\:endOfFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool FileManager::endOfFile{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v iFile\:FileManager}
+{\xe \v FileManager\:iFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ifstream* FileManager::iFile{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v iFileStr\:FileManager}
+{\xe \v FileManager\:iFileStr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string* FileManager::iFileStr{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v oFile\:FileManager}
+{\xe \v FileManager\:oFile}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+ofstream* FileManager::oFile{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v oFileStr\:FileManager}
+{\xe \v FileManager\:oFileStr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string* FileManager::oFileStr{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v state\:FileManager}
+{\xe \v FileManager\:state}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b FileState} FileManager::state{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b FileManager.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b FileManager.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 HeapExternalSort\par \pard\plain 
+{\tc\tcl2 \v HeapExternalSort}
+{\xe \v HeapExternalSort}
+{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+\par
+{
+{\f2 #include <HeapExternalSort.h>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:HeapExternalSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_heap_external_sort__inherit__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 HeapExternalSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_heap_external_sort__coll__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b sort} (long long *numbers, long long array_size)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b HeapExternalSort} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~HeapExternalSort} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b siftDown} (long long *numbers, long long root, long long bottom)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v HeapExternalSort\:HeapExternalSort}
+{\xe \v HeapExternalSort\:HeapExternalSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+HeapExternalSort::HeapExternalSort ()}}
+\par
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ~HeapExternalSort\:HeapExternalSort}
+{\xe \v HeapExternalSort\:~HeapExternalSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+HeapExternalSort::~HeapExternalSort ()}}
+\par
+{\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v siftDown\:HeapExternalSort}
+{\xe \v HeapExternalSort\:siftDown}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void HeapExternalSort::siftDown (long long *  {\i numbers}, long long  {\i root}, long long  {\i bottom}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v sort\:HeapExternalSort}
+{\xe \v HeapExternalSort\:sort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void HeapExternalSort::sort (long long *  {\i numbers}, long long  {\i array_size}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b ExternalMergeSort} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_heap_external_sort_a908087ce13932b268a35e1184a05ea44_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b HeapExternalSort.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b HeapExternalSort.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 QuickExternalSort\par \pard\plain 
+{\tc\tcl2 \v QuickExternalSort}
+{\xe \v QuickExternalSort}
+{\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+\par
+{
+{\f2 #include <QuickExternalSort.h>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:QuickExternalSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_quick_external_sort__inherit__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 QuickExternalSort:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_quick_external_sort__coll__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b sort} (long long *mas, long long)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b QuickExternalSort} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~QuickExternalSort} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b qSortI} (long long *mas, long long size)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v QuickExternalSort\:QuickExternalSort}
+{\xe \v QuickExternalSort\:QuickExternalSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QuickExternalSort::QuickExternalSort ()}}
+\par
+{\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ~QuickExternalSort\:QuickExternalSort}
+{\xe \v QuickExternalSort\:~QuickExternalSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+QuickExternalSort::~QuickExternalSort ()}}
+\par
+{\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v qSortI\:QuickExternalSort}
+{\xe \v QuickExternalSort\:qSortI}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QuickExternalSort::qSortI (long long *  {\i mas}, long long  {\i size}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v sort\:QuickExternalSort}
+{\xe \v QuickExternalSort\:sort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void QuickExternalSort::sort (long long *  {\i mas}, long long  {\i size}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'C7\'E0\'EC\'E5\'F9\'E0\'E5\'F2 {\b ExternalMergeSort} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_quick_external_sort_adafdd4faded04218c1a131bf55e3c90d_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b QuickExternalSort.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b QuickExternalSort.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 UserInterface\par \pard\plain 
+{\tc\tcl2 \v UserInterface}
+{\xe \v UserInterface}
+{\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'F1\'EA\'EE\'E3\'EE \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1\'E0. \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C0\'E2\'F2\'EE\'F0:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid Alexander Filippov \par
+}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C4\'E0\'F2\'E0:\par}\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \'CD\'EE\'FF\'E1\'F0\'FC 2016 \'E3\'EE\'E4\'E0\par
+}\'CA\'EB\'E0\'F1\'F1, \'EE\'F2\'E2\'E5\'F7\'E0\'FE\'F9\'E8\'E9 \'E7\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'E5 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'FF \'F1 \'EF\'F0\'E8\'EB\'EE\'E6\'E5\'ED\'E8\'E5\'EC, \'E0 \'F2\'E0\'EA\'E6\'E5 \'F1\'EE\'E4\'E5\'F0\'E6\'E0\'F9\'E8\'E9 \'E2 \'F1\'E5\'E1\'E5 \'ED\'E5\'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'EC\'E5\'F2\'EE\'E4\'FB, \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'EF\'EE\'E7\'E2\'EE\'EB\'FF\'FE\'F2 \'E8\'F1\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA\'E8 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'D1\'EE\'EE\'E1\'F9\'E0\'E5\'F2 \'EE\'E1 \'EE\'F8\'E8\'E1\'EA\'E0\'F5 \'E8 \'E2\'FB\'E2\'EE\'E4\'E8\'F2 \'F0\'E5\'E7\'F3\'EB\'FC\'F2\'E0\'F2\'FB \'E2 \'EA\'EE\'ED\'F1\'EE\'EB\'FC. \par
+}}
+\par
+{
+{\f2 #include <UserInterface.h>}}\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 UserInterface:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_interface__coll__graph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b initSession} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'E8\'F6\'E8\'E0\'EB\'E8\'E7\'E8\'F0\'F3\'E5\'F2 \'F1\'E5\'F1\'F1\'E8\'FE \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'F1 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'E5\'EC. \'C7\'E0\'E4\'E0\'E5\'F2 \'E1\'E5\'F1\'EA\'EE\'ED\'E5\'F7\'ED\'FB\'E9 \'F6\'E8\'EA\'EB \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'F1 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'E5\'EC, \'E2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 getMethod(). \'C7\'E0\'E2\'E5\'F0\'F8\'E0\'E5\'F2\'F1\'FF \'E5\'F1\'EB\'E8 getMethod() \'E2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 false. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b UserInterface} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'F3\'F1\'F2\'EE\'E9 \'EA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EB\'E0\'F1\'F1\'E0. \'CE\'E1\'ED\'F3\'EB\'FF\'E5\'F2 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~UserInterface} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EB\'E0\'F1\'F1\'E0. \'CE\'F1\'E2\'EE\'E1\'EE\'E6\'E4\'E0\'E5\'F2 \'E2\'FB\'E4\'E5\'EB\'E5\'ED\'ED\'F3\'FE \'EF\'E0\'EC\'FF\'F2\'FC. }{
+}\par
+}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b callMethod} (int ch)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'EE\'E3\'EE \'EC\'E5\'F2\'EE\'E4\'E0. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b callGenerate} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'E3\'E5\'ED\'E5\'F0\'E0\'F6\'E8\'E8 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E5 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'E4\'EB\'FF \'E3\'E5\'ED\'E5\'F0\'E0\'F6\'E8\'E8 \'E8\'F1\'F5\'EE\'E4\'ED\'EE\'E9 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b callSetParams} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0, \'E7\'E0\'E4\'E0\'FE\'F9\'E5\'E3\'EE \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C7\'E0\'E4\'E0\'E5\'F2 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0 sort \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'EC \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'E5\'EC \'ED\'E0 \'EE\'E4\'E8\'ED \'E8\'E7 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E5 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b callSort} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'E2\'ED\'E5\'F8\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E9 \'EC\'E5\'F2\'EE\'E4 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8, \'E5\'F1\'EB\'E8 \'FD\'F2\'EE \'E2\'EE\'E7\'EC\'EE\'E6\'ED\'EE. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b callEstimate} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EE\'F6\'E5\'ED\'EA\'E8 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'E2\'ED\'E5\'F8\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8, \'E5\'F1\'EB\'E8 \'FD\'F2\'EE \'E2\'EE\'E7\'EC\'EE\'E6\'ED\'EE. \'C2\'FB\'E2\'EE\'E4\'E8\'F2 \'EE\'F2\'F7\'E5\'F2 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b callGetDependencies} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'EE\'E4\'E8\'ED \'E8\'E7 \'EC\'E5\'F2\'EE\'E4\'EE\'E2 callGetDependenceSize(), callGetDependenceSizeOfSegments(), callGetDependenceType(). \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Responce} {\b setParams} ({\b FileManager} *file, long long sizeOfSegments, {\b TypeOfSort} type)\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4, \'E7\'E0\'E4\'E0\'FE\'F9\'E8\'E9 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b getDependenceSize} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0. \'C3\'E5\'ED\'E5\'F0\'E8\'F0\'F3\'E5\'F2 \'E2\'F5\'EE\'E4\'ED\'FB\'E5 \'F4\'E0\'E9\'EB\'FB \'F0\'E0\'E7\'ED\'EE\'E9 \'E4\'EB\'E8\'ED\'FB. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'F1\'EA\'EE\'EB\'FC\'EA\'EE \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EE\'EA \'F1 \'F0\'E0\'E7\'ED\'FB\'EC \'F0\'E0\'E7\'EC\'E5\'F0\'EE\'EC \'E2\'F5\'EE\'E4\'ED\'EE\'E9 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0 \'E2\'F5\'EE\'E4\'ED\'EE\'E9 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b getDependenceSizeOfSegments} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0 \'F1\'E5\'E3\'EC\'E5\'ED\'F2\'EE\'E2. \'C3\'E5\'ED\'E5\'F0\'E8\'F0\'F3\'E5\'F2 \'F2\'E5\'F1\'F2\'EE\'E2\'F3\'FE \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'F1\'EA\'EE\'EB\'FC\'EA\'EE \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EE\'EA \'F1 \'F0\'E0\'E7\'ED\'FB\'EC \'F0\'E0\'E7\'EC\'E5\'F0\'EE\'EC \'F1\'E5\'E3\'EC\'E5\'ED\'F2\'EE\'E2. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0 \'F1\'E5\'E3\'EC\'E5\'ED\'F2\'EE\'E2. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b getDependenceType} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'EE\'F2 \'F2\'E8\'EF\'E0 \'E2\'ED\'F3\'F2\'F0\'E5\'ED\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C3\'E5\'ED\'E5\'F0\'E8\'F0\'F3\'E5\'F2 \'F2\'E5\'F1\'F2\'EE\'E2\'F3\'FE \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'F1\'EA\'EE\'EB\'FC\'EA\'EE \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EE\'EA \'F1 \'F0\'E0\'E7\'ED\'FB\'EC\'E8 \'F2\'E8\'EF\'E0\'EC\'E8 \'E2\'ED\'F3\'F2\'F0\'E5\'ED\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'EE\'F2 \'F2\'E8\'EF\'E0 \'E2\'ED\'F3\'F2\'F0\'E5\'ED\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }{
+}\par
+}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ExternalMergeSort} * {\b sort}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'FD\'EA\'E7\'E5\'EC\'EF\'EB\'FF\'F0 \'EA\'EB\'E0\'F1\'F1\'E0 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const string {\b menu} = "0. \'C2\'FB\'F5\'EE\'E4\\n1. \'D1\'E3\'E5\'ED\'E5\'F0\'E8\'F0\'EE\'E2\'E0\'F2\'FC \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC\\n2. \'C7\'E0\'E4\'E0\'F2\'FC \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8\\n3. \'CE\'F2\'F1\'EE\'F0\'E8\'F2\'F0\'EE\'E2\'E0\'F2\'FC \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC\\n4. \'CE\'F6\'E5\'ED\'E8\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA\'E8 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8\\n5. \'CF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'E5 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9\\n"\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'E0\'ED\'F2\'ED\'E0\'FF \'F1\'F2\'F0\'EE\'EA\'E0 \'EC\'E5\'ED\'FE. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const char * {\b responceString} [9]\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'E0\'ED\'F2\'ED\'FB\'E9 \'EC\'E0\'F1\'F1\'E8\'E2, \'F1\'F2\'F0\'EE\'EA, \'F0\'E0\'F1\'F8\'E8\'F4\'F0\'EE\'E2\'FB\'E2\'E0\'FE\'F9\'E8\'F5 \'EA\'EE\'E4\'FB \'EE\'F8\'E8\'E1\'EE\'EA. }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v UserInterface\:UserInterface}
+{\xe \v UserInterface\:UserInterface}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+UserInterface::UserInterface ()}}
+\par
+{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'F3\'F1\'F2\'EE\'E9 \'EA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EB\'E0\'F1\'F1\'E0. \'CE\'E1\'ED\'F3\'EB\'FF\'E5\'F2 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB. }}\par
+}
+{\xe \v ~UserInterface\:UserInterface}
+{\xe \v UserInterface\:~UserInterface}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+UserInterface::~UserInterface ()}}
+\par
+{\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EB\'E0\'F1\'F1\'E0. \'CE\'F1\'E2\'EE\'E1\'EE\'E6\'E4\'E0\'E5\'F2 \'E2\'FB\'E4\'E5\'EB\'E5\'ED\'ED\'F3\'FE \'EF\'E0\'EC\'FF\'F2\'FC. }}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v callEstimate\:UserInterface}
+{\xe \v UserInterface\:callEstimate}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::callEstimate (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEU}
+{\bkmkend AAAAAAAAEU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EE\'F6\'E5\'ED\'EA\'E8 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'E2\'ED\'E5\'F8\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8, \'E5\'F1\'EB\'E8 \'FD\'F2\'EE \'E2\'EE\'E7\'EC\'EE\'E6\'ED\'EE. \'C2\'FB\'E2\'EE\'E4\'E8\'F2 \'EE\'F2\'F7\'E5\'F2 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+}
+{\xe \v callGenerate\:UserInterface}
+{\xe \v UserInterface\:callGenerate}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::callGenerate (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEV}
+{\bkmkend AAAAAAAAEV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'E3\'E5\'ED\'E5\'F0\'E0\'F6\'E8\'E8 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E5 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'E4\'EB\'FF \'E3\'E5\'ED\'E5\'F0\'E0\'F6\'E8\'E8 \'E8\'F1\'F5\'EE\'E4\'ED\'EE\'E9 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_interface_a27c547dadfd5588d5b734e253b2e8a4a_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v callGetDependencies\:UserInterface}
+{\xe \v UserInterface\:callGetDependencies}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::callGetDependencies (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEW}
+{\bkmkend AAAAAAAAEW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'EE\'E4\'E8\'ED \'E8\'E7 \'EC\'E5\'F2\'EE\'E4\'EE\'E2 callGetDependenceSize(), callGetDependenceSizeOfSegments(), callGetDependenceType(). \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+}
+{\xe \v callMethod\:UserInterface}
+{\xe \v UserInterface\:callMethod}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool UserInterface::callMethod (int  {\i ch}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEX}
+{\bkmkend AAAAAAAAEX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'EE\'E3\'EE \'EC\'E5\'F2\'EE\'E4\'E0. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i ch} \cell }{\'C2\'FB\'E1\'EE\'F0 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'FF \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid \'C1\'F3\'EB\'E5\'E2\'EE \'E7\'ED\'E0\'F7\'E5\'ED\'E8\'E5 - \'E5\'F1\'EB\'E8 true, \'F2\'EE \'EF\'F0\'EE\'E4\'EE\'EB\'E6\'E0\'E5\'EC \'F0\'E0\'E1\'EE\'F2\'F3 \'EF\'F0\'EE\'E3\'F0\'E0\'EC\'EC\'F3, \'E5\'F1\'EB\'E8 \'ED\'E5\'F2, \'F2\'EE \'E2\'FB\'F5\'EE\'E4 \'E8\'E7 \'E1\'E5\'F1\'EA\'EE\'ED\'E5\'F7\'ED\'EE\'E3\'EE \'F6\'E8\'EA\'EB\'E0. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'EC\'E5\'F2\'EE\'E4, \'EF\'EE\'EB\'F3\'F7\'E0\'FE\'F9\'E8\'E9 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E5 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'E4\'EB\'FF \'E2\'FB\'E1\'F0\'E0\'ED\'ED\'EE\'E9 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'E5\'EC \'F4\'F3\'ED\'EA\'F6\'E8\'EE\'ED\'E0\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \par
+}}}
+{\xe \v callSetParams\:UserInterface}
+{\xe \v UserInterface\:callSetParams}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::callSetParams (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEY}
+{\bkmkend AAAAAAAAEY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0, \'E7\'E0\'E4\'E0\'FE\'F9\'E5\'E3\'EE \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C7\'E0\'E4\'E0\'E5\'F2 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0 sort \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'EC \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'E5\'EC \'ED\'E0 \'EE\'E4\'E8\'ED \'E8\'E7 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E5 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+}
+{\xe \v callSort\:UserInterface}
+{\xe \v UserInterface\:callSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::callSort (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEZ}
+{\bkmkend AAAAAAAAEZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'E2\'ED\'E5\'F8\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E9 \'EC\'E5\'F2\'EE\'E4 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8, \'E5\'F1\'EB\'E8 \'FD\'F2\'EE \'E2\'EE\'E7\'EC\'EE\'E6\'ED\'EE. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+}
+{\xe \v getDependenceSize\:UserInterface}
+{\xe \v UserInterface\:getDependenceSize}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::getDependenceSize (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAFA}
+{\bkmkend AAAAAAAAFA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0. \'C3\'E5\'ED\'E5\'F0\'E8\'F0\'F3\'E5\'F2 \'E2\'F5\'EE\'E4\'ED\'FB\'E5 \'F4\'E0\'E9\'EB\'FB \'F0\'E0\'E7\'ED\'EE\'E9 \'E4\'EB\'E8\'ED\'FB. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'F1\'EA\'EE\'EB\'FC\'EA\'EE \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EE\'EA \'F1 \'F0\'E0\'E7\'ED\'FB\'EC \'F0\'E0\'E7\'EC\'E5\'F0\'EE\'EC \'E2\'F5\'EE\'E4\'ED\'EE\'E9 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0 \'E2\'F5\'EE\'E4\'ED\'EE\'E9 \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_interface_af7c9d93ec693f70dcfbdd9e6a080abc7_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v getDependenceSizeOfSegments\:UserInterface}
+{\xe \v UserInterface\:getDependenceSizeOfSegments}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::getDependenceSizeOfSegments (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAFB}
+{\bkmkend AAAAAAAAFB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0 \'F1\'E5\'E3\'EC\'E5\'ED\'F2\'EE\'E2. \'C3\'E5\'ED\'E5\'F0\'E8\'F0\'F3\'E5\'F2 \'F2\'E5\'F1\'F2\'EE\'E2\'F3\'FE \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'F1\'EA\'EE\'EB\'FC\'EA\'EE \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EE\'EA \'F1 \'F0\'E0\'E7\'ED\'FB\'EC \'F0\'E0\'E7\'EC\'E5\'F0\'EE\'EC \'F1\'E5\'E3\'EC\'E5\'ED\'F2\'EE\'E2. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'EE\'F2 \'F0\'E0\'E7\'EC\'E5\'F0\'E0 \'F1\'E5\'E3\'EC\'E5\'ED\'F2\'EE\'E2. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_interface_aaac8a635efdb79276275f9d1ea265cd7_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v getDependenceType\:UserInterface}
+{\xe \v UserInterface\:getDependenceType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::getDependenceType (){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAFC}
+{\bkmkend AAAAAAAAFC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'EE\'E2 \'EC\'E5\'F2\'EE\'E4\'E0 \'EF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'FF \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9 \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'EE\'F2 \'F2\'E8\'EF\'E0 \'E2\'ED\'F3\'F2\'F0\'E5\'ED\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'C3\'E5\'ED\'E5\'F0\'E8\'F0\'F3\'E5\'F2 \'F2\'E5\'F1\'F2\'EE\'E2\'F3\'FE \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC. \'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'ED\'E5\'F1\'EA\'EE\'EB\'FC\'EA\'EE \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EE\'EA \'F1 \'F0\'E0\'E7\'ED\'FB\'EC\'E8 \'F2\'E8\'EF\'E0\'EC\'E8 \'E2\'ED\'F3\'F2\'F0\'E5\'ED\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CF\'EE\'EB\'F3\'F7\'E0\'E5\'F2 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA \'EE\'F2 \'F2\'E8\'EF\'E0 \'E2\'ED\'F3\'F2\'F0\'E5\'ED\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \'CE\'EF\'EE\'E2\'E5\'F9\'E0\'E5\'F2 \'EE \'E2\'EE\'E7\'ED\'E8\'EA\'E0\'FE\'F9\'E8\'F5 \'EE\'F8\'E8\'E1\'EA\'E0\'F5. }}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_interface_ab726cdce7e7518aae70cf42594139589_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v initSession\:UserInterface}
+{\xe \v UserInterface\:initSession}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void UserInterface::initSession ()}}
+\par
+{\bkmkstart AAAAAAAAFD}
+{\bkmkend AAAAAAAAFD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C8\'ED\'E8\'F6\'E8\'E0\'EB\'E8\'E7\'E8\'F0\'F3\'E5\'F2 \'F1\'E5\'F1\'F1\'E8\'FE \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'F1 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'E5\'EC. \'C7\'E0\'E4\'E0\'E5\'F2 \'E1\'E5\'F1\'EA\'EE\'ED\'E5\'F7\'ED\'FB\'E9 \'F6\'E8\'EA\'EB \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'F1 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'E5\'EC, \'E2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 getMethod(). \'C7\'E0\'E2\'E5\'F0\'F8\'E0\'E5\'F2\'F1\'FF \'E5\'F1\'EB\'E8 getMethod() \'E2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 false. }}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_interface_a6c7f9ef9faa40eaf4760d57e89228786_icgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v setParams\:UserInterface}
+{\xe \v UserInterface\:setParams}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Responce} UserInterface::setParams ({\b FileManager} *  {\i file}, long long  {\i sizeOfSegments}, {\b TypeOfSort}  {\i type}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAFE}
+{\bkmkend AAAAAAAAFE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4, \'E7\'E0\'E4\'E0\'FE\'F9\'E8\'E9 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E7\'FB\'E2\'E0\'E5\'F2 \'EC\'E5\'F2\'EE\'E4, \'F1\'EE\'E7\'E4\'E0\'FE\'F9\'E8\'E9 \'ED\'E5\'EE\'E1\'F5\'EE\'E4\'E8\'EC\'FB\'E9 \'EF\'F0\'EE\'E8\'E7\'E2\'EE\'E4\'ED\'FB\'E9 \'EA\'EB\'E0\'F1\'F1 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'E8 \'E7\'E0\'E4\'E0\'FE\'F9\'E8\'E9 \'E5\'B8 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB. {\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C0\'F0\'E3\'F3\'EC\'E5\'ED\'F2\'FB:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i file} \cell }{\'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'EA\'EB\'E0\'F1\'F1 FileManger, \'EE\'E1\'E5\'F1\'EF\'E5\'F7\'E8\'E2\'E0\'FE\'F9\'E8\'E9 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'E5 \'EF\'F0\'E8\'EB\'EE\'E6\'E5\'ED\'E8\'FF \'F1 \'F4\'E0\'E9\'EB\'EE\'E2\'EE\'E9 \'F1\'E8\'F1\'F2\'E5\'EC\'EE\'E9. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i sizeOfSegments} \cell }{\'D0\'E0\'E7\'EC\'E5\'F0 \'F1\'E5\'E3\'EC\'E5\'ED\'F2\'EE\'E2. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx1224
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx3061
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{in\cell }{{\i type} \cell }{T\'E8\'EF \'E2\'ED\'F3\'F2\'F0\'E5\'ED\'ED\'E5\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2:\par}\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid \'CA\'EE\'E4 \'F3\'F1\'EF\'E5\'F5\'E0 \'E8\'EB\'E8 \'EE\'F8\'E8\'E1\'EA\'E8. \par
+}}\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_user_interface_a595a469d83a351719c75c65fbf4a6fbe_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v menu\:UserInterface}
+{\xe \v UserInterface\:menu}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const string UserInterface::menu = "0. \'C2\'FB\'F5\'EE\'E4\\n1. \'D1\'E3\'E5\'ED\'E5\'F0\'E8\'F0\'EE\'E2\'E0\'F2\'FC \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC\\n2. \'C7\'E0\'E4\'E0\'F2\'FC \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8\\n3. \'CE\'F2\'F1\'EE\'F0\'E8\'F2\'F0\'EE\'E2\'E0\'F2\'FC \'EF\'EE\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'ED\'EE\'F1\'F2\'FC\\n4. \'CE\'F6\'E5\'ED\'E8\'F2\'FC \'F5\'E0\'F0\'E0\'EA\'F2\'E5\'F0\'E8\'F1\'F2\'E8\'EA\'E8 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8\\n5. \'CF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'E5 \'E7\'E0\'E2\'E8\'F1\'E8\'EC\'EE\'F1\'F2\'E5\'E9\\n"{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAFF}
+{\bkmkend AAAAAAAAFF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'E0\'ED\'F2\'ED\'E0\'FF \'F1\'F2\'F0\'EE\'EA\'E0 \'EC\'E5\'ED\'FE. }}\par
+}
+{\xe \v responceString\:UserInterface}
+{\xe \v UserInterface\:responceString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+const char* UserInterface::responceString[9]{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAFG}
+{\bkmkend AAAAAAAAFG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\b \'C8\'ED\'E8\'F6\'E8\'E0\'EB\'E8\'E7\'E0\'F2\'EE\'F0}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid = \{ "\'D3\'F1\'EF\'E5\'F8\'ED\'EE", "\'CE\'F8\'E8\'E1\'EA\'E0 \'E3\'E5\'ED\'E5\'F0\'E0\'F6\'E8\'E8", "\'D4\'E0\'E9\'EB \'ED\'E5 \'F1\'F3\'F9\'E5\'F1\'F2\'E2\'F3\'E5\'F2", "\'CE\'F8\'E8\'E1\'EA\'E0 \'F0\'E0\'E7\'EC\'E5\'F0\'E0", "\'CE\'F8\'E8\'E1\'EA\'E0 \'F4\'E0\'E9\'EB-\'EC\'E5\'ED\'E5\'E4\'E6\'E5\'F0\'E0",\par
+        "\'C8\'F1\'F5\'EE\'E4\'ED\'FB\'E9 \'F4\'E0\'E9\'EB \'E8 \'F4\'E0\'E9\'EB \'F0\'E5\'E7\'F3\'EB\'FC\'F2\'E0\'F2\'E0 \'F1\'EE\'E2\'EF\'E0\'E4\'E0\'FE\'F2", "\'C4\'EE\'F1\'F2\'E8\'E3\'ED\'F3\'F2 \'EA\'EE\'ED\'E5\'F6 \'F4\'E0\'E9\'EB\'E0", "\'CE\'F8\'E8\'E1\'EA\'E0 \'E2\'FB\'E4\'E5\'EB\'E5\'ED\'E8\'FF \'EF\'E0\'EC\'FF\'F2\'E8", "\'CF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'FB \'ED\'E5 \'E7\'E0\'E4\'E0\'ED\'FB \'E8\'EB\'E8 \'E7\'E0\'E4\'E0\'ED\'FB \'ED\'E5\'E2\'E5\'F0\'ED\'EE" \}\par
+}
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'E0\'ED\'F2\'ED\'FB\'E9 \'EC\'E0\'F1\'F1\'E8\'E2, \'F1\'F2\'F0\'EE\'EA, \'F0\'E0\'F1\'F8\'E8\'F4\'F0\'EE\'E2\'FB\'E2\'E0\'FE\'F9\'E8\'F5 \'EA\'EE\'E4\'FB \'EE\'F8\'E8\'E1\'EE\'EA. }}\par
+}
+{\xe \v sort\:UserInterface}
+{\xe \v UserInterface\:sort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b ExternalMergeSort}* UserInterface::sort{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAFH}
+{\bkmkend AAAAAAAAFH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'ED\'E0 \'FD\'EA\'E7\'E5\'EC\'EF\'EB\'FF\'F0 \'EA\'EB\'E0\'F1\'F1\'E0 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'E7\'E2\'EE\'EB\'FF\'E5\'F2 \'E8\'F1\'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'FC \'EC\'E5\'F2\'EE\'E4\'FB \'E2\'ED\'E5\'F8\'ED\'E5\'E9 \'EC\'ED\'EE\'E3\'EE\'F4\'E0\'E7\'ED\'EE\'E9 \'F1\'EE\'F0\'F2\'E8\'F0\'EE\'E2\'EA\'E8 \'F1\'EB\'E8\'FF\'ED\'E8\'E5\'EC. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b UserInterface.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/{\b UserInterface.cpp}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D4\'E0\'E9\'EB\'FB{\tc \v \'D4\'E0\'E9\'EB\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "BubbleExternalSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF BubbleExternalSort.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_bubble_external_sort_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "ExternalMergeSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF BubbleExternalSort.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_bubble_external_sort_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_bubble_external_sort_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b BubbleExternalSort}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "Counter.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF Counter.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_counter_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <ctime>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF Counter.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_counter_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_counter_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Counter}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "ExternalMergeSort.h"}\par
+{\f2 #include <sstream>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF ExternalMergeSort.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_external_merge_sort_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "FileManager.h"}\par
+{\f2 #include "Counter.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF ExternalMergeSort.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_external_merge_sort_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_external_merge_sort_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ExternalMergeSort}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "UserInterface.h"}\par
+{\f2 #include <iostream>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF ExternalMergeSortProduction.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_external_merge_sort_production_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'E8\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'D4\'F3\'ED\'EA\'F6\'E8\'E8\par
+\pard\plain 
+{\xe \v main\:ExternalMergeSortProduction.cpp}
+{\xe \v ExternalMergeSortProduction.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main ()}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_external_merge_sort_production_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "FileManager.h"}\par
+{\f2 #include <random>}\par
+{\f2 #include <ctime>}\par
+{\f2 #include <iostream>}\par
+{\f2 #include <sstream>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF FileManager.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_file_manager_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <fstream>}\par
+{\f2 #include "Structures.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF FileManager.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_file_manager_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_file_manager_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b FileManager}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.cpp}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "HeapExternalSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF HeapExternalSort.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_heap_external_sort_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "ExternalMergeSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF HeapExternalSort.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_heap_external_sort_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_heap_external_sort_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b HeapExternalSort}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.cpp}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "QuickExternalSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF QuickExternalSort.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_quick_external_sort_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E0\'EA\'F0\'EE\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b MAXSTACK}\~ 10000\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E0\'EA\'F0\'EE\'F1\'FB\par
+\pard\plain 
+{\xe \v MAXSTACK\:QuickExternalSort.cpp}
+{\xe \v QuickExternalSort.cpp\:MAXSTACK}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define MAXSTACK\~ 10000}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "ExternalMergeSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF QuickExternalSort.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_quick_external_sort_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_quick_external_sort_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b QuickExternalSort}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.cpp}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include <iostream>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF stdafx.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "stdafx_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.h}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "targetver.h"}\par
+{\f2 #include <stdio.h>}\par
+{\f2 #include <tchar.h>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF stdafx.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "stdafx_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "stdafx_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Structures.h}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <iostream>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF Structures.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_structures_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_structures_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'FF\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b FileState} \{ {\b NotEnable}, 
+{\b ReadOnly}, 
+{\b WriteOnly}, 
+{\b ReadAndWrite}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Responce} \{ {\b Success}, 
+{\b GenerateError}, 
+{\b FileNotExist}, 
+{\b SizeError}, 
+{\b FileManagerFail}, 
+{\b InputAndOutputIsEqual}, 
+{\b EndOfFile}, 
+{\b MemoryError}, 
+{\b ParamsFail}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b LogType} \{ {\b WithOut}, 
+{\b CLI}, 
+{\b File}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b SeqType} \{ {\b Best}, 
+{\b Average}, 
+{\b Worst}
+ \}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b TypeOfSort} \{ {\b Bubble}, 
+{\b Quick}, 
+{\b Heap}, 
+{\b Fail}
+ \}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'FF\par
+\pard\plain 
+{\xe \v FileState\:Structures.h}
+{\xe \v Structures.h\:FileState}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b FileState}}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'DD\'EB\'E5\'EC\'E5\'ED\'F2\'FB \'EF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'E9:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v NotEnable\:Structures.h}
+{\xe \v Structures.h\:NotEnable}
+{\qr NotEnable{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\cell }{\cell }{\row }
+{\xe \v ReadOnly\:Structures.h}
+{\xe \v Structures.h\:ReadOnly}
+{\qr ReadOnly{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\cell }{\cell }{\row }
+{\xe \v WriteOnly\:Structures.h}
+{\xe \v Structures.h\:WriteOnly}
+{\qr WriteOnly{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+\cell }{\cell }{\row }
+{\xe \v ReadAndWrite\:Structures.h}
+{\xe \v Structures.h\:ReadAndWrite}
+{\qr ReadAndWrite{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\cell }{\cell }{\row }
+}
+}
+{\xe \v LogType\:Structures.h}
+{\xe \v Structures.h\:LogType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b LogType}}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'DD\'EB\'E5\'EC\'E5\'ED\'F2\'FB \'EF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'E9:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v WithOut\:Structures.h}
+{\xe \v Structures.h\:WithOut}
+{\qr WithOut{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+\cell }{\cell }{\row }
+{\xe \v CLI\:Structures.h}
+{\xe \v Structures.h\:CLI}
+{\qr CLI{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+\cell }{\cell }{\row }
+{\xe \v File\:Structures.h}
+{\xe \v Structures.h\:File}
+{\qr File{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+\cell }{\cell }{\row }
+}
+}
+{\xe \v Responce\:Structures.h}
+{\xe \v Structures.h\:Responce}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b Responce}}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'DD\'EB\'E5\'EC\'E5\'ED\'F2\'FB \'EF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'E9:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Success\:Structures.h}
+{\xe \v Structures.h\:Success}
+{\qr Success{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\cell }{\cell }{\row }
+{\xe \v GenerateError\:Structures.h}
+{\xe \v Structures.h\:GenerateError}
+{\qr GenerateError{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+\cell }{\cell }{\row }
+{\xe \v FileNotExist\:Structures.h}
+{\xe \v Structures.h\:FileNotExist}
+{\qr FileNotExist{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+\cell }{\cell }{\row }
+{\xe \v SizeError\:Structures.h}
+{\xe \v Structures.h\:SizeError}
+{\qr SizeError{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\cell }{\cell }{\row }
+{\xe \v FileManagerFail\:Structures.h}
+{\xe \v Structures.h\:FileManagerFail}
+{\qr FileManagerFail{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+\cell }{\cell }{\row }
+{\xe \v InputAndOutputIsEqual\:Structures.h}
+{\xe \v Structures.h\:InputAndOutputIsEqual}
+{\qr InputAndOutputIsEqual{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\cell }{\cell }{\row }
+{\xe \v EndOfFile\:Structures.h}
+{\xe \v Structures.h\:EndOfFile}
+{\qr EndOfFile{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+\cell }{\cell }{\row }
+{\xe \v MemoryError\:Structures.h}
+{\xe \v Structures.h\:MemoryError}
+{\qr MemoryError{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+\cell }{\cell }{\row }
+{\xe \v ParamsFail\:Structures.h}
+{\xe \v Structures.h\:ParamsFail}
+{\qr ParamsFail{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+\cell }{\cell }{\row }
+}
+}
+{\xe \v SeqType\:Structures.h}
+{\xe \v Structures.h\:SeqType}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b SeqType}}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'DD\'EB\'E5\'EC\'E5\'ED\'F2\'FB \'EF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'E9:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Best\:Structures.h}
+{\xe \v Structures.h\:Best}
+{\qr Best{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+\cell }{\cell }{\row }
+{\xe \v Average\:Structures.h}
+{\xe \v Structures.h\:Average}
+{\qr Average{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+\cell }{\cell }{\row }
+{\xe \v Worst\:Structures.h}
+{\xe \v Structures.h\:Worst}
+{\qr Worst{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+\cell }{\cell }{\row }
+}
+}
+{\xe \v TypeOfSort\:Structures.h}
+{\xe \v Structures.h\:TypeOfSort}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b TypeOfSort}}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'DD\'EB\'E5\'EC\'E5\'ED\'F2\'FB \'EF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'E9:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Bubble\:Structures.h}
+{\xe \v Structures.h\:Bubble}
+{\qr Bubble{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+\cell }{\cell }{\row }
+{\xe \v Quick\:Structures.h}
+{\xe \v Structures.h\:Quick}
+{\qr Quick{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\cell }{\cell }{\row }
+{\xe \v Heap\:Structures.h}
+{\xe \v Structures.h\:Heap}
+{\qr Heap{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+\cell }{\cell }{\row }
+{\xe \v Fail\:Structures.h}
+{\xe \v Structures.h\:Fail}
+{\qr Fail{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+\cell }{\cell }{\row }
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/targetver.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/targetver.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/targetver.h}
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <SDKDDKVer.h>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF targetver.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "targetver_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "targetver_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp}
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "stdafx.h"}\par
+{\f2 #include "UserInterface.h"}\par
+{\f2 #include <iostream>}\par
+{\f2 #include "FileManager.h"}\par
+{\f2 #include "ExternalMergeSort.h"}\par
+{\f2 #include <sstream>}\par
+{\f2 #include "BubbleExternalSort.h"}\par
+{\f2 #include "QuickExternalSort.h"}\par
+{\f2 #include "HeapExternalSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF UserInterface.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_user_interface_8cpp__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h\par \pard\plain 
+{\tc\tcl2 \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h}
+{\xe \v C:/Users/\'E0\'E4\'EC\'E8\'ED/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h}
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Structures.h"}\par
+{\f2 #include "ExternalMergeSort.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'EC\'FB\'F5 \'E7\'E0\'E3\'EE\'EB\'EE\'E2\'EE\'F7\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2 \'E4\'EB\'FF UserInterface.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_user_interface_8h__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C3\'F0\'E0\'F4 \'F4\'E0\'E9\'EB\'EE\'E2, \'E2 \'EA\'EE\'F2\'EE\'F0\'FB\'E5 \'E2\'EA\'EB\'FE\'F7\'E0\'E5\'F2\'F1\'FF \'FD\'F2\'EE\'F2 \'F4\'E0\'E9\'EB:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_user_interface_8h__dep__incl.jpg" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b UserInterface}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EF\'EE\'EB\'FC\'E7\'EE\'E2\'E0\'F2\'E5\'EB\'FC\'F1\'EA\'EE\'E3\'EE \'E8\'ED\'F2\'E5\'F0\'F4\'E5\'E9\'F1\'E0. }}}
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC\par 
+\pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

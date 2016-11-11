@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_counter_8cpp" kind="file" language="C++">
+    <compoundname>Counter.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="_counter_8h" local="yes">Counter.h</includes>
+    <incdepgraph>
+      <node id="32">
+        <label>Counter.h</label>
+        <link refid="_counter_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp</label>
+        <link refid="_counter_8cpp"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="27">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>ctime</label>
+      </node>
+      <node id="31">
+        <label>tchar.h</label>
+      </node>
+      <node id="30">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_counter_8h" kindref="compound">Counter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_counter_1a1e05f69b5240fbab3e7ab351672167f0" refkind="member"><highlight class="normal"><ref refid="class_counter_1a1e05f69b5240fbab3e7ab351672167f0" kindref="member">Counter::Counter</ref>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" kindref="member">clear</ref>();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" kindref="member">Counter::setBegTime</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" kindref="member">begTime</ref><sp/>=<sp/>clock();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" kindref="member">Counter::setEndTime</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" kindref="member">endTime</ref><sp/>=<sp/>clock();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" kindref="member">getTimeInterval</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" kindref="member">Counter::getTimeInterval</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" kindref="member">endTime</ref><sp/>-<sp/><ref refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" kindref="member">begTime</ref>)<sp/>*<sp/>1000<sp/>/<sp/>CLOCKS_PER_SEC;<sp/></highlight><highlight class="comment">//число<sp/>миллисекунд</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" kindref="member">Counter::incSwaps</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" kindref="member">swaps</ref>++;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" kindref="member">Counter::getSwaps</ref>()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" kindref="member">swaps</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" kindref="member">Counter::incComparsion</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>n)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" kindref="member">comparsion</ref><sp/>+=<sp/>n;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" kindref="member">Counter::getComparsion</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" kindref="member">comparsion</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" kindref="member">Counter::incFileOp</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>n)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" kindref="member">fileOp</ref><sp/>+=<sp/>n;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" kindref="member">Counter::getFileOp</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" kindref="member">fileOp</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" kindref="member">Counter::clear</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" kindref="member">begTime</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" kindref="member">endTime</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" kindref="member">comparsion</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" kindref="member">fileOp</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" kindref="member">swaps</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_counter_1a97f4728470ae8eff37d50ef1d6bb0135" refkind="member"><highlight class="normal"><ref refid="class_counter_1a97f4728470ae8eff37d50ef1d6bb0135" kindref="member">Counter::~Counter</ref>()</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp"/>
+  </compounddef>
+</doxygen>

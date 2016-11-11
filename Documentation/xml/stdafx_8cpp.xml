@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="stdafx_8cpp" kind="file" language="C++">
+    <compoundname>stdafx.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="183">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="184" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="182">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.cpp</label>
+        <link refid="stdafx_8cpp"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>iostream</label>
+      </node>
+      <node id="186">
+        <label>tchar.h</label>
+      </node>
+      <node id="185">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>stdafx.cpp:<sp/>исходный<sp/>файл,<sp/>содержащий<sp/>только<sp/>стандартные<sp/>включаемые<sp/>модули</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>ExternalMergeSortProduction.pch<sp/>будет<sp/>предкомпилированным<sp/>заголовком</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>stdafx.obj<sp/>будет<sp/>содержать<sp/>предварительно<sp/>откомпилированные<sp/>сведения<sp/>о<sp/>типе</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>Установите<sp/>ссылки<sp/>на<sp/>любые<sp/>требующиеся<sp/>дополнительные<sp/>заголовки<sp/>в<sp/>файле<sp/>STDAFX.H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>,<sp/>а<sp/>не<sp/>в<sp/>данном<sp/>файле</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/stdafx.cpp"/>
+  </compounddef>
+</doxygen>

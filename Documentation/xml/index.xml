@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.12">
+  <compound refid="class_bubble_external_sort" kind="class"><name>BubbleExternalSort</name>
+    <member refid="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c" kind="function"><name>sort</name></member>
+    <member refid="class_bubble_external_sort_1a420f93ff7677a75557f805749011f86e" kind="function"><name>BubbleExternalSort</name></member>
+    <member refid="class_bubble_external_sort_1a2075c6e2117da937f397ceb993336e81" kind="function"><name>~BubbleExternalSort</name></member>
+  </compound>
+  <compound refid="class_counter" kind="class"><name>Counter</name>
+    <member refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" kind="variable"><name>begTime</name></member>
+    <member refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" kind="variable"><name>endTime</name></member>
+    <member refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" kind="variable"><name>comparsion</name></member>
+    <member refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" kind="variable"><name>fileOp</name></member>
+    <member refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" kind="variable"><name>swaps</name></member>
+    <member refid="class_counter_1a1e05f69b5240fbab3e7ab351672167f0" kind="function"><name>Counter</name></member>
+    <member refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" kind="function"><name>setBegTime</name></member>
+    <member refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" kind="function"><name>setEndTime</name></member>
+    <member refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" kind="function"><name>getTimeInterval</name></member>
+    <member refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" kind="function"><name>incSwaps</name></member>
+    <member refid="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" kind="function"><name>getSwaps</name></member>
+    <member refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" kind="function"><name>incComparsion</name></member>
+    <member refid="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" kind="function"><name>getComparsion</name></member>
+    <member refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" kind="function"><name>incFileOp</name></member>
+    <member refid="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" kind="function"><name>getFileOp</name></member>
+    <member refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" kind="function"><name>clear</name></member>
+    <member refid="class_counter_1a97f4728470ae8eff37d50ef1d6bb0135" kind="function"><name>~Counter</name></member>
+  </compound>
+  <compound refid="class_external_merge_sort" kind="class"><name>ExternalMergeSort</name>
+    <member refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" kind="variable"><name>fileManager</name></member>
+    <member refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" kind="variable"><name>sizeOfSegments</name></member>
+    <member refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" kind="variable"><name>ok</name></member>
+    <member refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" kind="variable"><name>log</name></member>
+    <member refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kind="variable"><name>counter</name></member>
+    <member refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" kind="function"><name>createRuns</name></member>
+    <member refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" kind="function"><name>mergeSequencesNew</name></member>
+    <member refid="class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4" kind="function"><name>print</name></member>
+    <member refid="class_external_merge_sort_1a7b6efcd2abbf59a8983f972c52d04650" kind="function"><name>ExternalMergeSort</name></member>
+    <member refid="class_external_merge_sort_1a37df182916b341d5466f2fff0d50dfed" kind="function"><name>ExternalMergeSort</name></member>
+    <member refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" kind="function"><name>setParams</name></member>
+    <member refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" kind="function"><name>externalSort</name></member>
+    <member refid="class_external_merge_sort_1ac0eeaba67ee0703acf73a8a5bf78ebe1" kind="function"><name>setLog</name></member>
+    <member refid="class_external_merge_sort_1af6412221cc797a846243a343ccc12dba" kind="function"><name>sort</name></member>
+    <member refid="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" kind="function"><name>~ExternalMergeSort</name></member>
+  </compound>
+  <compound refid="class_file_manager" kind="class"><name>FileManager</name>
+    <member refid="class_file_manager_1a91fd33cbb230ed4974a678302e906a8d" kind="variable"><name>iFile</name></member>
+    <member refid="class_file_manager_1afe31c07e311212814e4a8ba01c7436a1" kind="variable"><name>oFile</name></member>
+    <member refid="class_file_manager_1adf10708d6e8e3b4d329077af4666e147" kind="variable"><name>oFileStr</name></member>
+    <member refid="class_file_manager_1aaa0e6feed45b6a92ce5c0b509bd9ceb6" kind="variable"><name>iFileStr</name></member>
+    <member refid="class_file_manager_1a84bbcd4e3807e076ecdbd0e5dfbefa5f" kind="variable"><name>state</name></member>
+    <member refid="class_file_manager_1ae43001594f1ee182581741d2530620a8" kind="variable"><name>endOfFile</name></member>
+    <member refid="class_file_manager_1a4a4719a410ca31985e8b75ad75485ce6" kind="function"><name>closeIFile</name></member>
+    <member refid="class_file_manager_1a6a1f1ddbf047fc7e9531f483e4c62148" kind="function"><name>closeOFile</name></member>
+    <member refid="class_file_manager_1a49df99509ff2700e0e5edd06adca345c" kind="function"><name>getEndOfFile</name></member>
+    <member refid="class_file_manager_1ace8ce2677414831b5a9e7030248fc832" kind="function"><name>setEndOfFile</name></member>
+    <member refid="class_file_manager_1a2f1102abfd0a5a9d7e178968a3fdc56c" kind="function"><name>clearOutFile</name></member>
+    <member refid="class_file_manager_1aba031d681752c80f52a8a8af9b69834e" kind="function"><name>read</name></member>
+    <member refid="class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f" kind="function"><name>write</name></member>
+    <member refid="class_file_manager_1ad4c96727180b0055942d20b7b5bfe5f8" kind="function"><name>write</name></member>
+    <member refid="class_file_manager_1ab364b91193c482fc7387aec162f677ad" kind="function"><name>setFiles</name></member>
+    <member refid="class_file_manager_1a975bf0088fa67c83d78ec54b9f61a473" kind="function"><name>setFiles</name></member>
+    <member refid="class_file_manager_1abd4cbc2b218ab1828ae376a4a9137057" kind="function"><name>getState</name></member>
+    <member refid="class_file_manager_1ab490a5a5882d33781dcb6d1d42945d97" kind="function"><name>checkForEquality</name></member>
+    <member refid="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" kind="function"><name>generateSequence</name></member>
+    <member refid="class_file_manager_1a62d69473c95f8df25e44d2466bb00dc5" kind="function"><name>FileManager</name></member>
+    <member refid="class_file_manager_1a2456e56bdcb617c3ee75521cf9dd7057" kind="function"><name>FileManager</name></member>
+    <member refid="class_file_manager_1a8afd512c06be9daf140cc19d71f9b391" kind="function"><name>FileManager</name></member>
+    <member refid="class_file_manager_1abaed33b5b0c13b8a597db9335a1aacfa" kind="function"><name>~FileManager</name></member>
+  </compound>
+  <compound refid="class_heap_external_sort" kind="class"><name>HeapExternalSort</name>
+    <member refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" kind="function"><name>siftDown</name></member>
+    <member refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" kind="function"><name>sort</name></member>
+    <member refid="class_heap_external_sort_1a9e6236e47430f0b530b287a6d7cf3a8b" kind="function"><name>HeapExternalSort</name></member>
+    <member refid="class_heap_external_sort_1afa76473510a8cb610bb94bca5b5202c9" kind="function"><name>~HeapExternalSort</name></member>
+  </compound>
+  <compound refid="class_quick_external_sort" kind="class"><name>QuickExternalSort</name>
+    <member refid="class_quick_external_sort_1a912abb7f2ccdadd7d97992f035e16183" kind="function"><name>qSortI</name></member>
+    <member refid="class_quick_external_sort_1adafdd4faded04218c1a131bf55e3c90d" kind="function"><name>sort</name></member>
+    <member refid="class_quick_external_sort_1ac31914e67af41c48b8fdcbcc076168ed" kind="function"><name>QuickExternalSort</name></member>
+    <member refid="class_quick_external_sort_1a370e2be5e7c4afc31f9b230c2ee4d689" kind="function"><name>~QuickExternalSort</name></member>
+  </compound>
+  <compound refid="class_user_interface" kind="class"><name>UserInterface</name>
+    <member refid="class_user_interface_1af3405ffdb7e2834c2cf63662b5415a91" kind="variable"><name>sort</name></member>
+    <member refid="class_user_interface_1a24b9a8a0a253382b0737a86f7ecf7d8b" kind="variable"><name>menu</name></member>
+    <member refid="class_user_interface_1a3ec4a2871150fd6b83ddf9d459aa0afc" kind="variable"><name>responceString</name></member>
+    <member refid="class_user_interface_1ad388ff348c0a124038f4ea9756b80041" kind="function"><name>callMethod</name></member>
+    <member refid="class_user_interface_1a27c547dadfd5588d5b734e253b2e8a4a" kind="function"><name>callGenerate</name></member>
+    <member refid="class_user_interface_1adcabf6c8f2be4b4ec712c4674156bf59" kind="function"><name>callSetParams</name></member>
+    <member refid="class_user_interface_1a0e03dfecee7e890ad1e076888062d5cb" kind="function"><name>callSort</name></member>
+    <member refid="class_user_interface_1a7957201b3543ea0561d48bcc0a0d329e" kind="function"><name>callEstimate</name></member>
+    <member refid="class_user_interface_1a332db63dca89d684f7e9e1272f4c3745" kind="function"><name>callGetDependencies</name></member>
+    <member refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" kind="function"><name>setParams</name></member>
+    <member refid="class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7" kind="function"><name>getDependenceSize</name></member>
+    <member refid="class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7" kind="function"><name>getDependenceSizeOfSegments</name></member>
+    <member refid="class_user_interface_1ab726cdce7e7518aae70cf42594139589" kind="function"><name>getDependenceType</name></member>
+    <member refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" kind="function"><name>initSession</name></member>
+    <member refid="class_user_interface_1ae6fb70370701b3bd6120e923df9705b0" kind="function"><name>UserInterface</name></member>
+    <member refid="class_user_interface_1ae588b2ff1711a016dd4c6fc5002c0841" kind="function"><name>~UserInterface</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_bubble_external_sort_8cpp" kind="file"><name>BubbleExternalSort.cpp</name>
+  </compound>
+  <compound refid="_bubble_external_sort_8h" kind="file"><name>BubbleExternalSort.h</name>
+  </compound>
+  <compound refid="_counter_8cpp" kind="file"><name>Counter.cpp</name>
+  </compound>
+  <compound refid="_counter_8h" kind="file"><name>Counter.h</name>
+  </compound>
+  <compound refid="_external_merge_sort_8cpp" kind="file"><name>ExternalMergeSort.cpp</name>
+  </compound>
+  <compound refid="_external_merge_sort_8h" kind="file"><name>ExternalMergeSort.h</name>
+  </compound>
+  <compound refid="_external_merge_sort_production_8cpp" kind="file"><name>ExternalMergeSortProduction.cpp</name>
+    <member refid="_external_merge_sort_production_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_file_manager_8cpp" kind="file"><name>FileManager.cpp</name>
+  </compound>
+  <compound refid="_file_manager_8h" kind="file"><name>FileManager.h</name>
+  </compound>
+  <compound refid="_heap_external_sort_8cpp" kind="file"><name>HeapExternalSort.cpp</name>
+  </compound>
+  <compound refid="_heap_external_sort_8h" kind="file"><name>HeapExternalSort.h</name>
+  </compound>
+  <compound refid="_quick_external_sort_8cpp" kind="file"><name>QuickExternalSort.cpp</name>
+    <member refid="_quick_external_sort_8cpp_1aacca6649d32984be8e1aa076bf42fe46" kind="define"><name>MAXSTACK</name></member>
+  </compound>
+  <compound refid="_quick_external_sort_8h" kind="file"><name>QuickExternalSort.h</name>
+  </compound>
+  <compound refid="stdafx_8cpp" kind="file"><name>stdafx.cpp</name>
+  </compound>
+  <compound refid="stdafx_8h" kind="file"><name>stdafx.h</name>
+  </compound>
+  <compound refid="_structures_8h" kind="file"><name>Structures.h</name>
+    <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7" kind="enum"><name>FileState</name></member>
+    <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" kind="enumvalue"><name>NotEnable</name></member>
+    <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" kind="enumvalue"><name>ReadOnly</name></member>
+    <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" kind="enumvalue"><name>WriteOnly</name></member>
+    <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" kind="enumvalue"><name>ReadAndWrite</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kind="enum"><name>Responce</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" kind="enumvalue"><name>Success</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aeec752b095431b8fca92ea1de18c3d4b" kind="enumvalue"><name>GenerateError</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" kind="enumvalue"><name>FileNotExist</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aff5e0c4e167b2a74a058ba96eb0ee149" kind="enumvalue"><name>SizeError</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" kind="enumvalue"><name>FileManagerFail</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aebd38049a88fe839c522d0352fedda6c" kind="enumvalue"><name>InputAndOutputIsEqual</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" kind="enumvalue"><name>EndOfFile</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ae78c711dd9a3a19d8175eb124b17611c" kind="enumvalue"><name>MemoryError</name></member>
+    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4" kind="enumvalue"><name>ParamsFail</name></member>
+    <member refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87c" kind="enum"><name>LogType</name></member>
+    <member refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" kind="enumvalue"><name>WithOut</name></member>
+    <member refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca172e8dc95b033321bf58a216636307c9" kind="enumvalue"><name>CLI</name></member>
+    <member refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca1ab5ebbd194ab0b95e5697aca9ba274f" kind="enumvalue"><name>File</name></member>
+    <member refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1" kind="enum"><name>SeqType</name></member>
+    <member refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a29d9ba0e499ea8fcd3d7b4e3fdc89b75" kind="enumvalue"><name>Best</name></member>
+    <member refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1ab3c87ec2c47256239220b24e46acda7f" kind="enumvalue"><name>Average</name></member>
+    <member refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" kind="enumvalue"><name>Worst</name></member>
+    <member refid="_structures_8h_1adbb15722785daaf5166f7ea34323854c" kind="enum"><name>TypeOfSort</name></member>
+    <member refid="_structures_8h_1adbb15722785daaf5166f7ea34323854ca2bd4f97892c8b7d060e9f67527f0b9ef" kind="enumvalue"><name>Bubble</name></member>
+    <member refid="_structures_8h_1adbb15722785daaf5166f7ea34323854cab6dc6b578a22d35f3d364f3c4ba34c02" kind="enumvalue"><name>Quick</name></member>
+    <member refid="_structures_8h_1adbb15722785daaf5166f7ea34323854ca139b64ba62923e002df5e9124e778c64" kind="enumvalue"><name>Heap</name></member>
+    <member refid="_structures_8h_1adbb15722785daaf5166f7ea34323854ca2c88d6b09611bebcfd079df624ae3bfe" kind="enumvalue"><name>Fail</name></member>
+  </compound>
+  <compound refid="targetver_8h" kind="file"><name>targetver.h</name>
+  </compound>
+  <compound refid="_user_interface_8cpp" kind="file"><name>UserInterface.cpp</name>
+  </compound>
+  <compound refid="_user_interface_8h" kind="file"><name>UserInterface.h</name>
+  </compound>
+  <compound refid="dir_2fadde2e9abc0a1dff4e48bfd352cb1b" kind="dir"><name>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction</name>
+  </compound>
+</doxygenindex>

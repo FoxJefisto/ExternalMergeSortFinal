@@ -1,0 +1,5 @@
+<map id="ExternalMergeSort" name="ExternalMergeSort">
+<area shape="rect" id="node2" href="$class_bubble_external_sort.html" title="{BubbleExternalSort\n||+ sort()\l+ BubbleExternalSort()\l+ ~BubbleExternalSort()\l}" alt="" coords="5,329,168,435"/>
+<area shape="rect" id="node3" href="$class_heap_external_sort.html" title="{HeapExternalSort\n||+ sort()\l+ HeapExternalSort()\l+ ~HeapExternalSort()\l&#45; siftDown()\l}" alt="" coords="192,321,344,443"/>
+<area shape="rect" id="node4" href="$class_quick_external_sort.html" title="{QuickExternalSort\n||+ sort()\l+ QuickExternalSort()\l+ ~QuickExternalSort()\l&#45; qSortI()\l}" alt="" coords="369,321,525,443"/>
+</map>

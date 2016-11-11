@@ -1,0 +1,110 @@
+.TH "ExternalMergeSort" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ExternalMergeSort \- \fC#include <ExternalMergeSort\&.h>\fP
+.PP
+Производные классы:\fBBubbleExternalSort\fP, \fBHeapExternalSort\fP и \fBQuickExternalSort\fP\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBExternalMergeSort\fP ()"
+.br
+.ti -1c
+.RI "\fBExternalMergeSort\fP (\fBFileManager\fP *file, long long \fBsizeOfSegments\fP)"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBsetParams\fP (\fBFileManager\fP *file, long long \fBsizeOfSegments\fP)"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBexternalSort\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetLog\fP (\fBLogType\fP \fBlog\fP)"
+.br
+.ti -1c
+.RI "virtual void \fBsort\fP (long long *, long long)=0"
+.br
+.ti -1c
+.RI "virtual \fB~ExternalMergeSort\fP ()"
+.br
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "\fBCounter\fP \fBcounter\fP"
+.br
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBResponce\fP \fBcreateRuns\fP (long long *)"
+.br
+.ti -1c
+.RI "\fBResponce\fP \fBmergeSequencesNew\fP (\fBFileManager\fP *input1, \fBFileManager\fP *input2, \fBFileManager\fP *out, long long size)"
+.br
+.ti -1c
+.RI "void \fBprint\fP (const char *)"
+.br
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "\fBFileManager\fP * \fBfileManager\fP"
+.br
+.ti -1c
+.RI "long long \fBsizeOfSegments\fP"
+.br
+.ti -1c
+.RI "bool \fBok\fP"
+.br
+.ti -1c
+.RI "\fBLogType\fP \fBlog\fP"
+.br
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "ExternalMergeSort::ExternalMergeSort ()"
+
+.SS "ExternalMergeSort::ExternalMergeSort (\fBFileManager\fP * file, long long sizeOfSegments)"
+
+.SS "ExternalMergeSort::~ExternalMergeSort ()\fC [virtual]\fP"
+
+.SH "Методы"
+.PP 
+.SS "\fBResponce\fP ExternalMergeSort::createRuns (long long * sizeOfSequence)\fC [private]\fP"
+
+.SS "\fBResponce\fP ExternalMergeSort::externalSort ()"
+
+.SS "\fBResponce\fP ExternalMergeSort::mergeSequencesNew (\fBFileManager\fP * input1, \fBFileManager\fP * input2, \fBFileManager\fP * out, long long size)\fC [private]\fP"
+
+.SS "void ExternalMergeSort::print (const char * msg)\fC [private]\fP"
+
+.SS "void ExternalMergeSort::setLog (\fBLogType\fP log)"
+
+.SS "\fBResponce\fP ExternalMergeSort::setParams (\fBFileManager\fP * file, long long sizeOfSegments)"
+
+.SS "virtual void ExternalMergeSort::sort (long long *, long long)\fC [pure virtual]\fP"
+
+.PP
+Замещается в \fBHeapExternalSort\fP, \fBQuickExternalSort\fP и \fBBubbleExternalSort\fP\&.
+.SH "Данные класса"
+.PP 
+.SS "\fBCounter\fP ExternalMergeSort::counter"
+
+.SS "\fBFileManager\fP* ExternalMergeSort::fileManager\fC [private]\fP"
+
+.SS "\fBLogType\fP ExternalMergeSort::log\fC [private]\fP"
+
+.SS "bool ExternalMergeSort::ok\fC [private]\fP"
+
+.SS "long long ExternalMergeSort::sizeOfSegments\fC [private]\fP"
+
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen из исходного текста\&.
