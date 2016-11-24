@@ -2,6 +2,17 @@
 \label{class_quick_external_sort}\index{Quick\+External\+Sort@{Quick\+External\+Sort}}
 
 
+\subsection{Подробное описание}
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю быструю сортировку. 
+
+\begin{DoxyAuthor}{Автор}
+Alexander Filippov 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+Ноябрь 2016 года
+\end{DoxyDate}
+Наследуется от \hyperlink{class_external_merge_sort}{External\+Merge\+Sort}, перегружает метод внутренней сортировки, который осуществляет быструю сортировку последовательности. 
+
 {\ttfamily \#include $<$Quick\+External\+Sort.\+h$>$}
 
 
@@ -25,17 +36,17 @@
 \subsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
-virtual void \hyperlink{class_quick_external_sort_adafdd4faded04218c1a131bf55e3c90d}{sort} (long long $\ast$mas, long long)
-\item 
 \hyperlink{class_quick_external_sort_ac31914e67af41c48b8fdcbcc076168ed}{Quick\+External\+Sort} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Пустой конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{class_quick_external_sort_a370e2be5e7c4afc31f9b230c2ee4d689}{$\sim$\+Quick\+External\+Sort} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Пустой виртуальный деструктор класса. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Закрытые члены}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183}{q\+SortI} (long long $\ast$mas, long long size)
-\end{DoxyCompactItemize}
+void \hyperlink{class_quick_external_sort_ad7653bb697a04717066f9942db9a4597}{q\+SortI} (long long $\ast$arr, long long size)
+\begin{DoxyCompactList}\small\item\em Сортирует последовательность длиной size методом быстрой сортировки итеративным методом. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_quick_external_sort_ab277b5945ac22cdcda10bf02e56eb8db}{sort} (long long $\ast$arr, long long size)
+\begin{DoxyCompactList}\small\item\em Сортирует последовательность длиной size методом быстрой сортировки. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Дополнительные унаследованные члены}
 
 
@@ -46,7 +57,11 @@ void \hyperlink{class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183}{q\+
 \subsubsection{\texorpdfstring{Quick\+External\+Sort()}{QuickExternalSort()}}
 {\footnotesize\ttfamily Quick\+External\+Sort\+::\+Quick\+External\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\hypertarget{class_quick_external_sort_a370e2be5e7c4afc31f9b230c2ee4d689}{}\label{class_quick_external_sort_a370e2be5e7c4afc31f9b230c2ee4d689} 
+
+
+Пустой конструктор класса. 
+
+Обнуляет атрибуты. \hypertarget{class_quick_external_sort_a370e2be5e7c4afc31f9b230c2ee4d689}{}\label{class_quick_external_sort_a370e2be5e7c4afc31f9b230c2ee4d689} 
 \index{Quick\+External\+Sort@{Quick\+External\+Sort}!````~Quick\+External\+Sort@{$\sim$\+Quick\+External\+Sort}}
 \index{````~Quick\+External\+Sort@{$\sim$\+Quick\+External\+Sort}!Quick\+External\+Sort@{Quick\+External\+Sort}}
 \subsubsection{\texorpdfstring{$\sim$\+Quick\+External\+Sort()}{~QuickExternalSort()}}
@@ -54,42 +69,68 @@ void \hyperlink{class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183}{q\+
 
 
 
+Пустой виртуальный деструктор класса. 
+
+Освобождает выделенную память. 
+
 \subsection{Методы}
-\hypertarget{class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183}{}\label{class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183} 
+\hypertarget{class_quick_external_sort_ad7653bb697a04717066f9942db9a4597}{}\label{class_quick_external_sort_ad7653bb697a04717066f9942db9a4597} 
 \index{Quick\+External\+Sort@{Quick\+External\+Sort}!q\+SortI@{q\+SortI}}
 \index{q\+SortI@{q\+SortI}!Quick\+External\+Sort@{Quick\+External\+Sort}}
 \subsubsection{\texorpdfstring{q\+Sort\+I()}{qSortI()}}
-{\footnotesize\ttfamily void Quick\+External\+Sort\+::q\+SortI (\begin{DoxyParamCaption}\item[{long long $\ast$}]{mas,  }\item[{long long}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void Quick\+External\+Sort\+::q\+SortI (\begin{DoxyParamCaption}\item[{long long $\ast$}]{arr,  }\item[{long long}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Граф вызовов\+:\nopagebreak
+
+
+Сортирует последовательность длиной size методом быстрой сортировки итеративным методом. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em arr} & Массив, который необходимо отсортировать. \\
+\hline
+\mbox{\tt in}  & {\em size} & Длина массива.\\
+\hline
+\end{DoxyParams}
+Сортирует последовательность длиной size методом быстрой сортировки. Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=339pt]{class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183_cgraph}
+\includegraphics[width=339pt]{class_quick_external_sort_ad7653bb697a04717066f9942db9a4597_cgraph}
 \end{center}
 \end{figure}
 Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=337pt]{class_quick_external_sort_a912abb7f2ccdadd7d97992f035e16183_icgraph}
+\includegraphics[width=337pt]{class_quick_external_sort_ad7653bb697a04717066f9942db9a4597_icgraph}
 \end{center}
 \end{figure}
-\hypertarget{class_quick_external_sort_adafdd4faded04218c1a131bf55e3c90d}{}\label{class_quick_external_sort_adafdd4faded04218c1a131bf55e3c90d} 
+\hypertarget{class_quick_external_sort_ab277b5945ac22cdcda10bf02e56eb8db}{}\label{class_quick_external_sort_ab277b5945ac22cdcda10bf02e56eb8db} 
 \index{Quick\+External\+Sort@{Quick\+External\+Sort}!sort@{sort}}
 \index{sort@{sort}!Quick\+External\+Sort@{Quick\+External\+Sort}}
 \subsubsection{\texorpdfstring{sort()}{sort()}}
-{\footnotesize\ttfamily void Quick\+External\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{mas,  }\item[{long long}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily void Quick\+External\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{arr,  }\item[{long long}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}
 
 
 
-Замещает \hyperlink{class_external_merge_sort_af6412221cc797a846243a343ccc12dba}{External\+Merge\+Sort}.
+Сортирует последовательность длиной size методом быстрой сортировки. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em arr} & Массив, который необходимо отсортировать. \\
+\hline
+\mbox{\tt in}  & {\em size} & Длина массива.\\
+\hline
+\end{DoxyParams}
+Виртуальный метод. Перегружен в классе. Вызывет q\+SortI(...), который сортирует последовательность длиной size методом быстрой сортировки. 
+
+Замещает \hyperlink{class_external_merge_sort_a7b777f22151fdd869624d8aa5a39a7bb}{External\+Merge\+Sort}.
 
 Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_quick_external_sort_adafdd4faded04218c1a131bf55e3c90d_cgraph}
+\includegraphics[width=350pt]{class_quick_external_sort_ab277b5945ac22cdcda10bf02e56eb8db_cgraph}
 \end{center}
 \end{figure}
 

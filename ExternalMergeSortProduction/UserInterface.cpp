@@ -9,15 +9,56 @@
 #include "HeapExternalSort.h"
 
 
+//matrix_tim
+#include <conio.h>
 using namespace std;
+
+void matrixTime() {
+	string matr("matrix");
+	string buf;
+	cin.clear();
+	cin >> buf;
+	int f=0,i;
+	i = 0;
+	if (buf == matr) {
+		char mas[6] = { '0','0' ,'0' ,'0' ,'0', '0' };
+		system("cls");
+		system("color 02");
+		while (true) {
+			cout << 10 + rand() % 90 << " ";
+			if (_kbhit()) {
+				if (i > 4) {
+					for (int j = 0; j < 5; j++) {
+						mas[j] = mas[j + 1];
+					}
+					i = 5;
+				}
+				mas[i] = _getch();
+				i++;
+			}
+			if (mas[0] == matr.c_str()[0] && 
+				mas[1] == matr.c_str()[1] && 
+				mas[2] == matr.c_str()[2] && 
+				mas[3] == matr.c_str()[3] && 
+				mas[4] == matr.c_str()[4] && 
+				mas[5] == matr.c_str()[5])
+				break;
+		}
+		system("color 08");
+		cout << "Bye!" << endl;
+		system("cls");
+	}
+}
 
 void UserInterface::initSession()
 {
 	const string ch = "Пожалуйста, сделайте выбор --> ";
+	
 	cout << menu.c_str() << ch.c_str();
 	int choise = -1;
 	cin >> choise;
 	while (choise < 0 || choise > 5) {
+		matrixTime();
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> choise;
 	}
@@ -27,6 +68,7 @@ void UserInterface::initSession()
 		cout << menu.c_str() << ch.c_str();
 		cin >> choise;
 		while (choise < 0 || choise > 5) {
+			matrixTime();
 			cout << "Вы ошиблись, пожалуйста, повторите --> ";
 			cin >> choise;
 		}
@@ -39,6 +81,7 @@ void UserInterface::callGenerate() {
 	long long size;
 	cin >> size;
 	while (size < 0) {
+		matrixTime();
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> size;
 	}
@@ -50,11 +93,12 @@ void UserInterface::callGenerate() {
 	int ch;
 	cin >> ch;
 	while (ch < 0 || ch > 2) {
+		matrixTime();
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> ch;
 	}
 	FileManager fileManager(file, WriteOnly);
-	Responce resp = fileManager.generateSequence(size,SeqType(ch));
+	Response resp = fileManager.generateSequence(size,SeqType(ch));
 	if (resp == Success) {
 		system("cls");
 		cout << "Генерация последовательности:\nВыполнение: 100%\n" << "Генерация успешна!" << endl;
@@ -79,13 +123,19 @@ void UserInterface::callSetParams()
 	long long size;
 	cin >> size;
 	while (size < 0) {
+		matrixTime();
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> size;
 	}
 	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
 	int ch;
 	cin >> ch;
-	Responce resp = setParams(file, size, TypeOfSort(ch));
+	while (ch < 0 || ch > 2) {
+		matrixTime();
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> ch;
+	}
+	Response resp = setParams(file, size, TypeOfSort(ch));
 	if (resp == Success) {
 		system("cls");
 		cout << "Параметры успешно заданы!" << endl;
@@ -97,10 +147,10 @@ void UserInterface::callSetParams()
 
 void UserInterface::callSort()
 {	
-	Responce resp;
+	Response resp;
 	cout << "Выполнение сортировки:" << endl;
 	if (sort == nullptr) {
-		resp = Responce::ParamsFail;
+		resp = Response::ParamsFail;
 	} else
 		resp = sort->externalSort();
 	if (resp == Success) {
@@ -115,9 +165,9 @@ void UserInterface::callSort()
 void UserInterface::callEstimate()
 {
 	cout << "Оценка характеристик сортировки:" << endl;
-	Responce resp;
+	Response resp;
 	if (sort == nullptr) {
-		resp = Responce::ParamsFail;
+		resp = Response::ParamsFail;
 	}
 	else
 		resp = sort->externalSort();
@@ -133,20 +183,26 @@ void UserInterface::callEstimate()
 	}
 }
 
-void UserInterface::getDependenceSize() {
+void UserInterface::callGetDependenceSize() {
 	cout << "Получение зависимости от размера последовательности: " << endl;
-	cout << "Введите размер сегментов, 0 если размер сегментов равен размеру последовательности: ";
-	long long size;
+	cout << "Введите размер сегментов в процентах от размера последовательности:  ";
+	int size;
 	cin >> size;
-	while (size < 0 || size >101) {
+	while (size < 1 || size >100) {
+		matrixTime();
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> size;
 	}
 	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
 	int ch;
 	cin >> ch;
+	while (ch < 0 || ch > 2) {
+		matrixTime();
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> ch;
+	}
 	FileManager *file;
-	Responce resp;
+	Response resp;
 	for (long i = 100; i < 1000000; i = i * 10) {
 		stringstream buf;
 		buf << "input" << i << ".txt" << '\0';
@@ -154,23 +210,25 @@ void UserInterface::getDependenceSize() {
 		file->generateSequence(i, SeqType::Worst);
 	}
 	system("cls");
+	long long sizeOfS;
 	for (long i = 100; i < 1000000; i = i * 10) {
 		stringstream buf;
 		buf << "input" << i << ".txt" << '\0';
 		string out("out.txt");
 		file = new FileManager(buf.str(), out);
-		if (size == 0) {
-			resp = setParams(file, i, TypeOfSort(ch));
-		}
-		else
-			resp = setParams(file, size, TypeOfSort(ch));
+		sizeOfS = i / 100 *size;
+		resp = setParams(file, sizeOfS, TypeOfSort(ch));
 		if (resp != Success) {
-			cout << "Ошибка! Не удалось задать параметры!" << endl;
+			cout << "Размер входной последовательности: " << i << endl;
+			cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] <<   endl << endl;
+			continue;
 		}
 		sort->setLog(WithOut);
 		resp = sort->externalSort();
 		if (resp != Success) {
+			cout << "Размер входной последовательности: " << i << endl;
 			cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+			continue;
 		}
 		cout << "Размер входной последовательности: " << i << endl;
 		cout << "Время сортировки: " << sort->counter.getTimeInterval() << endl;
@@ -181,7 +239,7 @@ void UserInterface::getDependenceSize() {
 	}
 }
 
-void UserInterface::getDependenceSizeOfSegments() {
+void UserInterface::callGetDependenceSizeOfSegments() {
 	cout << "Получение зависимости от размера сегментов:" << endl;
 	stringstream buf;
 	cout << "Введите размер тестовой последовательности: ";
@@ -189,29 +247,39 @@ void UserInterface::getDependenceSizeOfSegments() {
 	cin >> size;
 
 	while (size < 0) {
+		matrixTime();
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> size;
 	}
 	cout << "Выберите тип внутренней сортировки:" << endl << "0. Сортировка пузырьком\n1. Быстрая сортировка\n2. Пирамидальная сортировка\n";
 	int ch;
 	cin >> ch;
+	while (ch < 0 || ch > 2) {
+		matrixTime();
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> ch;
+	}
 	buf << "input" << size << ".txt" << '\0';
 	FileManager *file;
 	file = new FileManager(buf.str(), WriteOnly);
 	file->generateSequence(size, SeqType::Worst);
-
+	system("cls");
 	string out("out.txt");
 	file = new FileManager(buf.str(), out);
-	Responce resp;
+	Response resp;
 	for (long long i = 100; i <= size; i = i * 10) {
 		 resp = setParams(file, i, TypeOfSort(ch));
 		 if (resp != Success) {
-			 cout << "Ошибка! Не удалось задать параметры!" << endl;
+			 cout << "Размер сегментов: " << i << endl;
+			 cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] << endl << endl;
+			 continue;
 		 }
 		 sort->setLog(WithOut);
 		 sort->externalSort();
 		 if (resp != Success) {
+			 cout << "Размер сегментов: " << i << endl;
 			 cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+			 continue;
 		 }
 		 cout << "Размер сегментов: " << i << endl;
 		 cout << "Время сортировки: " << sort->counter.getTimeInterval() << endl;
@@ -222,19 +290,29 @@ void UserInterface::getDependenceSizeOfSegments() {
 	}
 }
 
-void UserInterface::getDependenceType()
+void UserInterface::callGetDependenceType()
 {
 	cout << "Получение зависимости от типа сортировки: " << endl;
 	cout << "Введите размер тестовой последовательности: ";
 	long long size;
 	cin >> size;
-	cout << "Введите размер сегментов, 0 если размер сегментов равен размеру последовательности: ";
+	while (size < 0 ) {
+		matrixTime();
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> size;
+	}
+	cout << "Введите размер сегментов: ";
 	long long sizeOfSegments;
 	cin >> sizeOfSegments;
+	while (sizeOfSegments < 0 || sizeOfSegments > size) {
+		matrixTime();
+		cout << "Вы ошиблись, пожалуйста, повторите --> ";
+		cin >> size;
+	}
 	FileManager *file;
 	stringstream buf;
 	buf << "input" << size << ".txt" << '\0';
-	Responce resp;
+	Response resp;
 	file = new FileManager(buf.str(), WriteOnly);
 	resp = file->generateSequence(size, SeqType::Worst);
 	
@@ -246,12 +324,16 @@ void UserInterface::getDependenceType()
 	for (int i = 0; i < 3; i++) {
 		resp = setParams(file, sizeOfSegments, TypeOfSort(i));
 		if (resp != Success) {
-			cout << "Ошибка! Не удалось задать параметры!" << endl;
+			cout << "Тип сортировки: " << i << endl;
+			cout << "Не удалось задать параметры! Ошибка: " << responceString[resp] << endl << endl;
+			continue;
 		}
 		sort->setLog(WithOut);
 		sort->externalSort();
 		if (resp != Success) {
+			cout << "Тип сортировки: " << i << endl;
 			cout << "Не удалось отсортировать последовательность! Ошибка: " << responceString[resp] << endl;
+			continue;
 		}
 		sort->setLog(WithOut);
 		cout << "Тип сортировки: " << TypeOfSort(i) << endl;
@@ -270,35 +352,36 @@ void UserInterface::callGetDependencies()
 	int choise = -1;
 	cin >> choise;
 	while (choise < 0 || choise > 2) {
+		matrixTime();
 		cout << "Вы ошиблись, пожалуйста, повторите --> ";
 		cin >> choise;
 	}
 	switch (choise) {
 	case 0: 
-		getDependenceSize();
+		callGetDependenceSize();
 		break;
 	case 1:
-		getDependenceSizeOfSegments();
+		callGetDependenceSizeOfSegments();
 		break;
 	case 2:
-		getDependenceType();
+		callGetDependenceType();
 		break;
 	}
 }
 
-Responce UserInterface::setParams(FileManager * file, long long sizeOfSegments, TypeOfSort type)
+Response UserInterface::setParams(FileManager * file, long long sizeOfSegments, TypeOfSort type)
 {
 	if (file->getState() != ReadAndWrite) {
-		return Responce::FileManagerFail;
+		return Response::FileManagerFail;
 	}
 	if (sizeOfSegments < 0) {
-		return Responce::SizeError;
+		return Response::SizeError;
 	}
 	if (sizeOfSegments % 2 == 1) {
-		return Responce::SizeError;
+		return Response::SizeError;
 	}
 	if (file->checkForEquality()) {
-		return Responce::InputAndOutputIsEqual;
+		return Response::InputAndOutputIsEqual;
 	}
 	ExternalMergeSort *s = nullptr;
 	switch (type) {
@@ -316,7 +399,7 @@ Responce UserInterface::setParams(FileManager * file, long long sizeOfSegments, 
 		break;
 	}
 	sort = s;
-	return Responce::Success;
+	return Response::Success;
 }
 
 bool UserInterface::callMethod(int choise){

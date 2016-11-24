@@ -1,5 +1,5 @@
 <map id="QuickExternalSort::sort" name="QuickExternalSort::sort">
 <area shape="rect" id="node2" href="$class_quick_external_sort.html#a912abb7f2ccdadd7d97992f035e16183" title="QuickExternalSort::\lqSortI" alt="" coords="212,23,348,65"/>
-<area shape="rect" id="node3" href="$class_counter.html#a224d93150c0fe2982d3efd7aa99668e6" title="Counter::incComparsion" alt="" coords="396,5,557,32"/>
-<area shape="rect" id="node4" href="$class_counter.html#aa0cd30379394257e44aa7afc84ed1fce" title="Counter::incSwaps" alt="" coords="411,56,542,83"/>
+<area shape="rect" id="node3" href="$class_counter.html#a224d93150c0fe2982d3efd7aa99668e6" title="Увеличение счетчика сравнений. " alt="" coords="396,5,557,32"/>
+<area shape="rect" id="node4" href="$class_counter.html#aa0cd30379394257e44aa7afc84ed1fce" title="Увеличение счетчика перестановок. " alt="" coords="411,56,542,83"/>
 </map>

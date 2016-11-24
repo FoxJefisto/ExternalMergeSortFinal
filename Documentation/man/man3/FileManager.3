@@ -1,62 +1,98 @@
-.TH "FileManager" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "FileManager" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-FileManager \- \fC#include <FileManager\&.h>\fP
+FileManager \- 
+.SH "Подробное описание"
+.PP 
+Класс файлового менеджера\&. 
+
+
+.PP
+\fBАвтор:\fP
+.RS 4
+Alexander Filippov 
+.RE
+.PP
+\fBДата:\fP
+.RS 4
+Ноябрь 2016 года
+.RE
+.PP
+Класс, отвечающий за взаимодействие приложения с файловой системой\&. Осуществляет запись последовательностей в файл, чтение последовательности из файла, а также генерацию последовательностей\&. 
+.PP
+\fC#include <FileManager\&.h>\fP
 .SS "Открытые члены"
 
 .in +1c
 .ti -1c
 .RI "void \fBcloseIFile\fP ()"
 .br
+.RI "Закрытие входного файла\&. "
 .ti -1c
 .RI "void \fBcloseOFile\fP ()"
 .br
+.RI "Закрытие выходного файла\&. "
 .ti -1c
 .RI "bool \fBgetEndOfFile\fP ()"
 .br
+.RI "Получение флага конца файла\&. "
 .ti -1c
 .RI "void \fBsetEndOfFile\fP (bool b)"
 .br
+.RI "Установка флага конца файла в необходимое положение\&. "
 .ti -1c
 .RI "void \fBclearOutFile\fP ()"
 .br
+.RI "Очистка выходного файла\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBread\fP (long long *arr, long long size, long long *readNumber)"
 .br
+.RI "Чтение входной последовательности из файла\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBwrite\fP (long long num)"
 .br
+.RI "Запись числа в файл\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBwrite\fP (long long *arr, long long size)"
 .br
+.RI "Запись последовательности в файл\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBsetFiles\fP (string file, \fBFileState\fP st)"
 .br
+.RI "Определение атрибутов менеджера\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBsetFiles\fP (string inFile, string outFile)"
 .br
+.RI "Определение атрибутов менеджера\&. "
 .ti -1c
 .RI "\fBFileState\fP \fBgetState\fP ()"
 .br
+.RI "Проверка состояния менеджера\&. "
 .ti -1c
 .RI "bool \fBcheckForEquality\fP ()"
 .br
+.RI "Проверка входного и выходного файла на эквивалентность\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBgenerateSequence\fP (long long size, \fBSeqType\fP type)"
 .br
+.RI "Определение атрибутов менеджера\&. "
 .ti -1c
 .RI "\fBFileManager\fP (string \fBiFile\fP, \fBFileState\fP \fBstate\fP)"
 .br
+.RI "Конструктор класса\&. "
 .ti -1c
 .RI "\fBFileManager\fP (string inFile, string outFile)"
 .br
+.RI "Конструктор класса\&. "
 .ti -1c
 .RI "\fBFileManager\fP ()"
 .br
+.RI "Пустой конструктор класса\&. "
 .ti -1c
 .RI "\fB~FileManager\fP ()"
 .br
+.RI "Пустой деструктор класса\&. "
 .in -1c
 .SS "Закрытые данные"
 
@@ -64,74 +100,256 @@ FileManager \- \fC#include <FileManager\&.h>\fP
 .ti -1c
 .RI "ifstream * \fBiFile\fP"
 .br
+.RI "Входной файл\&. "
 .ti -1c
 .RI "ofstream * \fBoFile\fP"
 .br
+.RI "Выходной файл\&. "
 .ti -1c
 .RI "string * \fBoFileStr\fP"
 .br
+.RI "Путь к выходному файлу\&. "
 .ti -1c
 .RI "string * \fBiFileStr\fP"
 .br
+.RI "Путь к входному файлу\&. "
 .ti -1c
 .RI "\fBFileState\fP \fBstate\fP"
 .br
+.RI "Режим работы с файлами\&. "
 .ti -1c
 .RI "bool \fBendOfFile\fP"
 .br
+.RI "Флаг достижения конца файла\&. "
 .in -1c
 .SH "Конструктор(ы)"
 .PP 
 .SS "FileManager::FileManager (string iFile, \fBFileState\fP state)"
 
+.PP
+Конструктор класса\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIfile\fP Строка, содержащая путь к файлу\&. 
+.br
+\fIst\fP Режим менеджера, который необходимо задать\&.
+.RE
+.PP
+Вызывет setParams(\&.\&.\&.), если код возврата не Success, бросает исключение\&. 
 .SS "FileManager::FileManager (string inFile, string outFile)"
 
+.PP
+Конструктор класса\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIinFile\fP Строка, содержащая путь к файлу\&. 
+.br
+\fIoutFile\fP Строка, содержащая путь к выходному файлу\&.
+.RE
+.PP
+Вызывет setParams(\&.\&.\&.), если код возврата не Success, бросает исключение\&. 
 .SS "FileManager::FileManager ()"
 
+.PP
+Пустой конструктор класса\&. Обнуляет атрибуты\&. 
 .SS "FileManager::~FileManager ()"
 
+.PP
+Пустой деструктор класса\&. Освобождает выделенную память\&. 
 .SH "Методы"
 .PP 
 .SS "bool FileManager::checkForEquality ()"
 
+.PP
+Проверка входного и выходного файла на эквивалентность\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+true, если файлы эквивалентны; false, если нет\&.
+.RE
+.PP
+Проверяет на эквивалентность входной и выходной файл\&. 
 .SS "void FileManager::clearOutFile ()"
 
+.PP
+Очистка выходного файла\&. Затирает выходной файл, вне зависимости от его содержания\&. 
 .SS "void FileManager::closeIFile ()"
 
+.PP
+Закрытие входного файла\&. Закрывает входной файл, если он существует\&. 
 .SS "void FileManager::closeOFile ()"
 
+.PP
+Закрытие выходного файла\&. Закрывает входной файл, сохраняя записанную последовательность, если он существует\&. 
 .SS "\fBResponce\fP FileManager::generateSequence (long long size, \fBSeqType\fP type)"
 
+.PP
+Определение атрибутов менеджера\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIsize\fP Размер генерируемой последовательности\&. 
+.br
+\fItype\fP Тип генерируемой последовательности\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Генерирует последовательность длиной size одного из типов type: Best - уже упорядоченная последовательность, Average - случайная последовательность, Worst - последовательность, упорядоченная по убыванию\&. 
 .SS "bool FileManager::getEndOfFile ()"
 
+.PP
+Получение флага конца файла\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+Флаг достижения конца файла endOfFile\&.
+.RE
+.PP
+Возвращает true - если конец файла был достигнут при попытке чтения или записи или false - если конец файла не был достигнут\&. 
 .SS "\fBFileState\fP FileManager::getState ()"
 
+.PP
+Проверка состояния менеджера\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+Текущее состояние менеджера\&.
+.RE
+.PP
+Возвращает текущее состояние менеджера\&. 
 .SS "\fBResponce\fP FileManager::read (long long * arr, long long size, long long * readNumber)"
 
+.PP
+Чтение входной последовательности из файла\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Массив в который необходимо считать числовую последовательность\&. 
+.br
+\fIsize\fP Размер последовательности которую необходимо считать\&. 
+.br
+\fIreadNumber\fP Число успешно считанных значений из файла\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Считывает последовательность длиной size в массиив arr, если это возможно\&. Записывает в readNumber число успешно считанных значений\&. Возвращает код успеха или ошибки\&. 
 .SS "void FileManager::setEndOfFile (bool b)"
 
+.PP
+Установка флага конца файла в необходимое положение\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIb\fP Значение, которое необходимо установить
+.RE
+.PP
+Устанавливает флаг в нужное положение, например сброс флага, если он уже был обработан\&. 
 .SS "\fBResponce\fP FileManager::setFiles (string file, \fBFileState\fP st)"
 
+.PP
+Определение атрибутов менеджера\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIfile\fP Строка, содержащая путь к файлу\&. 
+.br
+\fIst\fP Режим менеджера, который необходимо задать\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Задает атрибуты менеджера, если это возможно\&. Возвращает код успеха или ошибки\&. 
 .SS "\fBResponce\fP FileManager::setFiles (string inFile, string outFile)"
 
+.PP
+Определение атрибутов менеджера\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIinFile\fP Строка, содержащая путь к входному файлу\&. 
+.br
+\fIoutFile\fP Строка, содержащая путь к выходному файлу\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Задает атрибуты менеджера, если это возможно\&. Устанавливает режим ReadAndWrite или возвращает код ошибки\&. Возвращает код успеха или ошибки\&. 
 .SS "\fBResponce\fP FileManager::write (long long num)"
 
+.PP
+Запись числа в файл\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fInum\fP Число, которое необходимо записать в файл\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Записывает число в выходной файл\&. Возвращает код успеха или ошибки\&. 
 .SS "\fBResponce\fP FileManager::write (long long * arr, long long size)"
 
+.PP
+Запись последовательности в файл\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Массив, которое необходимо записать в файл\&. 
+.br
+\fIsize\fP Длина записываемого в файл массива\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Записывает последовательность в выходной файл\&. Возвращает код успеха или ошибки\&. 
 .SH "Данные класса"
 .PP 
 .SS "bool FileManager::endOfFile\fC [private]\fP"
 
+.PP
+Флаг достижения конца файла\&. true - если в операциях чтения и записи был достигнут конец файла, false - если нет\&. 
 .SS "ifstream* FileManager::iFile\fC [private]\fP"
 
+.PP
+Входной файл\&. Поток, используемый для чтения однобайтовой последовательности символьных данных из файла\&. 
 .SS "string* FileManager::iFileStr\fC [private]\fP"
 
+.PP
+Путь к входному файлу\&. Строка, содержащая путь к входному файлу\&. 
 .SS "ofstream* FileManager::oFile\fC [private]\fP"
 
+.PP
+Выходной файл\&. Поток, используемый для записи однобайтовой последовательности символьных данных из файла\&. 
 .SS "string* FileManager::oFileStr\fC [private]\fP"
 
+.PP
+Путь к выходному файлу\&. Строка, содержащая путь к выходному файлу\&. 
 .SS "\fBFileState\fP FileManager::state\fC [private]\fP"
 
+.PP
+Режим работы с файлами\&. Атрибут, азадющий один из режимов работы с файловой системой: NotEnable - режим не задан, WriteOnly - только запись, ReadOnly - Только чтение ReadAndWrite - чтение и запись\&. 
 
 .SH "Автор"
 .PP 

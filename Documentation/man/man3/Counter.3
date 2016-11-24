@@ -1,44 +1,74 @@
-.TH "Counter" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "Counter" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-Counter \- \fC#include <Counter\&.h>\fP
+Counter \- 
+.SH "Подробное описание"
+.PP 
+Класс Счетчик\&. 
+
+
+.PP
+\fBАвтор:\fP
+.RS 4
+Alexander Filippov 
+.RE
+.PP
+\fBДата:\fP
+.RS 4
+Ноябрь 2016 года
+.RE
+.PP
+Класс, отвечающий за подсчет характеристик сортировки\&. 
+.PP
+\fC#include <Counter\&.h>\fP
 .SS "Открытые члены"
 
 .in +1c
 .ti -1c
 .RI "\fBCounter\fP ()"
 .br
+.RI "Пустой конструктор класса\&. "
 .ti -1c
 .RI "void \fBsetBegTime\fP ()"
 .br
+.RI "Задание начальной точки отсчета\&. "
 .ti -1c
-.RI "long \fBsetEndTime\fP ()"
+.RI "long long \fBsetEndTime\fP ()"
 .br
+.RI "Задание конечной точки отсчета\&. /return Возвращает число миллисекунд между моментами begTime и endTime\&. "
 .ti -1c
-.RI "long \fBgetTimeInterval\fP ()"
+.RI "long long \fBgetTimeInterval\fP ()"
 .br
+.RI "Получение временного интервала\&. /return Возвращает число миллисекунд между моментами begTime и endTime\&. "
 .ti -1c
 .RI "void \fBincSwaps\fP ()"
 .br
+.RI "Увеличение счетчика перестановок\&. "
 .ti -1c
-.RI "long \fBgetSwaps\fP ()"
+.RI "long long \fBgetSwaps\fP ()"
 .br
+.RI "Получение счетчика перестановок\&. /return Число перестановок, задаваемое атрибутом swaps\&. "
 .ti -1c
 .RI "void \fBincComparsion\fP (long long n)"
 .br
+.RI "Увеличение счетчика сравнений\&. "
 .ti -1c
-.RI "long \fBgetComparsion\fP ()"
+.RI "long long \fBgetComparsion\fP ()"
 .br
+.RI "Получение счетчика сравнений\&. /return Число сравнений, задаваемое атрибутом comparsion\&. "
 .ti -1c
 .RI "void \fBincFileOp\fP (long long n)"
 .br
+.RI "Увеличение счетчика числа операций с файлами\&. "
 .ti -1c
-.RI "long \fBgetFileOp\fP ()"
+.RI "long long \fBgetFileOp\fP ()"
 .br
+.RI "Получение счетчика файловых операций\&. /return Число файловых операций, задаваемое атрибутом fileOp\&. "
 .ti -1c
 .RI "void \fBclear\fP ()"
 .br
+.RI "Обнуление счетчика\&. "
 .ti -1c
 .RI "\fB~Counter\fP ()"
 .br
@@ -49,59 +79,110 @@ Counter \- \fC#include <Counter\&.h>\fP
 .ti -1c
 .RI "long long \fBbegTime\fP"
 .br
+.RI "Начальное время\&. "
 .ti -1c
 .RI "long long \fBendTime\fP"
 .br
+.RI "Конечное время\&. "
 .ti -1c
 .RI "long long \fBcomparsion\fP"
 .br
+.RI "Число сравнений\&. "
 .ti -1c
 .RI "long long \fBfileOp\fP"
 .br
+.RI "Число операций с файлами\&. "
 .ti -1c
 .RI "long long \fBswaps\fP"
 .br
+.RI "Число перестановок\&. "
 .in -1c
 .SH "Конструктор(ы)"
 .PP 
 .SS "Counter::Counter ()"
 
+.PP
+Пустой конструктор класса\&. Обнуляет счетчие\&. 
 .SS "Counter::~Counter ()"
 
 .SH "Методы"
 .PP 
 .SS "void Counter::clear ()"
 
+.PP
+Обнуление счетчика\&. Обнуляет все счетчики, присваивает всем атрибутам 0\&. 
 .SS "long Counter::getComparsion ()"
 
+.PP
+Получение счетчика сравнений\&. /return Число сравнений, задаваемое атрибутом comparsion\&. Получает число сравнений, задаваемое атрибутом comparsion\&. 
 .SS "long Counter::getFileOp ()"
 
+.PP
+Получение счетчика файловых операций\&. /return Число файловых операций, задаваемое атрибутом fileOp\&. Получает число файловых операций, задаваемое атрибутом fileOp\&. 
 .SS "long Counter::getSwaps ()"
 
+.PP
+Получение счетчика перестановок\&. /return Число перестановок, задаваемое атрибутом swaps\&. Получает число перестановок, задаваемое атрибутом swaps\&. 
 .SS "long Counter::getTimeInterval ()"
 
+.PP
+Получение временного интервала\&. /return Возвращает число миллисекунд между моментами begTime и endTime\&. Подсчитывает временной интервал в миллисекундах работы программы от момента begTime до момента endTime\&. 
 .SS "void Counter::incComparsion (long long n)"
 
+.PP
+Увеличение счетчика сравнений\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIn\fP Число, на которое будет увеличиваться счетчик сравнений\&.
+.RE
+.PP
+Увеличивает счетчик перестановок, задаваемый атрибутом comparsion, на n\&. 
 .SS "void Counter::incFileOp (long long n)"
 
+.PP
+Увеличение счетчика числа операций с файлами\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIn\fP Число, на которое будет увеличиваться счетчик операций с файлами\&.
+.RE
+.PP
+Увеличивает на n счетчик числа операций с файлами, задаваемый атрибутом fileOp\&. Под операциями в данном случае подразумеваются чтение чисел из файла и запись чисел в файл\&. 
 .SS "void Counter::incSwaps ()"
 
+.PP
+Увеличение счетчика перестановок\&. Увеличивает на единицу счетчик перестановок, задаваемоый атрибутом swaps\&. 
 .SS "void Counter::setBegTime ()"
 
+.PP
+Задание начальной точки отсчета\&. Присваивает атрибуту begTime текущее число тактов работы программы\&. 
 .SS "long Counter::setEndTime ()"
 
+.PP
+Задание конечной точки отсчета\&. /return Возвращает число миллисекунд между моментами begTime и endTime\&. Присваивает атрибуту endTime текущее число тактов работы программы\&. 
 .SH "Данные класса"
 .PP 
 .SS "long long Counter::begTime\fC [private]\fP"
 
+.PP
+Начальное время\&. Число тактов программы на момент начала сортировки\&. 
 .SS "long long Counter::comparsion\fC [private]\fP"
 
+.PP
+Число сравнений\&. 
 .SS "long long Counter::endTime\fC [private]\fP"
 
+.PP
+Конечное время\&. Число тактов программы на момент оконачания сортировки\&. 
 .SS "long long Counter::fileOp\fC [private]\fP"
 
+.PP
+Число операций с файлами\&. Число записей в файл и чтений из файла чисел\&. 
 .SS "long long Counter::swaps\fC [private]\fP"
 
+.PP
+Число перестановок\&. Подсчет производится только в методе внутренней сортировки, т\&.к\&. вне её не имеет смысла\&. 
 
 .SH "Автор"
 .PP 

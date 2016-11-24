@@ -1,8 +1,27 @@
-.TH "ExternalMergeSort" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "ExternalMergeSort" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-ExternalMergeSort \- \fC#include <ExternalMergeSort\&.h>\fP
+ExternalMergeSort \- 
+.SH "Подробное описание"
+.PP 
+Класс внешней многофазной сортировки слиянием\&. 
+
+
+.PP
+\fBАвтор:\fP
+.RS 4
+Alexander Filippov 
+.RE
+.PP
+\fBДата:\fP
+.RS 4
+Ноябрь 2016 года
+.RE
+.PP
+Класс, осуществляющий внешнюю многофазную сортировку слиянием\&. Содержит в себе основные методы внешней сортировки слиянием\&. Виртуальная функция sort(\&.\&.\&.) переопределена в производных классах\&. 
+.PP
+\fC#include <ExternalMergeSort\&.h>\fP
 .PP
 Производные классы:\fBBubbleExternalSort\fP, \fBHeapExternalSort\fP и \fBQuickExternalSort\fP\&.
 .SS "Открытые члены"
@@ -11,24 +30,27 @@ ExternalMergeSort \- \fC#include <ExternalMergeSort\&.h>\fP
 .ti -1c
 .RI "\fBExternalMergeSort\fP ()"
 .br
+.RI "Пустой конструктор класса\&. "
 .ti -1c
 .RI "\fBExternalMergeSort\fP (\fBFileManager\fP *file, long long \fBsizeOfSegments\fP)"
 .br
+.RI "Конструктор класса\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBsetParams\fP (\fBFileManager\fP *file, long long \fBsizeOfSegments\fP)"
 .br
+.RI "Определение параметров сортировки\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBexternalSort\fP ()"
 .br
+.RI "Вызывает метод внешней многофазной сортировки\&. "
 .ti -1c
 .RI "void \fBsetLog\fP (\fBLogType\fP \fBlog\fP)"
 .br
-.ti -1c
-.RI "virtual void \fBsort\fP (long long *, long long)=0"
-.br
+.RI "Устанавливает тип логгирования\&. "
 .ti -1c
 .RI "virtual \fB~ExternalMergeSort\fP ()"
 .br
+.RI "Пустой виртуальный деструктор класса\&. "
 .in -1c
 .SS "Открытые атрибуты"
 
@@ -36,19 +58,31 @@ ExternalMergeSort \- \fC#include <ExternalMergeSort\&.h>\fP
 .ti -1c
 .RI "\fBCounter\fP \fBcounter\fP"
 .br
+.RI "Счетчик\&. "
+.in -1c
+.SS "Защищенные члены"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBsort\fP (long long *arr, long long size)=0"
+.br
+.RI "Сортирует последовательность длиной size одним из методов, перегруженных в производных классах\&. "
 .in -1c
 .SS "Закрытые члены"
 
 .in +1c
 .ti -1c
-.RI "\fBResponce\fP \fBcreateRuns\fP (long long *)"
+.RI "\fBResponce\fP \fBcreateRuns\fP (long long *size)"
 .br
+.RI "Чтение входной последовательности из файла\&. "
 .ti -1c
 .RI "\fBResponce\fP \fBmergeSequencesNew\fP (\fBFileManager\fP *input1, \fBFileManager\fP *input2, \fBFileManager\fP *out, long long size)"
 .br
+.RI "Слияние последовательностей\&. "
 .ti -1c
-.RI "void \fBprint\fP (const char *)"
+.RI "void \fBprint\fP (const char *msg)"
 .br
+.RI "Логгирование\&. "
 .in -1c
 .SS "Закрытые данные"
 
@@ -56,54 +90,171 @@ ExternalMergeSort \- \fC#include <ExternalMergeSort\&.h>\fP
 .ti -1c
 .RI "\fBFileManager\fP * \fBfileManager\fP"
 .br
+.RI "Указатель на класс файл-менеджера\&. "
 .ti -1c
 .RI "long long \fBsizeOfSegments\fP"
 .br
+.RI "Размер сегментов\&. "
 .ti -1c
 .RI "bool \fBok\fP"
 .br
+.RI "Флаг готовности сортировки\&. "
 .ti -1c
 .RI "\fBLogType\fP \fBlog\fP"
 .br
+.RI "Тип логгирования\&. "
 .in -1c
 .SH "Конструктор(ы)"
 .PP 
 .SS "ExternalMergeSort::ExternalMergeSort ()"
 
+.PP
+Пустой конструктор класса\&. Обнуляет атрибуты\&. 
 .SS "ExternalMergeSort::ExternalMergeSort (\fBFileManager\fP * file, long long sizeOfSegments)"
 
+.PP
+Конструктор класса\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIfile\fP Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой\&. 
+.br
+\fIsizeOfSegments\fP Размер сегментов\&.
+.RE
+.PP
+Вызывет setParams(\&.\&.\&.), если код возврата не Success, бросает исключение\&. 
 .SS "ExternalMergeSort::~ExternalMergeSort ()\fC [virtual]\fP"
 
+.PP
+Пустой виртуальный деструктор класса\&. Освобождает выделенную память\&. 
 .SH "Методы"
 .PP 
-.SS "\fBResponce\fP ExternalMergeSort::createRuns (long long * sizeOfSequence)\fC [private]\fP"
+.SS "\fBResponce\fP ExternalMergeSort::createRuns (long long * size)\fC [private]\fP"
 
+.PP
+Чтение входной последовательности из файла\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIsize\fP Размер входной последовательности\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Считывает последовательности длиной size, сортирует их методом перегруженным в производных классах и записывает в один из буферных файлов\&. 
 .SS "\fBResponce\fP ExternalMergeSort::externalSort ()"
 
+.PP
+Вызывает метод внешней многофазной сортировки\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Осуществляет внешнюю многофазную сортировку слиянием\&. Вызывает createRuns(\&.\&.\&.), mergeSequncesNew(\&.\&.\&.)\&. 
 .SS "\fBResponce\fP ExternalMergeSort::mergeSequencesNew (\fBFileManager\fP * input1, \fBFileManager\fP * input2, \fBFileManager\fP * out, long long size)\fC [private]\fP"
 
+.PP
+Слияние последовательностей\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIinput1\fP Первый входной файл\&. 
+.br
+\fIinput2\fP Второй входной файл\&. 
+.br
+\fIout\fP Выходной файл\&. 
+.br
+\fIsize\fP Размер сегментов 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Сливает последовательность длиной size из input1 с последовательностью длиной sizr из input2, результат записывает в out\&. 
 .SS "void ExternalMergeSort::print (const char * msg)\fC [private]\fP"
 
+.PP
+Логгирование\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fImsg\fP Сообщение, которое необходимо записать в лог\&.
+.RE
+.PP
+Записывает msg в лог в зависимости от атрибута log\&. 
 .SS "void ExternalMergeSort::setLog (\fBLogType\fP log)"
 
+.PP
+Устанавливает тип логгирования\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIlog\fP Тип логгирования\&.
+.RE
+.PP
+Задает тип логгирования: WithOut - без логгирования, File - логгирование в файл log\&.txt, CLI - логгирование в консоль\&. 
 .SS "\fBResponce\fP ExternalMergeSort::setParams (\fBFileManager\fP * file, long long sizeOfSegments)"
 
-.SS "virtual void ExternalMergeSort::sort (long long *, long long)\fC [pure virtual]\fP"
+.PP
+Определение параметров сортировки\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIfile\fP Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой\&. 
+.br
+\fIsizeOfSegments\fP Размер сегментов\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Код успеха или ошибки\&.
+.RE
+.PP
+Задает параметры сортировки, если это возможно\&. Устанавливает ok в true или возвращает код ошибки\&. Возвращает код успеха или ошибки\&. 
+.SS "virtual void ExternalMergeSort::sort (long long * arr, long long size)\fC [protected]\fP, \fC [pure virtual]\fP"
 
+.PP
+Сортирует последовательность длиной size одним из методов, перегруженных в производных классах\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Массив, который необходимо отсортировать\&. 
+.br
+\fIsize\fP Длина массива\&.
+.RE
+.PP
+Чисто виртуальный метод\&. Перегружен в производных классах\&. Сортирует последовательность длиной size одним из методов, перегруженных в производных классах\&. 
 .PP
 Замещается в \fBHeapExternalSort\fP, \fBQuickExternalSort\fP и \fBBubbleExternalSort\fP\&.
 .SH "Данные класса"
 .PP 
 .SS "\fBCounter\fP ExternalMergeSort::counter"
 
+.PP
+Счетчик\&. Счетчик сортировки, подсчитывает характеристики сортировки\&. 
 .SS "\fBFileManager\fP* ExternalMergeSort::fileManager\fC [private]\fP"
 
+.PP
+Указатель на класс файл-менеджера\&. Указатель на класс файл-менеджера, осуществляющий взаимодействие сортировки с файловой системой\&. 
 .SS "\fBLogType\fP ExternalMergeSort::log\fC [private]\fP"
 
+.PP
+Тип логгирования\&. Without - логгирование не ведется, File - логгирование ведется в файл, CLI - логгирование ведется в консоль\&. 
 .SS "bool ExternalMergeSort::ok\fC [private]\fP"
 
+.PP
+Флаг готовности сортировки\&. Флаг установлен в true, если все параметры заданы корректно и false, если нет\&. 
 .SS "long long ExternalMergeSort::sizeOfSegments\fC [private]\fP"
 
+.PP
+Размер сегментов\&. Размер сегментов, на которые изначально будет поделена последовательность\&. 
 
 .SH "Автор"
 .PP 

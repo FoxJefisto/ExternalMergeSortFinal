@@ -12,9 +12,48 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c';
-      sec-mem-virt = virtual;
+      sec-mem-id   = 'class_bubble_external_sort_1a420f93ff7677a75557f805749011f86e';
+      sec-mem-virt = normal;
       sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'BubbleExternalSort';
+      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h';
+      sec-mem-desc-line = '31';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Пустой конструктор класса.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Обнуляет атрибуты.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_bubble_external_sort_1a2075c6e2117da937f397ceb993336e81';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '~BubbleExternalSort';
+      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h';
+      sec-mem-desc-line = '37';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Пустой виртуальный деструктор класса.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Освобождает выделенную память.
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 virtual void
 _EnD_oF_dEf_TeXt_;
@@ -23,26 +62,29 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
 long long *
 _EnD_oF_dEf_TeXt_;
-        sec-mem-param-defname = 'a';
+        sec-mem-param-declname = 'arr';
       }; /*        sec-mem-param--param */
       sec-mem-param = {
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-long
+long long
 _EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'long';
-        sec-mem-param-defname = 'length';
+        sec-mem-param-declname = 'size';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h';
-      sec-mem-desc-line = '7';
+      sec-mem-desc-line = '23';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Сортирует последовательность длиной size методом пузырьковой сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] arr Массив, который необходимо отсортировать.
+\param[in] size Длина массива.
 
+Виртуальный метод. Перегружен в классе.
+Сортирует последовательность длиной size методом пузырьковой сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '86';
         sec-mem-ref-name = 'ExternalMergeSort::counter';
     };
       sec-mem-referenceto = {
@@ -56,50 +98,17 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Counter::incSwaps';
     };
     }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_bubble_external_sort_1a420f93ff7677a75557f805749011f86e';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'BubbleExternalSort';
-      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h';
-      sec-mem-desc-line = '8';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_bubble_external_sort_1a2075c6e2117da937f397ceb993336e81';
-      sec-mem-virt = normal;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = '~BubbleExternalSort';
-      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h';
-      sec-mem-desc-line = '9';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-    }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h';
-  cp-fileline  = '5';
+  cp-fileline  = '13';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю пузырьковую сортировку.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
+\author Alexander Filippov
+\date Ноябрь 2016 года
 
+Наследуется от ExternalMergeSort, перегружает метод внутренней сортировки, который осуществляет пузырьковую сортировку последовательности.
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
@@ -187,12 +196,12 @@ class = {
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'Counter';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '15';
+      sec-mem-desc-line = '52';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Обнуляет счетчие.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8cpp_1af66c74ac2bc69fa4f30c34377f869596';
@@ -210,16 +219,16 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setBegTime';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '16';
+      sec-mem-desc-line = '58';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Задание начальной точки отсчета.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Присваивает атрибуту begTime текущее число тактов работы программы.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1ae2f8fa6947d7daa4b977d4aae2ee3c43';
-        sec-mem-ref-line = '9';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'begTime';
     };
       sec-mem-referenceby = {
@@ -234,20 +243,21 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-long
+long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setEndTime';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '17';
+      sec-mem-desc-line = '65';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Задание конечной точки отсчета.
+/return Возвращает число миллисекунд между моментами begTime и endTime.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Присваивает атрибуту endTime текущее число тактов работы программы.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a961ca391c9a8e3ac0efb8d6d61d734d4';
-        sec-mem-ref-line = '10';
+        sec-mem-ref-line = '28';
         sec-mem-ref-name = 'endTime';
     };
       sec-mem-referenceto = {
@@ -267,25 +277,26 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-long
+long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'getTimeInterval';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '18';
+      sec-mem-desc-line = '72';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Получение временного интервала.
+/return Возвращает число миллисекунд между моментами begTime и endTime.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Подсчитывает временной интервал в миллисекундах работы программы от момента begTime до момента endTime.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a961ca391c9a8e3ac0efb8d6d61d734d4';
-        sec-mem-ref-line = '10';
+        sec-mem-ref-line = '28';
         sec-mem-ref-name = 'endTime';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1ae2f8fa6947d7daa4b977d4aae2ee3c43';
-        sec-mem-ref-line = '9';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'begTime';
     };
       sec-mem-referenceby = {
@@ -304,25 +315,25 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'incSwaps';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '19';
+      sec-mem-desc-line = '78';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Увеличение счетчика перестановок.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Увеличивает на единицу счетчик перестановок, задаваемоый атрибутом swaps.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a2a5ee961a25c6eb87d1ad02bcef4ade1';
-        sec-mem-ref-line = '13';
+        sec-mem-ref-line = '45';
         sec-mem-ref-name = 'swaps';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_bubble_external_sort_8cpp_1ac2c8c1a8dad0f0f99a176d3641b7625c';
+        sec-mem-ref-id = '_bubble_external_sort_8cpp_1a785502521871c44e6d9585108e4254bd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'BubbleExternalSort::sort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_heap_external_sort_8cpp_1a927eea9dcf44a9c7d53db1039bc7e21f';
+        sec-mem-ref-id = '_heap_external_sort_8cpp_1af476431c6fafd53c40ab306c97a37134';
         sec-mem-ref-line = '10';
         sec-mem-ref-name = 'HeapExternalSort::siftDown';
     };
@@ -332,7 +343,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'HeapExternalSort::sort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_quick_external_sort_8cpp_1a912abb7f2ccdadd7d97992f035e16183';
+        sec-mem-ref-id = '_quick_external_sort_8cpp_1ad7653bb697a04717066f9942db9a4597';
         sec-mem-ref-line = '16';
         sec-mem-ref-name = 'QuickExternalSort::qSortI';
     };
@@ -343,20 +354,21 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-long
+long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'getSwaps';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '20';
+      sec-mem-desc-line = '85';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Получение счетчика перестановок.
+/return Число перестановок, задаваемое атрибутом swaps.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Получает число перестановок, задаваемое атрибутом swaps.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a2a5ee961a25c6eb87d1ad02bcef4ade1';
-        sec-mem-ref-line = '13';
+        sec-mem-ref-line = '45';
         sec-mem-ref-name = 'swaps';
     };
     }; /* sec-member */
@@ -376,20 +388,22 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'n';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '21';
+      sec-mem-desc-line = '92';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Увеличение счетчика сравнений.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] n Число, на которое будет увеличиваться счетчик сравнений.
 
+Увеличивает счетчик перестановок, задаваемый атрибутом comparsion, на n.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a20f5a772c02412c338457dcc85c4a543';
-        sec-mem-ref-line = '11';
+        sec-mem-ref-line = '33';
         sec-mem-ref-name = 'comparsion';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_bubble_external_sort_8cpp_1ac2c8c1a8dad0f0f99a176d3641b7625c';
+        sec-mem-ref-id = '_bubble_external_sort_8cpp_1a785502521871c44e6d9585108e4254bd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'BubbleExternalSort::sort';
     };
@@ -399,12 +413,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ExternalMergeSort::mergeSequencesNew';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_heap_external_sort_8cpp_1a927eea9dcf44a9c7d53db1039bc7e21f';
+        sec-mem-ref-id = '_heap_external_sort_8cpp_1af476431c6fafd53c40ab306c97a37134';
         sec-mem-ref-line = '10';
         sec-mem-ref-name = 'HeapExternalSort::siftDown';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_quick_external_sort_8cpp_1a912abb7f2ccdadd7d97992f035e16183';
+        sec-mem-ref-id = '_quick_external_sort_8cpp_1ad7653bb697a04717066f9942db9a4597';
         sec-mem-ref-line = '16';
         sec-mem-ref-name = 'QuickExternalSort::qSortI';
     };
@@ -415,20 +429,21 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-long
+long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'getComparsion';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '22';
+      sec-mem-desc-line = '99';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Получение счетчика сравнений.
+/return Число сравнений, задаваемое атрибутом comparsion.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Получает число сравнений, задаваемое атрибутом comparsion.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a20f5a772c02412c338457dcc85c4a543';
-        sec-mem-ref-line = '11';
+        sec-mem-ref-line = '33';
         sec-mem-ref-name = 'comparsion';
     };
     }; /* sec-member */
@@ -448,16 +463,19 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'n';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '23';
+      sec-mem-desc-line = '107';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Увеличение счетчика числа операций с файлами.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] n Число, на которое будет увеличиваться счетчик операций с файлами.
 
+Увеличивает на n счетчик числа операций с файлами, задаваемый атрибутом fileOp. Под операциями в данном случае подразумеваются
+чтение чисел из файла и запись чисел в файл.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1abc197117fc99ab93bebc483059ae0fbc';
-        sec-mem-ref-line = '12';
+        sec-mem-ref-line = '39';
         sec-mem-ref-name = 'fileOp';
     };
       sec-mem-referenceby = {
@@ -466,7 +484,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
@@ -477,20 +495,21 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-long
+long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'getFileOp';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '24';
+      sec-mem-desc-line = '114';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Получение счетчика файловых операций.
+/return Число файловых операций, задаваемое атрибутом fileOp.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Получает число файловых операций, задаваемое атрибутом fileOp.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1abc197117fc99ab93bebc483059ae0fbc';
-        sec-mem-ref-line = '12';
+        sec-mem-ref-line = '39';
         sec-mem-ref-name = 'fileOp';
     };
     }; /* sec-member */
@@ -504,36 +523,36 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'clear';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '25';
+      sec-mem-desc-line = '120';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Обнуление счетчика.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Обнуляет все счетчики, присваивает всем атрибутам 0.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1ae2f8fa6947d7daa4b977d4aae2ee3c43';
-        sec-mem-ref-line = '9';
+        sec-mem-ref-line = '22';
         sec-mem-ref-name = 'begTime';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a961ca391c9a8e3ac0efb8d6d61d734d4';
-        sec-mem-ref-line = '10';
+        sec-mem-ref-line = '28';
         sec-mem-ref-name = 'endTime';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a20f5a772c02412c338457dcc85c4a543';
-        sec-mem-ref-line = '11';
+        sec-mem-ref-line = '33';
         sec-mem-ref-name = 'comparsion';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1abc197117fc99ab93bebc483059ae0fbc';
-        sec-mem-ref-line = '12';
+        sec-mem-ref-line = '39';
         sec-mem-ref-name = 'fileOp';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_counter_8h_1a2a5ee961a25c6eb87d1ad02bcef4ade1';
-        sec-mem-ref-line = '13';
+        sec-mem-ref-line = '45';
         sec-mem-ref-name = 'swaps';
     };
       sec-mem-referenceby = {
@@ -557,7 +576,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~Counter';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '26';
+      sec-mem-desc-line = '121';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 
 _EnD_oF_dEf_TeXt_;
@@ -578,12 +597,12 @@ long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'begTime';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '9';
+      sec-mem-desc-line = '22';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Начальное время.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Число тактов программы на момент начала сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_counter_8cpp_1a71dea1262b81493aa9734f62a72b2691';
@@ -611,12 +630,12 @@ long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'endTime';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '10';
+      sec-mem-desc-line = '28';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Конечное время.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Число тактов программы на момент оконачания сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_counter_8cpp_1a338ac4f04d6f5924aa7ace3b14d9ffb9';
@@ -644,9 +663,9 @@ long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'comparsion';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '11';
+      sec-mem-desc-line = '33';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Число сравнений.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 
@@ -677,12 +696,12 @@ long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'fileOp';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '12';
+      sec-mem-desc-line = '39';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Число операций с файлами.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Число записей в файл и чтений из файла чисел.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_counter_8cpp_1a63310182709c321ad8fe8e78b81d12aa';
@@ -710,12 +729,12 @@ long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'swaps';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-      sec-mem-desc-line = '13';
+      sec-mem-desc-line = '45';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Число перестановок.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Подсчет производится только в методе внутренней сортировки, т.к. вне её не имеет смысла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_counter_8cpp_1aa0cd30379394257e44aa7afc84ed1fce';
@@ -735,12 +754,15 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h';
-  cp-fileline  = '7';
+  cp-fileline  = '15';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Класс Счетчик.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
+\author Alexander Filippov
+\date Ноябрь 2016 года
 
+Класс, отвечающий за подсчет характеристик сортировки.
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
@@ -786,21 +808,21 @@ class = {
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'ExternalMergeSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '19';
+      sec-mem-desc-line = '92';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Обнуляет атрибуты.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a4b050cd230e144a11f65e57523e15ce6';
-        sec-mem-ref-line = '12';
+        sec-mem-ref-line = '37';
         sec-mem-ref-name = 'ok';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a41f61c3beb7dc529d7f2a8b2b4ee380b';
-        sec-mem-ref-line = '13';
+        sec-mem-ref-line = '43';
         sec-mem-ref-name = 'log';
     };
       sec-mem-referenceto = {
@@ -831,12 +853,15 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'sizeOfSegments';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '20';
+      sec-mem-desc-line = '100';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] file Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой.
+\param[in] sizeOfSegments Размер сегментов.
 
+Вызывет setParams(...), если код возврата не Success, бросает исключение.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
@@ -850,7 +875,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a41f61c3beb7dc529d7f2a8b2b4ee380b';
-        sec-mem-ref-line = '13';
+        sec-mem-ref-line = '43';
         sec-mem-ref-name = 'log';
     };
       sec-mem-referenceto = {
@@ -881,12 +906,16 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'sizeOfSegments';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '21';
+      sec-mem-desc-line = '109';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Определение параметров сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] file Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой.
+\param[in] sizeOfSegments Размер сегментов.
+\return Код успеха или ошибки.
 
+Задает параметры сортировки, если это возможно. Устанавливает ok в true или возвращает код ошибки. Возвращает код успеха или ошибки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_file_manager_8cpp_1abd4cbc2b218ab1828ae376a4a9137057';
@@ -900,7 +929,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a4b050cd230e144a11f65e57523e15ce6';
-        sec-mem-ref-line = '12';
+        sec-mem-ref-line = '37';
         sec-mem-ref-name = 'ok';
     };
       sec-mem-referenceto = {
@@ -925,12 +954,12 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a1d68bb5e0373cf16807a41272dff1a99';
-        sec-mem-ref-line = '11';
+        sec-mem-ref-line = '31';
         sec-mem-ref-name = 'sizeOfSegments';
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ab82d3b62a57be6c80dbd12b90de278e2';
-        sec-mem-ref-line = '10';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'fileManager';
     };
       sec-mem-referenceto = {
@@ -959,16 +988,18 @@ Responce
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'externalSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '22';
+      sec-mem-desc-line = '116';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Вызывает метод внешней многофазной сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\return Код успеха или ошибки.
 
+Осуществляет внешнюю многофазную сортировку слиянием. Вызывает createRuns(...), mergeSequncesNew(...).
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '86';
         sec-mem-ref-name = 'counter';
     };
       sec-mem-referenceto = {
@@ -982,12 +1013,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Counter::setBegTime';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a5e19d768fb9ef81e36e22e2eff498ca4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a7a6b94fff35130ed6a498f9a31d0f863';
         sec-mem-ref-line = '297';
         sec-mem-ref-name = 'print';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -998,7 +1029,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a1d68bb5e0373cf16807a41272dff1a99';
-        sec-mem-ref-line = '11';
+        sec-mem-ref-line = '31';
         sec-mem-ref-name = 'sizeOfSegments';
     };
       sec-mem-referenceto = {
@@ -1028,7 +1059,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ab82d3b62a57be6c80dbd12b90de278e2';
-        sec-mem-ref-line = '10';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'fileManager';
     };
       sec-mem-referenceto = {
@@ -1058,51 +1089,19 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'log';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '23';
+      sec-mem-desc-line = '123';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Устанавливает тип логгирования.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] log Тип логгирования.
 
+Задает тип логгирования: WithOut - без логгирования, File - логгирование в файл log.txt, CLI - логгирование в консоль.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a41f61c3beb7dc529d7f2a8b2b4ee380b';
-        sec-mem-ref-line = '13';
+        sec-mem-ref-line = '43';
         sec-mem-ref-name = 'log';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
-      sec-mem-id   = 'class_external_merge_sort_1af6412221cc797a846243a343ccc12dba';
-      sec-mem-virt = pure-virtual;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-virtual void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'sort';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-long long *
-_EnD_oF_dEf_TeXt_;
-      }; /*        sec-mem-param--param */
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-long
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'long';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '24';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
-        sec-mem-ref-line = '134';
-        sec-mem-ref-name = 'createRuns';
     };
     }; /* sec-member */
     sec-member = {
@@ -1115,16 +1114,16 @@ virtual
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~ExternalMergeSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '25';
+      sec-mem-desc-line = '131';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой виртуальный деструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Освобождает выделенную память.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ab82d3b62a57be6c80dbd12b90de278e2';
-        sec-mem-ref-line = '10';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'fileManager';
     };
     }; /* sec-member */
@@ -1141,15 +1140,15 @@ Counter
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'counter';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '18';
+      sec-mem-desc-line = '86';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Счетчик.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Счетчик сортировки, подсчитывает характеристики сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_bubble_external_sort_8cpp_1ac2c8c1a8dad0f0f99a176d3641b7625c';
+        sec-mem-ref-id = '_bubble_external_sort_8cpp_1a785502521871c44e6d9585108e4254bd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'BubbleExternalSort::sort';
     };
@@ -1159,7 +1158,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1169,7 +1168,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'mergeSequencesNew';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_heap_external_sort_8cpp_1a927eea9dcf44a9c7d53db1039bc7e21f';
+        sec-mem-ref-id = '_heap_external_sort_8cpp_1af476431c6fafd53c40ab306c97a37134';
         sec-mem-ref-line = '10';
         sec-mem-ref-name = 'HeapExternalSort::siftDown';
     };
@@ -1179,9 +1178,51 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'HeapExternalSort::sort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_quick_external_sort_8cpp_1a912abb7f2ccdadd7d97992f035e16183';
+        sec-mem-ref-id = '_quick_external_sort_8cpp_1ad7653bb697a04717066f9942db9a4597';
         sec-mem-ref-line = '16';
         sec-mem-ref-name = 'QuickExternalSort::qSortI';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'protected-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_external_merge_sort_1a7b777f22151fdd869624d8aa5a39a7bb';
+      sec-mem-virt = pure-virtual;
+      sec-mem-prot = protected;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'sort';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+long long *
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'arr';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+long long
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'size';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
+      sec-mem-desc-line = '79';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Сортирует последовательность длиной size одним из методов, перегруженных в производных классах.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] arr Массив, который необходимо отсортировать.
+\param[in] size Длина массива.
+
+Чисто виртуальный метод. Перегружен в производных классах.
+Сортирует последовательность длиной size одним из методов, перегруженных в производных классах.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-line = '134';
+        sec-mem-ref-name = 'createRuns';
     };
     }; /* sec-member */
   }; /* cp-section */
@@ -1189,7 +1230,7 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'private-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_external_merge_sort_1a54203f48d659003f5a75425354d4e262';
+      sec-mem-id   = 'class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -1200,19 +1241,22 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
 long long *
 _EnD_oF_dEf_TeXt_;
-        sec-mem-param-defname = 'sizeOfSequence';
+        sec-mem-param-declname = 'size';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '14';
+      sec-mem-desc-line = '51';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Чтение входной последовательности из файла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[out] size Размер входной последовательности.
+\return Код успеха или ошибки.
 
+Считывает последовательности длиной size, сортирует их методом перегруженным в производных классах и записывает в один из буферных файлов.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a4b050cd230e144a11f65e57523e15ce6';
-        sec-mem-ref-line = '12';
+        sec-mem-ref-line = '37';
         sec-mem-ref-name = 'ok';
     };
       sec-mem-referenceto = {
@@ -1227,7 +1271,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a1d68bb5e0373cf16807a41272dff1a99';
-        sec-mem-ref-line = '11';
+        sec-mem-ref-line = '31';
         sec-mem-ref-name = 'sizeOfSegments';
     };
       sec-mem-referenceto = {
@@ -1247,7 +1291,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ab82d3b62a57be6c80dbd12b90de278e2';
-        sec-mem-ref-line = '10';
+        sec-mem-ref-line = '25';
         sec-mem-ref-name = 'fileManager';
     };
       sec-mem-referenceto = {
@@ -1257,7 +1301,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '86';
         sec-mem-ref-name = 'counter';
     };
       sec-mem-referenceto = {
@@ -1266,7 +1310,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Counter::incFileOp';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a5e19d768fb9ef81e36e22e2eff498ca4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a7a6b94fff35130ed6a498f9a31d0f863';
         sec-mem-ref-line = '297';
         sec-mem-ref-name = 'print';
     };
@@ -1325,12 +1369,18 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'size';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '15';
+      sec-mem-desc-line = '62';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Слияние последовательностей.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] input1 Первый входной файл.
+\param[in] input2 Второй входной файл.
+\param[in] out Выходной файл.
+\param[in] size Размер сегментов
+\return Код успеха или ошибки.
 
+Сливает последовательность длиной size из input1 с последовательностью длиной sizr из input2, результат записывает в out.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_file_manager_8cpp_1a49df99509ff2700e0e5edd06adca345c';
@@ -1344,7 +1394,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '86';
         sec-mem-ref-name = 'counter';
     };
       sec-mem-referenceto = {
@@ -1380,7 +1430,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4';
+      sec-mem-id   = 'class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -1391,19 +1441,21 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
 const char *
 _EnD_oF_dEf_TeXt_;
-        sec-mem-param-defname = 'msg';
+        sec-mem-param-declname = 'msg';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '16';
+      sec-mem-desc-line = '69';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Логгирование.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] msg Сообщение, которое необходимо записать в лог.
 
+Записывает msg в лог в зависимости от атрибута log.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1a41f61c3beb7dc529d7f2a8b2b4ee380b';
-        sec-mem-ref-line = '13';
+        sec-mem-ref-line = '43';
         sec-mem-ref-name = 'log';
     };
       sec-mem-referenceto = {
@@ -1422,7 +1474,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1440,12 +1492,12 @@ FileManager *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'fileManager';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '10';
+      sec-mem-desc-line = '25';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Указатель на класс файл-менеджера.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Указатель на класс файл-менеджера, осуществляющий взаимодействие сортировки с файловой системой.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
@@ -1458,7 +1510,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1478,12 +1530,12 @@ long long
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'sizeOfSegments';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '11';
+      sec-mem-desc-line = '31';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Размер сегментов.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Размер сегментов, на которые изначально будет поделена последовательность.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
@@ -1496,7 +1548,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1511,12 +1563,12 @@ bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'ok';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '12';
+      sec-mem-desc-line = '37';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Флаг готовности сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Флаг установлен в true, если все параметры заданы корректно и false, если нет.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1a7b6efcd2abbf59a8983f972c52d04650';
@@ -1529,7 +1581,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'setParams';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1544,12 +1596,12 @@ LogType
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'log';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-      sec-mem-desc-line = '13';
+      sec-mem-desc-line = '43';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Тип логгирования.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Without - логгирование не ведется, File - логгирование ведется в файл, CLI - логгирование ведется в консоль.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1a7b6efcd2abbf59a8983f972c52d04650';
@@ -1562,19 +1614,23 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'setLog';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a5e19d768fb9ef81e36e22e2eff498ca4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a7a6b94fff35130ed6a498f9a31d0f863';
         sec-mem-ref-line = '297';
         sec-mem-ref-name = 'print';
     };
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
-  cp-fileline  = '8';
+  cp-fileline  = '18';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Класс внешней многофазной сортировки слиянием.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
+\author Alexander Filippov
+\date Ноябрь 2016 года
 
+Класс, осуществляющий внешнюю многофазную сортировку слиянием. Содержит в себе основные методы внешней сортировки слиянием. 
+Виртуальная функция sort(...) переопределена в производных классах.
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
@@ -1673,12 +1729,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'closeIFile';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '16';
+      sec-mem-desc-line = '60';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Закрытие входного файла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Закрывает входной файл, если он существует.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
@@ -1696,15 +1752,15 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'closeOFile';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '17';
+      sec-mem-desc-line = '66';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Закрытие выходного файла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Закрывает входной файл, сохраняя записанную последовательность, если он существует.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
@@ -1724,12 +1780,14 @@ bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'getEndOfFile';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '18';
+      sec-mem-desc-line = '73';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Получение флага конца файла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\return Флаг достижения конца файла endOfFile.
 
+Возвращает true - если конец файла был достигнут при попытке чтения или записи или false - если конец файла не был достигнут.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
@@ -1753,12 +1811,14 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'b';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '19';
+      sec-mem-desc-line = '80';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Установка флага конца файла в необходимое положение.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] b Значение, которое необходимо установить
 
+Устанавливает флаг в нужное положение, например сброс флага, если он уже был обработан.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
@@ -1776,12 +1836,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'clearOutFile';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '20';
+      sec-mem-desc-line = '86';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Очистка выходного файла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Затирает выходной файл, вне зависимости от его содержания.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
@@ -1789,7 +1849,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
@@ -1822,12 +1882,18 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'readNumber';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '21';
+      sec-mem-desc-line = '97';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Чтение входной последовательности из файла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[out] arr Массив в который необходимо считать числовую последовательность.
+\param[in] size Размер последовательности которую необходимо считать.
+\param[out] readNumber Число успешно считанных значений из файла.
+\return Код успеха или ошибки.
 
+Считывает последовательность длиной size в массиив arr, если это возможно. Записывает в readNumber число успешно считанных значений. Возвращает
+код успеха или ошибки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7';
@@ -1860,7 +1926,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Success';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
@@ -1886,12 +1952,15 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'num';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '22';
+      sec-mem-desc-line = '105';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Запись числа в файл.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] num Число, которое необходимо записать в файл.
+\return Код успеха или ошибки.
 
+Записывает число в выходной файл. Возвращает код успеха или ошибки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c';
@@ -1914,7 +1983,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Success';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a54203f48d659003f5a75425354d4e262';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
@@ -1946,12 +2015,16 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'size';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '23';
+      sec-mem-desc-line = '114';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Запись последовательности в файл.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] arr Массив, которое необходимо записать в файл.
+\param[in] size Длина записываемого в файл массива.
+\return Код успеха или ошибки.
 
+Записывает последовательность в выходной файл. Возвращает код успеха или ошибки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c';
@@ -1996,12 +2069,16 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'st';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '24';
+      sec-mem-desc-line = '123';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Определение атрибутов менеджера.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] file Строка, содержащая путь к файлу.
+\param[in] st Режим менеджера, который необходимо задать.
+\return Код успеха или ошибки.
 
+Задает атрибуты менеджера, если это возможно. Возвращает код успеха или ошибки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a';
@@ -2051,12 +2128,16 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'outFile';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '25';
+      sec-mem-desc-line = '132';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Определение атрибутов менеджера.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] inFile Строка, содержащая путь к входному файлу.
+\param[in] outFile Строка, содержащая путь к выходному файлу.
+\return Код успеха или ошибки.
 
+Задает атрибуты менеджера, если это возможно. Устанавливает режим ReadAndWrite или возвращает код ошибки. Возвращает код успеха или ошибки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0';
@@ -2089,12 +2170,14 @@ FileState
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'getState';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '26';
+      sec-mem-desc-line = '139';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Проверка состояния менеджера.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\return Текущее состояние менеджера.
 
+Возвращает текущее состояние менеджера.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
@@ -2117,12 +2200,14 @@ bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'checkForEquality';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '27';
+      sec-mem-desc-line = '146';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Проверка входного и выходного файла на эквивалентность.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\return true, если файлы эквивалентны; false, если нет.
 
+Проверяет на эквивалентность входной и выходной файл.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027';
@@ -2162,12 +2247,17 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'type';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '28';
+      sec-mem-desc-line = '156';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Определение атрибутов менеджера.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] size Размер генерируемой последовательности.
+\param[in] type Тип генерируемой последовательности.
+\return Код успеха или ошибки.
 
+Генерирует последовательность длиной size одного из типов type: Best - уже упорядоченная последовательность, Average - случайная последовательность,
+Worst - последовательность, упорядоченная по убыванию.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027';
@@ -2210,19 +2300,19 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'UserInterface::callGenerate';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_user_interface_8cpp_1af7c9d93ec693f70dcfbdd9e6a080abc7';
+        sec-mem-ref-id = '_user_interface_8cpp_1a1dc307f92c919866f13ddaf30cde1a70';
         sec-mem-ref-line = '136';
-        sec-mem-ref-name = 'UserInterface::getDependenceSize';
+        sec-mem-ref-name = 'UserInterface::callGetDependenceSize';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_user_interface_8cpp_1aaac8a635efdb79276275f9d1ea265cd7';
+        sec-mem-ref-id = '_user_interface_8cpp_1ab668f3b2d9f89ce3eacda5e166f33807';
         sec-mem-ref-line = '184';
-        sec-mem-ref-name = 'UserInterface::getDependenceSizeOfSegments';
+        sec-mem-ref-name = 'UserInterface::callGetDependenceSizeOfSegments';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_user_interface_8cpp_1ab726cdce7e7518aae70cf42594139589';
+        sec-mem-ref-id = '_user_interface_8cpp_1aa413c00a65ae4faf9421e9fc359663ec';
         sec-mem-ref-line = '225';
-        sec-mem-ref-name = 'UserInterface::getDependenceType';
+        sec-mem-ref-name = 'UserInterface::callGetDependenceType';
     };
     }; /* sec-member */
     sec-member = {
@@ -2247,12 +2337,15 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'state';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '29';
+      sec-mem-desc-line = '164';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] file Строка, содержащая путь к файлу.
+\param[in] st Режим менеджера, который необходимо задать.
 
+Вызывет setParams(...), если код возврата не Success, бросает исключение.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2277,12 +2370,15 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'outFile';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '30';
+      sec-mem-desc-line = '172';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] inFile Строка, содержащая путь к файлу.
+\param[in] outFile Строка, содержащая путь к выходному файлу.
 
+Вызывет setParams(...), если код возврата не Success, бросает исключение.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2295,12 +2391,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'FileManager';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '31';
+      sec-mem-desc-line = '178';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Обнуляет атрибуты.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0';
@@ -2318,12 +2414,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~FileManager';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '32';
+      sec-mem-desc-line = '184';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой деструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Освобождает выделенную память.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0';
@@ -2344,12 +2440,12 @@ ifstream *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'iFile';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '9';
+      sec-mem-desc-line = '22';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Входной файл.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Поток, используемый для чтения однобайтовой последовательности символьных данных из файла.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2362,12 +2458,12 @@ ofstream *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'oFile';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '10';
+      sec-mem-desc-line = '28';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Выходной файл.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Поток, используемый для записи однобайтовой последовательности символьных данных из файла.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2380,12 +2476,12 @@ string *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'oFileStr';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '11';
+      sec-mem-desc-line = '34';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Путь к выходному файлу.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Строка, содержащая путь к выходному файлу.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2398,12 +2494,12 @@ string *
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'iFileStr';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '12';
+      sec-mem-desc-line = '40';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Путь к входному файлу.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Строка, содержащая путь к входному файлу.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2416,12 +2512,13 @@ FileState
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'state';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '13';
+      sec-mem-desc-line = '47';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Режим работы с файлами.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Атрибут, азадющий один из режимов работы с файловой системой: NotEnable - режим не задан, WriteOnly - только запись, ReadOnly - Только чтение
+ReadAndWrite - чтение и запись.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2434,22 +2531,26 @@ bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'endOfFile';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-      sec-mem-desc-line = '14';
+      sec-mem-desc-line = '53';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Флаг достижения конца файла.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+true - если в операциях чтения и записи был достигнут конец файла, false - если нет.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h';
-  cp-fileline  = '7';
+  cp-fileline  = '15';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Класс файлового менеджера.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
+\author Alexander Filippov
+\date Ноябрь 2016 года
 
+Класс, отвечающий за взаимодействие приложения с файловой системой. Осуществляет запись последовательностей в файл, чтение последовательности
+из файла, а также генерацию последовательностей.
 _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
@@ -2475,51 +2576,6 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44';
-      sec-mem-virt = virtual;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-virtual void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'sort';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-long long *
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'numbers';
-      }; /*        sec-mem-param--param */
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-long long
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'array_size';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h';
-      sec-mem-desc-line = '9';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_heap_external_sort_8cpp_1a927eea9dcf44a9c7d53db1039bc7e21f';
-        sec-mem-ref-line = '10';
-        sec-mem-ref-name = 'siftDown';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
-        sec-mem-ref-line = '18';
-        sec-mem-ref-name = 'ExternalMergeSort::counter';
-    };
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_counter_8cpp_1aa0cd30379394257e44aa7afc84ed1fce';
-        sec-mem-ref-line = '26';
-        sec-mem-ref-name = 'Counter::incSwaps';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
       sec-mem-id   = 'class_heap_external_sort_1a9e6236e47430f0b530b287a6d7cf3a8b';
       sec-mem-virt = normal;
       sec-mem-prot = public;
@@ -2528,12 +2584,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'HeapExternalSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h';
-      sec-mem-desc-line = '10';
+      sec-mem-desc-line = '40';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Обнуляет атрибуты.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2546,12 +2602,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~HeapExternalSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h';
-      sec-mem-desc-line = '11';
+      sec-mem-desc-line = '46';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой виртуальный деструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Освобождает выделенную память.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
@@ -2559,7 +2615,7 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'private-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f';
+      sec-mem-id   = 'class_heap_external_sort_1af476431c6fafd53c40ab306c97a37134';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2570,7 +2626,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
 long long *
 _EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'numbers';
+        sec-mem-param-declname = 'arr';
       }; /*        sec-mem-param--param */
       sec-mem-param = {
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
@@ -2585,16 +2641,20 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'bottom';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h';
-      sec-mem-desc-line = '7';
+      sec-mem-desc-line = '23';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Получение нового опорного элемента
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] arr Сортируемый массив.
+\param[in] root Корневой элемент.
+\param[in] bottom Наименьший элемент.
 
+Получает новый опроный элемент пирамидальной сортировки, исходя из передаваемых параметров.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '86';
         sec-mem-ref-name = 'ExternalMergeSort::counter';
     };
       sec-mem-referenceto = {
@@ -2613,14 +2673,66 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'sort';
     };
     }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'sort';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+long long *
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'numbers';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+long long
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'array_size';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h';
+      sec-mem-desc-line = '32';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Сортирует последовательность длиной size методом пирамидальной сортировки.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] arr Массив, который необходимо отсортировать.
+\param[in] size Длина массива.
+
+Виртуальный метод. Перегружен в классе.
+Сортирует последовательность длиной size методом пирамидальной сортировки.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_heap_external_sort_8cpp_1af476431c6fafd53c40ab306c97a37134';
+        sec-mem-ref-line = '10';
+        sec-mem-ref-name = 'siftDown';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
+        sec-mem-ref-line = '86';
+        sec-mem-ref-name = 'ExternalMergeSort::counter';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_counter_8cpp_1aa0cd30379394257e44aa7afc84ed1fce';
+        sec-mem-ref-line = '26';
+        sec-mem-ref-name = 'Counter::incSwaps';
+    };
+    }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/HeapExternalSort.h';
-  cp-fileline  = '5';
+  cp-fileline  = '13';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю пирамидальную сортировку
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
+\author Alexander Filippov
+\date Ноябрь 2016 года
 
+Наследуется от ExternalMergeSort, перегружает метод внутренней сортировки, который осуществляет пирамидальную сортировку последовательности.
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
@@ -2706,42 +2818,6 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_quick_external_sort_1adafdd4faded04218c1a131bf55e3c90d';
-      sec-mem-virt = virtual;
-      sec-mem-prot = public;
-      sec-mem-type = <<_EnD_oF_dEf_TeXt_
-virtual void
-_EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'sort';
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-long long *
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'mas';
-      }; /*        sec-mem-param--param */
-      sec-mem-param = {
-        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-long
-_EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'long';
-        sec-mem-param-defname = 'size';
-      }; /*        sec-mem-param--param */
-      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h';
-      sec-mem-desc-line = '9';
-      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
-      sec-mem-referenceto = {
-        sec-mem-ref-id = '_quick_external_sort_8cpp_1a912abb7f2ccdadd7d97992f035e16183';
-        sec-mem-ref-line = '16';
-        sec-mem-ref-name = 'qSortI';
-    };
-    }; /* sec-member */
-    sec-member = {
-      sec-mem-kind = 'function';
       sec-mem-id   = 'class_quick_external_sort_1ac31914e67af41c48b8fdcbcc076168ed';
       sec-mem-virt = normal;
       sec-mem-prot = public;
@@ -2750,12 +2826,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'QuickExternalSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h';
-      sec-mem-desc-line = '10';
+      sec-mem-desc-line = '38';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой конструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Обнуляет атрибуты.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2768,12 +2844,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~QuickExternalSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h';
-      sec-mem-desc-line = '11';
+      sec-mem-desc-line = '44';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Пустой виртуальный деструктор класса.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Освобождает выделенную память.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
@@ -2781,7 +2857,7 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'private-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_quick_external_sort_1a912abb7f2ccdadd7d97992f035e16183';
+      sec-mem-id   = 'class_quick_external_sort_1ad7653bb697a04717066f9942db9a4597';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -2792,7 +2868,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
 long long *
 _EnD_oF_dEf_TeXt_;
-        sec-mem-param-declname = 'mas';
+        sec-mem-param-declname = 'arr';
       }; /*        sec-mem-param--param */
       sec-mem-param = {
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
@@ -2801,12 +2877,15 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'size';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h';
-      sec-mem-desc-line = '7';
+      sec-mem-desc-line = '22';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
-
+Сортирует последовательность длиной size методом быстрой сортировки итеративным методом.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] arr Массив, который необходимо отсортировать.
+\param[in] size Длина массива.
 
+Сортирует последовательность длиной size методом быстрой сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_quick_external_sort_8cpp_1aacca6649d32984be8e1aa076bf42fe46';
@@ -2815,7 +2894,7 @@ _EnD_oF_dEf_TeXt_;
     };
       sec-mem-referenceto = {
         sec-mem-ref-id = '_external_merge_sort_8h_1ac9cb039a5cda56e66aecbc17465dd237';
-        sec-mem-ref-line = '18';
+        sec-mem-ref-line = '86';
         sec-mem-ref-name = 'ExternalMergeSort::counter';
     };
       sec-mem-referenceto = {
@@ -2829,19 +2908,61 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Counter::incSwaps';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_quick_external_sort_8cpp_1adafdd4faded04218c1a131bf55e3c90d';
+        sec-mem-ref-id = '_quick_external_sort_8cpp_1ab277b5945ac22cdcda10bf02e56eb8db';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'sort';
     };
     }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_quick_external_sort_1ab277b5945ac22cdcda10bf02e56eb8db';
+      sec-mem-virt = virtual;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+virtual void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'sort';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+long long *
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'arr';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+long long
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'size';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h';
+      sec-mem-desc-line = '31';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Сортирует последовательность длиной size методом быстрой сортировки.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\param[in] arr Массив, который необходимо отсортировать.
+\param[in] size Длина массива.
+
+Виртуальный метод. Перегружен в классе.
+Вызывет qSortI(...), который сортирует последовательность длиной size методом быстрой сортировки.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = '_quick_external_sort_8cpp_1ad7653bb697a04717066f9942db9a4597';
+        sec-mem-ref-line = '16';
+        sec-mem-ref-name = 'qSortI';
+    };
+    }; /* sec-member */
   }; /* cp-section */
   cp-filename  = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/QuickExternalSort.h';
-  cp-fileline  = '5';
+  cp-fileline  = '13';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
-
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю быструю сортировку.
 _EnD_oF_dEf_TeXt_;
   cp-documentation = <<_EnD_oF_dEf_TeXt_
+\author Alexander Filippov
+\date Ноябрь 2016 года
 
+Наследуется от ExternalMergeSort, перегружает метод внутренней сортировки, который осуществляет быструю сортировку последовательности.
 _EnD_oF_dEf_TeXt_;
   cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
       node = {
@@ -2929,13 +3050,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'initSession';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '92';
+      sec-mem-desc-line = '103';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Инициализирует сессию взаимодействия с пользователем.
-Задает бесконечный цикл взаимодействия с пользователем, вызывает getMethod(). Завершается если getMethod() возвращает false.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Задает бесконечный цикл взаимодействия с пользователем, вызывает getMethod(). Завершается если getMethod() возвращает false.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
         sec-mem-ref-id = '_external_merge_sort_production_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
@@ -2953,13 +3073,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'UserInterface';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '97';
+      sec-mem-desc-line = '109';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Пустой конструктор класса.
-Обнуляет атрибуты.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Обнуляет атрибуты.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -2972,13 +3091,12 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~UserInterface';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '102';
+      sec-mem-desc-line = '115';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Деструктор класса.
-Освобождает выделенную память.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Освобождает выделенную память.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
@@ -3000,13 +3118,14 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'ch';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '37';
+      sec-mem-desc-line = '38';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов необходимого метода.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 \param[in] ch Выбор пользователя
 \return Булево значение - если true, то продолжаем работу программу, если нет, то выход из бесконечного цикла.
+
 Вызывает метод, получающий необходимые параметры для выбранной пользователем функциональности.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
@@ -3020,13 +3139,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'callGenerate';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '42';
+      sec-mem-desc-line = '44';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов генерации последовательности.
-Получает необходимые параметры для генерации исходной последовательности. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Получает необходимые параметры для генерации исходной последовательности. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c';
@@ -3054,13 +3172,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'callSetParams';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '47';
+      sec-mem-desc-line = '50';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов метода, задающего параметры сортировки.
-Задает параметр sort необходимым указателем на один из классов сортировки. Получает необходимые параметры сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Задает параметр sort необходимым указателем на один из классов сортировки. Получает необходимые параметры сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
@@ -3078,13 +3195,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'callSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '52';
+      sec-mem-desc-line = '56';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов метода внешней сортировки.
-Вызывает необходимый метод сортировки, если это возможно. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Вызывает необходимый метод сортировки, если это возможно. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4';
@@ -3107,13 +3223,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'callEstimate';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '57';
+      sec-mem-desc-line = '62';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов метода оценки характеристик внешней сортировки.
-Вызывает метод сортировки, если это возможно. Выводит отчет характеристик сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Вызывает метод сортировки, если это возможно. Выводит отчет характеристик сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4';
@@ -3136,13 +3251,12 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'callGetDependencies';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '62';
+      sec-mem-desc-line = '68';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов метода получения зависимостей характеристик сортировки.
-Вызывает один из методов callGetDependenceSize(), callGetDependenceSizeOfSegments(), callGetDependenceType(). Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Вызывает один из методов callGetDependenceSize(), callGetDependenceSizeOfSegments(), callGetDependenceType(). Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
@@ -3173,12 +3287,13 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'type';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '71';
+      sec-mem-desc-line = '78';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Метод, задающий параметры сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 Вызывает метод, создающий необходимый производный класс сортировки и задающий её параметры. 
+
 \param[in] file Указатель на класс FileManger, обеспечивающий взаимодействие приложения с файловой системой.
 \param[in] sizeOfSegments Размер сегментов.
 \param[in] type Tип внутренней сортировки.
@@ -3242,22 +3357,21 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7';
+      sec-mem-id   = 'class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 void
 _EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'getDependenceSize';
+      sec-mem-name = 'callGetDependenceSize';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '76';
+      sec-mem-desc-line = '84';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов метода получения зависимостей характеристик сортировки от размера.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
 Генерирует входные файлы разной длины. Вызывает несколько сортировок с разным размером входной последовательности. Получает зависимость характеристик от размера входной последовательности. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
-      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
-_EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c';
         sec-mem-ref-line = '4';
@@ -3286,21 +3400,20 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7';
+      sec-mem-id   = 'class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 void
 _EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'getDependenceSizeOfSegments';
+      sec-mem-name = 'callGetDependenceSizeOfSegments';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '81';
+      sec-mem-desc-line = '90';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов метода получения зависимостей характеристик сортировки от размера сегментов.
-Генерирует тестовую последовательность. Вызывает несколько сортировок с разным размером сегментов. Получает зависимость характеристик от размера сегментов. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Генерирует тестовую последовательность. Вызывает несколько сортировок с разным размером сегментов. Получает зависимость характеристик от размера сегментов. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c';
@@ -3330,21 +3443,20 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_user_interface_1ab726cdce7e7518aae70cf42594139589';
+      sec-mem-id   = 'class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
 void
 _EnD_oF_dEf_TeXt_;
-      sec-mem-name = 'getDependenceType';
+      sec-mem-name = 'callGetDependenceType';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '86';
+      sec-mem-desc-line = '96';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки.
-Генерирует тестовую последовательность. Вызывает несколько сортировок с разными типами внутренней сортировки. Получает зависимость характеристик от типа внутренней сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-
+Генерирует тестовую последовательность. Вызывает несколько сортировок с разными типами внутренней сортировки. Получает зависимость характеристик от типа внутренней сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
         sec-mem-ref-id = '_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c';

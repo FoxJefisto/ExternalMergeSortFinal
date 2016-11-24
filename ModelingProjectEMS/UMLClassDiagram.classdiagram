@@ -104,13 +104,13 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="a13751a6-9763-487a-b545-8e8de931bd30" name="getDependenceSize" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="a13751a6-9763-487a-b545-8e8de931bd30" name="callGetDependenceSize" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="7e97c996-95f4-44b8-aba6-55d710b512d3" />
           </operation>
-          <operation Id="bcefad5b-08a0-4e69-a98f-05b29ba0cb06" name="getDependenceSizeOfSegments" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="bcefad5b-08a0-4e69-a98f-05b29ba0cb06" name="callGetDependenceSizeOfSegments" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="02983f2b-278f-4a6d-ad38-a3e68a4e095d" />
           </operation>
-          <operation Id="70bdeac2-0517-46a0-ba68-ae30bacd2dba" name="getDependenceType" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="70bdeac2-0517-46a0-ba68-ae30bacd2dba" name="callGetDependenceType" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="9ee536a0-e917-4514-9a5a-68c4250afdea" />
           </operation>
           <operation Id="d2d7b6f1-fae2-4764-b790-cf281e35797a" name="initSession" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -278,20 +278,20 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
-          <operation Id="07841641-855d-42ca-aa1c-49f9d4aa3bc7" name="sort" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="07841641-855d-42ca-aa1c-49f9d4aa3bc7" name="sort" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="c89bc692-2cd4-4bfc-9bcf-25aa16c8ace5" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="b40ebf8c-a884-4f33-ad75-325c3d5885c4" name="arr" direction="In" isUnique="false">
-                  <elementDefinition Id="a15f1637-c6ef-4260-8f38-2b2db654eb79" />
+                <parameter Id="f818f7ec-8382-4e10-bde8-ab31d360690f" name="arr" direction="In" isUnique="false">
+                  <elementDefinition Id="19138055-8a9b-4d12-a999-b3199f281d73" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="6fc88dd5-2ac1-4f01-be27-0e3e4968ef37" LastKnownName="long long*" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="5e71f4f2-c90d-4028-8f66-1c0e240b5c5d" name="size" direction="In" isUnique="false">
-                  <elementDefinition Id="8cb2ab84-e928-452a-aad8-1356b9885371" />
+                <parameter Id="aa5ab88a-57ed-452f-a956-fedb294c0ca8" name="size" direction="In" isUnique="false">
+                  <elementDefinition Id="83051eb3-7cdd-4872-8d70-2f0e118674b2" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="99bcb9b5-a394-42a2-b326-5e2696aad3c6" LastKnownName="long long" />
                   </type_NamedElement>
@@ -312,7 +312,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="7140921c-191e-49a9-980f-06c5d34117f4" name="sort" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="7140921c-191e-49a9-980f-06c5d34117f4" name="sort" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="8444b6a3-15da-4eb1-aa32-f001b7d27a7e" />
             <ownedParameters>
               <operationHasOwnedParameters>
@@ -346,7 +346,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="2e2b7f93-318b-4f14-8630-b26f8d41dffa" name="sort" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="2e2b7f93-318b-4f14-8630-b26f8d41dffa" name="sort" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="7b49ebbd-92f9-430f-9c88-33823fe9da45" />
             <ownedParameters>
               <operationHasOwnedParameters>
@@ -380,7 +380,7 @@
           </generalization>
         </generalsInternal>
         <ownedOperationsInternal>
-          <operation Id="c9bebc31-917a-4194-884e-ecfa04ad93eb" name="sort" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="c9bebc31-917a-4194-884e-ecfa04ad93eb" name="sort" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="14180dff-5959-4b0f-b0a1-9a3fcdfa9537" />
             <ownedParameters>
               <operationHasOwnedParameters>
@@ -432,10 +432,10 @@
               <referencedTypeMoniker Id="2d5d4896-1afe-4a3f-add3-40d4d8e4f191" LastKnownName="string*" />
             </type_NamedElement>
           </property>
-          <property Id="d93d131e-708e-489a-b1eb-6fe0ca0a5d69" name="endOfFile" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="d93d131e-708e-489a-b1eb-6fe0ca0a5d69" name="endOfOutFile" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ecb22902-45a1-484f-a142-2a008fa9e54b" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="51e4d563-9d28-47f6-a02c-fe379cb225ad" LastKnownName="bool" />
+              <referencedTypeMoniker Id="d7bb5286-220b-4400-9ead-34013227e168" LastKnownName="bool" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
@@ -721,7 +721,7 @@
                 <parameter Id="132aa025-59ab-447f-8577-7a0714587740" direction="Return" isUnique="false">
                   <elementDefinition Id="9c1f4677-18c8-4705-8eff-710977f6dc6b" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="074c2432-976b-44f4-bed3-08b22910ca9d" LastKnownName="long" />
+                    <referencedTypeMoniker Id="99bcb9b5-a394-42a2-b326-5e2696aad3c6" LastKnownName="long long" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -734,7 +734,7 @@
                 <parameter Id="3edc11cb-acdb-4eab-ab30-3c8937d987ee" direction="Return" isUnique="false">
                   <elementDefinition Id="7141c2ef-4857-432d-ae85-68cdf9e3e833" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="074c2432-976b-44f4-bed3-08b22910ca9d" LastKnownName="long" />
+                    <referencedTypeMoniker Id="99bcb9b5-a394-42a2-b326-5e2696aad3c6" LastKnownName="long long" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -750,7 +750,7 @@
                 <parameter Id="e72a39bb-7a40-48e7-979e-13c5a443d90a" direction="Return" isUnique="false">
                   <elementDefinition Id="d1254ff6-b7ac-428e-be71-3d0096094183" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="074c2432-976b-44f4-bed3-08b22910ca9d" LastKnownName="long" />
+                    <referencedTypeMoniker Id="99bcb9b5-a394-42a2-b326-5e2696aad3c6" LastKnownName="long long" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -776,7 +776,7 @@
                 <parameter Id="b0a43302-7fd5-4a0b-9e1b-d3f594c57b5b" direction="Return" isUnique="false">
                   <elementDefinition Id="76dc4314-dded-4393-ad16-7d54136b5cfa" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="074c2432-976b-44f4-bed3-08b22910ca9d" LastKnownName="long" />
+                    <referencedTypeMoniker Id="99bcb9b5-a394-42a2-b326-5e2696aad3c6" LastKnownName="long long" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -802,7 +802,7 @@
                 <parameter Id="aa176f91-933d-4b08-91f6-cfadc170b277" direction="Return" isUnique="false">
                   <elementDefinition Id="6056f1f1-ae96-4b8c-a9d6-50593260bd30" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="074c2432-976b-44f4-bed3-08b22910ca9d" LastKnownName="long" />
+                    <referencedTypeMoniker Id="99bcb9b5-a394-42a2-b326-5e2696aad3c6" LastKnownName="long long" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -875,11 +875,6 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="074c2432-976b-44f4-bed3-08b22910ca9d" name="long" isAbstract="false" isLeaf="false" cachedFullName="long">
-        <elementDefinition Id="4ac39795-649c-43a8-93a5-ffc7d2cf6062" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="bb0a4618-4af8-4c90-8a56-d6f605648308" name="FileManager*" isAbstract="false" isLeaf="false" cachedFullName="FileManager*">
         <elementDefinition Id="3c79ff7c-84e2-4d18-8e50-f51bc3b2076a" />
       </referencedType>
@@ -907,6 +902,11 @@
     <packageHasNamedElement>
       <referencedType Id="befed506-62e1-4e02-9015-07e71425eba6" name="long long" isAbstract="false" isLeaf="false" cachedFullName="long long">
         <elementDefinition Id="707f72d9-2fcb-4314-85cc-866afc15c1ca" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d7bb5286-220b-4400-9ead-34013227e168" name="bool" isAbstract="false" isLeaf="false" cachedFullName="bool">
+        <elementDefinition Id="e3fc153a-ecd3-469f-8ac1-8283ff7c5885" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

@@ -2,6 +2,17 @@
 \label{class_file_manager}\index{File\+Manager@{File\+Manager}}
 
 
+\subsection{Подробное описание}
+Класс файлового менеджера. 
+
+\begin{DoxyAuthor}{Автор}
+Alexander Filippov 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+Ноябрь 2016 года
+\end{DoxyDate}
+Класс, отвечающий за взаимодействие приложения с файловой системой. Осуществляет запись последовательностей в файл, чтение последовательности из файла, а также генерацию последовательностей. 
+
 {\ttfamily \#include $<$File\+Manager.\+h$>$}
 
 
@@ -17,54 +28,54 @@
 \begin{DoxyCompactItemize}
 \item 
 void \hyperlink{class_file_manager_a4a4719a410ca31985e8b75ad75485ce6}{close\+I\+File} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Закрытие входного файла. \end{DoxyCompactList}\item 
 void \hyperlink{class_file_manager_a6a1f1ddbf047fc7e9531f483e4c62148}{close\+O\+File} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Закрытие выходного файла. \end{DoxyCompactList}\item 
 bool \hyperlink{class_file_manager_a49df99509ff2700e0e5edd06adca345c}{get\+End\+Of\+File} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Получение флага конца файла. \end{DoxyCompactList}\item 
 void \hyperlink{class_file_manager_ace8ce2677414831b5a9e7030248fc832}{set\+End\+Of\+File} (bool b)
-\item 
+\begin{DoxyCompactList}\small\item\em Установка флага конца файла в необходимое положение. \end{DoxyCompactList}\item 
 void \hyperlink{class_file_manager_a2f1102abfd0a5a9d7e178968a3fdc56c}{clear\+Out\+File} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Очистка выходного файла. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_file_manager_aba031d681752c80f52a8a8af9b69834e}{read} (long long $\ast$arr, long long size, long long $\ast$read\+Number)
-\item 
+\begin{DoxyCompactList}\small\item\em Чтение входной последовательности из файла. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f}{write} (long long num)
-\item 
+\begin{DoxyCompactList}\small\item\em Запись числа в файл. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_file_manager_ad4c96727180b0055942d20b7b5bfe5f8}{write} (long long $\ast$arr, long long size)
-\item 
+\begin{DoxyCompactList}\small\item\em Запись последовательности в файл. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_file_manager_ab364b91193c482fc7387aec162f677ad}{set\+Files} (string file, \hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State} st)
-\item 
+\begin{DoxyCompactList}\small\item\em Определение атрибутов менеджера. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_file_manager_a975bf0088fa67c83d78ec54b9f61a473}{set\+Files} (string in\+File, string out\+File)
-\item 
+\begin{DoxyCompactList}\small\item\em Определение атрибутов менеджера. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State} \hyperlink{class_file_manager_abd4cbc2b218ab1828ae376a4a9137057}{get\+State} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Проверка состояния менеджера. \end{DoxyCompactList}\item 
 bool \hyperlink{class_file_manager_ab490a5a5882d33781dcb6d1d42945d97}{check\+For\+Equality} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Проверка входного и выходного файла на эквивалентность. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_file_manager_a654c8bf606626cd419f5828839cb21a1}{generate\+Sequence} (long long size, \hyperlink{_structures_8h_a76639e910448c3333d0f4d204e53c2c1}{Seq\+Type} type)
-\item 
+\begin{DoxyCompactList}\small\item\em Определение атрибутов менеджера. \end{DoxyCompactList}\item 
 \hyperlink{class_file_manager_a62d69473c95f8df25e44d2466bb00dc5}{File\+Manager} (string \hyperlink{class_file_manager_a91fd33cbb230ed4974a678302e906a8d}{i\+File}, \hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State} \hyperlink{class_file_manager_a84bbcd4e3807e076ecdbd0e5dfbefa5f}{state})
-\item 
+\begin{DoxyCompactList}\small\item\em Конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{class_file_manager_a2456e56bdcb617c3ee75521cf9dd7057}{File\+Manager} (string in\+File, string out\+File)
-\item 
+\begin{DoxyCompactList}\small\item\em Конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{class_file_manager_a8afd512c06be9daf140cc19d71f9b391}{File\+Manager} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Пустой конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{class_file_manager_abaed33b5b0c13b8a597db9335a1aacfa}{$\sim$\+File\+Manager} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Пустой деструктор класса. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Закрытые данные}
 \begin{DoxyCompactItemize}
 \item 
 ifstream $\ast$ \hyperlink{class_file_manager_a91fd33cbb230ed4974a678302e906a8d}{i\+File}
-\item 
+\begin{DoxyCompactList}\small\item\em Входной файл. \end{DoxyCompactList}\item 
 ofstream $\ast$ \hyperlink{class_file_manager_afe31c07e311212814e4a8ba01c7436a1}{o\+File}
-\item 
+\begin{DoxyCompactList}\small\item\em Выходной файл. \end{DoxyCompactList}\item 
 string $\ast$ \hyperlink{class_file_manager_adf10708d6e8e3b4d329077af4666e147}{o\+File\+Str}
-\item 
+\begin{DoxyCompactList}\small\item\em Путь к выходному файлу. \end{DoxyCompactList}\item 
 string $\ast$ \hyperlink{class_file_manager_aaa0e6feed45b6a92ce5c0b509bd9ceb6}{i\+File\+Str}
-\item 
+\begin{DoxyCompactList}\small\item\em Путь к входному файлу. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State} \hyperlink{class_file_manager_a84bbcd4e3807e076ecdbd0e5dfbefa5f}{state}
-\item 
+\begin{DoxyCompactList}\small\item\em Режим работы с файлами. \end{DoxyCompactList}\item 
 bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+File}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Флаг достижения конца файла. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Конструктор(ы)}
@@ -74,25 +85,55 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{File\+Manager()}{FileManager()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily File\+Manager\+::\+File\+Manager (\begin{DoxyParamCaption}\item[{string}]{i\+File,  }\item[{\hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State}}]{state }\end{DoxyParamCaption})}
 
-\hypertarget{class_file_manager_a2456e56bdcb617c3ee75521cf9dd7057}{}\label{class_file_manager_a2456e56bdcb617c3ee75521cf9dd7057} 
+
+
+Конструктор класса. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em file} & Строка, содержащая путь к файлу. \\
+\hline
+\mbox{\tt in}  & {\em st} & Режим менеджера, который необходимо задать.\\
+\hline
+\end{DoxyParams}
+Вызывет set\+Params(...), если код возврата не Success, бросает исключение. \hypertarget{class_file_manager_a2456e56bdcb617c3ee75521cf9dd7057}{}\label{class_file_manager_a2456e56bdcb617c3ee75521cf9dd7057} 
 \index{File\+Manager@{File\+Manager}!File\+Manager@{File\+Manager}}
 \index{File\+Manager@{File\+Manager}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{File\+Manager()}{FileManager()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
 {\footnotesize\ttfamily File\+Manager\+::\+File\+Manager (\begin{DoxyParamCaption}\item[{string}]{in\+File,  }\item[{string}]{out\+File }\end{DoxyParamCaption})}
 
-\hypertarget{class_file_manager_a8afd512c06be9daf140cc19d71f9b391}{}\label{class_file_manager_a8afd512c06be9daf140cc19d71f9b391} 
+
+
+Конструктор класса. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em in\+File} & Строка, содержащая путь к файлу. \\
+\hline
+\mbox{\tt in}  & {\em out\+File} & Строка, содержащая путь к выходному файлу.\\
+\hline
+\end{DoxyParams}
+Вызывет set\+Params(...), если код возврата не Success, бросает исключение. \hypertarget{class_file_manager_a8afd512c06be9daf140cc19d71f9b391}{}\label{class_file_manager_a8afd512c06be9daf140cc19d71f9b391} 
 \index{File\+Manager@{File\+Manager}!File\+Manager@{File\+Manager}}
 \index{File\+Manager@{File\+Manager}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{File\+Manager()}{FileManager()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
 {\footnotesize\ttfamily File\+Manager\+::\+File\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\hypertarget{class_file_manager_abaed33b5b0c13b8a597db9335a1aacfa}{}\label{class_file_manager_abaed33b5b0c13b8a597db9335a1aacfa} 
+
+
+Пустой конструктор класса. 
+
+Обнуляет атрибуты. \hypertarget{class_file_manager_abaed33b5b0c13b8a597db9335a1aacfa}{}\label{class_file_manager_abaed33b5b0c13b8a597db9335a1aacfa} 
 \index{File\+Manager@{File\+Manager}!````~File\+Manager@{$\sim$\+File\+Manager}}
 \index{````~File\+Manager@{$\sim$\+File\+Manager}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{$\sim$\+File\+Manager()}{~FileManager()}}
 {\footnotesize\ttfamily File\+Manager\+::$\sim$\+File\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
+
+Пустой деструктор класса. 
+
+Освобождает выделенную память. 
 
 \subsection{Методы}
 \hypertarget{class_file_manager_ab490a5a5882d33781dcb6d1d42945d97}{}\label{class_file_manager_ab490a5a5882d33781dcb6d1d42945d97} 
@@ -101,7 +142,14 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{check\+For\+Equality()}{checkForEquality()}}
 {\footnotesize\ttfamily bool File\+Manager\+::check\+For\+Equality (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Проверка входного и выходного файла на эквивалентность. 
+
+\begin{DoxyReturn}{Возвращает}
+true, если файлы эквивалентны; false, если нет.
+\end{DoxyReturn}
+Проверяет на эквивалентность входной и выходной файл. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -114,7 +162,11 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{clear\+Out\+File()}{clearOutFile()}}
 {\footnotesize\ttfamily void File\+Manager\+::clear\+Out\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Очистка выходного файла. 
+
+Затирает выходной файл, вне зависимости от его содержания. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -127,7 +179,11 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{close\+I\+File()}{closeIFile()}}
 {\footnotesize\ttfamily void File\+Manager\+::close\+I\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Закрытие входного файла. 
+
+Закрывает входной файл, если он существует. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -140,7 +196,11 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{close\+O\+File()}{closeOFile()}}
 {\footnotesize\ttfamily void File\+Manager\+::close\+O\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Закрытие выходного файла. 
+
+Закрывает входной файл, сохраняя записанную последовательность, если он существует. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -153,7 +213,21 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{generate\+Sequence()}{generateSequence()}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} File\+Manager\+::generate\+Sequence (\begin{DoxyParamCaption}\item[{long long}]{size,  }\item[{\hyperlink{_structures_8h_a76639e910448c3333d0f4d204e53c2c1}{Seq\+Type}}]{type }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Определение атрибутов менеджера. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em size} & Размер генерируемой последовательности. \\
+\hline
+\mbox{\tt in}  & {\em type} & Тип генерируемой последовательности. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Генерирует последовательность длиной size одного из типов type\+: Best -\/ уже упорядоченная последовательность, Average -\/ случайная последовательность, Worst -\/ последовательность, упорядоченная по убыванию. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -166,7 +240,14 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{get\+End\+Of\+File()}{getEndOfFile()}}
 {\footnotesize\ttfamily bool File\+Manager\+::get\+End\+Of\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Получение флага конца файла. 
+
+\begin{DoxyReturn}{Возвращает}
+Флаг достижения конца файла end\+Of\+File.
+\end{DoxyReturn}
+Возвращает true -\/ если конец файла был достигнут при попытке чтения или записи или false -\/ если конец файла не был достигнут. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -179,7 +260,14 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{get\+State()}{getState()}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State} File\+Manager\+::get\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Проверка состояния менеджера. 
+
+\begin{DoxyReturn}{Возвращает}
+Текущее состояние менеджера.
+\end{DoxyReturn}
+Возвращает текущее состояние менеджера. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -192,7 +280,23 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{read()}{read()}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} File\+Manager\+::read (\begin{DoxyParamCaption}\item[{long long $\ast$}]{arr,  }\item[{long long}]{size,  }\item[{long long $\ast$}]{read\+Number }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Чтение входной последовательности из файла. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt out}  & {\em arr} & Массив в который необходимо считать числовую последовательность. \\
+\hline
+\mbox{\tt in}  & {\em size} & Размер последовательности которую необходимо считать. \\
+\hline
+\mbox{\tt out}  & {\em read\+Number} & Число успешно считанных значений из файла. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Считывает последовательность длиной size в массиив arr, если это возможно. Записывает в read\+Number число успешно считанных значений. Возвращает код успеха или ошибки. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -205,7 +309,16 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{set\+End\+Of\+File()}{setEndOfFile()}}
 {\footnotesize\ttfamily void File\+Manager\+::set\+End\+Of\+File (\begin{DoxyParamCaption}\item[{bool}]{b }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Установка флага конца файла в необходимое положение. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em b} & Значение, которое необходимо установить\\
+\hline
+\end{DoxyParams}
+Устанавливает флаг в нужное положение, например сброс флага, если он уже был обработан. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -218,19 +331,59 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{set\+Files()}{setFiles()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} File\+Manager\+::set\+Files (\begin{DoxyParamCaption}\item[{string}]{file,  }\item[{\hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State}}]{st }\end{DoxyParamCaption})}
 
-\hypertarget{class_file_manager_a975bf0088fa67c83d78ec54b9f61a473}{}\label{class_file_manager_a975bf0088fa67c83d78ec54b9f61a473} 
+
+
+Определение атрибутов менеджера. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em file} & Строка, содержащая путь к файлу. \\
+\hline
+\mbox{\tt in}  & {\em st} & Режим менеджера, который необходимо задать. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Задает атрибуты менеджера, если это возможно. Возвращает код успеха или ошибки. \hypertarget{class_file_manager_a975bf0088fa67c83d78ec54b9f61a473}{}\label{class_file_manager_a975bf0088fa67c83d78ec54b9f61a473} 
 \index{File\+Manager@{File\+Manager}!set\+Files@{set\+Files}}
 \index{set\+Files@{set\+Files}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{set\+Files()}{setFiles()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} File\+Manager\+::set\+Files (\begin{DoxyParamCaption}\item[{string}]{in\+File,  }\item[{string}]{out\+File }\end{DoxyParamCaption})}
 
-\hypertarget{class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f}{}\label{class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f} 
+
+
+Определение атрибутов менеджера. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em in\+File} & Строка, содержащая путь к входному файлу. \\
+\hline
+\mbox{\tt in}  & {\em out\+File} & Строка, содержащая путь к выходному файлу. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Задает атрибуты менеджера, если это возможно. Устанавливает режим Read\+And\+Write или возвращает код ошибки. Возвращает код успеха или ошибки. \hypertarget{class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f}{}\label{class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f} 
 \index{File\+Manager@{File\+Manager}!write@{write}}
 \index{write@{write}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{write()}{write()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} File\+Manager\+::write (\begin{DoxyParamCaption}\item[{long long}]{num }\end{DoxyParamCaption})}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Запись числа в файл. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em num} & Число, которое необходимо записать в файл. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Записывает число в выходной файл. Возвращает код успеха или ошибки. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -245,6 +398,20 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 
 
 
+Запись последовательности в файл. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em arr} & Массив, которое необходимо записать в файл. \\
+\hline
+\mbox{\tt in}  & {\em size} & Длина записываемого в файл массива. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Записывает последовательность в выходной файл. Возвращает код успеха или ошибки. 
+
 \subsection{Данные класса}
 \hypertarget{class_file_manager_ae43001594f1ee182581741d2530620a8}{}\label{class_file_manager_ae43001594f1ee182581741d2530620a8} 
 \index{File\+Manager@{File\+Manager}!end\+Of\+File@{end\+Of\+File}}
@@ -252,37 +419,61 @@ bool \hyperlink{class_file_manager_ae43001594f1ee182581741d2530620a8}{end\+Of\+F
 \subsubsection{\texorpdfstring{end\+Of\+File}{endOfFile}}
 {\footnotesize\ttfamily bool File\+Manager\+::end\+Of\+File\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_file_manager_a91fd33cbb230ed4974a678302e906a8d}{}\label{class_file_manager_a91fd33cbb230ed4974a678302e906a8d} 
+
+
+Флаг достижения конца файла. 
+
+true -\/ если в операциях чтения и записи был достигнут конец файла, false -\/ если нет. \hypertarget{class_file_manager_a91fd33cbb230ed4974a678302e906a8d}{}\label{class_file_manager_a91fd33cbb230ed4974a678302e906a8d} 
 \index{File\+Manager@{File\+Manager}!i\+File@{i\+File}}
 \index{i\+File@{i\+File}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{i\+File}{iFile}}
 {\footnotesize\ttfamily ifstream$\ast$ File\+Manager\+::i\+File\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_file_manager_aaa0e6feed45b6a92ce5c0b509bd9ceb6}{}\label{class_file_manager_aaa0e6feed45b6a92ce5c0b509bd9ceb6} 
+
+
+Входной файл. 
+
+Поток, используемый для чтения однобайтовой последовательности символьных данных из файла. \hypertarget{class_file_manager_aaa0e6feed45b6a92ce5c0b509bd9ceb6}{}\label{class_file_manager_aaa0e6feed45b6a92ce5c0b509bd9ceb6} 
 \index{File\+Manager@{File\+Manager}!i\+File\+Str@{i\+File\+Str}}
 \index{i\+File\+Str@{i\+File\+Str}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{i\+File\+Str}{iFileStr}}
 {\footnotesize\ttfamily string$\ast$ File\+Manager\+::i\+File\+Str\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_file_manager_afe31c07e311212814e4a8ba01c7436a1}{}\label{class_file_manager_afe31c07e311212814e4a8ba01c7436a1} 
+
+
+Путь к входному файлу. 
+
+Строка, содержащая путь к входному файлу. \hypertarget{class_file_manager_afe31c07e311212814e4a8ba01c7436a1}{}\label{class_file_manager_afe31c07e311212814e4a8ba01c7436a1} 
 \index{File\+Manager@{File\+Manager}!o\+File@{o\+File}}
 \index{o\+File@{o\+File}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{o\+File}{oFile}}
 {\footnotesize\ttfamily ofstream$\ast$ File\+Manager\+::o\+File\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_file_manager_adf10708d6e8e3b4d329077af4666e147}{}\label{class_file_manager_adf10708d6e8e3b4d329077af4666e147} 
+
+
+Выходной файл. 
+
+Поток, используемый для записи однобайтовой последовательности символьных данных из файла. \hypertarget{class_file_manager_adf10708d6e8e3b4d329077af4666e147}{}\label{class_file_manager_adf10708d6e8e3b4d329077af4666e147} 
 \index{File\+Manager@{File\+Manager}!o\+File\+Str@{o\+File\+Str}}
 \index{o\+File\+Str@{o\+File\+Str}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{o\+File\+Str}{oFileStr}}
 {\footnotesize\ttfamily string$\ast$ File\+Manager\+::o\+File\+Str\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_file_manager_a84bbcd4e3807e076ecdbd0e5dfbefa5f}{}\label{class_file_manager_a84bbcd4e3807e076ecdbd0e5dfbefa5f} 
+
+
+Путь к выходному файлу. 
+
+Строка, содержащая путь к выходному файлу. \hypertarget{class_file_manager_a84bbcd4e3807e076ecdbd0e5dfbefa5f}{}\label{class_file_manager_a84bbcd4e3807e076ecdbd0e5dfbefa5f} 
 \index{File\+Manager@{File\+Manager}!state@{state}}
 \index{state@{state}!File\+Manager@{File\+Manager}}
 \subsubsection{\texorpdfstring{state}{state}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a57306ae0f9e356347388234ed69e0ce7}{File\+State} File\+Manager\+::state\hspace{0.3cm}{\ttfamily [private]}}
 
 
+
+Режим работы с файлами. 
+
+Атрибут, азадющий один из режимов работы с файловой системой\+: Not\+Enable -\/ режим не задан, Write\+Only -\/ только запись, Read\+Only -\/ Только чтение Read\+And\+Write -\/ чтение и запись. 
 
 Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
 \item 

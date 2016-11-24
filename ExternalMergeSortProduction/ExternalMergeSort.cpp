@@ -11,7 +11,7 @@ ExternalMergeSort::ExternalMergeSort()
 ExternalMergeSort::ExternalMergeSort(FileManager *file, long long sizeOfSegments)
 {
 	exception errorOfCreation;
-	Responce resp = setParams(file, sizeOfSegments);
+	Response resp = setParams(file, sizeOfSegments);
 	if (resp!=Success)
 	{
 		throw errorOfCreation;
@@ -19,37 +19,37 @@ ExternalMergeSort::ExternalMergeSort(FileManager *file, long long sizeOfSegments
 	log = CLI;
 }
 
-Responce ExternalMergeSort::setParams(FileManager *file, long long size)
+Response ExternalMergeSort::setParams(FileManager *file, long long size)
 {
 	if (file->getState() != ReadAndWrite) {
 		ok = false;
-		return Responce::FileManagerFail;
+		return Response::FileManagerFail;
 	}
 	if (size<=0){
 		ok = false;
 		return SizeError;
 	}
-	if (size % 2 == 1) {
+	if (size % 2 == 1 || size/2 == 0) {
 		ok = false;
 		return SizeError;
 	}
 	if (file->checkForEquality()) {
-		return Responce::InputAndOutputIsEqual;
+		return Response::InputAndOutputIsEqual;
 	}
 	sizeOfSegments = size;
 	fileManager = file;
 	ok = true;
-	return Responce::Success;
+	return Response::Success;
 }
 
-Responce ExternalMergeSort::externalSort()
+Response ExternalMergeSort::externalSort()
 {
 	counter.clear();
 	counter.setBegTime();
 	long long *sizeOfSequence = new long long();
 	*sizeOfSequence = 0;
 	print("Начало предформирования отрезков:\n");
-	Responce resp = createRuns(sizeOfSequence);
+	Response resp = createRuns(sizeOfSequence);
 	print("Выполнено!\n");
 	FileManager *bufA = new FileManager("bufA.txt", "bufA.txt");
 	FileManager *bufB = new FileManager("bufB.txt", "bufB.txt");
@@ -131,10 +131,10 @@ void ExternalMergeSort::setLog(LogType log)
 	this->log = log;
 }
 
-Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
+Response ExternalMergeSort::createRuns(long long *sizeOfSequence)
 {
 	if (ok == false) {
-		return Responce::ParamsFail;
+		return Response::ParamsFail;
 	}
 	FileManager *bufA = new FileManager("bufA.txt", WriteOnly);
 	FileManager *bufB = new FileManager("bufB.txt", WriteOnly);
@@ -149,7 +149,7 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 	bufA->clearOutFile();
 	bufB->clearOutFile();
 	long long * readNumber = new long long();
-	Responce resp=Success;
+	Response resp=Success;
 	do{
 		resp = fileManager->read(bufArr, sizeOfSegments, readNumber);
 		counter.incFileOp(*readNumber);
@@ -175,10 +175,10 @@ Responce ExternalMergeSort::createRuns(long long *sizeOfSequence)
 	return Success;
 }
 
-Responce ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager * input2, FileManager *out, long long size)
+Response ExternalMergeSort::mergeSequencesNew(FileManager * input1, FileManager * input2, FileManager *out, long long size)
 {
-	long long *bufArrA = new long long[size/2+1];
-	long long *bufArrB = new long long[size/2+1];
+	long long *bufArrA = new long long[size/2+2];
+	long long *bufArrB = new long long[size/2+2];
 	long long * readNumberA = new long long();
 	long long * readNumberB = new long long();
 	long long ia = 0, ib = 0;

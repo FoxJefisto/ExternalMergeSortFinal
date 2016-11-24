@@ -1,4 +1,4 @@
 <map id="ExternalMergeSort" name="ExternalMergeSort">
-<area shape="rect" id="node2" href="$class_file_manager.html" title="{FileManager\n|&#45; iFile\l&#45; oFile\l&#45; oFileStr\l&#45; iFileStr\l&#45; state\l&#45; endOfFile\l|+ closeIFile()\l+ closeOFile()\l+ getEndOfFile()\l+ setEndOfFile()\l+ clearOutFile()\l+ read()\l+ write()\l+ write()\l+ setFiles()\l+ setFiles()\lи 7 больше...\l}" alt="" coords="5,5,123,303"/>
-<area shape="rect" id="node3" href="$class_counter.html" title="{Counter\n|&#45; begTime\l&#45; endTime\l&#45; comparsion\l&#45; fileOp\l&#45; swaps\l|+ Counter()\l+ setBegTime()\l+ setEndTime()\l+ getTimeInterval()\l+ incSwaps()\l+ getSwaps()\l+ incComparsion()\l+ getComparsion()\l+ incFileOp()\l+ getFileOp()\l+ clear()\l+ ~Counter()\l}" alt="" coords="147,5,277,303"/>
+<area shape="rect" id="node2" href="$class_file_manager.html" title="Класс файлового менеджера. " alt="" coords="5,5,123,303"/>
+<area shape="rect" id="node3" href="$class_counter.html" title="Класс Счетчик. " alt="" coords="147,5,277,303"/>
 </map>

@@ -10,12 +10,12 @@
         <argsstring></argsstring>
         <name>begTime</name>
         <briefdescription>
-        </briefdescription>
+<para>Начальное время. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Число тактов программы на момент начала сортировки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="9" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="9" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="22" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="22" bodyend="-1"/>
         <referencedby refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" compoundref="_counter_8cpp" startline="10" endline="13">setBegTime</referencedby>
         <referencedby refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
@@ -26,12 +26,12 @@
         <argsstring></argsstring>
         <name>endTime</name>
         <briefdescription>
-        </briefdescription>
+<para>Конечное время. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Число тактов программы на момент оконачания сортировки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="10" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="10" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="28" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="28" bodyend="-1"/>
         <referencedby refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" compoundref="_counter_8cpp" startline="15" endline="19">setEndTime</referencedby>
         <referencedby refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
@@ -42,12 +42,12 @@
         <argsstring></argsstring>
         <name>comparsion</name>
         <briefdescription>
-        </briefdescription>
+<para>Число сравнений. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="11" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="11" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="33" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="33" bodyend="-1"/>
         <referencedby refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" compoundref="_counter_8cpp" startline="36" endline="39">incComparsion</referencedby>
         <referencedby refid="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" compoundref="_counter_8cpp" startline="41" endline="44">getComparsion</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
@@ -58,12 +58,12 @@
         <argsstring></argsstring>
         <name>fileOp</name>
         <briefdescription>
-        </briefdescription>
+<para>Число операций с файлами. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Число записей в файл и чтений из файла чисел. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="12" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="39" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="39" bodyend="-1"/>
         <referencedby refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" compoundref="_counter_8cpp" startline="46" endline="49">incFileOp</referencedby>
         <referencedby refid="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" compoundref="_counter_8cpp" startline="51" endline="54">getFileOp</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
@@ -74,12 +74,12 @@
         <argsstring></argsstring>
         <name>swaps</name>
         <briefdescription>
-        </briefdescription>
+<para>Число перестановок. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Подсчет производится только в методе внутренней сортировки, т.к. вне её не имеет смысла. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="13" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="13" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="45" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="45" bodyend="-1"/>
         <referencedby refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" compoundref="_counter_8cpp" startline="26" endline="29">incSwaps</referencedby>
         <referencedby refid="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" compoundref="_counter_8cpp" startline="31" endline="34">getSwaps</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
@@ -92,12 +92,12 @@
         <argsstring>()</argsstring>
         <name>Counter</name>
         <briefdescription>
-        </briefdescription>
+<para>Пустой конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Обнуляет счетчие. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="15" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="5" bodyend="8"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="52" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="5" bodyend="8"/>
         <references refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</references>
       </memberdef>
       <memberdef kind="function" id="class_counter_1a71dea1262b81493aa9734f62a72b2691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -106,45 +106,45 @@
         <argsstring>()</argsstring>
         <name>setBegTime</name>
         <briefdescription>
-        </briefdescription>
+<para>Задание начальной точки отсчета. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Присваивает атрибуту begTime текущее число тактов работы программы. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="16" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="10" bodyend="13"/>
-        <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="9">begTime</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="58" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="10" bodyend="13"/>
+        <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="22">begTime</references>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>long</type>
+        <type>long long</type>
         <definition>long Counter::setEndTime</definition>
         <argsstring>()</argsstring>
         <name>setEndTime</name>
         <briefdescription>
-        </briefdescription>
+<para>Задание конечной точки отсчета. /return Возвращает число миллисекунд между моментами begTime и endTime. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Присваивает атрибуту endTime текущее число тактов работы программы. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="17" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="15" bodyend="19"/>
-        <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="10">endTime</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="65" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="15" bodyend="19"/>
+        <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="28">endTime</references>
         <references refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</references>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>long</type>
+        <type>long long</type>
         <definition>long Counter::getTimeInterval</definition>
         <argsstring>()</argsstring>
         <name>getTimeInterval</name>
         <briefdescription>
-        </briefdescription>
+<para>Получение временного интервала. /return Возвращает число миллисекунд между моментами begTime и endTime. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Подсчитывает временной интервал в миллисекундах работы программы от момента begTime до момента endTime. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="18" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="21" bodyend="24"/>
-        <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="10">endTime</references>
-        <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="9">begTime</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="72" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="21" bodyend="24"/>
+        <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="28">endTime</references>
+        <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="22">begTime</references>
         <referencedby refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" compoundref="_counter_8cpp" startline="15" endline="19">setEndTime</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -153,31 +153,31 @@
         <argsstring>()</argsstring>
         <name>incSwaps</name>
         <briefdescription>
-        </briefdescription>
+<para>Увеличение счетчика перестановок. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Увеличивает на единицу счетчик перестановок, задаваемоый атрибутом swaps. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="19" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="26" bodyend="29"/>
-        <references refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" compoundref="_counter_8h" startline="13">swaps</references>
-        <referencedby refid="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c" compoundref="_bubble_external_sort_8cpp" startline="5" endline="24">BubbleExternalSort::sort</referencedby>
-        <referencedby refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" compoundref="_heap_external_sort_8cpp" startline="10" endline="32">HeapExternalSort::siftDown</referencedby>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="78" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="26" bodyend="29"/>
+        <references refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" compoundref="_counter_8h" startline="45">swaps</references>
+        <referencedby refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" compoundref="_bubble_external_sort_8cpp" startline="5" endline="24">BubbleExternalSort::sort</referencedby>
+        <referencedby refid="class_heap_external_sort_1af476431c6fafd53c40ab306c97a37134" compoundref="_heap_external_sort_8cpp" startline="10" endline="32">HeapExternalSort::siftDown</referencedby>
         <referencedby refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" compoundref="_heap_external_sort_8cpp" startline="33" endline="44">HeapExternalSort::sort</referencedby>
-        <referencedby refid="class_quick_external_sort_1a912abb7f2ccdadd7d97992f035e16183" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
+        <referencedby refid="class_quick_external_sort_1ad7653bb697a04717066f9942db9a4597" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>long</type>
+        <type>long long</type>
         <definition>long Counter::getSwaps</definition>
         <argsstring>()</argsstring>
         <name>getSwaps</name>
         <briefdescription>
-        </briefdescription>
+<para>Получение счетчика перестановок. /return Число перестановок, задаваемое атрибутом swaps. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Получает число перестановок, задаваемое атрибутом swaps. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="20" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="31" bodyend="34"/>
-        <references refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" compoundref="_counter_8h" startline="13">swaps</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="85" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="31" bodyend="34"/>
+        <references refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" compoundref="_counter_8h" startline="45">swaps</references>
       </memberdef>
       <memberdef kind="function" id="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189,31 +189,39 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Увеличение счетчика сравнений. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Число, на которое будет увеличиваться счетчик сравнений.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Увеличивает счетчик перестановок, задаваемый атрибутом comparsion, на n. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="21" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="36" bodyend="39"/>
-        <references refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" compoundref="_counter_8h" startline="11">comparsion</references>
-        <referencedby refid="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c" compoundref="_bubble_external_sort_8cpp" startline="5" endline="24">BubbleExternalSort::sort</referencedby>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="92" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="36" bodyend="39"/>
+        <references refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" compoundref="_counter_8h" startline="33">comparsion</references>
+        <referencedby refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" compoundref="_bubble_external_sort_8cpp" startline="5" endline="24">BubbleExternalSort::sort</referencedby>
         <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
-        <referencedby refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" compoundref="_heap_external_sort_8cpp" startline="10" endline="32">HeapExternalSort::siftDown</referencedby>
-        <referencedby refid="class_quick_external_sort_1a912abb7f2ccdadd7d97992f035e16183" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
+        <referencedby refid="class_heap_external_sort_1af476431c6fafd53c40ab306c97a37134" compoundref="_heap_external_sort_8cpp" startline="10" endline="32">HeapExternalSort::siftDown</referencedby>
+        <referencedby refid="class_quick_external_sort_1ad7653bb697a04717066f9942db9a4597" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>long</type>
+        <type>long long</type>
         <definition>long Counter::getComparsion</definition>
         <argsstring>()</argsstring>
         <name>getComparsion</name>
         <briefdescription>
-        </briefdescription>
+<para>Получение счетчика сравнений. /return Число сравнений, задаваемое атрибутом comparsion. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Получает число сравнений, задаваемое атрибутом comparsion. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="22" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="41" bodyend="44"/>
-        <references refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" compoundref="_counter_8h" startline="11">comparsion</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="99" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="41" bodyend="44"/>
+        <references refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" compoundref="_counter_8h" startline="33">comparsion</references>
       </memberdef>
       <memberdef kind="function" id="class_counter_1a63310182709c321ad8fe8e78b81d12aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -225,29 +233,37 @@
           <declname>n</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Увеличение счетчика числа операций с файлами. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Число, на которое будет увеличиваться счетчик операций с файлами.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Увеличивает на n счетчик числа операций с файлами, задаваемый атрибутом fileOp. Под операциями в данном случае подразумеваются чтение чисел из файла и запись чисел в файл. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="23" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="46" bodyend="49"/>
-        <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="12">fileOp</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="107" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="46" bodyend="49"/>
+        <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="39">fileOp</references>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>long</type>
+        <type>long long</type>
         <definition>long Counter::getFileOp</definition>
         <argsstring>()</argsstring>
         <name>getFileOp</name>
         <briefdescription>
-        </briefdescription>
+<para>Получение счетчика файловых операций. /return Число файловых операций, задаваемое атрибутом fileOp. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Получает число файловых операций, задаваемое атрибутом fileOp. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="24" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="51" bodyend="54"/>
-        <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="12">fileOp</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="114" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="51" bodyend="54"/>
+        <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="39">fileOp</references>
       </memberdef>
       <memberdef kind="function" id="class_counter_1af66c74ac2bc69fa4f30c34377f869596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -255,17 +271,17 @@
         <argsstring>()</argsstring>
         <name>clear</name>
         <briefdescription>
-        </briefdescription>
+<para>Обнуление счетчика. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Обнуляет все счетчики, присваивает всем атрибутам 0. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="25" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="56" bodyend="63"/>
-        <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="9">begTime</references>
-        <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="10">endTime</references>
-        <references refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" compoundref="_counter_8h" startline="11">comparsion</references>
-        <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="12">fileOp</references>
-        <references refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" compoundref="_counter_8h" startline="13">swaps</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="120" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="56" bodyend="63"/>
+        <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="22">begTime</references>
+        <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="28">endTime</references>
+        <references refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" compoundref="_counter_8h" startline="33">comparsion</references>
+        <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="39">fileOp</references>
+        <references refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" compoundref="_counter_8h" startline="45">swaps</references>
         <referencedby refid="class_counter_1a1e05f69b5240fbab3e7ab351672167f0" compoundref="_counter_8cpp" startline="5" endline="8">Counter</referencedby>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
@@ -280,20 +296,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="26" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="66" bodyend="68"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="121" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="66" bodyend="68"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Класс Счетчик. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><simplesect kind="author"><para>Alexander Filippov </para></simplesect>
+<simplesect kind="date"><para>Ноябрь 2016 года</para></simplesect>
+Класс, отвечающий за подсчет характеристик сортировки. </para>    </detaileddescription>
     <collaborationgraph>
       <node id="7">
         <label>Counter</label>
         <link refid="class_counter"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="7" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="6" bodyend="27"/>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="15" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="14" bodyend="122"/>
     <listofallmembers>
       <member refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" prot="private" virt="non-virtual"><scope>Counter</scope><name>begTime</name></member>
       <member refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" prot="public" virt="non-virtual"><scope>Counter</scope><name>clear</name></member>

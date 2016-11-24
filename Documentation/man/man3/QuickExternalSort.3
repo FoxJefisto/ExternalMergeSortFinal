@@ -1,43 +1,92 @@
-.TH "QuickExternalSort" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "QuickExternalSort" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-QuickExternalSort \- \fC#include <QuickExternalSort\&.h>\fP
+QuickExternalSort \- 
+.SH "Подробное описание"
+.PP 
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю быструю сортировку\&. 
+
+
+.PP
+\fBАвтор:\fP
+.RS 4
+Alexander Filippov 
+.RE
+.PP
+\fBДата:\fP
+.RS 4
+Ноябрь 2016 года
+.RE
+.PP
+Наследуется от \fBExternalMergeSort\fP, перегружает метод внутренней сортировки, который осуществляет быструю сортировку последовательности\&. 
+.PP
+\fC#include <QuickExternalSort\&.h>\fP
 .PP
 Базовые классы:\fBExternalMergeSort\fP\&.
 .SS "Открытые члены"
 
 .in +1c
 .ti -1c
-.RI "virtual void \fBsort\fP (long long *mas, long long)"
-.br
-.ti -1c
 .RI "\fBQuickExternalSort\fP ()"
 .br
+.RI "Пустой конструктор класса\&. "
 .ti -1c
 .RI "\fB~QuickExternalSort\fP ()"
 .br
+.RI "Пустой виртуальный деструктор класса\&. "
 .in -1c
 .SS "Закрытые члены"
 
 .in +1c
 .ti -1c
-.RI "void \fBqSortI\fP (long long *mas, long long size)"
+.RI "void \fBqSortI\fP (long long *arr, long long size)"
 .br
+.RI "Сортирует последовательность длиной size методом быстрой сортировки итеративным методом\&. "
+.ti -1c
+.RI "virtual void \fBsort\fP (long long *arr, long long size)"
+.br
+.RI "Сортирует последовательность длиной size методом быстрой сортировки\&. "
 .in -1c
 .SS "Дополнительные унаследованные члены"
 .SH "Конструктор(ы)"
 .PP 
 .SS "QuickExternalSort::QuickExternalSort ()"
 
+.PP
+Пустой конструктор класса\&. Обнуляет атрибуты\&. 
 .SS "QuickExternalSort::~QuickExternalSort ()"
 
+.PP
+Пустой виртуальный деструктор класса\&. Освобождает выделенную память\&. 
 .SH "Методы"
 .PP 
-.SS "void QuickExternalSort::qSortI (long long * mas, long long size)\fC [private]\fP"
+.SS "void QuickExternalSort::qSortI (long long * arr, long long size)\fC [private]\fP"
 
-.SS "void QuickExternalSort::sort (long long * mas, long long size)\fC [virtual]\fP"
+.PP
+Сортирует последовательность длиной size методом быстрой сортировки итеративным методом\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Массив, который необходимо отсортировать\&. 
+.br
+\fIsize\fP Длина массива\&.
+.RE
+.PP
+Сортирует последовательность длиной size методом быстрой сортировки\&. 
+.SS "void QuickExternalSort::sort (long long * arr, long long size)\fC [private]\fP, \fC [virtual]\fP"
 
+.PP
+Сортирует последовательность длиной size методом быстрой сортировки\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Массив, который необходимо отсортировать\&. 
+.br
+\fIsize\fP Длина массива\&.
+.RE
+.PP
+Виртуальный метод\&. Перегружен в классе\&. Вызывет qSortI(\&.\&.\&.), который сортирует последовательность длиной size методом быстрой сортировки\&. 
 .PP
 Замещает \fBExternalMergeSort\fP\&.
 

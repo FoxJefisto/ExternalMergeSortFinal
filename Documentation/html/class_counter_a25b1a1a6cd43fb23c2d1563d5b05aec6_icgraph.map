@@ -1,4 +1,4 @@
 <map id="Counter::getTimeInterval" name="Counter::getTimeInterval">
-<area shape="rect" id="node2" href="$class_counter.html#a338ac4f04d6f5924aa7ace3b14d9ffb9" title="Counter::setEndTime" alt="" coords="215,13,359,39"/>
-<area shape="rect" id="node3" href="$class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="407,5,545,47"/>
+<area shape="rect" id="node2" href="$class_counter.html#a338ac4f04d6f5924aa7ace3b14d9ffb9" title="Задание конечной точки отсчета. /return Возвращает число миллисекунд между моментами begTime и endTim..." alt="" coords="215,13,359,39"/>
+<area shape="rect" id="node3" href="$class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="407,5,545,47"/>
 </map>

@@ -4,45 +4,61 @@
     <compoundname>BubbleExternalSort</compoundname>
     <basecompoundref refid="class_external_merge_sort" prot="public" virt="non-virtual">ExternalMergeSort</basecompoundref>
     <includes refid="_bubble_external_sort_8h" local="no">BubbleExternalSort.h</includes>
-      <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>void BubbleExternalSort::sort</definition>
-        <argsstring>(long long *, long long)</argsstring>
+        <argsstring>(long long *arr, long long size)</argsstring>
         <name>sort</name>
-        <reimplements refid="class_external_merge_sort_1af6412221cc797a846243a343ccc12dba">sort</reimplements>
+        <reimplements refid="class_external_merge_sort_1a7b777f22151fdd869624d8aa5a39a7bb">sort</reimplements>
         <param>
           <type>long long *</type>
-          <defname>a</defname>
+          <declname>arr</declname>
         </param>
         <param>
-          <type>long</type>
-          <declname>long</declname>
-          <defname>length</defname>
+          <type>long long</type>
+          <declname>size</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Сортирует последовательность длиной size методом пузырьковой сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">arr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив, который необходимо отсортировать. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Длина массива.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Виртуальный метод. Перегружен в классе. Сортирует последовательность длиной size методом пузырьковой сортировки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="7" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp" bodystart="5" bodyend="24"/>
-        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="18">ExternalMergeSort::counter</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="23" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp" bodystart="5" bodyend="24"/>
+        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="86">ExternalMergeSort::counter</references>
         <references refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" compoundref="_counter_8cpp" startline="36" endline="39">Counter::incComparsion</references>
         <references refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" compoundref="_counter_8cpp" startline="26" endline="29">Counter::incSwaps</references>
       </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
       <memberdef kind="function" id="class_bubble_external_sort_1a420f93ff7677a75557f805749011f86e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>BubbleExternalSort::BubbleExternalSort</definition>
         <argsstring>()</argsstring>
         <name>BubbleExternalSort</name>
         <briefdescription>
-        </briefdescription>
+<para>Пустой конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Обнуляет атрибуты. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="8" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp" bodystart="26" bodyend="28"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="31" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp" bodystart="26" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_bubble_external_sort_1a2075c6e2117da937f397ceb993336e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -50,18 +66,20 @@
         <argsstring>()</argsstring>
         <name>~BubbleExternalSort</name>
         <briefdescription>
-        </briefdescription>
+<para>Пустой виртуальный деструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Освобождает выделенную память. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="9" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp" bodystart="31" bodyend="33"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="37" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.cpp" bodystart="31" bodyend="33"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Класс внешней многофазной сортировки слиянием, использующий внутреннюю пузырьковую сортировку. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><simplesect kind="author"><para>Alexander Filippov </para></simplesect>
+<simplesect kind="date"><para>Ноябрь 2016 года</para></simplesect>
+Наследуется от <ref refid="class_external_merge_sort" kindref="compound">ExternalMergeSort</ref>, перегружает метод внутренней сортировки, который осуществляет пузырьковую сортировку последовательности. </para>    </detaileddescription>
     <inheritancegraph>
       <node id="0">
         <label>BubbleExternalSort</label>
@@ -100,7 +118,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="5" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" bodystart="3" bodyend="10"/>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" line="13" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/BubbleExternalSort.h" bodystart="11" bodyend="38"/>
     <listofallmembers>
       <member refid="class_bubble_external_sort_1a420f93ff7677a75557f805749011f86e" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>BubbleExternalSort</name></member>
       <member refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>counter</name></member>
@@ -109,7 +127,7 @@
       <member refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>externalSort</name></member>
       <member refid="class_external_merge_sort_1ac0eeaba67ee0703acf73a8a5bf78ebe1" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>setLog</name></member>
       <member refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>setParams</name></member>
-      <member refid="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c" prot="public" virt="virtual"><scope>BubbleExternalSort</scope><name>sort</name></member>
+      <member refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" prot="private" virt="virtual"><scope>BubbleExternalSort</scope><name>sort</name></member>
       <member refid="class_bubble_external_sort_1a2075c6e2117da937f397ceb993336e81" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>~BubbleExternalSort</name></member>
       <member refid="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" prot="public" virt="virtual"><scope>BubbleExternalSort</scope><name>~ExternalMergeSort</name></member>
     </listofallmembers>

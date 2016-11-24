@@ -2,6 +2,9 @@ var searchData=
 [
   ['callestimate',['callEstimate',['../class_user_interface.html#a7957201b3543ea0561d48bcc0a0d329e',1,'UserInterface']]],
   ['callgenerate',['callGenerate',['../class_user_interface.html#a27c547dadfd5588d5b734e253b2e8a4a',1,'UserInterface']]],
+  ['callgetdependencesize',['callGetDependenceSize',['../class_user_interface.html#a1dc307f92c919866f13ddaf30cde1a70',1,'UserInterface']]],
+  ['callgetdependencesizeofsegments',['callGetDependenceSizeOfSegments',['../class_user_interface.html#ab668f3b2d9f89ce3eacda5e166f33807',1,'UserInterface']]],
+  ['callgetdependencetype',['callGetDependenceType',['../class_user_interface.html#aa413c00a65ae4faf9421e9fc359663ec',1,'UserInterface']]],
   ['callgetdependencies',['callGetDependencies',['../class_user_interface.html#a332db63dca89d684f7e9e1272f4c3745',1,'UserInterface']]],
   ['callmethod',['callMethod',['../class_user_interface.html#ad388ff348c0a124038f4ea9756b80041',1,'UserInterface']]],
   ['callsetparams',['callSetParams',['../class_user_interface.html#adcabf6c8f2be4b4ec712c4674156bf59',1,'UserInterface']]],
@@ -12,5 +15,5 @@ var searchData=
   ['closeifile',['closeIFile',['../class_file_manager.html#a4a4719a410ca31985e8b75ad75485ce6',1,'FileManager']]],
   ['closeofile',['closeOFile',['../class_file_manager.html#a6a1f1ddbf047fc7e9531f483e4c62148',1,'FileManager']]],
   ['counter',['Counter',['../class_counter.html#a1e05f69b5240fbab3e7ab351672167f0',1,'Counter']]],
-  ['createruns',['createRuns',['../class_external_merge_sort.html#a54203f48d659003f5a75425354d4e262',1,'ExternalMergeSort']]]
+  ['createruns',['createRuns',['../class_external_merge_sort.html#aa3ec5ccebe04f02538ee42d0ffe7b75c',1,'ExternalMergeSort']]]
 ];

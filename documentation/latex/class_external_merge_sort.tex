@@ -2,6 +2,17 @@
 \label{class_external_merge_sort}\index{External\+Merge\+Sort@{External\+Merge\+Sort}}
 
 
+\subsection{Подробное описание}
+Класс внешней многофазной сортировки слиянием. 
+
+\begin{DoxyAuthor}{Автор}
+Alexander Filippov 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+Ноябрь 2016 года
+\end{DoxyDate}
+Класс, осуществляющий внешнюю многофазную сортировку слиянием. Содержит в себе основные методы внешней сортировки слиянием. Виртуальная функция sort(...) переопределена в производных классах. 
+
 {\ttfamily \#include $<$External\+Merge\+Sort.\+h$>$}
 
 
@@ -26,44 +37,47 @@
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_external_merge_sort_a7b6efcd2abbf59a8983f972c52d04650}{External\+Merge\+Sort} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Пустой конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{class_external_merge_sort_a37df182916b341d5466f2fff0d50dfed}{External\+Merge\+Sort} (\hyperlink{class_file_manager}{File\+Manager} $\ast$file, long long \hyperlink{class_external_merge_sort_a1d68bb5e0373cf16807a41272dff1a99}{size\+Of\+Segments})
-\item 
+\begin{DoxyCompactList}\small\item\em Конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b}{set\+Params} (\hyperlink{class_file_manager}{File\+Manager} $\ast$file, long long \hyperlink{class_external_merge_sort_a1d68bb5e0373cf16807a41272dff1a99}{size\+Of\+Segments})
-\item 
+\begin{DoxyCompactList}\small\item\em Определение параметров сортировки. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_external_merge_sort_aa0d80e41effe3a13c0d63b33e208918f}{external\+Sort} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Вызывает метод внешней многофазной сортировки. \end{DoxyCompactList}\item 
 void \hyperlink{class_external_merge_sort_ac0eeaba67ee0703acf73a8a5bf78ebe1}{set\+Log} (\hyperlink{_structures_8h_af67907baa897e9fb84df0cb89795b87c}{Log\+Type} \hyperlink{class_external_merge_sort_a41f61c3beb7dc529d7f2a8b2b4ee380b}{log})
-\item 
-virtual void \hyperlink{class_external_merge_sort_af6412221cc797a846243a343ccc12dba}{sort} (long long $\ast$, long long)=0
-\item 
+\begin{DoxyCompactList}\small\item\em Устанавливает тип логгирования. \end{DoxyCompactList}\item 
 virtual \hyperlink{class_external_merge_sort_adfee7073120e0ae832c96977440b2fb4}{$\sim$\+External\+Merge\+Sort} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Пустой виртуальный деструктор класса. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Открытые атрибуты}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_counter}{Counter} \hyperlink{class_external_merge_sort_ac9cb039a5cda56e66aecbc17465dd237}{counter}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Счетчик. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_external_merge_sort_a7b777f22151fdd869624d8aa5a39a7bb}{sort} (long long $\ast$arr, long long size)=0
+\begin{DoxyCompactList}\small\item\em Сортирует последовательность длиной size одним из методов, перегруженных в производных классах. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Закрытые члены}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_external_merge_sort_a54203f48d659003f5a75425354d4e262}{create\+Runs} (long long $\ast$)
-\item 
+\hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_external_merge_sort_aa3ec5ccebe04f02538ee42d0ffe7b75c}{create\+Runs} (long long $\ast$size)
+\begin{DoxyCompactList}\small\item\em Чтение входной последовательности из файла. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_external_merge_sort_a8b4f951d9ee53818b8d3d4e84e2a1aa4}{merge\+Sequences\+New} (\hyperlink{class_file_manager}{File\+Manager} $\ast$input1, \hyperlink{class_file_manager}{File\+Manager} $\ast$input2, \hyperlink{class_file_manager}{File\+Manager} $\ast$out, long long size)
-\item 
-void \hyperlink{class_external_merge_sort_a5e19d768fb9ef81e36e22e2eff498ca4}{print} (const char $\ast$)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Слияние последовательностей. \end{DoxyCompactList}\item 
+void \hyperlink{class_external_merge_sort_a7a6b94fff35130ed6a498f9a31d0f863}{print} (const char $\ast$msg)
+\begin{DoxyCompactList}\small\item\em Логгирование. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Закрытые данные}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_file_manager}{File\+Manager} $\ast$ \hyperlink{class_external_merge_sort_ab82d3b62a57be6c80dbd12b90de278e2}{file\+Manager}
-\item 
+\begin{DoxyCompactList}\small\item\em Указатель на класс файл-\/менеджера. \end{DoxyCompactList}\item 
 long long \hyperlink{class_external_merge_sort_a1d68bb5e0373cf16807a41272dff1a99}{size\+Of\+Segments}
-\item 
+\begin{DoxyCompactList}\small\item\em Размер сегментов. \end{DoxyCompactList}\item 
 bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
-\item 
+\begin{DoxyCompactList}\small\item\em Флаг готовности сортировки. \end{DoxyCompactList}\item 
 \hyperlink{_structures_8h_af67907baa897e9fb84df0cb89795b87c}{Log\+Type} \hyperlink{class_external_merge_sort_a41f61c3beb7dc529d7f2a8b2b4ee380b}{log}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Тип логгирования. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Конструктор(ы)}
@@ -73,13 +87,28 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 \subsubsection{\texorpdfstring{External\+Merge\+Sort()}{ExternalMergeSort()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily External\+Merge\+Sort\+::\+External\+Merge\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\hypertarget{class_external_merge_sort_a37df182916b341d5466f2fff0d50dfed}{}\label{class_external_merge_sort_a37df182916b341d5466f2fff0d50dfed} 
+
+
+Пустой конструктор класса. 
+
+Обнуляет атрибуты. \hypertarget{class_external_merge_sort_a37df182916b341d5466f2fff0d50dfed}{}\label{class_external_merge_sort_a37df182916b341d5466f2fff0d50dfed} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{External\+Merge\+Sort()}{ExternalMergeSort()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily External\+Merge\+Sort\+::\+External\+Merge\+Sort (\begin{DoxyParamCaption}\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{file,  }\item[{long long}]{size\+Of\+Segments }\end{DoxyParamCaption})}
 
-Граф вызовов\+:\nopagebreak
+
+
+Конструктор класса. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em file} & Файл-\/менеджер, отвечающий за взаимодействие сортировки с файловой системой. \\
+\hline
+\mbox{\tt in}  & {\em size\+Of\+Segments} & Размер сегментов.\\
+\hline
+\end{DoxyParams}
+Вызывет set\+Params(...), если код возврата не Success, бросает исключение. Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -94,25 +123,41 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 
 
 
+Пустой виртуальный деструктор класса. 
+
+Освобождает выделенную память. 
+
 \subsection{Методы}
-\hypertarget{class_external_merge_sort_a54203f48d659003f5a75425354d4e262}{}\label{class_external_merge_sort_a54203f48d659003f5a75425354d4e262} 
+\hypertarget{class_external_merge_sort_aa3ec5ccebe04f02538ee42d0ffe7b75c}{}\label{class_external_merge_sort_aa3ec5ccebe04f02538ee42d0ffe7b75c} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!create\+Runs@{create\+Runs}}
 \index{create\+Runs@{create\+Runs}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{create\+Runs()}{createRuns()}}
-{\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} External\+Merge\+Sort\+::create\+Runs (\begin{DoxyParamCaption}\item[{long long $\ast$}]{size\+Of\+Sequence }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} External\+Merge\+Sort\+::create\+Runs (\begin{DoxyParamCaption}\item[{long long $\ast$}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Граф вызовов\+:\nopagebreak
+
+
+Чтение входной последовательности из файла. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt out}  & {\em size} & Размер входной последовательности. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Считывает последовательности длиной size, сортирует их методом перегруженным в производных классах и записывает в один из буферных файлов. Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=348pt]{class_external_merge_sort_a54203f48d659003f5a75425354d4e262_cgraph}
+\includegraphics[width=348pt]{class_external_merge_sort_aa3ec5ccebe04f02538ee42d0ffe7b75c_cgraph}
 \end{center}
 \end{figure}
 Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=324pt]{class_external_merge_sort_a54203f48d659003f5a75425354d4e262_icgraph}
+\includegraphics[width=324pt]{class_external_merge_sort_aa3ec5ccebe04f02538ee42d0ffe7b75c_icgraph}
 \end{center}
 \end{figure}
 \hypertarget{class_external_merge_sort_aa0d80e41effe3a13c0d63b33e208918f}{}\label{class_external_merge_sort_aa0d80e41effe3a13c0d63b33e208918f} 
@@ -121,7 +166,14 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 \subsubsection{\texorpdfstring{external\+Sort()}{externalSort()}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} External\+Merge\+Sort\+::external\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-Граф вызовов\+:\nopagebreak
+
+
+Вызывает метод внешней многофазной сортировки. 
+
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Осуществляет внешнюю многофазную сортировку слиянием. Вызывает create\+Runs(...), merge\+Sequnces\+New(...). Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -134,7 +186,25 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 \subsubsection{\texorpdfstring{merge\+Sequences\+New()}{mergeSequencesNew()}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} External\+Merge\+Sort\+::merge\+Sequences\+New (\begin{DoxyParamCaption}\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{input1,  }\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{input2,  }\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{out,  }\item[{long long}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Граф вызовов\+:\nopagebreak
+
+
+Слияние последовательностей. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em input1} & Первый входной файл. \\
+\hline
+\mbox{\tt in}  & {\em input2} & Второй входной файл. \\
+\hline
+\mbox{\tt in}  & {\em out} & Выходной файл. \\
+\hline
+\mbox{\tt in}  & {\em size} & Размер сегментов \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Сливает последовательность длиной size из input1 с последовательностью длиной sizr из input2, результат записывает в out. Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -148,17 +218,26 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 \includegraphics[width=331pt]{class_external_merge_sort_a8b4f951d9ee53818b8d3d4e84e2a1aa4_icgraph}
 \end{center}
 \end{figure}
-\hypertarget{class_external_merge_sort_a5e19d768fb9ef81e36e22e2eff498ca4}{}\label{class_external_merge_sort_a5e19d768fb9ef81e36e22e2eff498ca4} 
+\hypertarget{class_external_merge_sort_a7a6b94fff35130ed6a498f9a31d0f863}{}\label{class_external_merge_sort_a7a6b94fff35130ed6a498f9a31d0f863} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!print@{print}}
 \index{print@{print}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{print()}{print()}}
 {\footnotesize\ttfamily void External\+Merge\+Sort\+::print (\begin{DoxyParamCaption}\item[{const char $\ast$}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Граф вызова функции\+:\nopagebreak
+
+
+Логгирование. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em msg} & Сообщение, которое необходимо записать в лог.\\
+\hline
+\end{DoxyParams}
+Записывает msg в лог в зависимости от атрибута log. Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_external_merge_sort_a5e19d768fb9ef81e36e22e2eff498ca4_icgraph}
+\includegraphics[width=350pt]{class_external_merge_sort_a7a6b94fff35130ed6a498f9a31d0f863_icgraph}
 \end{center}
 \end{figure}
 \hypertarget{class_external_merge_sort_ac0eeaba67ee0703acf73a8a5bf78ebe1}{}\label{class_external_merge_sort_ac0eeaba67ee0703acf73a8a5bf78ebe1} 
@@ -167,13 +246,36 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 \subsubsection{\texorpdfstring{set\+Log()}{setLog()}}
 {\footnotesize\ttfamily void External\+Merge\+Sort\+::set\+Log (\begin{DoxyParamCaption}\item[{\hyperlink{_structures_8h_af67907baa897e9fb84df0cb89795b87c}{Log\+Type}}]{log }\end{DoxyParamCaption})}
 
-\hypertarget{class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b}{}\label{class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b} 
+
+
+Устанавливает тип логгирования. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em log} & Тип логгирования.\\
+\hline
+\end{DoxyParams}
+Задает тип логгирования\+: With\+Out -\/ без логгирования, File -\/ логгирование в файл log.\+txt, C\+LI -\/ логгирование в консоль. \hypertarget{class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b}{}\label{class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!set\+Params@{set\+Params}}
 \index{set\+Params@{set\+Params}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{set\+Params()}{setParams()}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} External\+Merge\+Sort\+::set\+Params (\begin{DoxyParamCaption}\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{file,  }\item[{long long}]{size\+Of\+Segments }\end{DoxyParamCaption})}
 
-Граф вызовов\+:\nopagebreak
+
+
+Определение параметров сортировки. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em file} & Файл-\/менеджер, отвечающий за взаимодействие сортировки с файловой системой. \\
+\hline
+\mbox{\tt in}  & {\em size\+Of\+Segments} & Размер сегментов. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Код успеха или ошибки.
+\end{DoxyReturn}
+Задает параметры сортировки, если это возможно. Устанавливает ok в true или возвращает код ошибки. Возвращает код успеха или ошибки. Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -187,21 +289,32 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 \includegraphics[width=347pt]{class_external_merge_sort_a2a27571acdf4f42e34798663e37f5e0b_icgraph}
 \end{center}
 \end{figure}
-\hypertarget{class_external_merge_sort_af6412221cc797a846243a343ccc12dba}{}\label{class_external_merge_sort_af6412221cc797a846243a343ccc12dba} 
+\hypertarget{class_external_merge_sort_a7b777f22151fdd869624d8aa5a39a7bb}{}\label{class_external_merge_sort_a7b777f22151fdd869624d8aa5a39a7bb} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!sort@{sort}}
 \index{sort@{sort}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{sort()}{sort()}}
-{\footnotesize\ttfamily virtual void External\+Merge\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{,  }\item[{long}]{long }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+{\footnotesize\ttfamily virtual void External\+Merge\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{arr,  }\item[{long long}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
 
 
 
-Замещается в \hyperlink{class_heap_external_sort_a908087ce13932b268a35e1184a05ea44}{Heap\+External\+Sort}, \hyperlink{class_quick_external_sort_adafdd4faded04218c1a131bf55e3c90d}{Quick\+External\+Sort} и \hyperlink{class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7625c}{Bubble\+External\+Sort}.
+Сортирует последовательность длиной size одним из методов, перегруженных в производных классах. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em arr} & Массив, который необходимо отсортировать. \\
+\hline
+\mbox{\tt in}  & {\em size} & Длина массива.\\
+\hline
+\end{DoxyParams}
+Чисто виртуальный метод. Перегружен в производных классах. Сортирует последовательность длиной size одним из методов, перегруженных в производных классах. 
+
+Замещается в \hyperlink{class_heap_external_sort_a908087ce13932b268a35e1184a05ea44}{Heap\+External\+Sort}, \hyperlink{class_quick_external_sort_ab277b5945ac22cdcda10bf02e56eb8db}{Quick\+External\+Sort} и \hyperlink{class_bubble_external_sort_a785502521871c44e6d9585108e4254bd}{Bubble\+External\+Sort}.
 
 Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_external_merge_sort_af6412221cc797a846243a343ccc12dba_icgraph}
+\includegraphics[width=350pt]{class_external_merge_sort_a7b777f22151fdd869624d8aa5a39a7bb_icgraph}
 \end{center}
 \end{figure}
 
@@ -213,31 +326,51 @@ bool \hyperlink{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{ok}
 \subsubsection{\texorpdfstring{counter}{counter}}
 {\footnotesize\ttfamily \hyperlink{class_counter}{Counter} External\+Merge\+Sort\+::counter}
 
-\hypertarget{class_external_merge_sort_ab82d3b62a57be6c80dbd12b90de278e2}{}\label{class_external_merge_sort_ab82d3b62a57be6c80dbd12b90de278e2} 
+
+
+Счетчик. 
+
+Счетчик сортировки, подсчитывает характеристики сортировки. \hypertarget{class_external_merge_sort_ab82d3b62a57be6c80dbd12b90de278e2}{}\label{class_external_merge_sort_ab82d3b62a57be6c80dbd12b90de278e2} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!file\+Manager@{file\+Manager}}
 \index{file\+Manager@{file\+Manager}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{file\+Manager}{fileManager}}
 {\footnotesize\ttfamily \hyperlink{class_file_manager}{File\+Manager}$\ast$ External\+Merge\+Sort\+::file\+Manager\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_external_merge_sort_a41f61c3beb7dc529d7f2a8b2b4ee380b}{}\label{class_external_merge_sort_a41f61c3beb7dc529d7f2a8b2b4ee380b} 
+
+
+Указатель на класс файл-\/менеджера. 
+
+Указатель на класс файл-\/менеджера, осуществляющий взаимодействие сортировки с файловой системой. \hypertarget{class_external_merge_sort_a41f61c3beb7dc529d7f2a8b2b4ee380b}{}\label{class_external_merge_sort_a41f61c3beb7dc529d7f2a8b2b4ee380b} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!log@{log}}
 \index{log@{log}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{log}{log}}
 {\footnotesize\ttfamily \hyperlink{_structures_8h_af67907baa897e9fb84df0cb89795b87c}{Log\+Type} External\+Merge\+Sort\+::log\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{}\label{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6} 
+
+
+Тип логгирования. 
+
+Without -\/ логгирование не ведется, File -\/ логгирование ведется в файл, C\+LI -\/ логгирование ведется в консоль. \hypertarget{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6}{}\label{class_external_merge_sort_a4b050cd230e144a11f65e57523e15ce6} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!ok@{ok}}
 \index{ok@{ok}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{ok}{ok}}
 {\footnotesize\ttfamily bool External\+Merge\+Sort\+::ok\hspace{0.3cm}{\ttfamily [private]}}
 
-\hypertarget{class_external_merge_sort_a1d68bb5e0373cf16807a41272dff1a99}{}\label{class_external_merge_sort_a1d68bb5e0373cf16807a41272dff1a99} 
+
+
+Флаг готовности сортировки. 
+
+Флаг установлен в true, если все параметры заданы корректно и false, если нет. \hypertarget{class_external_merge_sort_a1d68bb5e0373cf16807a41272dff1a99}{}\label{class_external_merge_sort_a1d68bb5e0373cf16807a41272dff1a99} 
 \index{External\+Merge\+Sort@{External\+Merge\+Sort}!size\+Of\+Segments@{size\+Of\+Segments}}
 \index{size\+Of\+Segments@{size\+Of\+Segments}!External\+Merge\+Sort@{External\+Merge\+Sort}}
 \subsubsection{\texorpdfstring{size\+Of\+Segments}{sizeOfSegments}}
 {\footnotesize\ttfamily long long External\+Merge\+Sort\+::size\+Of\+Segments\hspace{0.3cm}{\ttfamily [private]}}
 
 
+
+Размер сегментов. 
+
+Размер сегментов, на которые изначально будет поделена последовательность. 
 
 Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
 \item 

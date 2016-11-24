@@ -2,6 +2,17 @@
 \label{class_bubble_external_sort}\index{Bubble\+External\+Sort@{Bubble\+External\+Sort}}
 
 
+\subsection{Подробное описание}
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю пузырьковую сортировку. 
+
+\begin{DoxyAuthor}{Автор}
+Alexander Filippov 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+Ноябрь 2016 года
+\end{DoxyDate}
+Наследуется от \hyperlink{class_external_merge_sort}{External\+Merge\+Sort}, перегружает метод внутренней сортировки, который осуществляет пузырьковую сортировку последовательности. 
+
 {\ttfamily \#include $<$Bubble\+External\+Sort.\+h$>$}
 
 
@@ -25,12 +36,15 @@
 \subsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
-virtual void \hyperlink{class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7625c}{sort} (long long $\ast$, long long)
-\item 
 \hyperlink{class_bubble_external_sort_a420f93ff7677a75557f805749011f86e}{Bubble\+External\+Sort} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Пустой конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{class_bubble_external_sort_a2075c6e2117da937f397ceb993336e81}{$\sim$\+Bubble\+External\+Sort} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Пустой виртуальный деструктор класса. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Закрытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_bubble_external_sort_a785502521871c44e6d9585108e4254bd}{sort} (long long $\ast$arr, long long size)
+\begin{DoxyCompactList}\small\item\em Сортирует последовательность длиной size методом пузырьковой сортировки. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Дополнительные унаследованные члены}
 
 
@@ -41,7 +55,11 @@ virtual void \hyperlink{class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7
 \subsubsection{\texorpdfstring{Bubble\+External\+Sort()}{BubbleExternalSort()}}
 {\footnotesize\ttfamily Bubble\+External\+Sort\+::\+Bubble\+External\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\hypertarget{class_bubble_external_sort_a2075c6e2117da937f397ceb993336e81}{}\label{class_bubble_external_sort_a2075c6e2117da937f397ceb993336e81} 
+
+
+Пустой конструктор класса. 
+
+Обнуляет атрибуты. \hypertarget{class_bubble_external_sort_a2075c6e2117da937f397ceb993336e81}{}\label{class_bubble_external_sort_a2075c6e2117da937f397ceb993336e81} 
 \index{Bubble\+External\+Sort@{Bubble\+External\+Sort}!````~Bubble\+External\+Sort@{$\sim$\+Bubble\+External\+Sort}}
 \index{````~Bubble\+External\+Sort@{$\sim$\+Bubble\+External\+Sort}!Bubble\+External\+Sort@{Bubble\+External\+Sort}}
 \subsubsection{\texorpdfstring{$\sim$\+Bubble\+External\+Sort()}{~BubbleExternalSort()}}
@@ -49,22 +67,37 @@ virtual void \hyperlink{class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7
 
 
 
+Пустой виртуальный деструктор класса. 
+
+Освобождает выделенную память. 
+
 \subsection{Методы}
-\hypertarget{class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7625c}{}\label{class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7625c} 
+\hypertarget{class_bubble_external_sort_a785502521871c44e6d9585108e4254bd}{}\label{class_bubble_external_sort_a785502521871c44e6d9585108e4254bd} 
 \index{Bubble\+External\+Sort@{Bubble\+External\+Sort}!sort@{sort}}
 \index{sort@{sort}!Bubble\+External\+Sort@{Bubble\+External\+Sort}}
 \subsubsection{\texorpdfstring{sort()}{sort()}}
-{\footnotesize\ttfamily void Bubble\+External\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{a,  }\item[{long long}]{length }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily void Bubble\+External\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{arr,  }\item[{long long}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}
 
 
 
-Замещает \hyperlink{class_external_merge_sort_af6412221cc797a846243a343ccc12dba}{External\+Merge\+Sort}.
+Сортирует последовательность длиной size методом пузырьковой сортировки. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em arr} & Массив, который необходимо отсортировать. \\
+\hline
+\mbox{\tt in}  & {\em size} & Длина массива.\\
+\hline
+\end{DoxyParams}
+Виртуальный метод. Перегружен в классе. Сортирует последовательность длиной size методом пузырьковой сортировки. 
+
+Замещает \hyperlink{class_external_merge_sort_a7b777f22151fdd869624d8aa5a39a7bb}{External\+Merge\+Sort}.
 
 Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=338pt]{class_bubble_external_sort_ac2c8c1a8dad0f0f99a176d3641b7625c_cgraph}
+\includegraphics[width=338pt]{class_bubble_external_sort_a785502521871c44e6d9585108e4254bd_cgraph}
 \end{center}
 \end{figure}
 

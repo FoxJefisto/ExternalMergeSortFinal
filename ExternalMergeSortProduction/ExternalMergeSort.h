@@ -4,24 +4,130 @@
 
 using namespace std;
 
+
+
+/*!
+\brief Класс внешней многофазной сортировки слиянием.
+\author Alexander Filippov
+\date Ноябрь 2016 года
+
+Класс, осуществляющий внешнюю многофазную сортировку слиянием. Содержит в себе основные методы внешней сортировки слиянием. 
+Виртуальная функция sort(...) переопределена в производных классах.
+*/
 class ExternalMergeSort
 {
 private:
+	/*!
+	\brief Указатель на класс файл-менеджера.
+
+	Указатель на класс файл-менеджера, осуществляющий взаимодействие сортировки с файловой системой.
+	*/
 	FileManager *fileManager;
+	/*!
+	\brief Размер сегментов.
+
+	Размер сегментов, на которые изначально будет поделена последовательность.
+	*/
 	long long sizeOfSegments;
+	/*!
+	\brief Флаг готовности сортировки.
+
+	Флаг установлен в true, если все параметры заданы корректно и false, если нет.
+	*/
 	bool ok;
+	/*!
+	\brief Тип логгирования.
+
+	Without - логгирование не ведется, File - логгирование ведется в файл, CLI - логгирование ведется в консоль.
+	*/
 	LogType log;
-	Responce createRuns(long long *);
-	Responce mergeSequencesNew(FileManager *input1, FileManager *input2, FileManager *out, long long size);
-	void print(const char *);
+	/*!
+	\brief Чтение входной последовательности из файла.
+	\param[out] size Размер входной последовательности.
+	\return Код успеха или ошибки.
+
+	Считывает последовательности длиной size, сортирует их методом перегруженным в производных классах и записывает в один из буферных файлов.
+	*/
+	Response createRuns(long long *size);
+	/*!
+	\brief Слияние последовательностей.
+	\param[in] input1 Первый входной файл.
+	\param[in] input2 Второй входной файл.
+	\param[in] out Выходной файл.
+	\param[in] size Размер сегментов
+	\return Код успеха или ошибки.
+
+	Сливает последовательность длиной size из input1 с последовательностью длиной sizr из input2, результат записывает в out.
+	*/
+	Response mergeSequencesNew(FileManager *input1, FileManager *input2, FileManager *out, long long size);
+	/*!
+	\brief Логгирование.
+	\param[in] msg Сообщение, которое необходимо записать в лог.
+
+	Записывает msg в лог в зависимости от атрибута log.
+	*/
+	void print(const char *msg);
+protected:
+	/*!
+	\brief Сортирует последовательность длиной size одним из методов, перегруженных в производных классах.
+	\param[in] arr Массив, который необходимо отсортировать.
+	\param[in] size Длина массива.
+
+	Чисто виртуальный метод. Перегружен в производных классах.
+	Сортирует последовательность длиной size одним из методов, перегруженных в производных классах.
+	*/
+	virtual void sort(long long *arr, long long size) = 0;
 public:
+	/*!
+	\brief Счетчик.
+
+	Счетчик сортировки, подсчитывает характеристики сортировки.
+	*/
 	Counter counter;
+	/*!
+	\brief Пустой конструктор класса.
+
+	Обнуляет атрибуты.
+	*/
 	ExternalMergeSort();
+	/*!
+	\brief Конструктор класса.
+	\param[in] file Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой.
+	\param[in] sizeOfSegments Размер сегментов.
+
+	Вызывет setParams(...), если код возврата не Success, бросает исключение.
+	*/
 	ExternalMergeSort(FileManager *file, long long sizeOfSegments);
-	Responce setParams(FileManager *file, long long sizeOfSegments);
-	Responce externalSort();
+	/*!
+	\brief Определение параметров сортировки.
+	\param[in] file Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой.
+	\param[in] sizeOfSegments Размер сегментов.
+	\return Код успеха или ошибки.
+
+	Задает параметры сортировки, если это возможно. Устанавливает ok в true или возвращает код ошибки. Возвращает код успеха или ошибки.
+	*/
+	Response setParams(FileManager *file, long long sizeOfSegments);
+	/*!
+	\brief Вызывает метод внешней многофазной сортировки.
+	\return Код успеха или ошибки.
+
+	Осуществляет внешнюю многофазную сортировку слиянием. Вызывает createRuns(...), mergeSequncesNew(...).
+	*/
+	Response externalSort();
+	/*!
+	\brief Устанавливает тип логгирования.
+	\param[in] log Тип логгирования.
+
+	Задает тип логгирования: WithOut - без логгирования, File - логгирование в файл log.txt, CLI - логгирование в консоль.
+	*/
 	void setLog(LogType log);
-	virtual void sort(long long*, long long) = 0;
+	
+	
+	/*!
+	\brief Пустой виртуальный деструктор класса.
+
+	Освобождает выделенную память.
+	*/
 	virtual ~ExternalMergeSort();
 };
 

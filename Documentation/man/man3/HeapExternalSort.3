@@ -1,43 +1,94 @@
-.TH "HeapExternalSort" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "HeapExternalSort" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-HeapExternalSort \- \fC#include <HeapExternalSort\&.h>\fP
+HeapExternalSort \- 
+.SH "Подробное описание"
+.PP 
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю пирамидальную сортировку 
+
+
+.PP
+\fBАвтор:\fP
+.RS 4
+Alexander Filippov 
+.RE
+.PP
+\fBДата:\fP
+.RS 4
+Ноябрь 2016 года
+.RE
+.PP
+Наследуется от \fBExternalMergeSort\fP, перегружает метод внутренней сортировки, который осуществляет пирамидальную сортировку последовательности\&. 
+.PP
+\fC#include <HeapExternalSort\&.h>\fP
 .PP
 Базовые классы:\fBExternalMergeSort\fP\&.
 .SS "Открытые члены"
 
 .in +1c
 .ti -1c
-.RI "virtual void \fBsort\fP (long long *numbers, long long array_size)"
-.br
-.ti -1c
 .RI "\fBHeapExternalSort\fP ()"
 .br
+.RI "Пустой конструктор класса\&. "
 .ti -1c
 .RI "\fB~HeapExternalSort\fP ()"
 .br
+.RI "Пустой виртуальный деструктор класса\&. "
 .in -1c
 .SS "Закрытые члены"
 
 .in +1c
 .ti -1c
-.RI "void \fBsiftDown\fP (long long *numbers, long long root, long long bottom)"
+.RI "void \fBsiftDown\fP (long long *arr, long long root, long long bottom)"
 .br
+.RI "Получение нового опорного элемента "
+.ti -1c
+.RI "virtual void \fBsort\fP (long long *numbers, long long array_size)"
+.br
+.RI "Сортирует последовательность длиной size методом пирамидальной сортировки\&. "
 .in -1c
 .SS "Дополнительные унаследованные члены"
 .SH "Конструктор(ы)"
 .PP 
 .SS "HeapExternalSort::HeapExternalSort ()"
 
+.PP
+Пустой конструктор класса\&. Обнуляет атрибуты\&. 
 .SS "HeapExternalSort::~HeapExternalSort ()"
 
+.PP
+Пустой виртуальный деструктор класса\&. Освобождает выделенную память\&. 
 .SH "Методы"
 .PP 
-.SS "void HeapExternalSort::siftDown (long long * numbers, long long root, long long bottom)\fC [private]\fP"
+.SS "void HeapExternalSort::siftDown (long long * arr, long long root, long long bottom)\fC [private]\fP"
 
-.SS "void HeapExternalSort::sort (long long * numbers, long long array_size)\fC [virtual]\fP"
+.PP
+Получение нового опорного элемента 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Сортируемый массив\&. 
+.br
+\fIroot\fP Корневой элемент\&. 
+.br
+\fIbottom\fP Наименьший элемент\&.
+.RE
+.PP
+Получает новый опроный элемент пирамидальной сортировки, исходя из передаваемых параметров\&. 
+.SS "void HeapExternalSort::sort (long long * numbers, long long array_size)\fC [private]\fP, \fC [virtual]\fP"
 
+.PP
+Сортирует последовательность длиной size методом пирамидальной сортировки\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Массив, который необходимо отсортировать\&. 
+.br
+\fIsize\fP Длина массива\&.
+.RE
+.PP
+Виртуальный метод\&. Перегружен в классе\&. Сортирует последовательность длиной size методом пирамидальной сортировки\&. 
 .PP
 Замещает \fBExternalMergeSort\fP\&.
 

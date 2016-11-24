@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.12">
   <compound refid="class_bubble_external_sort" kind="class"><name>BubbleExternalSort</name>
-    <member refid="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c" kind="function"><name>sort</name></member>
+    <member refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" kind="function"><name>sort</name></member>
     <member refid="class_bubble_external_sort_1a420f93ff7677a75557f805749011f86e" kind="function"><name>BubbleExternalSort</name></member>
     <member refid="class_bubble_external_sort_1a2075c6e2117da937f397ceb993336e81" kind="function"><name>~BubbleExternalSort</name></member>
   </compound>
@@ -30,15 +30,15 @@
     <member refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" kind="variable"><name>ok</name></member>
     <member refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" kind="variable"><name>log</name></member>
     <member refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kind="variable"><name>counter</name></member>
-    <member refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" kind="function"><name>createRuns</name></member>
+    <member refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" kind="function"><name>createRuns</name></member>
     <member refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" kind="function"><name>mergeSequencesNew</name></member>
-    <member refid="class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4" kind="function"><name>print</name></member>
+    <member refid="class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863" kind="function"><name>print</name></member>
+    <member refid="class_external_merge_sort_1a7b777f22151fdd869624d8aa5a39a7bb" kind="function"><name>sort</name></member>
     <member refid="class_external_merge_sort_1a7b6efcd2abbf59a8983f972c52d04650" kind="function"><name>ExternalMergeSort</name></member>
     <member refid="class_external_merge_sort_1a37df182916b341d5466f2fff0d50dfed" kind="function"><name>ExternalMergeSort</name></member>
     <member refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" kind="function"><name>setParams</name></member>
     <member refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" kind="function"><name>externalSort</name></member>
     <member refid="class_external_merge_sort_1ac0eeaba67ee0703acf73a8a5bf78ebe1" kind="function"><name>setLog</name></member>
-    <member refid="class_external_merge_sort_1af6412221cc797a846243a343ccc12dba" kind="function"><name>sort</name></member>
     <member refid="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" kind="function"><name>~ExternalMergeSort</name></member>
   </compound>
   <compound refid="class_file_manager" kind="class"><name>FileManager</name>
@@ -67,14 +67,14 @@
     <member refid="class_file_manager_1abaed33b5b0c13b8a597db9335a1aacfa" kind="function"><name>~FileManager</name></member>
   </compound>
   <compound refid="class_heap_external_sort" kind="class"><name>HeapExternalSort</name>
-    <member refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" kind="function"><name>siftDown</name></member>
+    <member refid="class_heap_external_sort_1af476431c6fafd53c40ab306c97a37134" kind="function"><name>siftDown</name></member>
     <member refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" kind="function"><name>sort</name></member>
     <member refid="class_heap_external_sort_1a9e6236e47430f0b530b287a6d7cf3a8b" kind="function"><name>HeapExternalSort</name></member>
     <member refid="class_heap_external_sort_1afa76473510a8cb610bb94bca5b5202c9" kind="function"><name>~HeapExternalSort</name></member>
   </compound>
   <compound refid="class_quick_external_sort" kind="class"><name>QuickExternalSort</name>
-    <member refid="class_quick_external_sort_1a912abb7f2ccdadd7d97992f035e16183" kind="function"><name>qSortI</name></member>
-    <member refid="class_quick_external_sort_1adafdd4faded04218c1a131bf55e3c90d" kind="function"><name>sort</name></member>
+    <member refid="class_quick_external_sort_1ad7653bb697a04717066f9942db9a4597" kind="function"><name>qSortI</name></member>
+    <member refid="class_quick_external_sort_1ab277b5945ac22cdcda10bf02e56eb8db" kind="function"><name>sort</name></member>
     <member refid="class_quick_external_sort_1ac31914e67af41c48b8fdcbcc076168ed" kind="function"><name>QuickExternalSort</name></member>
     <member refid="class_quick_external_sort_1a370e2be5e7c4afc31f9b230c2ee4d689" kind="function"><name>~QuickExternalSort</name></member>
   </compound>
@@ -89,9 +89,9 @@
     <member refid="class_user_interface_1a7957201b3543ea0561d48bcc0a0d329e" kind="function"><name>callEstimate</name></member>
     <member refid="class_user_interface_1a332db63dca89d684f7e9e1272f4c3745" kind="function"><name>callGetDependencies</name></member>
     <member refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" kind="function"><name>setParams</name></member>
-    <member refid="class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7" kind="function"><name>getDependenceSize</name></member>
-    <member refid="class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7" kind="function"><name>getDependenceSizeOfSegments</name></member>
-    <member refid="class_user_interface_1ab726cdce7e7518aae70cf42594139589" kind="function"><name>getDependenceType</name></member>
+    <member refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" kind="function"><name>callGetDependenceSize</name></member>
+    <member refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" kind="function"><name>callGetDependenceSizeOfSegments</name></member>
+    <member refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" kind="function"><name>callGetDependenceType</name></member>
     <member refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" kind="function"><name>initSession</name></member>
     <member refid="class_user_interface_1ae6fb70370701b3bd6120e923df9705b0" kind="function"><name>UserInterface</name></member>
     <member refid="class_user_interface_1ae588b2ff1711a016dd4c6fc5002c0841" kind="function"><name>~UserInterface</name></member>

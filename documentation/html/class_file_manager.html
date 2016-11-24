@@ -63,7 +63,12 @@ $(function() {
 <div class="title">Класс FileManager</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс файлового менеджера. </p>
+<dl class="section author"><dt>Автор</dt><dd>Alexander Filippov </dd></dl>
+<dl class="section date"><dt>Дата</dt><dd>Ноябрь 2016 года</dd></dl>
+<p>Класс, отвечающий за взаимодействие приложения с файловой системой. Осуществляет запись последовательностей в файл, чтение последовательности из файла, а также генерацию последовательностей. </p>
+</div>
 <p><code>#include &lt;<a class="el" href="_file_manager_8h_source.html">FileManager.h</a>&gt;</code></p>
 <div class="dynheader">
 Граф связей класса FileManager:</div>
@@ -74,53 +79,76 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
 <tr class="memitem:a4a4719a410ca31985e8b75ad75485ce6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a4a4719a410ca31985e8b75ad75485ce6">closeIFile</a> ()</td></tr>
+<tr class="memdesc:a4a4719a410ca31985e8b75ad75485ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Закрытие входного файла.  <a href="#a4a4719a410ca31985e8b75ad75485ce6">Подробнее...</a><br /></td></tr>
 <tr class="separator:a4a4719a410ca31985e8b75ad75485ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a1f1ddbf047fc7e9531f483e4c62148"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a6a1f1ddbf047fc7e9531f483e4c62148">closeOFile</a> ()</td></tr>
+<tr class="memdesc:a6a1f1ddbf047fc7e9531f483e4c62148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Закрытие выходного файла.  <a href="#a6a1f1ddbf047fc7e9531f483e4c62148">Подробнее...</a><br /></td></tr>
 <tr class="separator:a6a1f1ddbf047fc7e9531f483e4c62148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49df99509ff2700e0e5edd06adca345c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a49df99509ff2700e0e5edd06adca345c">getEndOfFile</a> ()</td></tr>
+<tr class="memdesc:a49df99509ff2700e0e5edd06adca345c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получение флага конца файла.  <a href="#a49df99509ff2700e0e5edd06adca345c">Подробнее...</a><br /></td></tr>
 <tr class="separator:a49df99509ff2700e0e5edd06adca345c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace8ce2677414831b5a9e7030248fc832"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#ace8ce2677414831b5a9e7030248fc832">setEndOfFile</a> (bool b)</td></tr>
+<tr class="memdesc:ace8ce2677414831b5a9e7030248fc832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установка флага конца файла в необходимое положение.  <a href="#ace8ce2677414831b5a9e7030248fc832">Подробнее...</a><br /></td></tr>
 <tr class="separator:ace8ce2677414831b5a9e7030248fc832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f1102abfd0a5a9d7e178968a3fdc56c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a2f1102abfd0a5a9d7e178968a3fdc56c">clearOutFile</a> ()</td></tr>
+<tr class="memdesc:a2f1102abfd0a5a9d7e178968a3fdc56c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Очистка выходного файла.  <a href="#a2f1102abfd0a5a9d7e178968a3fdc56c">Подробнее...</a><br /></td></tr>
 <tr class="separator:a2f1102abfd0a5a9d7e178968a3fdc56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba031d681752c80f52a8a8af9b69834e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a9864d6ef28dd6e38416afac4426b3491">Responce</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#aba031d681752c80f52a8a8af9b69834e">read</a> (long long *arr, long long size, long long *readNumber)</td></tr>
+<tr class="memdesc:aba031d681752c80f52a8a8af9b69834e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Чтение входной последовательности из файла.  <a href="#aba031d681752c80f52a8a8af9b69834e">Подробнее...</a><br /></td></tr>
 <tr class="separator:aba031d681752c80f52a8a8af9b69834e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77cb9ec2885923dd6b7a9674cb75f85f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a9864d6ef28dd6e38416afac4426b3491">Responce</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a77cb9ec2885923dd6b7a9674cb75f85f">write</a> (long long num)</td></tr>
+<tr class="memdesc:a77cb9ec2885923dd6b7a9674cb75f85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запись числа в файл.  <a href="#a77cb9ec2885923dd6b7a9674cb75f85f">Подробнее...</a><br /></td></tr>
 <tr class="separator:a77cb9ec2885923dd6b7a9674cb75f85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4c96727180b0055942d20b7b5bfe5f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a9864d6ef28dd6e38416afac4426b3491">Responce</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#ad4c96727180b0055942d20b7b5bfe5f8">write</a> (long long *arr, long long size)</td></tr>
+<tr class="memdesc:ad4c96727180b0055942d20b7b5bfe5f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Запись последовательности в файл.  <a href="#ad4c96727180b0055942d20b7b5bfe5f8">Подробнее...</a><br /></td></tr>
 <tr class="separator:ad4c96727180b0055942d20b7b5bfe5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab364b91193c482fc7387aec162f677ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a9864d6ef28dd6e38416afac4426b3491">Responce</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#ab364b91193c482fc7387aec162f677ad">setFiles</a> (string file, <a class="el" href="_structures_8h.html#a57306ae0f9e356347388234ed69e0ce7">FileState</a> st)</td></tr>
+<tr class="memdesc:ab364b91193c482fc7387aec162f677ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Определение атрибутов менеджера.  <a href="#ab364b91193c482fc7387aec162f677ad">Подробнее...</a><br /></td></tr>
 <tr class="separator:ab364b91193c482fc7387aec162f677ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a975bf0088fa67c83d78ec54b9f61a473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a9864d6ef28dd6e38416afac4426b3491">Responce</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a975bf0088fa67c83d78ec54b9f61a473">setFiles</a> (string inFile, string outFile)</td></tr>
+<tr class="memdesc:a975bf0088fa67c83d78ec54b9f61a473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Определение атрибутов менеджера.  <a href="#a975bf0088fa67c83d78ec54b9f61a473">Подробнее...</a><br /></td></tr>
 <tr class="separator:a975bf0088fa67c83d78ec54b9f61a473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd4cbc2b218ab1828ae376a4a9137057"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a57306ae0f9e356347388234ed69e0ce7">FileState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#abd4cbc2b218ab1828ae376a4a9137057">getState</a> ()</td></tr>
+<tr class="memdesc:abd4cbc2b218ab1828ae376a4a9137057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверка состояния менеджера.  <a href="#abd4cbc2b218ab1828ae376a4a9137057">Подробнее...</a><br /></td></tr>
 <tr class="separator:abd4cbc2b218ab1828ae376a4a9137057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab490a5a5882d33781dcb6d1d42945d97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#ab490a5a5882d33781dcb6d1d42945d97">checkForEquality</a> ()</td></tr>
+<tr class="memdesc:ab490a5a5882d33781dcb6d1d42945d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверка входного и выходного файла на эквивалентность.  <a href="#ab490a5a5882d33781dcb6d1d42945d97">Подробнее...</a><br /></td></tr>
 <tr class="separator:ab490a5a5882d33781dcb6d1d42945d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a654c8bf606626cd419f5828839cb21a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a9864d6ef28dd6e38416afac4426b3491">Responce</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a654c8bf606626cd419f5828839cb21a1">generateSequence</a> (long long size, <a class="el" href="_structures_8h.html#a76639e910448c3333d0f4d204e53c2c1">SeqType</a> type)</td></tr>
+<tr class="memdesc:a654c8bf606626cd419f5828839cb21a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Определение атрибутов менеджера.  <a href="#a654c8bf606626cd419f5828839cb21a1">Подробнее...</a><br /></td></tr>
 <tr class="separator:a654c8bf606626cd419f5828839cb21a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62d69473c95f8df25e44d2466bb00dc5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a62d69473c95f8df25e44d2466bb00dc5">FileManager</a> (string <a class="el" href="class_file_manager.html#a91fd33cbb230ed4974a678302e906a8d">iFile</a>, <a class="el" href="_structures_8h.html#a57306ae0f9e356347388234ed69e0ce7">FileState</a> <a class="el" href="class_file_manager.html#a84bbcd4e3807e076ecdbd0e5dfbefa5f">state</a>)</td></tr>
+<tr class="memdesc:a62d69473c95f8df25e44d2466bb00dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса.  <a href="#a62d69473c95f8df25e44d2466bb00dc5">Подробнее...</a><br /></td></tr>
 <tr class="separator:a62d69473c95f8df25e44d2466bb00dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2456e56bdcb617c3ee75521cf9dd7057"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a2456e56bdcb617c3ee75521cf9dd7057">FileManager</a> (string inFile, string outFile)</td></tr>
+<tr class="memdesc:a2456e56bdcb617c3ee75521cf9dd7057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор класса.  <a href="#a2456e56bdcb617c3ee75521cf9dd7057">Подробнее...</a><br /></td></tr>
 <tr class="separator:a2456e56bdcb617c3ee75521cf9dd7057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8afd512c06be9daf140cc19d71f9b391"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a8afd512c06be9daf140cc19d71f9b391">FileManager</a> ()</td></tr>
+<tr class="memdesc:a8afd512c06be9daf140cc19d71f9b391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Пустой конструктор класса.  <a href="#a8afd512c06be9daf140cc19d71f9b391">Подробнее...</a><br /></td></tr>
 <tr class="separator:a8afd512c06be9daf140cc19d71f9b391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaed33b5b0c13b8a597db9335a1aacfa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#abaed33b5b0c13b8a597db9335a1aacfa">~FileManager</a> ()</td></tr>
+<tr class="memdesc:abaed33b5b0c13b8a597db9335a1aacfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Пустой деструктор класса.  <a href="#abaed33b5b0c13b8a597db9335a1aacfa">Подробнее...</a><br /></td></tr>
 <tr class="separator:abaed33b5b0c13b8a597db9335a1aacfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Закрытые данные</h2></td></tr>
 <tr class="memitem:a91fd33cbb230ed4974a678302e906a8d"><td class="memItemLeft" align="right" valign="top">ifstream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a91fd33cbb230ed4974a678302e906a8d">iFile</a></td></tr>
+<tr class="memdesc:a91fd33cbb230ed4974a678302e906a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Входной файл.  <a href="#a91fd33cbb230ed4974a678302e906a8d">Подробнее...</a><br /></td></tr>
 <tr class="separator:a91fd33cbb230ed4974a678302e906a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe31c07e311212814e4a8ba01c7436a1"><td class="memItemLeft" align="right" valign="top">ofstream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#afe31c07e311212814e4a8ba01c7436a1">oFile</a></td></tr>
+<tr class="memdesc:afe31c07e311212814e4a8ba01c7436a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выходной файл.  <a href="#afe31c07e311212814e4a8ba01c7436a1">Подробнее...</a><br /></td></tr>
 <tr class="separator:afe31c07e311212814e4a8ba01c7436a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf10708d6e8e3b4d329077af4666e147"><td class="memItemLeft" align="right" valign="top">string *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#adf10708d6e8e3b4d329077af4666e147">oFileStr</a></td></tr>
+<tr class="memdesc:adf10708d6e8e3b4d329077af4666e147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Путь к выходному файлу.  <a href="#adf10708d6e8e3b4d329077af4666e147">Подробнее...</a><br /></td></tr>
 <tr class="separator:adf10708d6e8e3b4d329077af4666e147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa0e6feed45b6a92ce5c0b509bd9ceb6"><td class="memItemLeft" align="right" valign="top">string *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#aaa0e6feed45b6a92ce5c0b509bd9ceb6">iFileStr</a></td></tr>
+<tr class="memdesc:aaa0e6feed45b6a92ce5c0b509bd9ceb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Путь к входному файлу.  <a href="#aaa0e6feed45b6a92ce5c0b509bd9ceb6">Подробнее...</a><br /></td></tr>
 <tr class="separator:aaa0e6feed45b6a92ce5c0b509bd9ceb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84bbcd4e3807e076ecdbd0e5dfbefa5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_structures_8h.html#a57306ae0f9e356347388234ed69e0ce7">FileState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#a84bbcd4e3807e076ecdbd0e5dfbefa5f">state</a></td></tr>
+<tr class="memdesc:a84bbcd4e3807e076ecdbd0e5dfbefa5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Режим работы с файлами.  <a href="#a84bbcd4e3807e076ecdbd0e5dfbefa5f">Подробнее...</a><br /></td></tr>
 <tr class="separator:a84bbcd4e3807e076ecdbd0e5dfbefa5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae43001594f1ee182581741d2530620a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_manager.html#ae43001594f1ee182581741d2530620a8">endOfFile</a></td></tr>
+<tr class="memdesc:ae43001594f1ee182581741d2530620a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Флаг достижения конца файла.  <a href="#ae43001594f1ee182581741d2530620a8">Подробнее...</a><br /></td></tr>
 <tr class="separator:ae43001594f1ee182581741d2530620a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Конструктор(ы)</h2>
@@ -150,6 +178,16 @@ $(function() {
       </table>
 </div><div class="memdoc">
 
+<p>Конструктор класса. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>Строка, содержащая путь к файлу. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">st</td><td>Режим менеджера, который необходимо задать.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Вызывет setParams(...), если код возврата не Success, бросает исключение. </p>
+
 </div>
 </div>
 <a id="a2456e56bdcb617c3ee75521cf9dd7057"></a>
@@ -178,6 +216,16 @@ $(function() {
       </table>
 </div><div class="memdoc">
 
+<p>Конструктор класса. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">inFile</td><td>Строка, содержащая путь к файлу. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">outFile</td><td>Строка, содержащая путь к выходному файлу.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Вызывет setParams(...), если код возврата не Success, бросает исключение. </p>
+
 </div>
 </div>
 <a id="a8afd512c06be9daf140cc19d71f9b391"></a>
@@ -194,6 +242,9 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Пустой конструктор класса. </p>
+<p>Обнуляет атрибуты. </p>
 
 </div>
 </div>
@@ -212,6 +263,9 @@ $(function() {
       </table>
 </div><div class="memdoc">
 
+<p>Пустой деструктор класса. </p>
+<p>Освобождает выделенную память. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Методы</h2>
@@ -229,14 +283,18 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Проверка входного и выходного файла на эквивалентность. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>true, если файлы эквивалентны; false, если нет.</dd></dl>
+<p>Проверяет на эквивалентность входной и выходной файл. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_ab490a5a5882d33781dcb6d1d42945d97_icgraph.jpg" border="0" usemap="#class_file_manager_ab490a5a5882d33781dcb6d1d42945d97_icgraph" alt=""/></div>
 <map name="class_file_manager_ab490a5a5882d33781dcb6d1d42945d97_icgraph" id="class_file_manager_ab490a5a5882d33781dcb6d1d42945d97_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#a2a27571acdf4f42e34798663e37f5e0b" title="ExternalMergeSort::\lsetParams" alt="" coords="256,5,395,47"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#a2a27571acdf4f42e34798663e37f5e0b" title="Определение параметров сортировки. " alt="" coords="256,5,395,47"/>
 <area shape="rect" id="node4" href="class_user_interface.html#a595a469d83a351719c75c65fbf4a6fbe" title="Метод, задающий параметры сортировки. " alt="" coords="443,71,612,98"/>
-<area shape="rect" id="node3" href="class_external_merge_sort.html#a37df182916b341d5466f2fff0d50dfed" title="ExternalMergeSort::\lExternalMergeSort" alt="" coords="458,5,597,47"/>
+<area shape="rect" id="node3" href="class_external_merge_sort.html#a37df182916b341d5466f2fff0d50dfed" title="Конструктор класса. " alt="" coords="458,5,597,47"/>
 </map>
 </div>
 
@@ -256,13 +314,16 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Очистка выходного файла. </p>
+<p>Затирает выходной файл, вне зависимости от его содержания. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_a2f1102abfd0a5a9d7e178968a3fdc56c_icgraph.jpg" border="0" usemap="#class_file_manager_a2f1102abfd0a5a9d7e178968a3fdc56c_icgraph" alt=""/></div>
 <map name="class_file_manager_a2f1102abfd0a5a9d7e178968a3fdc56c_icgraph" id="class_file_manager_a2f1102abfd0a5a9d7e178968a3fdc56c_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="411,5,549,47"/>
-<area shape="rect" id="node3" href="class_external_merge_sort.html#a54203f48d659003f5a75425354d4e262" title="ExternalMergeSort::\lcreateRuns" alt="" coords="224,35,363,76"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="411,5,549,47"/>
+<area shape="rect" id="node3" href="class_external_merge_sort.html#aa3ec5ccebe04f02538ee42d0ffe7b75c" title="Чтение входной последовательности из файла. " alt="" coords="224,35,363,76"/>
 </map>
 </div>
 
@@ -282,12 +343,15 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Закрытие входного файла. </p>
+<p>Закрывает входной файл, если он существует. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_a4a4719a410ca31985e8b75ad75485ce6_icgraph.jpg" border="0" usemap="#class_file_manager_a4a4719a410ca31985e8b75ad75485ce6_icgraph" alt=""/></div>
 <map name="class_file_manager_a4a4719a410ca31985e8b75ad75485ce6_icgraph" id="class_file_manager_a4a4719a410ca31985e8b75ad75485ce6_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="209,5,348,47"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="209,5,348,47"/>
 </map>
 </div>
 
@@ -307,14 +371,17 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Закрытие выходного файла. </p>
+<p>Закрывает входной файл, сохраняя записанную последовательность, если он существует. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_a6a1f1ddbf047fc7e9531f483e4c62148_icgraph.jpg" border="0" usemap="#class_file_manager_a6a1f1ddbf047fc7e9531f483e4c62148_icgraph" alt=""/></div>
 <map name="class_file_manager_a6a1f1ddbf047fc7e9531f483e4c62148_icgraph" id="class_file_manager_a6a1f1ddbf047fc7e9531f483e4c62148_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#a54203f48d659003f5a75425354d4e262" title="ExternalMergeSort::\lcreateRuns" alt="" coords="221,5,359,47"/>
-<area shape="rect" id="node4" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="ExternalMergeSort::\lmergeSequencesNew" alt="" coords="216,71,364,112"/>
-<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="412,39,551,80"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#aa3ec5ccebe04f02538ee42d0ffe7b75c" title="Чтение входной последовательности из файла. " alt="" coords="221,5,359,47"/>
+<area shape="rect" id="node4" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="Слияние последовательностей. " alt="" coords="216,71,364,112"/>
+<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="412,39,551,80"/>
 </map>
 </div>
 
@@ -345,15 +412,26 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Определение атрибутов менеджера. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Размер генерируемой последовательности. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>Тип генерируемой последовательности. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Код успеха или ошибки.</dd></dl>
+<p>Генерирует последовательность длиной size одного из типов type: Best - уже упорядоченная последовательность, Average - случайная последовательность, Worst - последовательность, упорядоченная по убыванию. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_a654c8bf606626cd419f5828839cb21a1_icgraph.jpg" border="0" usemap="#class_file_manager_a654c8bf606626cd419f5828839cb21a1_icgraph" alt=""/></div>
 <map name="class_file_manager_a654c8bf606626cd419f5828839cb21a1_icgraph" id="class_file_manager_a654c8bf606626cd419f5828839cb21a1_icgraph">
-<area shape="rect" id="node2" href="class_user_interface.html#a27c547dadfd5588d5b734e253b2e8a4a" title="Вызов генерации последовательности. Получает необходимые параметры для генерации исходной последовате..." alt="" coords="285,5,464,32"/>
-<area shape="rect" id="node3" href="class_user_interface.html#af7c9d93ec693f70dcfbdd9e6a080abc7" title="Вызов метода получения зависимостей характеристик сортировки от размера. Генерирует входные файлы раз..." alt="" coords="263,56,486,83"/>
-<area shape="rect" id="node4" href="class_user_interface.html#aaac8a635efdb79276275f9d1ea265cd7" title="Вызов метода получения зависимостей характеристик сортировки от размера сегментов. Генерирует тестовую последовательность. Вызывает несколько сортировок с разным размером сегментов. Получает зависимость характеристик от размера сегментов. Оповещает о возникающих ошибках. " alt="" coords="277,107,473,149"/>
-<area shape="rect" id="node5" href="class_user_interface.html#ab726cdce7e7518aae70cf42594139589" title="Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки. Генерирует тестовую последовательность. Вызывает несколько сортировок с разными типами внутренней сортировки. Получает зависимость характеристик от типа внутренней сортировки. Оповещает о возникающих ошибках. " alt="" coords="263,173,487,200"/>
+<area shape="rect" id="node2" href="class_user_interface.html#a27c547dadfd5588d5b734e253b2e8a4a" title="Вызов генерации последовательности. " alt="" coords="297,5,475,32"/>
+<area shape="rect" id="node3" href="class_user_interface.html#a1dc307f92c919866f13ddaf30cde1a70" title="Вызов метода получения зависимостей характеристик сортировки от размера. " alt="" coords="263,56,509,83"/>
+<area shape="rect" id="node4" href="class_user_interface.html#ab668f3b2d9f89ce3eacda5e166f33807" title="Вызов метода получения зависимостей характеристик сортировки от размера сегментов. " alt="" coords="277,107,495,149"/>
+<area shape="rect" id="node5" href="class_user_interface.html#aa413c00a65ae4faf9421e9fc359663ec" title="Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки. " alt="" coords="263,173,509,200"/>
 </map>
 </div>
 
@@ -373,13 +451,17 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Получение флага конца файла. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Флаг достижения конца файла endOfFile.</dd></dl>
+<p>Возвращает true - если конец файла был достигнут при попытке чтения или записи или false - если конец файла не был достигнут. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_a49df99509ff2700e0e5edd06adca345c_icgraph.jpg" border="0" usemap="#class_file_manager_a49df99509ff2700e0e5edd06adca345c_icgraph" alt=""/></div>
 <map name="class_file_manager_a49df99509ff2700e0e5edd06adca345c_icgraph" id="class_file_manager_a49df99509ff2700e0e5edd06adca345c_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="ExternalMergeSort::\lmergeSequencesNew" alt="" coords="229,5,377,47"/>
-<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="425,5,564,47"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="Слияние последовательностей. " alt="" coords="229,5,377,47"/>
+<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="425,5,564,47"/>
 </map>
 </div>
 
@@ -399,14 +481,18 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Проверка состояния менеджера. </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Текущее состояние менеджера.</dd></dl>
+<p>Возвращает текущее состояние менеджера. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_abd4cbc2b218ab1828ae376a4a9137057_icgraph.jpg" border="0" usemap="#class_file_manager_abd4cbc2b218ab1828ae376a4a9137057_icgraph" alt=""/></div>
 <map name="class_file_manager_abd4cbc2b218ab1828ae376a4a9137057_icgraph" id="class_file_manager_abd4cbc2b218ab1828ae376a4a9137057_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#a2a27571acdf4f42e34798663e37f5e0b" title="ExternalMergeSort::\lsetParams" alt="" coords="204,5,343,47"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#a2a27571acdf4f42e34798663e37f5e0b" title="Определение параметров сортировки. " alt="" coords="204,5,343,47"/>
 <area shape="rect" id="node4" href="class_user_interface.html#a595a469d83a351719c75c65fbf4a6fbe" title="Метод, задающий параметры сортировки. " alt="" coords="391,71,560,98"/>
-<area shape="rect" id="node3" href="class_external_merge_sort.html#a37df182916b341d5466f2fff0d50dfed" title="ExternalMergeSort::\lExternalMergeSort" alt="" coords="406,5,545,47"/>
+<area shape="rect" id="node3" href="class_external_merge_sort.html#a37df182916b341d5466f2fff0d50dfed" title="Конструктор класса. " alt="" coords="406,5,545,47"/>
 </map>
 </div>
 
@@ -443,14 +529,26 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Чтение входной последовательности из файла. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">arr</td><td>Массив в который необходимо считать числовую последовательность. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Размер последовательности которую необходимо считать. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">readNumber</td><td>Число успешно считанных значений из файла. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Код успеха или ошибки.</dd></dl>
+<p>Считывает последовательность длиной size в массиив arr, если это возможно. Записывает в readNumber число успешно считанных значений. Возвращает код успеха или ошибки. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_aba031d681752c80f52a8a8af9b69834e_icgraph.jpg" border="0" usemap="#class_file_manager_aba031d681752c80f52a8a8af9b69834e_icgraph" alt=""/></div>
 <map name="class_file_manager_aba031d681752c80f52a8a8af9b69834e_icgraph" id="class_file_manager_aba031d681752c80f52a8a8af9b69834e_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#a54203f48d659003f5a75425354d4e262" title="ExternalMergeSort::\lcreateRuns" alt="" coords="185,5,323,47"/>
-<area shape="rect" id="node4" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="ExternalMergeSort::\lmergeSequencesNew" alt="" coords="180,71,328,112"/>
-<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="376,39,515,80"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#aa3ec5ccebe04f02538ee42d0ffe7b75c" title="Чтение входной последовательности из файла. " alt="" coords="185,5,323,47"/>
+<area shape="rect" id="node4" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="Слияние последовательностей. " alt="" coords="180,71,328,112"/>
+<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="376,39,515,80"/>
 </map>
 </div>
 
@@ -471,12 +569,21 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Установка флага конца файла в необходимое положение. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>Значение, которое необходимо установить</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Устанавливает флаг в нужное положение, например сброс флага, если он уже был обработан. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_ace8ce2677414831b5a9e7030248fc832_icgraph.jpg" border="0" usemap="#class_file_manager_ace8ce2677414831b5a9e7030248fc832_icgraph" alt=""/></div>
 <map name="class_file_manager_ace8ce2677414831b5a9e7030248fc832_icgraph" id="class_file_manager_ace8ce2677414831b5a9e7030248fc832_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="229,5,368,47"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="229,5,368,47"/>
 </map>
 </div>
 
@@ -508,6 +615,17 @@ $(function() {
       </table>
 </div><div class="memdoc">
 
+<p>Определение атрибутов менеджера. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>Строка, содержащая путь к файлу. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">st</td><td>Режим менеджера, который необходимо задать. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Код успеха или ошибки.</dd></dl>
+<p>Задает атрибуты менеджера, если это возможно. Возвращает код успеха или ошибки. </p>
+
 </div>
 </div>
 <a id="a975bf0088fa67c83d78ec54b9f61a473"></a>
@@ -536,6 +654,17 @@ $(function() {
       </table>
 </div><div class="memdoc">
 
+<p>Определение атрибутов менеджера. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">inFile</td><td>Строка, содержащая путь к входному файлу. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">outFile</td><td>Строка, содержащая путь к выходному файлу. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Код успеха или ошибки.</dd></dl>
+<p>Задает атрибуты менеджера, если это возможно. Устанавливает режим ReadAndWrite или возвращает код ошибки. Возвращает код успеха или ошибки. </p>
+
 </div>
 </div>
 <a id="a77cb9ec2885923dd6b7a9674cb75f85f"></a>
@@ -553,14 +682,24 @@ $(function() {
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Запись числа в файл. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>Число, которое необходимо записать в файл. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Код успеха или ошибки.</dd></dl>
+<p>Записывает число в выходной файл. Возвращает код успеха или ошибки. </p>
 <div class="dynheader">
 Граф вызова функции:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f_icgraph.jpg" border="0" usemap="#class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f_icgraph" alt=""/></div>
 <map name="class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f_icgraph" id="class_file_manager_a77cb9ec2885923dd6b7a9674cb75f85f_icgraph">
-<area shape="rect" id="node2" href="class_external_merge_sort.html#a54203f48d659003f5a75425354d4e262" title="ExternalMergeSort::\lcreateRuns" alt="" coords="186,5,325,47"/>
-<area shape="rect" id="node4" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="ExternalMergeSort::\lmergeSequencesNew" alt="" coords="181,71,329,112"/>
-<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="377,39,516,80"/>
+<area shape="rect" id="node2" href="class_external_merge_sort.html#aa3ec5ccebe04f02538ee42d0ffe7b75c" title="Чтение входной последовательности из файла. " alt="" coords="186,5,325,47"/>
+<area shape="rect" id="node4" href="class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="Слияние последовательностей. " alt="" coords="181,71,329,112"/>
+<area shape="rect" id="node3" href="class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="377,39,516,80"/>
 </map>
 </div>
 
@@ -592,6 +731,17 @@ $(function() {
       </table>
 </div><div class="memdoc">
 
+<p>Запись последовательности в файл. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">arr</td><td>Массив, которое необходимо записать в файл. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Длина записываемого в файл массива. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Код успеха или ошибки.</dd></dl>
+<p>Записывает последовательность в выходной файл. Возвращает код успеха или ошибки. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Данные класса</h2>
@@ -615,6 +765,9 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Флаг достижения конца файла. </p>
+<p>true - если в операциях чтения и записи был достигнут конец файла, false - если нет. </p>
+
 </div>
 </div>
 <a id="a91fd33cbb230ed4974a678302e906a8d"></a>
@@ -636,6 +789,9 @@ $(function() {
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Входной файл. </p>
+<p>Поток, используемый для чтения однобайтовой последовательности символьных данных из файла. </p>
 
 </div>
 </div>
@@ -659,6 +815,9 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Путь к входному файлу. </p>
+<p>Строка, содержащая путь к входному файлу. </p>
+
 </div>
 </div>
 <a id="afe31c07e311212814e4a8ba01c7436a1"></a>
@@ -680,6 +839,9 @@ $(function() {
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Выходной файл. </p>
+<p>Поток, используемый для записи однобайтовой последовательности символьных данных из файла. </p>
 
 </div>
 </div>
@@ -703,6 +865,9 @@ $(function() {
 </table>
 </div><div class="memdoc">
 
+<p>Путь к выходному файлу. </p>
+<p>Строка, содержащая путь к выходному файлу. </p>
+
 </div>
 </div>
 <a id="a84bbcd4e3807e076ecdbd0e5dfbefa5f"></a>
@@ -724,6 +889,9 @@ $(function() {
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Режим работы с файлами. </p>
+<p>Атрибут, азадющий один из режимов работы с файловой системой: NotEnable - режим не задан, WriteOnly - только запись, ReadOnly - Только чтение ReadAndWrite - чтение и запись. </p>
 
 </div>
 </div>

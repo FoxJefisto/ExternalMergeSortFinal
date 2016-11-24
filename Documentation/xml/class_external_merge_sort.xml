@@ -13,15 +13,15 @@
         <argsstring></argsstring>
         <name>fileManager</name>
         <briefdescription>
-        </briefdescription>
+<para>Указатель на класс файл-менеджера. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Указатель на класс файл-менеджера, осуществляющий взаимодействие сортировки с файловой системой. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="10" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="10" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="25" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="25" bodyend="-1"/>
         <referencedby refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">setParams</referencedby>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
         <referencedby refid="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" compoundref="_external_merge_sort_8cpp" startline="311" endline="314">~ExternalMergeSort</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" prot="private" static="no" mutable="no">
@@ -30,15 +30,15 @@
         <argsstring></argsstring>
         <name>sizeOfSegments</name>
         <briefdescription>
-        </briefdescription>
+<para>Размер сегментов. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Размер сегментов, на которые изначально будет поделена последовательность. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="11" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="11" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="31" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="31" bodyend="-1"/>
         <referencedby refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">setParams</referencedby>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -46,15 +46,15 @@
         <argsstring></argsstring>
         <name>ok</name>
         <briefdescription>
-        </briefdescription>
+<para>Флаг готовности сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Флаг установлен в true, если все параметры заданы корректно и false, если нет. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="12" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="37" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="37" bodyend="-1"/>
         <referencedby refid="class_external_merge_sort_1a7b6efcd2abbf59a8983f972c52d04650" compoundref="_external_merge_sort_8cpp" startline="5" endline="9">ExternalMergeSort</referencedby>
         <referencedby refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">setParams</referencedby>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" prot="private" static="no" mutable="no">
         <type><ref refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87c" kindref="member">LogType</ref></type>
@@ -62,15 +62,15 @@
         <argsstring></argsstring>
         <name>log</name>
         <briefdescription>
-        </briefdescription>
+<para>Тип логгирования. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Without - логгирование не ведется, File - логгирование ведется в файл, CLI - логгирование ведется в консоль. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="13" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="13" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="43" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="43" bodyend="-1"/>
         <referencedby refid="class_external_merge_sort_1a7b6efcd2abbf59a8983f972c52d04650" compoundref="_external_merge_sort_8cpp" startline="5" endline="9">ExternalMergeSort</referencedby>
         <referencedby refid="class_external_merge_sort_1ac0eeaba67ee0703acf73a8a5bf78ebe1" compoundref="_external_merge_sort_8cpp" startline="129" endline="132">setLog</referencedby>
-        <referencedby refid="class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4" compoundref="_external_merge_sort_8cpp" startline="297" endline="308">print</referencedby>
+        <referencedby refid="class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863" compoundref="_external_merge_sort_8cpp" startline="297" endline="308">print</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -80,51 +80,60 @@
         <argsstring></argsstring>
         <name>counter</name>
         <briefdescription>
-        </briefdescription>
+<para>Счетчик. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Счетчик сортировки, подсчитывает характеристики сортировки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="18" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="18" bodyend="-1"/>
-        <referencedby refid="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c" compoundref="_bubble_external_sort_8cpp" startline="5" endline="24">BubbleExternalSort::sort</referencedby>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="86" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="86" bodyend="-1"/>
+        <referencedby refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" compoundref="_bubble_external_sort_8cpp" startline="5" endline="24">BubbleExternalSort::sort</referencedby>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
         <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">mergeSequencesNew</referencedby>
-        <referencedby refid="class_heap_external_sort_1a927eea9dcf44a9c7d53db1039bc7e21f" compoundref="_heap_external_sort_8cpp" startline="10" endline="32">HeapExternalSort::siftDown</referencedby>
+        <referencedby refid="class_heap_external_sort_1af476431c6fafd53c40ab306c97a37134" compoundref="_heap_external_sort_8cpp" startline="10" endline="32">HeapExternalSort::siftDown</referencedby>
         <referencedby refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" compoundref="_heap_external_sort_8cpp" startline="33" endline="44">HeapExternalSort::sort</referencedby>
-        <referencedby refid="class_quick_external_sort_1a912abb7f2ccdadd7d97992f035e16183" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
+        <referencedby refid="class_quick_external_sort_1ad7653bb697a04717066f9942db9a4597" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
         <definition>Responce ExternalMergeSort::createRuns</definition>
-        <argsstring>(long long *)</argsstring>
+        <argsstring>(long long *size)</argsstring>
         <name>createRuns</name>
         <param>
           <type>long long *</type>
-          <defname>sizeOfSequence</defname>
+          <declname>size</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Чтение входной последовательности из файла. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер входной последовательности. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Считывает последовательности длиной size, сортирует их методом перегруженным в производных классах и записывает в один из буферных файлов. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="14" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="134" bodyend="176"/>
-        <references refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" compoundref="_external_merge_sort_8h" startline="12">ok</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="51" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="134" bodyend="176"/>
+        <references refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" compoundref="_external_merge_sort_8h" startline="37">ok</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4" compoundref="_structures_8h" startline="5">ParamsFail</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
-        <references refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" compoundref="_external_merge_sort_8h" startline="11">sizeOfSegments</references>
+        <references refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" compoundref="_external_merge_sort_8h" startline="31">sizeOfSegments</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ae78c711dd9a3a19d8175eb124b17611c" compoundref="_structures_8h" startline="5">MemoryError</references>
         <references refid="class_file_manager_1a2f1102abfd0a5a9d7e178968a3fdc56c" compoundref="_file_manager_8cpp" startline="33" endline="39">FileManager::clearOutFile</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
-        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="10">fileManager</references>
+        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="25">fileManager</references>
         <references refid="class_file_manager_1aba031d681752c80f52a8a8af9b69834e" compoundref="_file_manager_8cpp" startline="41" endline="84">FileManager::read</references>
-        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="18">counter</references>
+        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="86">counter</references>
         <references refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" compoundref="_counter_8cpp" startline="46" endline="49">Counter::incFileOp</references>
-        <references refid="class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4" compoundref="_external_merge_sort_8cpp" startline="297" endline="308">print</references>
-        <references refid="class_external_merge_sort_1af6412221cc797a846243a343ccc12dba">sort</references>
+        <references refid="class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863" compoundref="_external_merge_sort_8cpp" startline="297" endline="308">print</references>
+        <references refid="class_external_merge_sort_1a7b777f22151fdd869624d8aa5a39a7bb">sort</references>
         <references refid="class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f" compoundref="_file_manager_8cpp" startline="86" endline="96">FileManager::write</references>
         <references refid="class_file_manager_1a6a1f1ddbf047fc7e9531f483e4c62148" compoundref="_file_manager_8cpp" startline="16" endline="21">FileManager::closeOFile</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" compoundref="_structures_8h" startline="5">EndOfFile</references>
@@ -152,15 +161,45 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Слияние последовательностей. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">input1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Первый входной файл. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">input2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Второй входной файл. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Выходной файл. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер сегментов </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Сливает последовательность длиной size из input1 с последовательностью длиной sizr из input2, результат записывает в out. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="15" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="178" bodyend="294"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="62" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="178" bodyend="294"/>
         <references refid="class_file_manager_1a49df99509ff2700e0e5edd06adca345c" compoundref="_file_manager_8cpp" startline="23" endline="26">FileManager::getEndOfFile</references>
         <references refid="class_file_manager_1aba031d681752c80f52a8a8af9b69834e" compoundref="_file_manager_8cpp" startline="41" endline="84">FileManager::read</references>
-        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="18">counter</references>
+        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="86">counter</references>
         <references refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" compoundref="_counter_8cpp" startline="36" endline="39">Counter::incComparsion</references>
         <references refid="class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f" compoundref="_file_manager_8cpp" startline="86" endline="96">FileManager::write</references>
         <references refid="class_file_manager_1a6a1f1ddbf047fc7e9531f483e4c62148" compoundref="_file_manager_8cpp" startline="16" endline="21">FileManager::closeOFile</references>
@@ -168,27 +207,77 @@
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">externalSort</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ExternalMergeSort::print</definition>
-        <argsstring>(const char *)</argsstring>
+        <argsstring>(const char *msg)</argsstring>
         <name>print</name>
         <param>
           <type>const char *</type>
-          <defname>msg</defname>
+          <declname>msg</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Логгирование. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">msg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Сообщение, которое необходимо записать в лог.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Записывает msg в лог в зависимости от атрибута log. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="16" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="297" bodyend="308"/>
-        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="13">log</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="69" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="297" bodyend="308"/>
+        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="43">log</references>
         <references refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" compoundref="_structures_8h" startline="6">WithOut</references>
         <references refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca172e8dc95b033321bf58a216636307c9" compoundref="_structures_8h" startline="6">CLI</references>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_external_merge_sort_1a7b777f22151fdd869624d8aa5a39a7bb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ExternalMergeSort::sort</definition>
+        <argsstring>(long long *arr, long long size)=0</argsstring>
+        <name>sort</name>
+        <reimplementedby refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd">sort</reimplementedby>
+        <reimplementedby refid="class_quick_external_sort_1ab277b5945ac22cdcda10bf02e56eb8db">sort</reimplementedby>
+        <reimplementedby refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44">sort</reimplementedby>
+        <param>
+          <type>long long *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Сортирует последовательность длиной size одним из методов, перегруженных в производных классах. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">arr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив, который необходимо отсортировать. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Длина массива.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Чисто виртуальный метод. Перегружен в производных классах. Сортирует последовательность длиной size одним из методов, перегруженных в производных классах. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="79" column="1"/>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -198,14 +287,14 @@
         <argsstring>()</argsstring>
         <name>ExternalMergeSort</name>
         <briefdescription>
-        </briefdescription>
+<para>Пустой конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Обнуляет атрибуты. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="19" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="5" bodyend="9"/>
-        <references refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" compoundref="_external_merge_sort_8h" startline="12">ok</references>
-        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="13">log</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="92" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="5" bodyend="9"/>
+        <references refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" compoundref="_external_merge_sort_8h" startline="37">ok</references>
+        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="43">log</references>
         <references refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca172e8dc95b033321bf58a216636307c9" compoundref="_structures_8h" startline="6">CLI</references>
       </memberdef>
       <memberdef kind="function" id="class_external_merge_sort_1a37df182916b341d5466f2fff0d50dfed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -222,15 +311,30 @@
           <declname>sizeOfSegments</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sizeOfSegments</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер сегментов.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Вызывет setParams(...), если код возврата не Success, бросает исключение. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="20" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="11" bodyend="20"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="100" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="11" bodyend="20"/>
         <references refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">setParams</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
-        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="13">log</references>
+        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="43">log</references>
         <references refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca172e8dc95b033321bf58a216636307c9" compoundref="_structures_8h" startline="6">CLI</references>
       </memberdef>
       <memberdef kind="function" id="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -247,21 +351,37 @@
           <declname>sizeOfSegments</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Определение параметров сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Файл-менеджер, отвечающий за взаимодействие сортировки с файловой системой. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sizeOfSegments</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер сегментов. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Задает параметры сортировки, если это возможно. Устанавливает ok в true или возвращает код ошибки. Возвращает код успеха или ошибки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="21" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="22" bodyend="43"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="109" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="22" bodyend="43"/>
         <references refid="class_file_manager_1abd4cbc2b218ab1828ae376a4a9137057" compoundref="_file_manager_8cpp" startline="176" endline="179">FileManager::getState</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
-        <references refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" compoundref="_external_merge_sort_8h" startline="12">ok</references>
+        <references refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" compoundref="_external_merge_sort_8h" startline="37">ok</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aff5e0c4e167b2a74a058ba96eb0ee149" compoundref="_structures_8h" startline="5">SizeError</references>
         <references refid="class_file_manager_1ab490a5a5882d33781dcb6d1d42945d97" compoundref="_file_manager_8cpp" startline="181" endline="186">FileManager::checkForEquality</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aebd38049a88fe839c522d0352fedda6c" compoundref="_structures_8h" startline="5">InputAndOutputIsEqual</references>
-        <references refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" compoundref="_external_merge_sort_8h" startline="11">sizeOfSegments</references>
-        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="10">fileManager</references>
+        <references refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" compoundref="_external_merge_sort_8h" startline="31">sizeOfSegments</references>
+        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="25">fileManager</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
         <referencedby refid="class_external_merge_sort_1a37df182916b341d5466f2fff0d50dfed" compoundref="_external_merge_sort_8cpp" startline="11" endline="20">ExternalMergeSort</referencedby>
         <referencedby refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" compoundref="_user_interface_8cpp" startline="289" endline="320">UserInterface::setParams</referencedby>
@@ -272,25 +392,26 @@
         <argsstring>()</argsstring>
         <name>externalSort</name>
         <briefdescription>
-        </briefdescription>
+<para>Вызывает метод внешней многофазной сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Осуществляет внешнюю многофазную сортировку слиянием. Вызывает createRuns(...), mergeSequncesNew(...). </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="22" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="45" bodyend="127"/>
-        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="18">counter</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="116" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="45" bodyend="127"/>
+        <references refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" compoundref="_external_merge_sort_8h" startline="86">counter</references>
         <references refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">Counter::clear</references>
         <references refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" compoundref="_counter_8cpp" startline="10" endline="13">Counter::setBegTime</references>
-        <references refid="class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4" compoundref="_external_merge_sort_8cpp" startline="297" endline="308">print</references>
-        <references refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</references>
+        <references refid="class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863" compoundref="_external_merge_sort_8cpp" startline="297" endline="308">print</references>
+        <references refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</references>
         <references refid="class_file_manager_1a2f1102abfd0a5a9d7e178968a3fdc56c" compoundref="_file_manager_8cpp" startline="33" endline="39">FileManager::clearOutFile</references>
-        <references refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" compoundref="_external_merge_sort_8h" startline="11">sizeOfSegments</references>
+        <references refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" compoundref="_external_merge_sort_8h" startline="31">sizeOfSegments</references>
         <references refid="class_file_manager_1ace8ce2677414831b5a9e7030248fc832" compoundref="_file_manager_8cpp" startline="28" endline="31">FileManager::setEndOfFile</references>
         <references refid="class_file_manager_1a4a4719a410ca31985e8b75ad75485ce6" compoundref="_file_manager_8cpp" startline="9" endline="14">FileManager::closeIFile</references>
         <references refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">mergeSequencesNew</references>
         <references refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" compoundref="_counter_8cpp" startline="46" endline="49">Counter::incFileOp</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" compoundref="_structures_8h" startline="5">EndOfFile</references>
-        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="10">fileManager</references>
+        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="25">fileManager</references>
         <references refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" compoundref="_counter_8cpp" startline="15" endline="19">Counter::setEndTime</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
@@ -304,37 +425,21 @@
           <declname>log</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Устанавливает тип логгирования. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип логгирования.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Задает тип логгирования: WithOut - без логгирования, File - логгирование в файл log.txt, CLI - логгирование в консоль. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="23" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="129" bodyend="132"/>
-        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="13">log</references>
-      </memberdef>
-      <memberdef kind="function" id="class_external_merge_sort_1af6412221cc797a846243a343ccc12dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>void</type>
-        <definition>virtual void ExternalMergeSort::sort</definition>
-        <argsstring>(long long *, long long)=0</argsstring>
-        <name>sort</name>
-        <reimplementedby refid="class_bubble_external_sort_1ac2c8c1a8dad0f0f99a176d3641b7625c">sort</reimplementedby>
-        <reimplementedby refid="class_quick_external_sort_1adafdd4faded04218c1a131bf55e3c90d">sort</reimplementedby>
-        <reimplementedby refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44">sort</reimplementedby>
-        <param>
-          <type>long long *</type>
-        </param>
-        <param>
-          <type>long</type>
-          <declname>long</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="24" column="1"/>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">createRuns</referencedby>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="123" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="129" bodyend="132"/>
+        <references refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" compoundref="_external_merge_sort_8h" startline="43">log</references>
       </memberdef>
       <memberdef kind="function" id="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -342,19 +447,21 @@
         <argsstring>()</argsstring>
         <name>~ExternalMergeSort</name>
         <briefdescription>
-        </briefdescription>
+<para>Пустой виртуальный деструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Освобождает выделенную память. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="25" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="311" bodyend="314"/>
-        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="10">fileManager</references>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="131" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.cpp" bodystart="311" bodyend="314"/>
+        <references refid="class_external_merge_sort_1ab82d3b62a57be6c80dbd12b90de278e2" compoundref="_external_merge_sort_8h" startline="25">fileManager</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Класс внешней многофазной сортировки слиянием. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><simplesect kind="author"><para>Alexander Filippov </para></simplesect>
+<simplesect kind="date"><para>Ноябрь 2016 года</para></simplesect>
+Класс, осуществляющий внешнюю многофазную сортировку слиянием. Содержит в себе основные методы внешней сортировки слиянием. Виртуальная функция sort(...) переопределена в производных классах. </para>    </detaileddescription>
     <inheritancegraph>
       <node id="9">
         <label>BubbleExternalSort</label>
@@ -399,10 +506,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="8" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="7" bodyend="26"/>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" line="18" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h" bodystart="17" bodyend="132"/>
     <listofallmembers>
       <member refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" prot="public" virt="non-virtual"><scope>ExternalMergeSort</scope><name>counter</name></member>
-      <member refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>createRuns</name></member>
+      <member refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>createRuns</name></member>
       <member refid="class_external_merge_sort_1a7b6efcd2abbf59a8983f972c52d04650" prot="public" virt="non-virtual"><scope>ExternalMergeSort</scope><name>ExternalMergeSort</name></member>
       <member refid="class_external_merge_sort_1a37df182916b341d5466f2fff0d50dfed" prot="public" virt="non-virtual"><scope>ExternalMergeSort</scope><name>ExternalMergeSort</name></member>
       <member refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" prot="public" virt="non-virtual"><scope>ExternalMergeSort</scope><name>externalSort</name></member>
@@ -410,11 +517,11 @@
       <member refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>log</name></member>
       <member refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>mergeSequencesNew</name></member>
       <member refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>ok</name></member>
-      <member refid="class_external_merge_sort_1a5e19d768fb9ef81e36e22e2eff498ca4" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>print</name></member>
+      <member refid="class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>print</name></member>
       <member refid="class_external_merge_sort_1ac0eeaba67ee0703acf73a8a5bf78ebe1" prot="public" virt="non-virtual"><scope>ExternalMergeSort</scope><name>setLog</name></member>
       <member refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" prot="public" virt="non-virtual"><scope>ExternalMergeSort</scope><name>setParams</name></member>
       <member refid="class_external_merge_sort_1a1d68bb5e0373cf16807a41272dff1a99" prot="private" virt="non-virtual"><scope>ExternalMergeSort</scope><name>sizeOfSegments</name></member>
-      <member refid="class_external_merge_sort_1af6412221cc797a846243a343ccc12dba" prot="public" virt="pure-virtual"><scope>ExternalMergeSort</scope><name>sort</name></member>
+      <member refid="class_external_merge_sort_1a7b777f22151fdd869624d8aa5a39a7bb" prot="protected" virt="pure-virtual"><scope>ExternalMergeSort</scope><name>sort</name></member>
       <member refid="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" prot="public" virt="virtual"><scope>ExternalMergeSort</scope><name>~ExternalMergeSort</name></member>
     </listofallmembers>
   </compounddef>

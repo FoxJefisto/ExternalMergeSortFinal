@@ -1,4 +1,4 @@
 <map id="Counter::incFileOp" name="Counter::incFileOp">
-<area shape="rect" id="node2" href="$class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="ExternalMergeSort::\lexternalSort" alt="" coords="371,5,509,47"/>
-<area shape="rect" id="node3" href="$class_external_merge_sort.html#a54203f48d659003f5a75425354d4e262" title="ExternalMergeSort::\lcreateRuns" alt="" coords="184,35,323,76"/>
+<area shape="rect" id="node2" href="$class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="371,5,509,47"/>
+<area shape="rect" id="node3" href="$class_external_merge_sort.html#aa3ec5ccebe04f02538ee42d0ffe7b75c" title="Чтение входной последовательности из файла. " alt="" coords="184,35,323,76"/>
 </map>

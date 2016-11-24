@@ -12,13 +12,13 @@ void Counter::setBegTime()
 	begTime = clock();
 }
 
-long Counter::setEndTime()
+long long Counter::setEndTime()
 {
 	endTime = clock();
 	return getTimeInterval();
 }
 
-long Counter::getTimeInterval()
+long long Counter::getTimeInterval()
 {
 	return (endTime - begTime) * 1000 / CLOCKS_PER_SEC; //число миллисекунд
 }
@@ -28,7 +28,7 @@ void Counter::incSwaps()
 	swaps++;
 }
 
-long Counter::getSwaps()
+long long Counter::getSwaps()
 {
 	return swaps;
 }
@@ -38,7 +38,7 @@ void Counter::incComparsion(long long n)
 	comparsion += n;
 }
 
-long Counter::getComparsion()
+long long Counter::getComparsion()
 {
 	return comparsion;
 }
@@ -48,7 +48,7 @@ void Counter::incFileOp(long long n)
 	fileOp += n;
 }
 
-long Counter::getFileOp()
+long long Counter::getFileOp()
 {
 	return fileOp;
 }

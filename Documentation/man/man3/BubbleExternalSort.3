@@ -1,34 +1,75 @@
-.TH "BubbleExternalSort" 3 "Пт 11 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "BubbleExternalSort" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-BubbleExternalSort \- \fC#include <BubbleExternalSort\&.h>\fP
+BubbleExternalSort \- 
+.SH "Подробное описание"
+.PP 
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю пузырьковую сортировку\&. 
+
+
+.PP
+\fBАвтор:\fP
+.RS 4
+Alexander Filippov 
+.RE
+.PP
+\fBДата:\fP
+.RS 4
+Ноябрь 2016 года
+.RE
+.PP
+Наследуется от \fBExternalMergeSort\fP, перегружает метод внутренней сортировки, который осуществляет пузырьковую сортировку последовательности\&. 
+.PP
+\fC#include <BubbleExternalSort\&.h>\fP
 .PP
 Базовые классы:\fBExternalMergeSort\fP\&.
 .SS "Открытые члены"
 
 .in +1c
 .ti -1c
-.RI "virtual void \fBsort\fP (long long *, long long)"
-.br
-.ti -1c
 .RI "\fBBubbleExternalSort\fP ()"
 .br
+.RI "Пустой конструктор класса\&. "
 .ti -1c
 .RI "\fB~BubbleExternalSort\fP ()"
 .br
+.RI "Пустой виртуальный деструктор класса\&. "
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBsort\fP (long long *arr, long long size)"
+.br
+.RI "Сортирует последовательность длиной size методом пузырьковой сортировки\&. "
 .in -1c
 .SS "Дополнительные унаследованные члены"
 .SH "Конструктор(ы)"
 .PP 
 .SS "BubbleExternalSort::BubbleExternalSort ()"
 
+.PP
+Пустой конструктор класса\&. Обнуляет атрибуты\&. 
 .SS "BubbleExternalSort::~BubbleExternalSort ()"
 
+.PP
+Пустой виртуальный деструктор класса\&. Освобождает выделенную память\&. 
 .SH "Методы"
 .PP 
-.SS "void BubbleExternalSort::sort (long long * a, long long length)\fC [virtual]\fP"
+.SS "void BubbleExternalSort::sort (long long * arr, long long size)\fC [private]\fP, \fC [virtual]\fP"
 
+.PP
+Сортирует последовательность длиной size методом пузырьковой сортировки\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIarr\fP Массив, который необходимо отсортировать\&. 
+.br
+\fIsize\fP Длина массива\&.
+.RE
+.PP
+Виртуальный метод\&. Перегружен в классе\&. Сортирует последовательность длиной size методом пузырьковой сортировки\&. 
 .PP
 Замещает \fBExternalMergeSort\fP\&.
 

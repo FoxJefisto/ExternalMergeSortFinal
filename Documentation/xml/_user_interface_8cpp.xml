@@ -266,7 +266,7 @@
 <codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="134"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7" kindref="member">UserInterface::getDependenceSize</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="136" refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" kindref="member">UserInterface::callGetDependenceSize</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Получение<sp/>зависимости<sp/>от<sp/>размера<sp/>последовательности:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Введите<sp/>размер<sp/>сегментов,<sp/>0<sp/>если<sp/>размер<sp/>сегментов<sp/>равен<sp/>размеру<sp/>последовательности:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
@@ -314,7 +314,7 @@
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="182"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7" kindref="member">UserInterface::getDependenceSizeOfSegments</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="184" refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" kindref="member">UserInterface::callGetDependenceSizeOfSegments</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Получение<sp/>зависимости<sp/>от<sp/>размера<sp/>сегментов:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>stringstream<sp/>buf;</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Введите<sp/>размер<sp/>тестовой<sp/>последовательности:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
@@ -355,7 +355,7 @@
 <codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="223"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="class_user_interface_1ab726cdce7e7518aae70cf42594139589" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1ab726cdce7e7518aae70cf42594139589" kindref="member">UserInterface::getDependenceType</ref>()</highlight></codeline>
+<codeline lineno="225" refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" kindref="member">UserInterface::callGetDependenceType</ref>()</highlight></codeline>
 <codeline lineno="226"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Получение<sp/>зависимости<sp/>от<sp/>типа<sp/>сортировки:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Введите<sp/>размер<sp/>тестовой<sp/>последовательности:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
@@ -408,13 +408,13 @@
 <codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(choise)<sp/>{</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/></highlight></codeline>
-<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getDependenceSize();</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>callGetDependenceSize();</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getDependenceSizeOfSegments();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>callGetDependenceSizeOfSegments();</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
-<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>getDependenceType();</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>callGetDependenceType();</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="287"><highlight class="normal">}</highlight></codeline>

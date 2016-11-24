@@ -10,12 +10,12 @@
         <argsstring></argsstring>
         <name>iFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Входной файл. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Поток, используемый для чтения однобайтовой последовательности символьных данных из файла. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="9" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="9" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="22" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_file_manager_1afe31c07e311212814e4a8ba01c7436a1" prot="private" static="no" mutable="no">
         <type>ofstream *</type>
@@ -23,12 +23,12 @@
         <argsstring></argsstring>
         <name>oFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Выходной файл. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Поток, используемый для записи однобайтовой последовательности символьных данных из файла. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="10" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="10" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="28" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_file_manager_1adf10708d6e8e3b4d329077af4666e147" prot="private" static="no" mutable="no">
         <type>string *</type>
@@ -36,12 +36,12 @@
         <argsstring></argsstring>
         <name>oFileStr</name>
         <briefdescription>
-        </briefdescription>
+<para>Путь к выходному файлу. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Строка, содержащая путь к выходному файлу. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="11" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="11" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="34" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_file_manager_1aaa0e6feed45b6a92ce5c0b509bd9ceb6" prot="private" static="no" mutable="no">
         <type>string *</type>
@@ -49,12 +49,12 @@
         <argsstring></argsstring>
         <name>iFileStr</name>
         <briefdescription>
-        </briefdescription>
+<para>Путь к входному файлу. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Строка, содержащая путь к входному файлу. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="12" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="40" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_file_manager_1a84bbcd4e3807e076ecdbd0e5dfbefa5f" prot="private" static="no" mutable="no">
         <type><ref refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7" kindref="member">FileState</ref></type>
@@ -62,12 +62,12 @@
         <argsstring></argsstring>
         <name>state</name>
         <briefdescription>
-        </briefdescription>
+<para>Режим работы с файлами. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Атрибут, азадющий один из режимов работы с файловой системой: NotEnable - режим не задан, WriteOnly - только запись, ReadOnly - Только чтение ReadAndWrite - чтение и запись. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="13" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="13" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="47" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_file_manager_1ae43001594f1ee182581741d2530620a8" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -75,12 +75,12 @@
         <argsstring></argsstring>
         <name>endOfFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Флаг достижения конца файла. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>true - если в операциях чтения и записи был достигнут конец файла, false - если нет. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="14" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="14" bodyend="-1"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="53" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -90,12 +90,12 @@
         <argsstring>()</argsstring>
         <name>closeIFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Закрытие входного файла. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Закрывает входной файл, если он существует. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="16" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="9" bodyend="14"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="60" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="9" bodyend="14"/>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a6a1f1ddbf047fc7e9531f483e4c62148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -104,13 +104,13 @@
         <argsstring>()</argsstring>
         <name>closeOFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Закрытие выходного файла. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Закрывает входной файл, сохраняя записанную последовательность, если он существует. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="17" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="16" bodyend="21"/>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="66" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="16" bodyend="21"/>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
         <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a49df99509ff2700e0e5edd06adca345c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -119,12 +119,13 @@
         <argsstring>()</argsstring>
         <name>getEndOfFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Получение флага конца файла. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>Флаг достижения конца файла endOfFile.</para></simplesect>
+Возвращает true - если конец файла был достигнут при попытке чтения или записи или false - если конец файла не был достигнут. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="18" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="23" bodyend="26"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="73" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="23" bodyend="26"/>
         <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1ace8ce2677414831b5a9e7030248fc832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -137,12 +138,20 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Установка флага конца файла в необходимое положение. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Значение, которое необходимо установить</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Устанавливает флаг в нужное положение, например сброс флага, если он уже был обработан. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="19" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="28" bodyend="31"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="80" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="28" bodyend="31"/>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a2f1102abfd0a5a9d7e178968a3fdc56c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -151,14 +160,14 @@
         <argsstring>()</argsstring>
         <name>clearOutFile</name>
         <briefdescription>
-        </briefdescription>
+<para>Очистка выходного файла. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Затирает выходной файл, вне зависимости от его содержания. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="20" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="33" bodyend="39"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="86" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="33" bodyend="39"/>
         <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1aba031d681752c80f52a8a8af9b69834e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
@@ -178,19 +187,42 @@
           <declname>readNumber</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Чтение входной последовательности из файла. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">arr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив в который необходимо считать числовую последовательность. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер последовательности которую необходимо считать. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">readNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Число успешно считанных значений из файла. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Считывает последовательность длиной size в массиив arr, если это возможно. Записывает в readNumber число успешно считанных значений. Возвращает код успеха или ошибки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="21" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="41" bodyend="84"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="97" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="41" bodyend="84"/>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" compoundref="_structures_8h" startline="4">ReadOnly</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" compoundref="_structures_8h" startline="5">EndOfFile</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
         <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -203,17 +235,26 @@
           <declname>num</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Запись числа в файл. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Число, которое необходимо записать в файл. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Записывает число в выходной файл. Возвращает код успеха или ошибки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="22" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="86" bodyend="96"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="105" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="86" bodyend="96"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
-        <referencedby refid="class_external_merge_sort_1a54203f48d659003f5a75425354d4e262" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
         <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1ad4c96727180b0055942d20b7b5bfe5f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -230,12 +271,28 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Запись последовательности в файл. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">arr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Массив, которое необходимо записать в файл. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Длина записываемого в файл массива. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Записывает последовательность в выходной файл. Возвращает код успеха или ошибки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="23" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="99" bodyend="111"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="114" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="99" bodyend="111"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
@@ -255,12 +312,28 @@
           <declname>st</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Определение атрибутов менеджера. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Строка, содержащая путь к файлу. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">st</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Режим менеджера, который необходимо задать. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Задает атрибуты менеджера, если это возможно. Возвращает код успеха или ошибки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="24" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="113" bodyend="141"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="123" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="113" bodyend="141"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" compoundref="_structures_8h" startline="4">ReadOnly</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" compoundref="_structures_8h" startline="4">NotEnable</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
@@ -281,12 +354,28 @@
           <declname>outFile</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Определение атрибутов менеджера. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Строка, содержащая путь к входному файлу. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">outFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Строка, содержащая путь к выходному файлу. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Задает атрибуты менеджера, если это возможно. Устанавливает режим ReadAndWrite или возвращает код ошибки. Возвращает код успеха или ошибки. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="25" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="143" bodyend="162"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="132" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="143" bodyend="162"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" compoundref="_structures_8h" startline="4">NotEnable</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
@@ -298,12 +387,13 @@
         <argsstring>()</argsstring>
         <name>getState</name>
         <briefdescription>
-        </briefdescription>
+<para>Проверка состояния менеджера. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>Текущее состояние менеджера.</para></simplesect>
+Возвращает текущее состояние менеджера. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="26" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="176" bodyend="179"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="139" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="176" bodyend="179"/>
         <referencedby refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">ExternalMergeSort::setParams</referencedby>
         <referencedby refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" compoundref="_user_interface_8cpp" startline="289" endline="320">UserInterface::setParams</referencedby>
       </memberdef>
@@ -313,12 +403,13 @@
         <argsstring>()</argsstring>
         <name>checkForEquality</name>
         <briefdescription>
-        </briefdescription>
+<para>Проверка входного и выходного файла на эквивалентность. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><simplesect kind="return"><para>true, если файлы эквивалентны; false, если нет.</para></simplesect>
+Проверяет на эквивалентность входной и выходной файл. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="27" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="181" bodyend="186"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="146" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="181" bodyend="186"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <referencedby refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">ExternalMergeSort::setParams</referencedby>
         <referencedby refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" compoundref="_user_interface_8cpp" startline="289" endline="320">UserInterface::setParams</referencedby>
@@ -337,12 +428,28 @@
           <declname>type</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Определение атрибутов менеджера. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Размер генерируемой последовательности. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Тип генерируемой последовательности. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Код успеха или ошибки.</para></simplesect>
+Генерирует последовательность длиной size одного из типов type: Best - уже упорядоченная последовательность, Average - случайная последовательность, Worst - последовательность, упорядоченная по убыванию. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="28" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="208" bodyend="242"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="156" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="208" bodyend="242"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
@@ -351,9 +458,9 @@
         <references refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" compoundref="_structures_8h" startline="7">Worst</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
         <referencedby refid="class_user_interface_1a27c547dadfd5588d5b734e253b2e8a4a" compoundref="_user_interface_8cpp" startline="36" endline="65">UserInterface::callGenerate</referencedby>
-        <referencedby refid="class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7" compoundref="_user_interface_8cpp" startline="136" endline="182">UserInterface::getDependenceSize</referencedby>
-        <referencedby refid="class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7" compoundref="_user_interface_8cpp" startline="184" endline="223">UserInterface::getDependenceSizeOfSegments</referencedby>
-        <referencedby refid="class_user_interface_1ab726cdce7e7518aae70cf42594139589" compoundref="_user_interface_8cpp" startline="225" endline="264">UserInterface::getDependenceType</referencedby>
+        <referencedby refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" compoundref="_user_interface_8cpp" startline="136" endline="182">UserInterface::callGetDependenceSize</referencedby>
+        <referencedby refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" compoundref="_user_interface_8cpp" startline="184" endline="223">UserInterface::callGetDependenceSizeOfSegments</referencedby>
+        <referencedby refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" compoundref="_user_interface_8cpp" startline="225" endline="264">UserInterface::callGetDependenceType</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a62d69473c95f8df25e44d2466bb00dc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -369,12 +476,27 @@
           <declname>state</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Строка, содержащая путь к файлу. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">st</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Режим менеджера, который необходимо задать.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Вызывет setParams(...), если код возврата не Success, бросает исключение. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="29" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="166" bodyend="174"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="164" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="166" bodyend="174"/>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a2456e56bdcb617c3ee75521cf9dd7057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -390,12 +512,27 @@
           <declname>outFile</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">inFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Строка, содержащая путь к файлу. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">outFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Строка, содержащая путь к выходному файлу.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Вызывет setParams(...), если код возврата не Success, бросает исключение. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="30" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="188" bodyend="196"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="172" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="188" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a8afd512c06be9daf140cc19d71f9b391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -403,12 +540,12 @@
         <argsstring>()</argsstring>
         <name>FileManager</name>
         <briefdescription>
-        </briefdescription>
+<para>Пустой конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Обнуляет атрибуты. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="31" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="198" bodyend="206"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="178" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="198" bodyend="206"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" compoundref="_structures_8h" startline="4">NotEnable</references>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1abaed33b5b0c13b8a597db9335a1aacfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -417,26 +554,28 @@
         <argsstring>()</argsstring>
         <name>~FileManager</name>
         <briefdescription>
-        </briefdescription>
+<para>Пустой деструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Освобождает выделенную память. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="32" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="244" bodyend="251"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="184" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="244" bodyend="251"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" compoundref="_structures_8h" startline="4">NotEnable</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Класс файлового менеджера. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para><simplesect kind="author"><para>Alexander Filippov </para></simplesect>
+<simplesect kind="date"><para>Ноябрь 2016 года</para></simplesect>
+Класс, отвечающий за взаимодействие приложения с файловой системой. Осуществляет запись последовательностей в файл, чтение последовательности из файла, а также генерацию последовательностей. </para>    </detaileddescription>
     <collaborationgraph>
       <node id="16">
         <label>FileManager</label>
         <link refid="class_file_manager"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="7" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="6" bodyend="33"/>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="15" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" bodystart="14" bodyend="185"/>
     <listofallmembers>
       <member refid="class_file_manager_1ab490a5a5882d33781dcb6d1d42945d97" prot="public" virt="non-virtual"><scope>FileManager</scope><name>checkForEquality</name></member>
       <member refid="class_file_manager_1a2f1102abfd0a5a9d7e178968a3fdc56c" prot="public" virt="non-virtual"><scope>FileManager</scope><name>clearOutFile</name></member>

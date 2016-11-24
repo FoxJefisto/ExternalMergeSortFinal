@@ -1,7 +1,7 @@
 <map id="Counter::incSwaps" name="Counter::incSwaps">
-<area shape="rect" id="node2" href="$class_bubble_external_sort.html#ac2c8c1a8dad0f0f99a176d3641b7625c" title="BubbleExternalSort\l::sort" alt="" coords="207,5,342,47"/>
-<area shape="rect" id="node3" href="$class_heap_external_sort.html#a927eea9dcf44a9c7d53db1039bc7e21f" title="HeapExternalSort::siftDown" alt="" coords="184,71,365,98"/>
-<area shape="rect" id="node4" href="$class_heap_external_sort.html#a908087ce13932b268a35e1184a05ea44" title="HeapExternalSort::sort" alt="" coords="415,97,570,123"/>
-<area shape="rect" id="node5" href="$class_quick_external_sort.html#a912abb7f2ccdadd7d97992f035e16183" title="QuickExternalSort::\lqSortI" alt="" coords="207,173,343,215"/>
-<area shape="rect" id="node6" href="$class_quick_external_sort.html#adafdd4faded04218c1a131bf55e3c90d" title="QuickExternalSort::sort" alt="" coords="413,181,572,207"/>
+<area shape="rect" id="node2" href="$class_bubble_external_sort.html#a785502521871c44e6d9585108e4254bd" title="Сортирует последовательность длиной size методом пузырьковой сортировки. " alt="" coords="207,5,342,47"/>
+<area shape="rect" id="node3" href="$class_heap_external_sort.html#af476431c6fafd53c40ab306c97a37134" title="Получение нового опорного элемента " alt="" coords="184,71,365,98"/>
+<area shape="rect" id="node4" href="$class_heap_external_sort.html#a908087ce13932b268a35e1184a05ea44" title="Сортирует последовательность длиной size методом пирамидальной сортировки. " alt="" coords="415,97,570,123"/>
+<area shape="rect" id="node5" href="$class_quick_external_sort.html#ad7653bb697a04717066f9942db9a4597" title="Сортирует последовательность длиной size методом быстрой сортировки итеративным методом. " alt="" coords="207,173,343,215"/>
+<area shape="rect" id="node6" href="$class_quick_external_sort.html#ab277b5945ac22cdcda10bf02e56eb8db" title="Сортирует последовательность длиной size методом быстрой сортировки. " alt="" coords="413,181,572,207"/>
 </map>

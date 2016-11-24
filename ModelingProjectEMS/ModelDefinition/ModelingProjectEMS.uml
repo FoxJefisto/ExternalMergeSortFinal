@@ -7141,7 +7141,7 @@ type-тип внутренней стортировки
           </operation>
           <operation
             Id="7e97c996-95f4-44b8-aba6-55d710b512d3"
-            name="getDependenceSize"
+            name="callGetDependenceSize"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -7150,7 +7150,7 @@ type-тип внутренней стортировки
             isQuery="false" />
           <operation
             Id="02983f2b-278f-4a6d-ad38-a3e68a4e095d"
-            name="getDependenceSizeOfSegments"
+            name="callGetDependenceSizeOfSegments"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -7159,7 +7159,7 @@ type-тип внутренней стортировки
             isQuery="false" />
           <operation
             Id="9ee536a0-e917-4514-9a5a-68c4250afdea"
-            name="getDependenceType"
+            name="callGetDependenceType"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -7530,6 +7530,7 @@ type-тип внутренней стортировки
           <operation
             Id="c89bc692-2cd4-4bfc-9bcf-25aa16c8ace5"
             name="sort"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -7538,7 +7539,7 @@ type-тип внутренней стортировки
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="a15f1637-c6ef-4260-8f38-2b2db654eb79"
+                  Id="19138055-8a9b-4d12-a999-b3199f281d73"
                   name="arr"
                   direction="In"
                   isUnique="false">
@@ -7552,7 +7553,7 @@ type-тип внутренней стортировки
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="8cb2ab84-e928-452a-aad8-1356b9885371"
+                  Id="83051eb3-7cdd-4872-8d70-2f0e118674b2"
                   name="size"
                   direction="In"
                   isUnique="false">
@@ -7590,6 +7591,7 @@ type-тип внутренней стортировки
           <operation
             Id="8444b6a3-15da-4eb1-aa32-f001b7d27a7e"
             name="sort"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -7650,6 +7652,7 @@ type-тип внутренней стортировки
           <operation
             Id="7b49ebbd-92f9-430f-9c88-33823fe9da45"
             name="sort"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -7710,6 +7713,7 @@ type-тип внутренней стортировки
           <operation
             Id="14180dff-5959-4b0f-b0a1-9a3fcdfa9537"
             name="sort"
+            visibility="Protected"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -7835,7 +7839,7 @@ type-тип внутренней стортировки
           </property>
           <property
             Id="ecb22902-45a1-484f-a142-2a008fa9e54b"
-            name="endOfFile"
+            name="endOfOutFile"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -8412,8 +8416,8 @@ type-тип внутренней стортировки
                   isUnique="false">
                   <type_NamedElement>
                     <undefinedTypeMoniker
-                      Id="4ac39795-649c-43a8-93a5-ffc7d2cf6062"
-                      LastKnownName="long"
+                      Id="707f72d9-2fcb-4314-85cc-866afc15c1ca"
+                      LastKnownName="long long"
                       LastKnownLocation="ModelingProjectEMS.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -8436,8 +8440,8 @@ type-тип внутренней стортировки
                   isUnique="false">
                   <type_NamedElement>
                     <undefinedTypeMoniker
-                      Id="4ac39795-649c-43a8-93a5-ffc7d2cf6062"
-                      LastKnownName="long"
+                      Id="707f72d9-2fcb-4314-85cc-866afc15c1ca"
+                      LastKnownName="long long"
                       LastKnownLocation="ModelingProjectEMS.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -8468,8 +8472,8 @@ type-тип внутренней стортировки
                   isUnique="false">
                   <type_NamedElement>
                     <undefinedTypeMoniker
-                      Id="4ac39795-649c-43a8-93a5-ffc7d2cf6062"
-                      LastKnownName="long"
+                      Id="707f72d9-2fcb-4314-85cc-866afc15c1ca"
+                      LastKnownName="long long"
                       LastKnownLocation="ModelingProjectEMS.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -8517,8 +8521,8 @@ type-тип внутренней стортировки
                   isUnique="false">
                   <type_NamedElement>
                     <undefinedTypeMoniker
-                      Id="4ac39795-649c-43a8-93a5-ffc7d2cf6062"
-                      LastKnownName="long"
+                      Id="707f72d9-2fcb-4314-85cc-866afc15c1ca"
+                      LastKnownName="long long"
                       LastKnownLocation="ModelingProjectEMS.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -8566,8 +8570,8 @@ type-тип внутренней стортировки
                   isUnique="false">
                   <type_NamedElement>
                     <undefinedTypeMoniker
-                      Id="4ac39795-649c-43a8-93a5-ffc7d2cf6062"
-                      LastKnownName="long"
+                      Id="707f72d9-2fcb-4314-85cc-866afc15c1ca"
+                      LastKnownName="long long"
                       LastKnownLocation="ModelingProjectEMS.uml" />
                   </type_NamedElement>
                 </parameter>

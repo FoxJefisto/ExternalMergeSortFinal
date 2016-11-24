@@ -68,11 +68,11 @@
 <para>Выбор пользователя </para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>Булево значение - если true, то продолжаем работу программу, если нет, то выход из бесконечного цикла. Вызывает метод, получающий необходимые параметры для выбранной пользователем функциональности. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>Булево значение - если true, то продолжаем работу программу, если нет, то выход из бесконечного цикла.</para></simplesect>
+Вызывает метод, получающий необходимые параметры для выбранной пользователем функциональности. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="37" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="322" bodyend="344"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="38" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="322" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="class_user_interface_1a27c547dadfd5588d5b734e253b2e8a4a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -80,12 +80,12 @@
         <argsstring>()</argsstring>
         <name>callGenerate</name>
         <briefdescription>
-<para>Вызов генерации последовательности. Получает необходимые параметры для генерации исходной последовательности. Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов генерации последовательности. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Получает необходимые параметры для генерации исходной последовательности. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="42" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="36" bodyend="65"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="44" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="36" bodyend="65"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" compoundref="_file_manager_8cpp" startline="208" endline="242">FileManager::generateSequence</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
@@ -96,12 +96,12 @@
         <argsstring>()</argsstring>
         <name>callSetParams</name>
         <briefdescription>
-<para>Вызов метода, задающего параметры сортировки. Задает параметр sort необходимым указателем на один из классов сортировки. Получает необходимые параметры сортировки. Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов метода, задающего параметры сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Задает параметр sort необходимым указателем на один из классов сортировки. Получает необходимые параметры сортировки. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="47" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="67" bodyend="96"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="50" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="67" bodyend="96"/>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
       <memberdef kind="function" id="class_user_interface_1a0e03dfecee7e890ad1e076888062d5cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -110,12 +110,12 @@
         <argsstring>()</argsstring>
         <name>callSort</name>
         <briefdescription>
-<para>Вызов метода внешней сортировки. Вызывает необходимый метод сортировки, если это возможно. Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов метода внешней сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Вызывает необходимый метод сортировки, если это возможно. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="52" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="98" bodyend="113"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="56" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="98" bodyend="113"/>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4" compoundref="_structures_8h" startline="5">ParamsFail</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
@@ -125,12 +125,12 @@
         <argsstring>()</argsstring>
         <name>callEstimate</name>
         <briefdescription>
-<para>Вызов метода оценки характеристик внешней сортировки. Вызывает метод сортировки, если это возможно. Выводит отчет характеристик сортировки. Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов метода оценки характеристик внешней сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Вызывает метод сортировки, если это возможно. Выводит отчет характеристик сортировки. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="57" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="115" bodyend="134"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="62" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="115" bodyend="134"/>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4" compoundref="_structures_8h" startline="5">ParamsFail</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
@@ -140,12 +140,12 @@
         <argsstring>()</argsstring>
         <name>callGetDependencies</name>
         <briefdescription>
-<para>Вызов метода получения зависимостей характеристик сортировки. Вызывает один из методов callGetDependenceSize(), callGetDependenceSizeOfSegments(), callGetDependenceType(). Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов метода получения зависимостей характеристик сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Вызывает один из методов <ref refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" kindref="member">callGetDependenceSize()</ref>, <ref refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" kindref="member">callGetDependenceSizeOfSegments()</ref>, <ref refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" kindref="member">callGetDependenceType()</ref>. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="62" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="266" bodyend="287"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="68" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="266" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
@@ -167,7 +167,7 @@
         <briefdescription>
 <para>Метод, задающий параметры сортировки. </para>        </briefdescription>
         <detaileddescription>
-<para>Вызывает метод, создающий необходимый производный класс сортировки и задающий её параметры. <parameterlist kind="param"><parameteritem>
+<para>Вызывает метод, создающий необходимый производный класс сортировки и задающий её параметры.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">file</parametername>
 </parameternamelist>
@@ -193,7 +193,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="71" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="289" bodyend="320"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="78" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="289" bodyend="320"/>
         <references refid="class_file_manager_1abd4cbc2b218ab1828ae376a4a9137057" compoundref="_file_manager_8cpp" startline="176" endline="179">FileManager::getState</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
@@ -206,54 +206,54 @@
         <references refid="_structures_8h_1adbb15722785daaf5166f7ea34323854ca139b64ba62923e002df5e9124e778c64" compoundref="_structures_8h" startline="8">Heap</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
-      <memberdef kind="function" id="class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void UserInterface::getDependenceSize</definition>
+        <definition>void UserInterface::callGetDependenceSize</definition>
         <argsstring>()</argsstring>
-        <name>getDependenceSize</name>
+        <name>callGetDependenceSize</name>
         <briefdescription>
-<para>Вызов метода получения зависимостей характеристик сортировки от размера. Генерирует входные файлы разной длины. Вызывает несколько сортировок с разным размером входной последовательности. Получает зависимость характеристик от размера входной последовательности. Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов метода получения зависимостей характеристик сортировки от размера. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Генерирует входные файлы разной длины. Вызывает несколько сортировок с разным размером входной последовательности. Получает зависимость характеристик от размера входной последовательности. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="76" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="136" bodyend="182"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="84" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="136" bodyend="182"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" compoundref="_file_manager_8cpp" startline="208" endline="242">FileManager::generateSequence</references>
         <references refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" compoundref="_structures_8h" startline="7">Worst</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
         <references refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" compoundref="_structures_8h" startline="6">WithOut</references>
       </memberdef>
-      <memberdef kind="function" id="class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void UserInterface::getDependenceSizeOfSegments</definition>
+        <definition>void UserInterface::callGetDependenceSizeOfSegments</definition>
         <argsstring>()</argsstring>
-        <name>getDependenceSizeOfSegments</name>
+        <name>callGetDependenceSizeOfSegments</name>
         <briefdescription>
-<para>Вызов метода получения зависимостей характеристик сортировки от размера сегментов. Генерирует тестовую последовательность. Вызывает несколько сортировок с разным размером сегментов. Получает зависимость характеристик от размера сегментов. Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов метода получения зависимостей характеристик сортировки от размера сегментов. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Генерирует тестовую последовательность. Вызывает несколько сортировок с разным размером сегментов. Получает зависимость характеристик от размера сегментов. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="81" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="184" bodyend="223"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="90" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="184" bodyend="223"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" compoundref="_file_manager_8cpp" startline="208" endline="242">FileManager::generateSequence</references>
         <references refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" compoundref="_structures_8h" startline="7">Worst</references>
         <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
         <references refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" compoundref="_structures_8h" startline="6">WithOut</references>
       </memberdef>
-      <memberdef kind="function" id="class_user_interface_1ab726cdce7e7518aae70cf42594139589" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void UserInterface::getDependenceType</definition>
+        <definition>void UserInterface::callGetDependenceType</definition>
         <argsstring>()</argsstring>
-        <name>getDependenceType</name>
+        <name>callGetDependenceType</name>
         <briefdescription>
-<para>Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки. Генерирует тестовую последовательность. Вызывает несколько сортировок с разными типами внутренней сортировки. Получает зависимость характеристик от типа внутренней сортировки. Оповещает о возникающих ошибках. </para>        </briefdescription>
+<para>Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Генерирует тестовую последовательность. Вызывает несколько сортировок с разными типами внутренней сортировки. Получает зависимость характеристик от типа внутренней сортировки. Оповещает о возникающих ошибках. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="86" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="225" bodyend="264"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="96" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="225" bodyend="264"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" compoundref="_file_manager_8cpp" startline="208" endline="242">FileManager::generateSequence</references>
         <references refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" compoundref="_structures_8h" startline="7">Worst</references>
@@ -268,12 +268,12 @@
         <argsstring>()</argsstring>
         <name>initSession</name>
         <briefdescription>
-<para>Инициализирует сессию взаимодействия с пользователем. Задает бесконечный цикл взаимодействия с пользователем, вызывает getMethod(). Завершается если getMethod() возвращает false. </para>        </briefdescription>
+<para>Инициализирует сессию взаимодействия с пользователем. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Задает бесконечный цикл взаимодействия с пользователем, вызывает getMethod(). Завершается если getMethod() возвращает false. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="92" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="14" bodyend="34"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="103" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="14" bodyend="34"/>
         <referencedby refid="_external_merge_sort_production_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_external_merge_sort_production_8cpp" startline="8" endline="14">main</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_user_interface_1ae6fb70370701b3bd6120e923df9705b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -282,12 +282,12 @@
         <argsstring>()</argsstring>
         <name>UserInterface</name>
         <briefdescription>
-<para>Пустой конструктор класса. Обнуляет атрибуты. </para>        </briefdescription>
+<para>Пустой конструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Обнуляет атрибуты. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="97" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="346" bodyend="349"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="109" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="346" bodyend="349"/>
       </memberdef>
       <memberdef kind="function" id="class_user_interface_1ae588b2ff1711a016dd4c6fc5002c0841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -295,12 +295,12 @@
         <argsstring>()</argsstring>
         <name>~UserInterface</name>
         <briefdescription>
-<para>Деструктор класса. Освобождает выделенную память. </para>        </briefdescription>
+<para>Деструктор класса. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Освобождает выделенную память. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="102" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="352" bodyend="354"/>
+        <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="115" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" bodystart="352" bodyend="354"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -336,17 +336,17 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="14" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" bodystart="13" bodyend="103"/>
+    <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" line="14" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h" bodystart="13" bodyend="116"/>
     <listofallmembers>
       <member refid="class_user_interface_1a7957201b3543ea0561d48bcc0a0d329e" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callEstimate</name></member>
       <member refid="class_user_interface_1a27c547dadfd5588d5b734e253b2e8a4a" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callGenerate</name></member>
+      <member refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callGetDependenceSize</name></member>
+      <member refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callGetDependenceSizeOfSegments</name></member>
+      <member refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callGetDependenceType</name></member>
       <member refid="class_user_interface_1a332db63dca89d684f7e9e1272f4c3745" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callGetDependencies</name></member>
       <member refid="class_user_interface_1ad388ff348c0a124038f4ea9756b80041" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callMethod</name></member>
       <member refid="class_user_interface_1adcabf6c8f2be4b4ec712c4674156bf59" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callSetParams</name></member>
       <member refid="class_user_interface_1a0e03dfecee7e890ad1e076888062d5cb" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>callSort</name></member>
-      <member refid="class_user_interface_1af7c9d93ec693f70dcfbdd9e6a080abc7" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>getDependenceSize</name></member>
-      <member refid="class_user_interface_1aaac8a635efdb79276275f9d1ea265cd7" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>getDependenceSizeOfSegments</name></member>
-      <member refid="class_user_interface_1ab726cdce7e7518aae70cf42594139589" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>getDependenceType</name></member>
       <member refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" prot="public" virt="non-virtual"><scope>UserInterface</scope><name>initSession</name></member>
       <member refid="class_user_interface_1a24b9a8a0a253382b0737a86f7ecf7d8b" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>menu</name></member>
       <member refid="class_user_interface_1a3ec4a2871150fd6b83ddf9d459aa0afc" prot="private" virt="non-virtual"><scope>UserInterface</scope><name>responceString</name></member>

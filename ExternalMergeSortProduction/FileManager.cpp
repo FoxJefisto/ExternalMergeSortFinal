@@ -38,12 +38,12 @@ void FileManager::clearOutFile()
 	}
 }
 
-Responce FileManager::read(long long *arr, long long size, long long *readNumber)
+Response FileManager::read(long long *arr, long long size, long long *readNumber)
 {
 	if (iFile == nullptr)
-		return Responce::FileNotExist;
+		return Response::FileNotExist;
 	if (state != FileState::ReadAndWrite && state != FileState::ReadOnly) {
-		return Responce::FileManagerFail;
+		return Response::FileManagerFail;
 	}
 	if (!iFile->is_open()) {
 		iFile->open(iFileStr->c_str());
@@ -83,7 +83,7 @@ Responce FileManager::read(long long *arr, long long size, long long *readNumber
 	return Success;
 }
 
-Responce FileManager::write(long long num)
+Response FileManager::write(long long num)
 {
 	if (!oFile->is_open()) {
 		oFile->open(oFileStr->c_str(), ios_base::app);
@@ -96,7 +96,7 @@ Responce FileManager::write(long long num)
 }
 
 
-Responce FileManager::write(long long * arr, long long size)
+Response FileManager::write(long long * arr, long long size)
 {
 	if (!oFile->is_open()) {
 		oFile->open(oFileStr->c_str(),ios_base::app);
@@ -110,7 +110,7 @@ Responce FileManager::write(long long * arr, long long size)
 	return Success;
 }
 
-Responce FileManager::setFiles(string file, FileState st)
+Response FileManager::setFiles(string file, FileState st)
 {
 	switch (st) {
 	case FileState::ReadOnly:
@@ -122,7 +122,7 @@ Responce FileManager::setFiles(string file, FileState st)
 		if (iFile->fail()) {
 			iFile = nullptr;
 			state = FileState::NotEnable;
-			return Responce::FileNotExist;
+			return Response::FileNotExist;
 		}
 		iFile->close();
 		state = st;
@@ -137,10 +137,10 @@ Responce FileManager::setFiles(string file, FileState st)
 	default: state = FileState::NotEnable;
 		break;
 	}
-	return Responce::Success;
+	return Response::Success;
 }
 
-Responce FileManager::setFiles(string inFile, string outFile)
+Response FileManager::setFiles(string inFile, string outFile)
 {
 	iFile = new ifstream();
 	iFileStr = new string();
@@ -150,7 +150,7 @@ Responce FileManager::setFiles(string inFile, string outFile)
 	if (iFile->fail()) {
 		iFile = nullptr;
 		state = FileState::NotEnable;
-		return Responce::FileNotExist;
+		return Response::FileNotExist;
 	}
 	iFile->close();
 	oFile = new ofstream();
@@ -158,7 +158,7 @@ Responce FileManager::setFiles(string inFile, string outFile)
 	oFileStr->resize(outFile.size());
 	oFileStr->assign(outFile);
 	state = FileState::ReadAndWrite;
-	return Responce::Success;
+	return Response::Success;
 }
 
 
@@ -205,10 +205,10 @@ FileManager::FileManager()
 	state = FileState::NotEnable;
 }
 
-Responce FileManager::generateSequence(long long size, SeqType type)
+Response FileManager::generateSequence(long long size, SeqType type)
 {
 	if (state != FileState::ReadAndWrite && state != FileState::WriteOnly) {
-		return Responce::FileNotExist;
+		return Response::FileNotExist;
 	}
 	srand(time(0));
 	oFile->open(*oFileStr);
@@ -238,7 +238,7 @@ Responce FileManager::generateSequence(long long size, SeqType type)
 		}
 	}
 	oFile->close();
-	return Responce::Success;
+	return Response::Success;
 }
 
 FileManager::~FileManager()

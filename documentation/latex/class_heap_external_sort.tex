@@ -2,6 +2,17 @@
 \label{class_heap_external_sort}\index{Heap\+External\+Sort@{Heap\+External\+Sort}}
 
 
+\subsection{Подробное описание}
+Класс внешней многофазной сортировки слиянием, использующий внутреннюю пирамидальную сортировку 
+
+\begin{DoxyAuthor}{Автор}
+Alexander Filippov 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Дата}
+Ноябрь 2016 года
+\end{DoxyDate}
+Наследуется от \hyperlink{class_external_merge_sort}{External\+Merge\+Sort}, перегружает метод внутренней сортировки, который осуществляет пирамидальную сортировку последовательности. 
+
 {\ttfamily \#include $<$Heap\+External\+Sort.\+h$>$}
 
 
@@ -25,17 +36,17 @@
 \subsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
-virtual void \hyperlink{class_heap_external_sort_a908087ce13932b268a35e1184a05ea44}{sort} (long long $\ast$numbers, long long array\+\_\+size)
-\item 
 \hyperlink{class_heap_external_sort_a9e6236e47430f0b530b287a6d7cf3a8b}{Heap\+External\+Sort} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Пустой конструктор класса. \end{DoxyCompactList}\item 
 \hyperlink{class_heap_external_sort_afa76473510a8cb610bb94bca5b5202c9}{$\sim$\+Heap\+External\+Sort} ()
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Пустой виртуальный деструктор класса. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Закрытые члены}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f}{sift\+Down} (long long $\ast$numbers, long long root, long long bottom)
-\end{DoxyCompactItemize}
+void \hyperlink{class_heap_external_sort_af476431c6fafd53c40ab306c97a37134}{sift\+Down} (long long $\ast$arr, long long root, long long bottom)
+\begin{DoxyCompactList}\small\item\em Получение нового опорного элемента \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_heap_external_sort_a908087ce13932b268a35e1184a05ea44}{sort} (long long $\ast$numbers, long long array\+\_\+size)
+\begin{DoxyCompactList}\small\item\em Сортирует последовательность длиной size методом пирамидальной сортировки. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Дополнительные унаследованные члены}
 
 
@@ -46,7 +57,11 @@ void \hyperlink{class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f}{sift
 \subsubsection{\texorpdfstring{Heap\+External\+Sort()}{HeapExternalSort()}}
 {\footnotesize\ttfamily Heap\+External\+Sort\+::\+Heap\+External\+Sort (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-\hypertarget{class_heap_external_sort_afa76473510a8cb610bb94bca5b5202c9}{}\label{class_heap_external_sort_afa76473510a8cb610bb94bca5b5202c9} 
+
+
+Пустой конструктор класса. 
+
+Обнуляет атрибуты. \hypertarget{class_heap_external_sort_afa76473510a8cb610bb94bca5b5202c9}{}\label{class_heap_external_sort_afa76473510a8cb610bb94bca5b5202c9} 
 \index{Heap\+External\+Sort@{Heap\+External\+Sort}!````~Heap\+External\+Sort@{$\sim$\+Heap\+External\+Sort}}
 \index{````~Heap\+External\+Sort@{$\sim$\+Heap\+External\+Sort}!Heap\+External\+Sort@{Heap\+External\+Sort}}
 \subsubsection{\texorpdfstring{$\sim$\+Heap\+External\+Sort()}{~HeapExternalSort()}}
@@ -54,36 +69,64 @@ void \hyperlink{class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f}{sift
 
 
 
+Пустой виртуальный деструктор класса. 
+
+Освобождает выделенную память. 
+
 \subsection{Методы}
-\hypertarget{class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f}{}\label{class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f} 
+\hypertarget{class_heap_external_sort_af476431c6fafd53c40ab306c97a37134}{}\label{class_heap_external_sort_af476431c6fafd53c40ab306c97a37134} 
 \index{Heap\+External\+Sort@{Heap\+External\+Sort}!sift\+Down@{sift\+Down}}
 \index{sift\+Down@{sift\+Down}!Heap\+External\+Sort@{Heap\+External\+Sort}}
 \subsubsection{\texorpdfstring{sift\+Down()}{siftDown()}}
-{\footnotesize\ttfamily void Heap\+External\+Sort\+::sift\+Down (\begin{DoxyParamCaption}\item[{long long $\ast$}]{numbers,  }\item[{long long}]{root,  }\item[{long long}]{bottom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily void Heap\+External\+Sort\+::sift\+Down (\begin{DoxyParamCaption}\item[{long long $\ast$}]{arr,  }\item[{long long}]{root,  }\item[{long long}]{bottom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
-Граф вызовов\+:\nopagebreak
+
+
+Получение нового опорного элемента 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em arr} & Сортируемый массив. \\
+\hline
+\mbox{\tt in}  & {\em root} & Корневой элемент. \\
+\hline
+\mbox{\tt in}  & {\em bottom} & Наименьший элемент.\\
+\hline
+\end{DoxyParams}
+Получает новый опроный элемент пирамидальной сортировки, исходя из передаваемых параметров. Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f_cgraph}
+\includegraphics[width=350pt]{class_heap_external_sort_af476431c6fafd53c40ab306c97a37134_cgraph}
 \end{center}
 \end{figure}
 Граф вызова функции\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_heap_external_sort_a927eea9dcf44a9c7d53db1039bc7e21f_icgraph}
+\includegraphics[width=350pt]{class_heap_external_sort_af476431c6fafd53c40ab306c97a37134_icgraph}
 \end{center}
 \end{figure}
 \hypertarget{class_heap_external_sort_a908087ce13932b268a35e1184a05ea44}{}\label{class_heap_external_sort_a908087ce13932b268a35e1184a05ea44} 
 \index{Heap\+External\+Sort@{Heap\+External\+Sort}!sort@{sort}}
 \index{sort@{sort}!Heap\+External\+Sort@{Heap\+External\+Sort}}
 \subsubsection{\texorpdfstring{sort()}{sort()}}
-{\footnotesize\ttfamily void Heap\+External\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{numbers,  }\item[{long long}]{array\+\_\+size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily void Heap\+External\+Sort\+::sort (\begin{DoxyParamCaption}\item[{long long $\ast$}]{numbers,  }\item[{long long}]{array\+\_\+size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}
 
 
 
-Замещает \hyperlink{class_external_merge_sort_af6412221cc797a846243a343ccc12dba}{External\+Merge\+Sort}.
+Сортирует последовательность длиной size методом пирамидальной сортировки. 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em arr} & Массив, который необходимо отсортировать. \\
+\hline
+\mbox{\tt in}  & {\em size} & Длина массива.\\
+\hline
+\end{DoxyParams}
+Виртуальный метод. Перегружен в классе. Сортирует последовательность длиной size методом пирамидальной сортировки. 
+
+Замещает \hyperlink{class_external_merge_sort_a7b777f22151fdd869624d8aa5a39a7bb}{External\+Merge\+Sort}.
 
 Граф вызовов\+:\nopagebreak
 \begin{figure}[H]
