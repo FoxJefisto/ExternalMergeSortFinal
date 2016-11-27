@@ -1,4 +1,4 @@
-.TH "FileManager" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "FileManager" 3 "Вс 27 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -46,23 +46,23 @@ Alexander Filippov
 .br
 .RI "Очистка выходного файла\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBread\fP (long long *arr, long long size, long long *readNumber)"
+.RI "\fBResponse\fP \fBread\fP (long long *arr, long long size, long long *readNumber)"
 .br
 .RI "Чтение входной последовательности из файла\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBwrite\fP (long long num)"
+.RI "\fBResponse\fP \fBwrite\fP (long long num)"
 .br
 .RI "Запись числа в файл\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBwrite\fP (long long *arr, long long size)"
+.RI "\fBResponse\fP \fBwrite\fP (long long *arr, long long size)"
 .br
 .RI "Запись последовательности в файл\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBsetFiles\fP (string file, \fBFileState\fP st)"
+.RI "\fBResponse\fP \fBsetFiles\fP (string file, \fBFileState\fP st)"
 .br
 .RI "Определение атрибутов менеджера\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBsetFiles\fP (string inFile, string outFile)"
+.RI "\fBResponse\fP \fBsetFiles\fP (string inFile, string outFile)"
 .br
 .RI "Определение атрибутов менеджера\&. "
 .ti -1c
@@ -74,7 +74,7 @@ Alexander Filippov
 .br
 .RI "Проверка входного и выходного файла на эквивалентность\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBgenerateSequence\fP (long long size, \fBSeqType\fP type)"
+.RI "\fBResponse\fP \fBgenerateSequence\fP (long long size, \fBSeqType\fP type)"
 .br
 .RI "Определение атрибутов менеджера\&. "
 .ti -1c
@@ -183,7 +183,7 @@ true, если файлы эквивалентны; false, если нет\&.
 
 .PP
 Закрытие выходного файла\&. Закрывает входной файл, сохраняя записанную последовательность, если он существует\&. 
-.SS "\fBResponce\fP FileManager::generateSequence (long long size, \fBSeqType\fP type)"
+.SS "\fBResponse\fP FileManager::generateSequence (long long size, \fBSeqType\fP type)"
 
 .PP
 Определение атрибутов менеджера\&. 
@@ -223,7 +223,7 @@ true, если файлы эквивалентны; false, если нет\&.
 .RE
 .PP
 Возвращает текущее состояние менеджера\&. 
-.SS "\fBResponce\fP FileManager::read (long long * arr, long long size, long long * readNumber)"
+.SS "\fBResponse\fP FileManager::read (long long * arr, long long size, long long * readNumber)"
 
 .PP
 Чтение входной последовательности из файла\&. 
@@ -254,7 +254,7 @@ true, если файлы эквивалентны; false, если нет\&.
 .RE
 .PP
 Устанавливает флаг в нужное положение, например сброс флага, если он уже был обработан\&. 
-.SS "\fBResponce\fP FileManager::setFiles (string file, \fBFileState\fP st)"
+.SS "\fBResponse\fP FileManager::setFiles (string file, \fBFileState\fP st)"
 
 .PP
 Определение атрибутов менеджера\&. 
@@ -272,7 +272,7 @@ true, если файлы эквивалентны; false, если нет\&.
 .RE
 .PP
 Задает атрибуты менеджера, если это возможно\&. Возвращает код успеха или ошибки\&. 
-.SS "\fBResponce\fP FileManager::setFiles (string inFile, string outFile)"
+.SS "\fBResponse\fP FileManager::setFiles (string inFile, string outFile)"
 
 .PP
 Определение атрибутов менеджера\&. 
@@ -290,7 +290,7 @@ true, если файлы эквивалентны; false, если нет\&.
 .RE
 .PP
 Задает атрибуты менеджера, если это возможно\&. Устанавливает режим ReadAndWrite или возвращает код ошибки\&. Возвращает код успеха или ошибки\&. 
-.SS "\fBResponce\fP FileManager::write (long long num)"
+.SS "\fBResponse\fP FileManager::write (long long num)"
 
 .PP
 Запись числа в файл\&. 
@@ -306,7 +306,7 @@ true, если файлы эквивалентны; false, если нет\&.
 .RE
 .PP
 Записывает число в выходной файл\&. Возвращает код успеха или ошибки\&. 
-.SS "\fBResponce\fP FileManager::write (long long * arr, long long size)"
+.SS "\fBResponse\fP FileManager::write (long long * arr, long long size)"
 
 .PP
 Запись последовательности в файл\&. 

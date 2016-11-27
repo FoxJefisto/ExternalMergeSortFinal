@@ -7,66 +7,66 @@
     <includedby refid="_external_merge_sort_production_8cpp" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp</includedby>
     <includedby refid="_user_interface_8cpp" local="yes">C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</includedby>
     <incdepgraph>
-      <node id="258">
+      <node id="259">
         <label>Counter.h</label>
         <link refid="_counter_8h"/>
-        <childnode refid="259" relation="include">
-        </childnode>
-      </node>
-      <node id="252">
-        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h</label>
-        <link refid="_user_interface_8h"/>
-        <childnode refid="253" relation="include">
-        </childnode>
-        <childnode refid="255" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
       </node>
       <node id="253">
-        <label>Structures.h</label>
-        <link refid="_structures_8h"/>
+        <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h</label>
+        <link refid="_user_interface_8h"/>
         <childnode refid="254" relation="include">
         </childnode>
-      </node>
-      <node id="257">
-        <label>fstream</label>
-      </node>
-      <node id="255">
-        <label>ExternalMergeSort.h</label>
-        <link refid="_external_merge_sort_8h"/>
         <childnode refid="256" relation="include">
         </childnode>
-        <childnode refid="258" relation="include">
-        </childnode>
-      </node>
-      <node id="259">
-        <label>ctime</label>
       </node>
       <node id="254">
-        <label>iostream</label>
+        <label>Structures.h</label>
+        <link refid="_structures_8h"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>fstream</label>
       </node>
       <node id="256">
-        <label>FileManager.h</label>
-        <link refid="_file_manager_8h"/>
+        <label>ExternalMergeSort.h</label>
+        <link refid="_external_merge_sort_8h"/>
         <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="253" relation="include">
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="260">
+        <label>ctime</label>
+      </node>
+      <node id="255">
+        <label>iostream</label>
+      </node>
+      <node id="257">
+        <label>FileManager.h</label>
+        <link refid="_file_manager_8h"/>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="260">
+      <node id="261">
         <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h</label>
         <link refid="_user_interface_8h"/>
-        <childnode refid="261" relation="include">
-        </childnode>
         <childnode refid="262" relation="include">
         </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
       </node>
-      <node id="261">
+      <node id="262">
         <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp</label>
         <link refid="_external_merge_sort_production_8cpp"/>
       </node>
-      <node id="262">
+      <node id="263">
         <label>C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp</label>
         <link refid="_user_interface_8cpp"/>
       </node>
@@ -94,16 +94,17 @@
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1a0e03dfecee7e890ad1e076888062d5cb" kindref="member">callSort</ref>();</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1a7957201b3543ea0561d48bcc0a0d329e" kindref="member">callEstimate</ref>();</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1a332db63dca89d684f7e9e1272f4c3745" kindref="member">callGetDependencies</ref>();</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref><sp/><ref refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" kindref="member">setParams</ref>(<ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*file,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>sizeOfSegments,<sp/><ref refid="_structures_8h_1adbb15722785daaf5166f7ea34323854c" kindref="member">TypeOfSort</ref><sp/>type);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kindref="member">Response</ref><sp/><ref refid="class_user_interface_1a50f82c57764069c9fcb7557d835135ff" kindref="member">setParams</ref>(<ref refid="class_file_manager" kindref="compound">FileManager</ref><sp/>*file,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>sizeOfSegments,<sp/><ref refid="_structures_8h_1adbb15722785daaf5166f7ea34323854c" kindref="member">TypeOfSort</ref><sp/>type);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" kindref="member">callGetDependenceSize</ref>();</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" kindref="member">callGetDependenceSizeOfSegments</ref>();</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" kindref="member">callGetDependenceType</ref>();</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" kindref="member">initSession</ref>();</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_user_interface_1ae6fb70370701b3bd6120e923df9705b0" kindref="member">UserInterface</ref>();</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_user_interface_1ae588b2ff1711a016dd4c6fc5002c0841" kindref="member">~UserInterface</ref>();</highlight></codeline>
-<codeline lineno="116"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1af9043ca8df15d62de342d7cbfa2eb3d7" kindref="member">matrixTime</ref>();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" kindref="member">initSession</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_user_interface_1ae6fb70370701b3bd6120e923df9705b0" kindref="member">UserInterface</ref>();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_user_interface_1ae588b2ff1711a016dd4c6fc5002c0841" kindref="member">~UserInterface</ref>();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h"/>
   </compounddef>

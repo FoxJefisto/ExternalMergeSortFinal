@@ -1,4 +1,4 @@
-.TH "Counter" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "Counter" 3 "Вс 27 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -111,19 +111,19 @@ Alexander Filippov
 
 .PP
 Обнуление счетчика\&. Обнуляет все счетчики, присваивает всем атрибутам 0\&. 
-.SS "long Counter::getComparsion ()"
+.SS "long long Counter::getComparsion ()"
 
 .PP
 Получение счетчика сравнений\&. /return Число сравнений, задаваемое атрибутом comparsion\&. Получает число сравнений, задаваемое атрибутом comparsion\&. 
-.SS "long Counter::getFileOp ()"
+.SS "long long Counter::getFileOp ()"
 
 .PP
 Получение счетчика файловых операций\&. /return Число файловых операций, задаваемое атрибутом fileOp\&. Получает число файловых операций, задаваемое атрибутом fileOp\&. 
-.SS "long Counter::getSwaps ()"
+.SS "long long Counter::getSwaps ()"
 
 .PP
 Получение счетчика перестановок\&. /return Число перестановок, задаваемое атрибутом swaps\&. Получает число перестановок, задаваемое атрибутом swaps\&. 
-.SS "long Counter::getTimeInterval ()"
+.SS "long long Counter::getTimeInterval ()"
 
 .PP
 Получение временного интервала\&. /return Возвращает число миллисекунд между моментами begTime и endTime\&. Подсчитывает временной интервал в миллисекундах работы программы от момента begTime до момента endTime\&. 
@@ -157,7 +157,7 @@ Alexander Filippov
 
 .PP
 Задание начальной точки отсчета\&. Присваивает атрибуту begTime текущее число тактов работы программы\&. 
-.SS "long Counter::setEndTime ()"
+.SS "long long Counter::setEndTime ()"
 
 .PP
 Задание конечной точки отсчета\&. /return Возвращает число миллисекунд между моментами begTime и endTime\&. Присваивает атрибуту endTime текущее число тактов работы программы\&. 

@@ -1,0 +1,7 @@
+<map id="ExternalMergeSort::mergeSequencesNew" name="ExternalMergeSort::mergeSequencesNew">
+<area shape="rect" id="node2" href="$class_file_manager.html#a49df99509ff2700e0e5edd06adca345c" title="Получение флага конца файла. " alt="" coords="201,5,377,32"/>
+<area shape="rect" id="node3" href="$class_file_manager.html#a66fd5270bbc2bd37151c59a713a10abf" title="Чтение входной последовательности из файла. " alt="" coords="226,56,353,83"/>
+<area shape="rect" id="node4" href="$class_counter.html#a224d93150c0fe2982d3efd7aa99668e6" title="Увеличение счетчика сравнений. " alt="" coords="209,107,370,133"/>
+<area shape="rect" id="node5" href="$class_file_manager.html#a00ecad8c4cdb3fd24d0199379c604947" title="Запись числа в файл. " alt="" coords="225,157,353,184"/>
+<area shape="rect" id="node6" href="$class_file_manager.html#a6a1f1ddbf047fc7e9531f483e4c62148" title="Закрытие выходного файла. " alt="" coords="208,208,371,235"/>
+</map>

@@ -1,4 +1,4 @@
-.TH "ExternalMergeSort" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "ExternalMergeSort" 3 "Вс 27 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -36,11 +36,11 @@ Alexander Filippov
 .br
 .RI "Конструктор класса\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBsetParams\fP (\fBFileManager\fP *file, long long \fBsizeOfSegments\fP)"
+.RI "\fBResponse\fP \fBsetParams\fP (\fBFileManager\fP *file, long long \fBsizeOfSegments\fP)"
 .br
 .RI "Определение параметров сортировки\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBexternalSort\fP ()"
+.RI "\fBResponse\fP \fBexternalSort\fP ()"
 .br
 .RI "Вызывает метод внешней многофазной сортировки\&. "
 .ti -1c
@@ -72,11 +72,11 @@ Alexander Filippov
 
 .in +1c
 .ti -1c
-.RI "\fBResponce\fP \fBcreateRuns\fP (long long *size)"
+.RI "\fBResponse\fP \fBcreateRuns\fP (long long *size)"
 .br
 .RI "Чтение входной последовательности из файла\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBmergeSequencesNew\fP (\fBFileManager\fP *input1, \fBFileManager\fP *input2, \fBFileManager\fP *out, long long size)"
+.RI "\fBResponse\fP \fBmergeSequencesNew\fP (\fBFileManager\fP *input1, \fBFileManager\fP *input2, \fBFileManager\fP *out, long long size)"
 .br
 .RI "Слияние последовательностей\&. "
 .ti -1c
@@ -129,7 +129,7 @@ Alexander Filippov
 Пустой виртуальный деструктор класса\&. Освобождает выделенную память\&. 
 .SH "Методы"
 .PP 
-.SS "\fBResponce\fP ExternalMergeSort::createRuns (long long * size)\fC [private]\fP"
+.SS "\fBResponse\fP ExternalMergeSort::createRuns (long long * size)\fC [private]\fP"
 
 .PP
 Чтение входной последовательности из файла\&. 
@@ -145,7 +145,7 @@ Alexander Filippov
 .RE
 .PP
 Считывает последовательности длиной size, сортирует их методом перегруженным в производных классах и записывает в один из буферных файлов\&. 
-.SS "\fBResponce\fP ExternalMergeSort::externalSort ()"
+.SS "\fBResponse\fP ExternalMergeSort::externalSort ()"
 
 .PP
 Вызывает метод внешней многофазной сортировки\&. 
@@ -156,7 +156,7 @@ Alexander Filippov
 .RE
 .PP
 Осуществляет внешнюю многофазную сортировку слиянием\&. Вызывает createRuns(\&.\&.\&.), mergeSequncesNew(\&.\&.\&.)\&. 
-.SS "\fBResponce\fP ExternalMergeSort::mergeSequencesNew (\fBFileManager\fP * input1, \fBFileManager\fP * input2, \fBFileManager\fP * out, long long size)\fC [private]\fP"
+.SS "\fBResponse\fP ExternalMergeSort::mergeSequencesNew (\fBFileManager\fP * input1, \fBFileManager\fP * input2, \fBFileManager\fP * out, long long size)\fC [private]\fP"
 
 .PP
 Слияние последовательностей\&. 
@@ -200,7 +200,7 @@ Alexander Filippov
 .RE
 .PP
 Задает тип логгирования: WithOut - без логгирования, File - логгирование в файл log\&.txt, CLI - логгирование в консоль\&. 
-.SS "\fBResponce\fP ExternalMergeSort::setParams (\fBFileManager\fP * file, long long sizeOfSegments)"
+.SS "\fBResponse\fP ExternalMergeSort::setParams (\fBFileManager\fP * file, long long sizeOfSegments)"
 
 .PP
 Определение параметров сортировки\&. 

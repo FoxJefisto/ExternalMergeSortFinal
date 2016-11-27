@@ -124,9 +124,9 @@
       <member refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>counter</name></member>
       <member refid="class_external_merge_sort_1a7b6efcd2abbf59a8983f972c52d04650" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>ExternalMergeSort</name></member>
       <member refid="class_external_merge_sort_1a37df182916b341d5466f2fff0d50dfed" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>ExternalMergeSort</name></member>
-      <member refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>externalSort</name></member>
+      <member refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>externalSort</name></member>
       <member refid="class_external_merge_sort_1ac0eeaba67ee0703acf73a8a5bf78ebe1" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>setLog</name></member>
-      <member refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>setParams</name></member>
+      <member refid="class_external_merge_sort_1a45719200cc5e3111fe68c08fe36be715" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>setParams</name></member>
       <member refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" prot="private" virt="virtual"><scope>BubbleExternalSort</scope><name>sort</name></member>
       <member refid="class_bubble_external_sort_1a2075c6e2117da937f397ceb993336e81" prot="public" virt="non-virtual"><scope>BubbleExternalSort</scope><name>~BubbleExternalSort</name></member>
       <member refid="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" prot="public" virt="virtual"><scope>BubbleExternalSort</scope><name>~ExternalMergeSort</name></member>

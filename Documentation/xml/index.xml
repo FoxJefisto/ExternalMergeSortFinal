@@ -13,14 +13,14 @@
     <member refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" kind="variable"><name>swaps</name></member>
     <member refid="class_counter_1a1e05f69b5240fbab3e7ab351672167f0" kind="function"><name>Counter</name></member>
     <member refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" kind="function"><name>setBegTime</name></member>
-    <member refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" kind="function"><name>setEndTime</name></member>
-    <member refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" kind="function"><name>getTimeInterval</name></member>
+    <member refid="class_counter_1a563ab520e0e9ea20d4d4d113f566658a" kind="function"><name>setEndTime</name></member>
+    <member refid="class_counter_1ae5acb21f01b8317c8db1d99f7b56dc95" kind="function"><name>getTimeInterval</name></member>
     <member refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" kind="function"><name>incSwaps</name></member>
-    <member refid="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" kind="function"><name>getSwaps</name></member>
+    <member refid="class_counter_1ae8d7757e6613ed651f7f505931cb377c" kind="function"><name>getSwaps</name></member>
     <member refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" kind="function"><name>incComparsion</name></member>
-    <member refid="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" kind="function"><name>getComparsion</name></member>
+    <member refid="class_counter_1a5288fadfdc786d5bf91ae4d04b6a7ab8" kind="function"><name>getComparsion</name></member>
     <member refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" kind="function"><name>incFileOp</name></member>
-    <member refid="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" kind="function"><name>getFileOp</name></member>
+    <member refid="class_counter_1ae84d6627ab98d69b7dd2e5ea243cffed" kind="function"><name>getFileOp</name></member>
     <member refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" kind="function"><name>clear</name></member>
     <member refid="class_counter_1a97f4728470ae8eff37d50ef1d6bb0135" kind="function"><name>~Counter</name></member>
   </compound>
@@ -30,14 +30,14 @@
     <member refid="class_external_merge_sort_1a4b050cd230e144a11f65e57523e15ce6" kind="variable"><name>ok</name></member>
     <member refid="class_external_merge_sort_1a41f61c3beb7dc529d7f2a8b2b4ee380b" kind="variable"><name>log</name></member>
     <member refid="class_external_merge_sort_1ac9cb039a5cda56e66aecbc17465dd237" kind="variable"><name>counter</name></member>
-    <member refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" kind="function"><name>createRuns</name></member>
-    <member refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" kind="function"><name>mergeSequencesNew</name></member>
+    <member refid="class_external_merge_sort_1aae72743234c39c35a3460fecefa3a1f0" kind="function"><name>createRuns</name></member>
+    <member refid="class_external_merge_sort_1ad19b6bded122acbb6a4ee97b591011f8" kind="function"><name>mergeSequencesNew</name></member>
     <member refid="class_external_merge_sort_1a7a6b94fff35130ed6a498f9a31d0f863" kind="function"><name>print</name></member>
     <member refid="class_external_merge_sort_1a7b777f22151fdd869624d8aa5a39a7bb" kind="function"><name>sort</name></member>
     <member refid="class_external_merge_sort_1a7b6efcd2abbf59a8983f972c52d04650" kind="function"><name>ExternalMergeSort</name></member>
     <member refid="class_external_merge_sort_1a37df182916b341d5466f2fff0d50dfed" kind="function"><name>ExternalMergeSort</name></member>
-    <member refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" kind="function"><name>setParams</name></member>
-    <member refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" kind="function"><name>externalSort</name></member>
+    <member refid="class_external_merge_sort_1a45719200cc5e3111fe68c08fe36be715" kind="function"><name>setParams</name></member>
+    <member refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" kind="function"><name>externalSort</name></member>
     <member refid="class_external_merge_sort_1ac0eeaba67ee0703acf73a8a5bf78ebe1" kind="function"><name>setLog</name></member>
     <member refid="class_external_merge_sort_1adfee7073120e0ae832c96977440b2fb4" kind="function"><name>~ExternalMergeSort</name></member>
   </compound>
@@ -53,14 +53,14 @@
     <member refid="class_file_manager_1a49df99509ff2700e0e5edd06adca345c" kind="function"><name>getEndOfFile</name></member>
     <member refid="class_file_manager_1ace8ce2677414831b5a9e7030248fc832" kind="function"><name>setEndOfFile</name></member>
     <member refid="class_file_manager_1a2f1102abfd0a5a9d7e178968a3fdc56c" kind="function"><name>clearOutFile</name></member>
-    <member refid="class_file_manager_1aba031d681752c80f52a8a8af9b69834e" kind="function"><name>read</name></member>
-    <member refid="class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f" kind="function"><name>write</name></member>
-    <member refid="class_file_manager_1ad4c96727180b0055942d20b7b5bfe5f8" kind="function"><name>write</name></member>
-    <member refid="class_file_manager_1ab364b91193c482fc7387aec162f677ad" kind="function"><name>setFiles</name></member>
-    <member refid="class_file_manager_1a975bf0088fa67c83d78ec54b9f61a473" kind="function"><name>setFiles</name></member>
+    <member refid="class_file_manager_1a66fd5270bbc2bd37151c59a713a10abf" kind="function"><name>read</name></member>
+    <member refid="class_file_manager_1a00ecad8c4cdb3fd24d0199379c604947" kind="function"><name>write</name></member>
+    <member refid="class_file_manager_1a1a22f9564b45af8380f3f000aef842e4" kind="function"><name>write</name></member>
+    <member refid="class_file_manager_1a129c4ce6a95650d8e71498a826b21cee" kind="function"><name>setFiles</name></member>
+    <member refid="class_file_manager_1a646a785617b12f18c2e79bd471c943f8" kind="function"><name>setFiles</name></member>
     <member refid="class_file_manager_1abd4cbc2b218ab1828ae376a4a9137057" kind="function"><name>getState</name></member>
     <member refid="class_file_manager_1ab490a5a5882d33781dcb6d1d42945d97" kind="function"><name>checkForEquality</name></member>
-    <member refid="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" kind="function"><name>generateSequence</name></member>
+    <member refid="class_file_manager_1a73fc5901898b3a82441dc0e7b5a9ccf7" kind="function"><name>generateSequence</name></member>
     <member refid="class_file_manager_1a62d69473c95f8df25e44d2466bb00dc5" kind="function"><name>FileManager</name></member>
     <member refid="class_file_manager_1a2456e56bdcb617c3ee75521cf9dd7057" kind="function"><name>FileManager</name></member>
     <member refid="class_file_manager_1a8afd512c06be9daf140cc19d71f9b391" kind="function"><name>FileManager</name></member>
@@ -88,10 +88,11 @@
     <member refid="class_user_interface_1a0e03dfecee7e890ad1e076888062d5cb" kind="function"><name>callSort</name></member>
     <member refid="class_user_interface_1a7957201b3543ea0561d48bcc0a0d329e" kind="function"><name>callEstimate</name></member>
     <member refid="class_user_interface_1a332db63dca89d684f7e9e1272f4c3745" kind="function"><name>callGetDependencies</name></member>
-    <member refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" kind="function"><name>setParams</name></member>
+    <member refid="class_user_interface_1a50f82c57764069c9fcb7557d835135ff" kind="function"><name>setParams</name></member>
     <member refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" kind="function"><name>callGetDependenceSize</name></member>
     <member refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" kind="function"><name>callGetDependenceSizeOfSegments</name></member>
     <member refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" kind="function"><name>callGetDependenceType</name></member>
+    <member refid="class_user_interface_1af9043ca8df15d62de342d7cbfa2eb3d7" kind="function"><name>matrixTime</name></member>
     <member refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" kind="function"><name>initSession</name></member>
     <member refid="class_user_interface_1ae6fb70370701b3bd6120e923df9705b0" kind="function"><name>UserInterface</name></member>
     <member refid="class_user_interface_1ae588b2ff1711a016dd4c6fc5002c0841" kind="function"><name>~UserInterface</name></member>
@@ -136,16 +137,16 @@
     <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" kind="enumvalue"><name>ReadOnly</name></member>
     <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" kind="enumvalue"><name>WriteOnly</name></member>
     <member refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" kind="enumvalue"><name>ReadAndWrite</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kind="enum"><name>Responce</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" kind="enumvalue"><name>Success</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aeec752b095431b8fca92ea1de18c3d4b" kind="enumvalue"><name>GenerateError</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" kind="enumvalue"><name>FileNotExist</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aff5e0c4e167b2a74a058ba96eb0ee149" kind="enumvalue"><name>SizeError</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" kind="enumvalue"><name>FileManagerFail</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aebd38049a88fe839c522d0352fedda6c" kind="enumvalue"><name>InputAndOutputIsEqual</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" kind="enumvalue"><name>EndOfFile</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ae78c711dd9a3a19d8175eb124b17611c" kind="enumvalue"><name>MemoryError</name></member>
-    <member refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4" kind="enumvalue"><name>ParamsFail</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kind="enum"><name>Response</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c" kind="enumvalue"><name>Success</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aeec752b095431b8fca92ea1de18c3d4b" kind="enumvalue"><name>GenerateError</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7" kind="enumvalue"><name>FileNotExist</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aff5e0c4e167b2a74a058ba96eb0ee149" kind="enumvalue"><name>SizeError</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd" kind="enumvalue"><name>FileManagerFail</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aebd38049a88fe839c522d0352fedda6c" kind="enumvalue"><name>InputAndOutputIsEqual</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a54bad0135864f0edc76a7d2ac5e8c0eb" kind="enumvalue"><name>EndOfFile</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4ae78c711dd9a3a19d8175eb124b17611c" kind="enumvalue"><name>MemoryError</name></member>
+    <member refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4ab62878ccac0c970717a5464bb0984be4" kind="enumvalue"><name>ParamsFail</name></member>
     <member refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87c" kind="enum"><name>LogType</name></member>
     <member refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87cad0125052d862ba0d1091df092c091bf0" kind="enumvalue"><name>WithOut</name></member>
     <member refid="_structures_8h_1af67907baa897e9fb84df0cb89795b87ca172e8dc95b033321bf58a216636307c9" kind="enumvalue"><name>CLI</name></member>

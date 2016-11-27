@@ -1,4 +1,4 @@
-.TH "UserInterface" 3 "Вт 15 Ноя 2016" "Doxygen" \" -*- nroff -*-
+.TH "UserInterface" 3 "Вс 27 Ноя 2016" "Doxygen" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -66,7 +66,7 @@ Alexander Filippov
 .br
 .RI "Вызов метода получения зависимостей характеристик сортировки\&. "
 .ti -1c
-.RI "\fBResponce\fP \fBsetParams\fP (\fBFileManager\fP *file, long long sizeOfSegments, \fBTypeOfSort\fP type)"
+.RI "\fBResponse\fP \fBsetParams\fP (\fBFileManager\fP *file, long long sizeOfSegments, \fBTypeOfSort\fP type)"
 .br
 .RI "Метод, задающий параметры сортировки\&. "
 .ti -1c
@@ -81,6 +81,10 @@ Alexander Filippov
 .RI "void \fBcallGetDependenceType\fP ()"
 .br
 .RI "Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки\&. "
+.ti -1c
+.RI "void \fBmatrixTime\fP ()"
+.br
+.RI "Функция проверки корректности ввода\&. "
 .in -1c
 .SS "Закрытые данные"
 
@@ -162,7 +166,11 @@ Alexander Filippov
 
 .PP
 Инициализирует сессию взаимодействия с пользователем\&. Задает бесконечный цикл взаимодействия с пользователем, вызывает getMethod()\&. Завершается если getMethod() возвращает false\&. 
-.SS "\fBResponce\fP UserInterface::setParams (\fBFileManager\fP * file, long long sizeOfSegments, \fBTypeOfSort\fP type)\fC [private]\fP"
+.SS "void UserInterface::matrixTime ()\fC [private]\fP"
+
+.PP
+Функция проверки корректности ввода\&. Проверяет успешно ли считался запрашиваемый параметр, если нет, то просит повторить ввод\&. 
+.SS "\fBResponse\fP UserInterface::setParams (\fBFileManager\fP * file, long long sizeOfSegments, \fBTypeOfSort\fP type)\fC [private]\fP"
 
 .PP
 Метод, задающий параметры сортировки\&. Вызывает метод, создающий необходимый производный класс сортировки и задающий её параметры\&.

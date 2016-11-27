@@ -15,5 +15,5 @@ var searchData=
   ['closeifile',['closeIFile',['../class_file_manager.html#a4a4719a410ca31985e8b75ad75485ce6',1,'FileManager']]],
   ['closeofile',['closeOFile',['../class_file_manager.html#a6a1f1ddbf047fc7e9531f483e4c62148',1,'FileManager']]],
   ['counter',['Counter',['../class_counter.html#a1e05f69b5240fbab3e7ab351672167f0',1,'Counter']]],
-  ['createruns',['createRuns',['../class_external_merge_sort.html#aa3ec5ccebe04f02538ee42d0ffe7b75c',1,'ExternalMergeSort']]]
+  ['createruns',['createRuns',['../class_external_merge_sort.html#aae72743234c39c35a3460fecefa3a1f0',1,'ExternalMergeSort']]]
 ];

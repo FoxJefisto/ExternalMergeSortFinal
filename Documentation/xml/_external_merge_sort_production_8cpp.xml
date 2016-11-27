@@ -100,7 +100,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp" line="8" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSortProduction.cpp" bodystart="8" bodyend="14"/>
-        <references refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" compoundref="_user_interface_8cpp" startline="14" endline="34">UserInterface::initSession</references>
+        <references refid="class_user_interface_1a6c7f9ef9faa40eaf4760d57e89228786" compoundref="_user_interface_8cpp" startline="53" endline="76">UserInterface::initSession</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

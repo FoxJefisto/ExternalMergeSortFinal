@@ -17,7 +17,7 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="22" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="22" bodyend="-1"/>
         <referencedby refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" compoundref="_counter_8cpp" startline="10" endline="13">setBegTime</referencedby>
-        <referencedby refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</referencedby>
+        <referencedby refid="class_counter_1ae5acb21f01b8317c8db1d99f7b56dc95" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" prot="private" static="no" mutable="no">
@@ -32,8 +32,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="28" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="28" bodyend="-1"/>
-        <referencedby refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" compoundref="_counter_8cpp" startline="15" endline="19">setEndTime</referencedby>
-        <referencedby refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</referencedby>
+        <referencedby refid="class_counter_1a563ab520e0e9ea20d4d4d113f566658a" compoundref="_counter_8cpp" startline="15" endline="19">setEndTime</referencedby>
+        <referencedby refid="class_counter_1ae5acb21f01b8317c8db1d99f7b56dc95" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_counter_1a20f5a772c02412c338457dcc85c4a543" prot="private" static="no" mutable="no">
@@ -49,7 +49,7 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="33" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="33" bodyend="-1"/>
         <referencedby refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" compoundref="_counter_8cpp" startline="36" endline="39">incComparsion</referencedby>
-        <referencedby refid="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" compoundref="_counter_8cpp" startline="41" endline="44">getComparsion</referencedby>
+        <referencedby refid="class_counter_1a5288fadfdc786d5bf91ae4d04b6a7ab8" compoundref="_counter_8cpp" startline="41" endline="44">getComparsion</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_counter_1abc197117fc99ab93bebc483059ae0fbc" prot="private" static="no" mutable="no">
@@ -65,7 +65,7 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="39" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="39" bodyend="-1"/>
         <referencedby refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" compoundref="_counter_8cpp" startline="46" endline="49">incFileOp</referencedby>
-        <referencedby refid="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" compoundref="_counter_8cpp" startline="51" endline="54">getFileOp</referencedby>
+        <referencedby refid="class_counter_1ae84d6627ab98d69b7dd2e5ea243cffed" compoundref="_counter_8cpp" startline="51" endline="54">getFileOp</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" prot="private" static="no" mutable="no">
@@ -81,7 +81,7 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="45" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" bodystart="45" bodyend="-1"/>
         <referencedby refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" compoundref="_counter_8cpp" startline="26" endline="29">incSwaps</referencedby>
-        <referencedby refid="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" compoundref="_counter_8cpp" startline="31" endline="34">getSwaps</referencedby>
+        <referencedby refid="class_counter_1ae8d7757e6613ed651f7f505931cb377c" compoundref="_counter_8cpp" startline="31" endline="34">getSwaps</referencedby>
         <referencedby refid="class_counter_1af66c74ac2bc69fa4f30c34377f869596" compoundref="_counter_8cpp" startline="56" endline="63">clear</referencedby>
       </memberdef>
       </sectiondef>
@@ -113,11 +113,11 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="58" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="10" bodyend="13"/>
         <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="22">begTime</references>
-        <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
+        <referencedby refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_counter_1a563ab520e0e9ea20d4d4d113f566658a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>long long</type>
-        <definition>long Counter::setEndTime</definition>
+        <definition>long long Counter::setEndTime</definition>
         <argsstring>()</argsstring>
         <name>setEndTime</name>
         <briefdescription>
@@ -128,12 +128,12 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="65" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="15" bodyend="19"/>
         <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="28">endTime</references>
-        <references refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</references>
-        <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
+        <references refid="class_counter_1ae5acb21f01b8317c8db1d99f7b56dc95" compoundref="_counter_8cpp" startline="21" endline="24">getTimeInterval</references>
+        <referencedby refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_counter_1ae5acb21f01b8317c8db1d99f7b56dc95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>long long</type>
-        <definition>long Counter::getTimeInterval</definition>
+        <definition>long long Counter::getTimeInterval</definition>
         <argsstring>()</argsstring>
         <name>getTimeInterval</name>
         <briefdescription>
@@ -145,7 +145,7 @@
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="72" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="21" bodyend="24"/>
         <references refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" compoundref="_counter_8h" startline="28">endTime</references>
         <references refid="class_counter_1ae2f8fa6947d7daa4b977d4aae2ee3c43" compoundref="_counter_8h" startline="22">begTime</references>
-        <referencedby refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" compoundref="_counter_8cpp" startline="15" endline="19">setEndTime</referencedby>
+        <referencedby refid="class_counter_1a563ab520e0e9ea20d4d4d113f566658a" compoundref="_counter_8cpp" startline="15" endline="19">setEndTime</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -165,9 +165,9 @@
         <referencedby refid="class_heap_external_sort_1a908087ce13932b268a35e1184a05ea44" compoundref="_heap_external_sort_8cpp" startline="33" endline="44">HeapExternalSort::sort</referencedby>
         <referencedby refid="class_quick_external_sort_1ad7653bb697a04717066f9942db9a4597" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_counter_1ae8d7757e6613ed651f7f505931cb377c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>long long</type>
-        <definition>long Counter::getSwaps</definition>
+        <definition>long long Counter::getSwaps</definition>
         <argsstring>()</argsstring>
         <name>getSwaps</name>
         <briefdescription>
@@ -205,13 +205,13 @@
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="92" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="36" bodyend="39"/>
         <references refid="class_counter_1a20f5a772c02412c338457dcc85c4a543" compoundref="_counter_8h" startline="33">comparsion</references>
         <referencedby refid="class_bubble_external_sort_1a785502521871c44e6d9585108e4254bd" compoundref="_bubble_external_sort_8cpp" startline="5" endline="24">BubbleExternalSort::sort</referencedby>
-        <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
+        <referencedby refid="class_external_merge_sort_1ad19b6bded122acbb6a4ee97b591011f8" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
         <referencedby refid="class_heap_external_sort_1af476431c6fafd53c40ab306c97a37134" compoundref="_heap_external_sort_8cpp" startline="10" endline="32">HeapExternalSort::siftDown</referencedby>
         <referencedby refid="class_quick_external_sort_1ad7653bb697a04717066f9942db9a4597" compoundref="_quick_external_sort_8cpp" startline="16" endline="81">QuickExternalSort::qSortI</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_counter_1a5288fadfdc786d5bf91ae4d04b6a7ab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>long long</type>
-        <definition>long Counter::getComparsion</definition>
+        <definition>long long Counter::getComparsion</definition>
         <argsstring>()</argsstring>
         <name>getComparsion</name>
         <briefdescription>
@@ -248,12 +248,12 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.h" line="107" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/Counter.cpp" bodystart="46" bodyend="49"/>
         <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="39">fileOp</references>
-        <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
+        <referencedby refid="class_external_merge_sort_1aae72743234c39c35a3460fecefa3a1f0" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_counter_1ae84d6627ab98d69b7dd2e5ea243cffed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>long long</type>
-        <definition>long Counter::getFileOp</definition>
+        <definition>long long Counter::getFileOp</definition>
         <argsstring>()</argsstring>
         <name>getFileOp</name>
         <briefdescription>
@@ -283,7 +283,7 @@
         <references refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" compoundref="_counter_8h" startline="39">fileOp</references>
         <references refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" compoundref="_counter_8h" startline="45">swaps</references>
         <referencedby refid="class_counter_1a1e05f69b5240fbab3e7ab351672167f0" compoundref="_counter_8cpp" startline="5" endline="8">Counter</referencedby>
-        <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
+        <referencedby refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_counter_1a97f4728470ae8eff37d50ef1d6bb0135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -319,15 +319,15 @@
       <member refid="class_counter_1a1e05f69b5240fbab3e7ab351672167f0" prot="public" virt="non-virtual"><scope>Counter</scope><name>Counter</name></member>
       <member refid="class_counter_1a961ca391c9a8e3ac0efb8d6d61d734d4" prot="private" virt="non-virtual"><scope>Counter</scope><name>endTime</name></member>
       <member refid="class_counter_1abc197117fc99ab93bebc483059ae0fbc" prot="private" virt="non-virtual"><scope>Counter</scope><name>fileOp</name></member>
-      <member refid="class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0" prot="public" virt="non-virtual"><scope>Counter</scope><name>getComparsion</name></member>
-      <member refid="class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5" prot="public" virt="non-virtual"><scope>Counter</scope><name>getFileOp</name></member>
-      <member refid="class_counter_1af20f10e30e8bd1d078d1d66c518a814c" prot="public" virt="non-virtual"><scope>Counter</scope><name>getSwaps</name></member>
-      <member refid="class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6" prot="public" virt="non-virtual"><scope>Counter</scope><name>getTimeInterval</name></member>
+      <member refid="class_counter_1a5288fadfdc786d5bf91ae4d04b6a7ab8" prot="public" virt="non-virtual"><scope>Counter</scope><name>getComparsion</name></member>
+      <member refid="class_counter_1ae84d6627ab98d69b7dd2e5ea243cffed" prot="public" virt="non-virtual"><scope>Counter</scope><name>getFileOp</name></member>
+      <member refid="class_counter_1ae8d7757e6613ed651f7f505931cb377c" prot="public" virt="non-virtual"><scope>Counter</scope><name>getSwaps</name></member>
+      <member refid="class_counter_1ae5acb21f01b8317c8db1d99f7b56dc95" prot="public" virt="non-virtual"><scope>Counter</scope><name>getTimeInterval</name></member>
       <member refid="class_counter_1a224d93150c0fe2982d3efd7aa99668e6" prot="public" virt="non-virtual"><scope>Counter</scope><name>incComparsion</name></member>
       <member refid="class_counter_1a63310182709c321ad8fe8e78b81d12aa" prot="public" virt="non-virtual"><scope>Counter</scope><name>incFileOp</name></member>
       <member refid="class_counter_1aa0cd30379394257e44aa7afc84ed1fce" prot="public" virt="non-virtual"><scope>Counter</scope><name>incSwaps</name></member>
       <member refid="class_counter_1a71dea1262b81493aa9734f62a72b2691" prot="public" virt="non-virtual"><scope>Counter</scope><name>setBegTime</name></member>
-      <member refid="class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9" prot="public" virt="non-virtual"><scope>Counter</scope><name>setEndTime</name></member>
+      <member refid="class_counter_1a563ab520e0e9ea20d4d4d113f566658a" prot="public" virt="non-virtual"><scope>Counter</scope><name>setEndTime</name></member>
       <member refid="class_counter_1a2a5ee961a25c6eb87d1ad02bcef4ade1" prot="private" virt="non-virtual"><scope>Counter</scope><name>swaps</name></member>
       <member refid="class_counter_1a97f4728470ae8eff37d50ef1d6bb0135" prot="public" virt="non-virtual"><scope>Counter</scope><name>~Counter</name></member>
     </listofallmembers>

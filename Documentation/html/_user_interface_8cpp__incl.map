@@ -1,12 +1,12 @@
 <map id="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp" name="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.cpp">
 <area shape="rect" id="node2" href="$stdafx_8h.html" title="stdafx.h" alt="" coords="162,139,230,165"/>
 <area shape="rect" id="node7" href="$_user_interface_8h.html" title="UserInterface.h" alt="" coords="348,139,457,165"/>
-<area shape="rect" id="node10" href="$_external_merge_sort_8h.html" title="ExternalMergeSort.h" alt="" coords="588,213,729,240"/>
+<area shape="rect" id="node10" href="$_external_merge_sort_8h.html" title="ExternalMergeSort.h" alt="" coords="617,213,759,240"/>
 <area shape="rect" id="node11" href="$_file_manager_8h.html" title="FileManager.h" alt="" coords="444,288,548,315"/>
-<area shape="rect" id="node16" href="$_bubble_external_sort_8h.html" title="BubbleExternalSort.h" alt="" coords="743,139,889,165"/>
-<area shape="rect" id="node17" href="$_quick_external_sort_8h.html" title="QuickExternalSort.h" alt="" coords="913,139,1052,165"/>
-<area shape="rect" id="node18" href="$_heap_external_sort_8h.html" title="HeapExternalSort.h" alt="" coords="533,139,667,165"/>
+<area shape="rect" id="node16" href="$_bubble_external_sort_8h.html" title="BubbleExternalSort.h" alt="" coords="906,139,1051,165"/>
+<area shape="rect" id="node17" href="$_quick_external_sort_8h.html" title="QuickExternalSort.h" alt="" coords="532,139,671,165"/>
+<area shape="rect" id="node18" href="$_heap_external_sort_8h.html" title="HeapExternalSort.h" alt="" coords="695,139,830,165"/>
 <area shape="rect" id="node3" href="$targetver_8h.html" title="targetver.h" alt="" coords="17,213,100,240"/>
-<area shape="rect" id="node8" href="$_structures_8h.html" title="Structures.h" alt="" coords="352,363,445,389"/>
-<area shape="rect" id="node13" href="$_counter_8h.html" title="Counter.h" alt="" coords="619,288,698,315"/>
+<area shape="rect" id="node8" href="$_structures_8h.html" title="Structures.h" alt="" coords="349,363,443,389"/>
+<area shape="rect" id="node13" href="$_counter_8h.html" title="Counter.h" alt="" coords="649,288,727,315"/>
 </map>

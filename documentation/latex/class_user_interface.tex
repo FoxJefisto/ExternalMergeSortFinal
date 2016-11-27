@@ -48,14 +48,16 @@ void \hyperlink{class_user_interface_a7957201b3543ea0561d48bcc0a0d329e}{call\+Es
 \begin{DoxyCompactList}\small\item\em Вызов метода оценки характеристик внешней сортировки. \end{DoxyCompactList}\item 
 void \hyperlink{class_user_interface_a332db63dca89d684f7e9e1272f4c3745}{call\+Get\+Dependencies} ()
 \begin{DoxyCompactList}\small\item\em Вызов метода получения зависимостей характеристик сортировки. \end{DoxyCompactList}\item 
-\hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} \hyperlink{class_user_interface_a595a469d83a351719c75c65fbf4a6fbe}{set\+Params} (\hyperlink{class_file_manager}{File\+Manager} $\ast$file, long long size\+Of\+Segments, \hyperlink{_structures_8h_adbb15722785daaf5166f7ea34323854c}{Type\+Of\+Sort} type)
+\hyperlink{_structures_8h_ab3500e5d3c915d1b5cc58dcab8673fd4}{Response} \hyperlink{class_user_interface_a50f82c57764069c9fcb7557d835135ff}{set\+Params} (\hyperlink{class_file_manager}{File\+Manager} $\ast$file, long long size\+Of\+Segments, \hyperlink{_structures_8h_adbb15722785daaf5166f7ea34323854c}{Type\+Of\+Sort} type)
 \begin{DoxyCompactList}\small\item\em Метод, задающий параметры сортировки. \end{DoxyCompactList}\item 
 void \hyperlink{class_user_interface_a1dc307f92c919866f13ddaf30cde1a70}{call\+Get\+Dependence\+Size} ()
 \begin{DoxyCompactList}\small\item\em Вызов метода получения зависимостей характеристик сортировки от размера. \end{DoxyCompactList}\item 
 void \hyperlink{class_user_interface_ab668f3b2d9f89ce3eacda5e166f33807}{call\+Get\+Dependence\+Size\+Of\+Segments} ()
 \begin{DoxyCompactList}\small\item\em Вызов метода получения зависимостей характеристик сортировки от размера сегментов. \end{DoxyCompactList}\item 
 void \hyperlink{class_user_interface_aa413c00a65ae4faf9421e9fc359663ec}{call\+Get\+Dependence\+Type} ()
-\begin{DoxyCompactList}\small\item\em Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Вызов метода получения зависимостей характеристик сортировки от типа внутренней сортировки. \end{DoxyCompactList}\item 
+void \hyperlink{class_user_interface_af9043ca8df15d62de342d7cbfa2eb3d7}{matrix\+Time} ()
+\begin{DoxyCompactList}\small\item\em Функция проверки корректности ввода. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Закрытые данные}
 \begin{DoxyCompactItemize}
 \item 
@@ -234,11 +236,21 @@ const char $\ast$ \hyperlink{class_user_interface_a3ec4a2871150fd6b83ddf9d459aa0
 \includegraphics[width=282pt]{class_user_interface_a6c7f9ef9faa40eaf4760d57e89228786_icgraph}
 \end{center}
 \end{figure}
-\hypertarget{class_user_interface_a595a469d83a351719c75c65fbf4a6fbe}{}\label{class_user_interface_a595a469d83a351719c75c65fbf4a6fbe} 
+\hypertarget{class_user_interface_af9043ca8df15d62de342d7cbfa2eb3d7}{}\label{class_user_interface_af9043ca8df15d62de342d7cbfa2eb3d7} 
+\index{User\+Interface@{User\+Interface}!matrix\+Time@{matrix\+Time}}
+\index{matrix\+Time@{matrix\+Time}!User\+Interface@{User\+Interface}}
+\subsubsection{\texorpdfstring{matrix\+Time()}{matrixTime()}}
+{\footnotesize\ttfamily void User\+Interface\+::matrix\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Функция проверки корректности ввода. 
+
+Проверяет успешно ли считался запрашиваемый параметр, если нет, то просит повторить ввод. \hypertarget{class_user_interface_a50f82c57764069c9fcb7557d835135ff}{}\label{class_user_interface_a50f82c57764069c9fcb7557d835135ff} 
 \index{User\+Interface@{User\+Interface}!set\+Params@{set\+Params}}
 \index{set\+Params@{set\+Params}!User\+Interface@{User\+Interface}}
 \subsubsection{\texorpdfstring{set\+Params()}{setParams()}}
-{\footnotesize\ttfamily \hyperlink{_structures_8h_a9864d6ef28dd6e38416afac4426b3491}{Responce} User\+Interface\+::set\+Params (\begin{DoxyParamCaption}\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{file,  }\item[{long long}]{size\+Of\+Segments,  }\item[{\hyperlink{_structures_8h_adbb15722785daaf5166f7ea34323854c}{Type\+Of\+Sort}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+{\footnotesize\ttfamily \hyperlink{_structures_8h_ab3500e5d3c915d1b5cc58dcab8673fd4}{Response} User\+Interface\+::set\+Params (\begin{DoxyParamCaption}\item[{\hyperlink{class_file_manager}{File\+Manager} $\ast$}]{file,  }\item[{long long}]{size\+Of\+Segments,  }\item[{\hyperlink{_structures_8h_adbb15722785daaf5166f7ea34323854c}{Type\+Of\+Sort}}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
 
 
 
@@ -262,7 +274,7 @@ const char $\ast$ \hyperlink{class_user_interface_a3ec4a2871150fd6b83ddf9d459aa0
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{class_user_interface_a595a469d83a351719c75c65fbf4a6fbe_cgraph}
+\includegraphics[width=350pt]{class_user_interface_a50f82c57764069c9fcb7557d835135ff_cgraph}
 \end{center}
 \end{figure}
 

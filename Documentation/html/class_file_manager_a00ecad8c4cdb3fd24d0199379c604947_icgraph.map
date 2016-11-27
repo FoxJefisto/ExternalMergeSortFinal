@@ -1,0 +1,5 @@
+<map id="FileManager::write" name="FileManager::write">
+<area shape="rect" id="node2" href="$class_external_merge_sort.html#aae72743234c39c35a3460fecefa3a1f0" title="Чтение входной последовательности из файла. " alt="" coords="186,5,325,47"/>
+<area shape="rect" id="node4" href="$class_external_merge_sort.html#ad19b6bded122acbb6a4ee97b591011f8" title="Слияние последовательностей. " alt="" coords="181,71,329,112"/>
+<area shape="rect" id="node3" href="$class_external_merge_sort.html#a0f17e02ed3c66bc241123cc1ee01aded" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="377,39,516,80"/>
+</map>

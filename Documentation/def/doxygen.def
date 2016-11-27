@@ -232,14 +232,14 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'begTime';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_counter_1a338ac4f04d6f5924aa7ace3b14d9ffb9';
+      sec-mem-id   = 'class_counter_1a563ab520e0e9ea20d4d4d113f566658a';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -261,19 +261,19 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'endTime';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_counter_8cpp_1a25b1a1a6cd43fb23c2d1563d5b05aec6';
+        sec-mem-ref-id = '_counter_8cpp_1ae5acb21f01b8317c8db1d99f7b56dc95';
         sec-mem-ref-line = '21';
         sec-mem-ref-name = 'getTimeInterval';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_counter_1a25b1a1a6cd43fb23c2d1563d5b05aec6';
+      sec-mem-id   = 'class_counter_1ae5acb21f01b8317c8db1d99f7b56dc95';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -300,7 +300,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'begTime';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_counter_8cpp_1a338ac4f04d6f5924aa7ace3b14d9ffb9';
+        sec-mem-ref-id = '_counter_8cpp_1a563ab520e0e9ea20d4d4d113f566658a';
         sec-mem-ref-line = '15';
         sec-mem-ref-name = 'setEndTime';
     };
@@ -350,7 +350,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_counter_1af20f10e30e8bd1d078d1d66c518a814c';
+      sec-mem-id   = 'class_counter_1ae8d7757e6613ed651f7f505931cb377c';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -408,7 +408,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'BubbleExternalSort::sort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1ad19b6bded122acbb6a4ee97b591011f8';
         sec-mem-ref-line = '178';
         sec-mem-ref-name = 'ExternalMergeSort::mergeSequencesNew';
     };
@@ -425,7 +425,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_counter_1a273aaa4592ef5fae6b7a90544d0ff6e0';
+      sec-mem-id   = 'class_counter_1a5288fadfdc786d5bf91ae4d04b6a7ab8';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -479,19 +479,19 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'fileOp';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_counter_1ac0a53b0296d0eacca2a2391a12ae39c5';
+      sec-mem-id   = 'class_counter_1ae84d6627ab98d69b7dd2e5ea243cffed';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -561,7 +561,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Counter';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
@@ -610,7 +610,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'setBegTime';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_counter_8cpp_1a25b1a1a6cd43fb23c2d1563d5b05aec6';
+        sec-mem-ref-id = '_counter_8cpp_1ae5acb21f01b8317c8db1d99f7b56dc95';
         sec-mem-ref-line = '21';
         sec-mem-ref-name = 'getTimeInterval';
     };
@@ -638,12 +638,12 @@ _EnD_oF_dEf_TeXt_;
 Число тактов программы на момент оконачания сортировки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_counter_8cpp_1a338ac4f04d6f5924aa7ace3b14d9ffb9';
+        sec-mem-ref-id = '_counter_8cpp_1a563ab520e0e9ea20d4d4d113f566658a';
         sec-mem-ref-line = '15';
         sec-mem-ref-name = 'setEndTime';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_counter_8cpp_1a25b1a1a6cd43fb23c2d1563d5b05aec6';
+        sec-mem-ref-id = '_counter_8cpp_1ae5acb21f01b8317c8db1d99f7b56dc95';
         sec-mem-ref-line = '21';
         sec-mem-ref-name = 'getTimeInterval';
     };
@@ -676,7 +676,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'incComparsion';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_counter_8cpp_1a273aaa4592ef5fae6b7a90544d0ff6e0';
+        sec-mem-ref-id = '_counter_8cpp_1a5288fadfdc786d5bf91ae4d04b6a7ab8';
         sec-mem-ref-line = '41';
         sec-mem-ref-name = 'getComparsion';
     };
@@ -709,7 +709,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'incFileOp';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_counter_8cpp_1ac0a53b0296d0eacca2a2391a12ae39c5';
+        sec-mem-ref-id = '_counter_8cpp_1ae84d6627ab98d69b7dd2e5ea243cffed';
         sec-mem-ref-line = '51';
         sec-mem-ref-name = 'getFileOp';
     };
@@ -742,7 +742,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'incSwaps';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_counter_8cpp_1af20f10e30e8bd1d078d1d66c518a814c';
+        sec-mem-ref-id = '_counter_8cpp_1ae8d7757e6613ed651f7f505931cb377c';
         sec-mem-ref-line = '31';
         sec-mem-ref-name = 'getSwaps';
     };
@@ -864,12 +864,12 @@ _EnD_oF_dEf_TeXt_;
 Вызывет setParams(...), если код возврата не Success, бросает исключение.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a45719200cc5e3111fe68c08fe36be715';
         sec-mem-ref-line = '22';
         sec-mem-ref-name = 'setParams';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -886,11 +886,11 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b';
+      sec-mem-id   = 'class_external_merge_sort_1a45719200cc5e3111fe68c08fe36be715';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setParams';
       sec-mem-param = {
@@ -933,12 +933,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ok';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileManagerFail';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aff5e0c4e167b2a74a058ba96eb0ee149';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aff5e0c4e167b2a74a058ba96eb0ee149';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'SizeError';
     };
@@ -948,7 +948,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'FileManager::checkForEquality';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aebd38049a88fe839c522d0352fedda6c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aebd38049a88fe839c522d0352fedda6c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'InputAndOutputIsEqual';
     };
@@ -963,7 +963,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'fileManager';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -973,18 +973,18 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ExternalMergeSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_user_interface_8cpp_1a595a469d83a351719c75c65fbf4a6fbe';
-        sec-mem-ref-line = '289';
+        sec-mem-ref-id = '_user_interface_8cpp_1a50f82c57764069c9fcb7557d835135ff';
+        sec-mem-ref-line = '372';
         sec-mem-ref-name = 'UserInterface::setParams';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f';
+      sec-mem-id   = 'class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'externalSort';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/ExternalMergeSort.h';
@@ -1018,7 +1018,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'print';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1043,7 +1043,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'FileManager::closeIFile';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1ad19b6bded122acbb6a4ee97b591011f8';
         sec-mem-ref-line = '178';
         sec-mem-ref-name = 'mergeSequencesNew';
     };
@@ -1053,7 +1053,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Counter::incFileOp';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a54bad0135864f0edc76a7d2ac5e8c0eb';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'EndOfFile';
     };
@@ -1063,12 +1063,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'fileManager';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_counter_8cpp_1a338ac4f04d6f5924aa7ace3b14d9ffb9';
+        sec-mem-ref-id = '_counter_8cpp_1a563ab520e0e9ea20d4d4d113f566658a';
         sec-mem-ref-line = '15';
         sec-mem-ref-name = 'Counter::setEndTime';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -1153,17 +1153,17 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'BubbleExternalSort::sort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1ad19b6bded122acbb6a4ee97b591011f8';
         sec-mem-ref-line = '178';
         sec-mem-ref-name = 'mergeSequencesNew';
     };
@@ -1220,7 +1220,7 @@ _EnD_oF_dEf_TeXt_;
 Сортирует последовательность длиной size одним из методов, перегруженных в производных классах.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1230,11 +1230,11 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'private-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+      sec-mem-id   = 'class_external_merge_sort_1aae72743234c39c35a3460fecefa3a1f0';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'createRuns';
       sec-mem-param = {
@@ -1260,7 +1260,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ok';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4ab62878ccac0c970717a5464bb0984be4';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'ParamsFail';
     };
@@ -1275,7 +1275,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'sizeOfSegments';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ae78c711dd9a3a19d8175eb124b17611c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4ae78c711dd9a3a19d8175eb124b17611c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'MemoryError';
     };
@@ -1285,7 +1285,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'FileManager::clearOutFile';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -1295,7 +1295,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'fileManager';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1aba031d681752c80f52a8a8af9b69834e';
+        sec-mem-ref-id = '_file_manager_8cpp_1a66fd5270bbc2bd37151c59a713a10abf';
         sec-mem-ref-line = '41';
         sec-mem-ref-name = 'FileManager::read';
     };
@@ -1315,7 +1315,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'print';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1a77cb9ec2885923dd6b7a9674cb75f85f';
+        sec-mem-ref-id = '_file_manager_8cpp_1a00ecad8c4cdb3fd24d0199379c604947';
         sec-mem-ref-line = '86';
         sec-mem-ref-name = 'FileManager::write';
     };
@@ -1325,23 +1325,23 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'FileManager::closeOFile';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a54bad0135864f0edc76a7d2ac5e8c0eb';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'EndOfFile';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'externalSort';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+      sec-mem-id   = 'class_external_merge_sort_1ad19b6bded122acbb6a4ee97b591011f8';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'mergeSequencesNew';
       sec-mem-param = {
@@ -1388,7 +1388,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'FileManager::getEndOfFile';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1aba031d681752c80f52a8a8af9b69834e';
+        sec-mem-ref-id = '_file_manager_8cpp_1a66fd5270bbc2bd37151c59a713a10abf';
         sec-mem-ref-line = '41';
         sec-mem-ref-name = 'FileManager::read';
     };
@@ -1403,7 +1403,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Counter::incComparsion';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1a77cb9ec2885923dd6b7a9674cb75f85f';
+        sec-mem-ref-id = '_file_manager_8cpp_1a00ecad8c4cdb3fd24d0199379c604947';
         sec-mem-ref-line = '86';
         sec-mem-ref-name = 'FileManager::write';
     };
@@ -1413,17 +1413,17 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'FileManager::closeOFile';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a54bad0135864f0edc76a7d2ac5e8c0eb';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'EndOfFile';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'externalSort';
     };
@@ -1469,12 +1469,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'CLI';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1500,17 +1500,17 @@ _EnD_oF_dEf_TeXt_;
 Указатель на класс файл-менеджера, осуществляющий взаимодействие сортировки с файловой системой.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a45719200cc5e3111fe68c08fe36be715';
         sec-mem-ref-line = '22';
         sec-mem-ref-name = 'setParams';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1538,17 +1538,17 @@ _EnD_oF_dEf_TeXt_;
 Размер сегментов, на которые изначально будет поделена последовательность.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a45719200cc5e3111fe68c08fe36be715';
         sec-mem-ref-line = '22';
         sec-mem-ref-name = 'setParams';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1576,12 +1576,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ExternalMergeSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a45719200cc5e3111fe68c08fe36be715';
         sec-mem-ref-line = '22';
         sec-mem-ref-name = 'setParams';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'createRuns';
     };
@@ -1737,7 +1737,7 @@ _EnD_oF_dEf_TeXt_;
 Закрывает входной файл, если он существует.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
@@ -1760,12 +1760,12 @@ _EnD_oF_dEf_TeXt_;
 Закрывает входной файл, сохраняя записанную последовательность, если он существует.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1ad19b6bded122acbb6a4ee97b591011f8';
         sec-mem-ref-line = '178';
         sec-mem-ref-name = 'ExternalMergeSort::mergeSequencesNew';
     };
@@ -1790,7 +1790,7 @@ _EnD_oF_dEf_TeXt_;
 Возвращает true - если конец файла был достигнут при попытке чтения или записи или false - если конец файла не был достигнут.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1ad19b6bded122acbb6a4ee97b591011f8';
         sec-mem-ref-line = '178';
         sec-mem-ref-name = 'ExternalMergeSort::mergeSequencesNew';
     };
@@ -1821,7 +1821,7 @@ _EnD_oF_dEf_TeXt_;
 Устанавливает флаг в нужное положение, например сброс флага, если он уже был обработан.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
@@ -1844,23 +1844,23 @@ _EnD_oF_dEf_TeXt_;
 Затирает выходной файл, вне зависимости от его содержания.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa0d80e41effe3a13c0d63b33e208918f';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a0f17e02ed3c66bc241123cc1ee01aded';
         sec-mem-ref-line = '45';
         sec-mem-ref-name = 'ExternalMergeSort::externalSort';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_file_manager_1aba031d681752c80f52a8a8af9b69834e';
+      sec-mem-id   = 'class_file_manager_1a66fd5270bbc2bd37151c59a713a10abf';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'read';
       sec-mem-param = {
@@ -1896,7 +1896,7 @@ _EnD_oF_dEf_TeXt_;
 код успеха или ошибки.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileNotExist';
     };
@@ -1911,38 +1911,38 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ReadOnly';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileManagerFail';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a54bad0135864f0edc76a7d2ac5e8c0eb';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'EndOfFile';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1ad19b6bded122acbb6a4ee97b591011f8';
         sec-mem-ref-line = '178';
         sec-mem-ref-name = 'ExternalMergeSort::mergeSequencesNew';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f';
+      sec-mem-id   = 'class_file_manager_1a00ecad8c4cdb3fd24d0199379c604947';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'write';
       sec-mem-param = {
@@ -1973,33 +1973,33 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ReadAndWrite';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileManagerFail';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1aa3ec5ccebe04f02538ee42d0ffe7b75c';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1aae72743234c39c35a3460fecefa3a1f0';
         sec-mem-ref-line = '134';
         sec-mem-ref-name = 'ExternalMergeSort::createRuns';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a8b4f951d9ee53818b8d3d4e84e2a1aa4';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1ad19b6bded122acbb6a4ee97b591011f8';
         sec-mem-ref-line = '178';
         sec-mem-ref-name = 'ExternalMergeSort::mergeSequencesNew';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_file_manager_1ad4c96727180b0055942d20b7b5bfe5f8';
+      sec-mem-id   = 'class_file_manager_1a1a22f9564b45af8380f3f000aef842e4';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'write';
       sec-mem-param = {
@@ -2037,23 +2037,23 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ReadAndWrite';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileManagerFail';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_file_manager_1ab364b91193c482fc7387aec162f677ad';
+      sec-mem-id   = 'class_file_manager_1a129c4ce6a95650d8e71498a826b21cee';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setFiles';
       sec-mem-param = {
@@ -2091,7 +2091,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'NotEnable';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileNotExist';
     };
@@ -2101,18 +2101,18 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'WriteOnly';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_file_manager_1a975bf0088fa67c83d78ec54b9f61a473';
+      sec-mem-id   = 'class_file_manager_1a646a785617b12f18c2e79bd471c943f8';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setFiles';
       sec-mem-param = {
@@ -2145,7 +2145,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'NotEnable';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileNotExist';
     };
@@ -2155,7 +2155,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ReadAndWrite';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -2180,13 +2180,13 @@ _EnD_oF_dEf_TeXt_;
 Возвращает текущее состояние менеджера.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a45719200cc5e3111fe68c08fe36be715';
         sec-mem-ref-line = '22';
         sec-mem-ref-name = 'ExternalMergeSort::setParams';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_user_interface_8cpp_1a595a469d83a351719c75c65fbf4a6fbe';
-        sec-mem-ref-line = '289';
+        sec-mem-ref-id = '_user_interface_8cpp_1a50f82c57764069c9fcb7557d835135ff';
+        sec-mem-ref-line = '372';
         sec-mem-ref-name = 'UserInterface::setParams';
     };
     }; /* sec-member */
@@ -2215,23 +2215,23 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ReadAndWrite';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a45719200cc5e3111fe68c08fe36be715';
         sec-mem-ref-line = '22';
         sec-mem-ref-name = 'ExternalMergeSort::setParams';
     };
       sec-mem-referenceby = {
-        sec-mem-ref-id = '_user_interface_8cpp_1a595a469d83a351719c75c65fbf4a6fbe';
-        sec-mem-ref-line = '289';
+        sec-mem-ref-id = '_user_interface_8cpp_1a50f82c57764069c9fcb7557d835135ff';
+        sec-mem-ref-line = '372';
         sec-mem-ref-name = 'UserInterface::setParams';
     };
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_file_manager_1a654c8bf606626cd419f5828839cb21a1';
+      sec-mem-id   = 'class_file_manager_1a73fc5901898b3a82441dc0e7b5a9ccf7';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'generateSequence';
       sec-mem-param = {
@@ -2270,7 +2270,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'WriteOnly';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileNotExist';
     };
@@ -2290,28 +2290,28 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Worst';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = '_user_interface_8cpp_1a27c547dadfd5588d5b734e253b2e8a4a';
-        sec-mem-ref-line = '36';
+        sec-mem-ref-line = '78';
         sec-mem-ref-name = 'UserInterface::callGenerate';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = '_user_interface_8cpp_1a1dc307f92c919866f13ddaf30cde1a70';
-        sec-mem-ref-line = '136';
+        sec-mem-ref-line = '186';
         sec-mem-ref-name = 'UserInterface::callGetDependenceSize';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = '_user_interface_8cpp_1ab668f3b2d9f89ce3eacda5e166f33807';
-        sec-mem-ref-line = '184';
+        sec-mem-ref-line = '242';
         sec-mem-ref-name = 'UserInterface::callGetDependenceSizeOfSegments';
     };
       sec-mem-referenceby = {
         sec-mem-ref-id = '_user_interface_8cpp_1aa413c00a65ae4faf9421e9fc359663ec';
-        sec-mem-ref-line = '225';
+        sec-mem-ref-line = '293';
         sec-mem-ref-name = 'UserInterface::callGetDependenceType';
     };
     }; /* sec-member */
@@ -3050,7 +3050,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'initSession';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '103';
+      sec-mem-desc-line = '109';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Инициализирует сессию взаимодействия с пользователем.
 _EnD_oF_dEf_TeXt_;
@@ -3073,7 +3073,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'UserInterface';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '109';
+      sec-mem-desc-line = '115';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Пустой конструктор класса.
 _EnD_oF_dEf_TeXt_;
@@ -3091,7 +3091,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = '~UserInterface';
       sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
-      sec-mem-desc-line = '115';
+      sec-mem-desc-line = '121';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 Деструктор класса.
 _EnD_oF_dEf_TeXt_;
@@ -3152,12 +3152,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'WriteOnly';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1a654c8bf606626cd419f5828839cb21a1';
+        sec-mem-ref-id = '_file_manager_8cpp_1a73fc5901898b3a82441dc0e7b5a9ccf7';
         sec-mem-ref-line = '208';
         sec-mem-ref-name = 'FileManager::generateSequence';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3180,7 +3180,7 @@ _EnD_oF_dEf_TeXt_;
 Задает параметр sort необходимым указателем на один из классов сортировки. Получает необходимые параметры сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3203,12 +3203,12 @@ _EnD_oF_dEf_TeXt_;
 Вызывает необходимый метод сортировки, если это возможно. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4ab62878ccac0c970717a5464bb0984be4';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'ParamsFail';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3231,12 +3231,12 @@ _EnD_oF_dEf_TeXt_;
 Вызывает метод сортировки, если это возможно. Выводит отчет характеристик сортировки. Оповещает о возникающих ошибках.
 _EnD_oF_dEf_TeXt_;
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491ab62878ccac0c970717a5464bb0984be4';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4ab62878ccac0c970717a5464bb0984be4';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'ParamsFail';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3261,11 +3261,11 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe';
+      sec-mem-id   = 'class_user_interface_1a50f82c57764069c9fcb7557d835135ff';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
-Responce
+Response
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'setParams';
       sec-mem-param = {
@@ -3310,12 +3310,12 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'ReadAndWrite';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'FileManagerFail';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aff5e0c4e167b2a74a058ba96eb0ee149';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aff5e0c4e167b2a74a058ba96eb0ee149';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'SizeError';
     };
@@ -3325,7 +3325,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'FileManager::checkForEquality';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aebd38049a88fe839c522d0352fedda6c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aebd38049a88fe839c522d0352fedda6c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'InputAndOutputIsEqual';
     };
@@ -3335,7 +3335,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Bubble';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_external_merge_sort_8cpp_1a2a27571acdf4f42e34798663e37f5e0b';
+        sec-mem-ref-id = '_external_merge_sort_8cpp_1a45719200cc5e3111fe68c08fe36be715';
         sec-mem-ref-line = '22';
         sec-mem-ref-name = 'ExternalMergeSort::setParams';
     };
@@ -3350,7 +3350,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Heap';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3378,7 +3378,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'WriteOnly';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1a654c8bf606626cd419f5828839cb21a1';
+        sec-mem-ref-id = '_file_manager_8cpp_1a73fc5901898b3a82441dc0e7b5a9ccf7';
         sec-mem-ref-line = '208';
         sec-mem-ref-name = 'FileManager::generateSequence';
     };
@@ -3388,7 +3388,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Worst';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3421,7 +3421,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'WriteOnly';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1a654c8bf606626cd419f5828839cb21a1';
+        sec-mem-ref-id = '_file_manager_8cpp_1a73fc5901898b3a82441dc0e7b5a9ccf7';
         sec-mem-ref-line = '208';
         sec-mem-ref-name = 'FileManager::generateSequence';
     };
@@ -3431,7 +3431,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Worst';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3464,7 +3464,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'WriteOnly';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_file_manager_8cpp_1a654c8bf606626cd419f5828839cb21a1';
+        sec-mem-ref-id = '_file_manager_8cpp_1a73fc5901898b3a82441dc0e7b5a9ccf7';
         sec-mem-ref-line = '208';
         sec-mem-ref-name = 'FileManager::generateSequence';
     };
@@ -3474,7 +3474,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-name = 'Worst';
     };
       sec-mem-referenceto = {
-        sec-mem-ref-id = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c';
+        sec-mem-ref-id = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c';
         sec-mem-ref-line = '5';
         sec-mem-ref-name = 'Success';
     };
@@ -3483,6 +3483,24 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-ref-line = '6';
         sec-mem-ref-name = 'WithOut';
     };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'class_user_interface_1af9043ca8df15d62de342d7cbfa2eb3d7';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'matrixTime';
+      sec-mem-desc-file = 'C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/UserInterface.h';
+      sec-mem-desc-line = '102';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Функция проверки корректности ввода.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Проверяет успешно ли считался запрашиваемый параметр, если нет, то просит повторить ввод.
+_EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-section = {
@@ -3709,7 +3727,7 @@ _EnD_oF_dEf_TeXt_;
 _EnD_oF_dEf_TeXt_;
       func-mem-referenceto = {
         func-mem-ref-id = '_user_interface_8cpp_1a6c7f9ef9faa40eaf4760d57e89228786';
-        func-mem-ref-line = '14';
+        func-mem-ref-line = '53';
         func-mem-ref-name = 'UserInterface::initSession';
     };
     }; /* func-member */
@@ -3864,10 +3882,10 @@ _EnD_oF_dEf_TeXt_;
     }; /* enum-member */
     enum-member = {
       enum-mem-kind = 'enum';
-      enum-mem-id   = '_structures_8h_1a9864d6ef28dd6e38416afac4426b3491';
+      enum-mem-id   = '_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4';
       enum-mem-virt = normal;
       enum-mem-prot = public;
-      enum-mem-name = 'Responce';
+      enum-mem-name = 'Response';
       enum-mem-enum = { enum-name = Success; };
       enum-mem-enum = { enum-name = GenerateError; };
       enum-mem-enum = { enum-name = FileNotExist; };

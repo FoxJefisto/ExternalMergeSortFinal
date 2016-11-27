@@ -1,9 +1,9 @@
 <map id="Counter::incComparsion" name="Counter::incComparsion">
 <area shape="rect" id="node2" href="$class_bubble_external_sort.html#a785502521871c44e6d9585108e4254bd" title="Сортирует последовательность длиной size методом пузырьковой сортировки. " alt="" coords="238,5,373,47"/>
-<area shape="rect" id="node3" href="$class_external_merge_sort.html#a8b4f951d9ee53818b8d3d4e84e2a1aa4" title="Слияние последовательностей. " alt="" coords="231,71,379,112"/>
+<area shape="rect" id="node3" href="$class_external_merge_sort.html#ad19b6bded122acbb6a4ee97b591011f8" title="Слияние последовательностей. " alt="" coords="231,71,379,112"/>
 <area shape="rect" id="node5" href="$class_heap_external_sort.html#af476431c6fafd53c40ab306c97a37134" title="Получение нового опорного элемента " alt="" coords="215,137,396,163"/>
 <area shape="rect" id="node7" href="$class_quick_external_sort.html#ad7653bb697a04717066f9942db9a4597" title="Сортирует последовательность длиной size методом быстрой сортировки итеративным методом. " alt="" coords="237,188,373,229"/>
-<area shape="rect" id="node4" href="$class_external_merge_sort.html#aa0d80e41effe3a13c0d63b33e208918f" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="454,71,593,112"/>
+<area shape="rect" id="node4" href="$class_external_merge_sort.html#a0f17e02ed3c66bc241123cc1ee01aded" title="Вызывает метод внешней многофазной сортировки. " alt="" coords="454,71,593,112"/>
 <area shape="rect" id="node6" href="$class_heap_external_sort.html#a908087ce13932b268a35e1184a05ea44" title="Сортирует последовательность длиной size методом пирамидальной сортировки. " alt="" coords="446,137,601,163"/>
 <area shape="rect" id="node8" href="$class_quick_external_sort.html#ab277b5945ac22cdcda10bf02e56eb8db" title="Сортирует последовательность длиной size методом быстрой сортировки. " alt="" coords="444,195,603,222"/>
 </map>

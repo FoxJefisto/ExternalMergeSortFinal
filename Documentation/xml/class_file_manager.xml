@@ -96,7 +96,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="60" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="9" bodyend="14"/>
-        <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
+        <referencedby refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a6a1f1ddbf047fc7e9531f483e4c62148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -110,8 +110,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="66" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="16" bodyend="21"/>
-        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
-        <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
+        <referencedby refid="class_external_merge_sort_1aae72743234c39c35a3460fecefa3a1f0" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1ad19b6bded122acbb6a4ee97b591011f8" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a49df99509ff2700e0e5edd06adca345c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -126,7 +126,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="73" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="23" bodyend="26"/>
-        <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
+        <referencedby refid="class_external_merge_sort_1ad19b6bded122acbb6a4ee97b591011f8" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1ace8ce2677414831b5a9e7030248fc832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -152,7 +152,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="80" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="28" bodyend="31"/>
-        <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
+        <referencedby refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a2f1102abfd0a5a9d7e178968a3fdc56c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -166,12 +166,12 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="86" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="33" bodyend="39"/>
-        <referencedby refid="class_external_merge_sort_1aa0d80e41effe3a13c0d63b33e208918f" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
-        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1a0f17e02ed3c66bc241123cc1ee01aded" compoundref="_external_merge_sort_8cpp" startline="45" endline="127">ExternalMergeSort::externalSort</referencedby>
+        <referencedby refid="class_external_merge_sort_1aae72743234c39c35a3460fecefa3a1f0" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_file_manager_1aba031d681752c80f52a8a8af9b69834e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
-        <definition>Responce FileManager::read</definition>
+      <memberdef kind="function" id="class_file_manager_1a66fd5270bbc2bd37151c59a713a10abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kindref="member">Response</ref></type>
+        <definition>Response FileManager::read</definition>
         <argsstring>(long long *arr, long long size, long long *readNumber)</argsstring>
         <name>read</name>
         <param>
@@ -216,18 +216,18 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="97" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="41" bodyend="84"/>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" compoundref="_structures_8h" startline="4">ReadOnly</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a54bad0135864f0edc76a7d2ac5e8c0eb" compoundref="_structures_8h" startline="5">EndOfFile</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
-        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
-        <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a54bad0135864f0edc76a7d2ac5e8c0eb" compoundref="_structures_8h" startline="5">EndOfFile</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
+        <referencedby refid="class_external_merge_sort_1aae72743234c39c35a3460fecefa3a1f0" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1ad19b6bded122acbb6a4ee97b591011f8" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
-        <definition>Responce FileManager::write</definition>
+      <memberdef kind="function" id="class_file_manager_1a00ecad8c4cdb3fd24d0199379c604947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kindref="member">Response</ref></type>
+        <definition>Response FileManager::write</definition>
         <argsstring>(long long num)</argsstring>
         <name>write</name>
         <param>
@@ -252,14 +252,14 @@
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="105" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="86" bodyend="96"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
-        <referencedby refid="class_external_merge_sort_1aa3ec5ccebe04f02538ee42d0ffe7b75c" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
-        <referencedby refid="class_external_merge_sort_1a8b4f951d9ee53818b8d3d4e84e2a1aa4" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
+        <referencedby refid="class_external_merge_sort_1aae72743234c39c35a3460fecefa3a1f0" compoundref="_external_merge_sort_8cpp" startline="134" endline="176">ExternalMergeSort::createRuns</referencedby>
+        <referencedby refid="class_external_merge_sort_1ad19b6bded122acbb6a4ee97b591011f8" compoundref="_external_merge_sort_8cpp" startline="178" endline="294">ExternalMergeSort::mergeSequencesNew</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_file_manager_1ad4c96727180b0055942d20b7b5bfe5f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
-        <definition>Responce FileManager::write</definition>
+      <memberdef kind="function" id="class_file_manager_1a1a22f9564b45af8380f3f000aef842e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kindref="member">Response</ref></type>
+        <definition>Response FileManager::write</definition>
         <argsstring>(long long *arr, long long size)</argsstring>
         <name>write</name>
         <param>
@@ -295,12 +295,12 @@
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="114" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="99" bodyend="111"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4aa5b6b995bdadf7226b96bb9dfd33a3cd" compoundref="_structures_8h" startline="5">FileManagerFail</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
-      <memberdef kind="function" id="class_file_manager_1ab364b91193c482fc7387aec162f677ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
-        <definition>Responce FileManager::setFiles</definition>
+      <memberdef kind="function" id="class_file_manager_1a129c4ce6a95650d8e71498a826b21cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kindref="member">Response</ref></type>
+        <definition>Response FileManager::setFiles</definition>
         <argsstring>(string file, FileState st)</argsstring>
         <name>setFiles</name>
         <param>
@@ -336,13 +336,13 @@
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="123" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="113" bodyend="141"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7af1a03d8a79e3c6ef4a82a0ba3fec6e7a" compoundref="_structures_8h" startline="4">ReadOnly</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" compoundref="_structures_8h" startline="4">NotEnable</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
-      <memberdef kind="function" id="class_file_manager_1a975bf0088fa67c83d78ec54b9f61a473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
-        <definition>Responce FileManager::setFiles</definition>
+      <memberdef kind="function" id="class_file_manager_1a646a785617b12f18c2e79bd471c943f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kindref="member">Response</ref></type>
+        <definition>Response FileManager::setFiles</definition>
         <argsstring>(string inFile, string outFile)</argsstring>
         <name>setFiles</name>
         <param>
@@ -377,9 +377,9 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="132" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="143" bodyend="162"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a9a09d6d440bf6910da205465d7b2e4a0" compoundref="_structures_8h" startline="4">NotEnable</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1abd4cbc2b218ab1828ae376a4a9137057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7" kindref="member">FileState</ref></type>
@@ -394,8 +394,8 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="139" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="176" bodyend="179"/>
-        <referencedby refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">ExternalMergeSort::setParams</referencedby>
-        <referencedby refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" compoundref="_user_interface_8cpp" startline="289" endline="320">UserInterface::setParams</referencedby>
+        <referencedby refid="class_external_merge_sort_1a45719200cc5e3111fe68c08fe36be715" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">ExternalMergeSort::setParams</referencedby>
+        <referencedby refid="class_user_interface_1a50f82c57764069c9fcb7557d835135ff" compoundref="_user_interface_8cpp" startline="372" endline="403">UserInterface::setParams</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1ab490a5a5882d33781dcb6d1d42945d97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -411,12 +411,12 @@
         </inbodydescription>
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="146" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="181" bodyend="186"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
-        <referencedby refid="class_external_merge_sort_1a2a27571acdf4f42e34798663e37f5e0b" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">ExternalMergeSort::setParams</referencedby>
-        <referencedby refid="class_user_interface_1a595a469d83a351719c75c65fbf4a6fbe" compoundref="_user_interface_8cpp" startline="289" endline="320">UserInterface::setParams</referencedby>
+        <referencedby refid="class_external_merge_sort_1a45719200cc5e3111fe68c08fe36be715" compoundref="_external_merge_sort_8cpp" startline="22" endline="43">ExternalMergeSort::setParams</referencedby>
+        <referencedby refid="class_user_interface_1a50f82c57764069c9fcb7557d835135ff" compoundref="_user_interface_8cpp" startline="372" endline="403">UserInterface::setParams</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491" kindref="member">Responce</ref></type>
-        <definition>Responce FileManager::generateSequence</definition>
+      <memberdef kind="function" id="class_file_manager_1a73fc5901898b3a82441dc0e7b5a9ccf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4" kindref="member">Response</ref></type>
+        <definition>Response FileManager::generateSequence</definition>
         <argsstring>(long long size, SeqType type)</argsstring>
         <name>generateSequence</name>
         <param>
@@ -452,15 +452,15 @@
         <location file="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.h" line="156" column="1" bodyfile="C:/Users/админ/Documents/ProjectsC++/ExternalMergeSortProduction/ExternalMergeSortProduction/FileManager.cpp" bodystart="208" bodyend="242"/>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7adbd4a235a28913887d590855a0182027" compoundref="_structures_8h" startline="4">ReadAndWrite</references>
         <references refid="_structures_8h_1a57306ae0f9e356347388234ed69e0ce7a068f8c22e7e359d9000e7d3a4a809b4c" compoundref="_structures_8h" startline="4">WriteOnly</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4a49a6cae1823ee32326b168d49f2735b7" compoundref="_structures_8h" startline="5">FileNotExist</references>
         <references refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1ab3c87ec2c47256239220b24e46acda7f" compoundref="_structures_8h" startline="7">Average</references>
         <references refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a29d9ba0e499ea8fcd3d7b4e3fdc89b75" compoundref="_structures_8h" startline="7">Best</references>
         <references refid="_structures_8h_1a76639e910448c3333d0f4d204e53c2c1a9c59fe574f32e751672580cebf9764ae" compoundref="_structures_8h" startline="7">Worst</references>
-        <references refid="_structures_8h_1a9864d6ef28dd6e38416afac4426b3491afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
-        <referencedby refid="class_user_interface_1a27c547dadfd5588d5b734e253b2e8a4a" compoundref="_user_interface_8cpp" startline="36" endline="65">UserInterface::callGenerate</referencedby>
-        <referencedby refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" compoundref="_user_interface_8cpp" startline="136" endline="182">UserInterface::callGetDependenceSize</referencedby>
-        <referencedby refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" compoundref="_user_interface_8cpp" startline="184" endline="223">UserInterface::callGetDependenceSizeOfSegments</referencedby>
-        <referencedby refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" compoundref="_user_interface_8cpp" startline="225" endline="264">UserInterface::callGetDependenceType</referencedby>
+        <references refid="_structures_8h_1ab3500e5d3c915d1b5cc58dcab8673fd4afdfbdf3247bd36a1f17270d5cec74c9c" compoundref="_structures_8h" startline="5">Success</references>
+        <referencedby refid="class_user_interface_1a27c547dadfd5588d5b734e253b2e8a4a" compoundref="_user_interface_8cpp" startline="78" endline="109">UserInterface::callGenerate</referencedby>
+        <referencedby refid="class_user_interface_1a1dc307f92c919866f13ddaf30cde1a70" compoundref="_user_interface_8cpp" startline="186" endline="240">UserInterface::callGetDependenceSize</referencedby>
+        <referencedby refid="class_user_interface_1ab668f3b2d9f89ce3eacda5e166f33807" compoundref="_user_interface_8cpp" startline="242" endline="291">UserInterface::callGetDependenceSizeOfSegments</referencedby>
+        <referencedby refid="class_user_interface_1aa413c00a65ae4faf9421e9fc359663ec" compoundref="_user_interface_8cpp" startline="293" endline="346">UserInterface::callGetDependenceType</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_file_manager_1a62d69473c95f8df25e44d2466bb00dc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -585,20 +585,20 @@
       <member refid="class_file_manager_1a62d69473c95f8df25e44d2466bb00dc5" prot="public" virt="non-virtual"><scope>FileManager</scope><name>FileManager</name></member>
       <member refid="class_file_manager_1a2456e56bdcb617c3ee75521cf9dd7057" prot="public" virt="non-virtual"><scope>FileManager</scope><name>FileManager</name></member>
       <member refid="class_file_manager_1a8afd512c06be9daf140cc19d71f9b391" prot="public" virt="non-virtual"><scope>FileManager</scope><name>FileManager</name></member>
-      <member refid="class_file_manager_1a654c8bf606626cd419f5828839cb21a1" prot="public" virt="non-virtual"><scope>FileManager</scope><name>generateSequence</name></member>
+      <member refid="class_file_manager_1a73fc5901898b3a82441dc0e7b5a9ccf7" prot="public" virt="non-virtual"><scope>FileManager</scope><name>generateSequence</name></member>
       <member refid="class_file_manager_1a49df99509ff2700e0e5edd06adca345c" prot="public" virt="non-virtual"><scope>FileManager</scope><name>getEndOfFile</name></member>
       <member refid="class_file_manager_1abd4cbc2b218ab1828ae376a4a9137057" prot="public" virt="non-virtual"><scope>FileManager</scope><name>getState</name></member>
       <member refid="class_file_manager_1a91fd33cbb230ed4974a678302e906a8d" prot="private" virt="non-virtual"><scope>FileManager</scope><name>iFile</name></member>
       <member refid="class_file_manager_1aaa0e6feed45b6a92ce5c0b509bd9ceb6" prot="private" virt="non-virtual"><scope>FileManager</scope><name>iFileStr</name></member>
       <member refid="class_file_manager_1afe31c07e311212814e4a8ba01c7436a1" prot="private" virt="non-virtual"><scope>FileManager</scope><name>oFile</name></member>
       <member refid="class_file_manager_1adf10708d6e8e3b4d329077af4666e147" prot="private" virt="non-virtual"><scope>FileManager</scope><name>oFileStr</name></member>
-      <member refid="class_file_manager_1aba031d681752c80f52a8a8af9b69834e" prot="public" virt="non-virtual"><scope>FileManager</scope><name>read</name></member>
+      <member refid="class_file_manager_1a66fd5270bbc2bd37151c59a713a10abf" prot="public" virt="non-virtual"><scope>FileManager</scope><name>read</name></member>
       <member refid="class_file_manager_1ace8ce2677414831b5a9e7030248fc832" prot="public" virt="non-virtual"><scope>FileManager</scope><name>setEndOfFile</name></member>
-      <member refid="class_file_manager_1ab364b91193c482fc7387aec162f677ad" prot="public" virt="non-virtual"><scope>FileManager</scope><name>setFiles</name></member>
-      <member refid="class_file_manager_1a975bf0088fa67c83d78ec54b9f61a473" prot="public" virt="non-virtual"><scope>FileManager</scope><name>setFiles</name></member>
+      <member refid="class_file_manager_1a129c4ce6a95650d8e71498a826b21cee" prot="public" virt="non-virtual"><scope>FileManager</scope><name>setFiles</name></member>
+      <member refid="class_file_manager_1a646a785617b12f18c2e79bd471c943f8" prot="public" virt="non-virtual"><scope>FileManager</scope><name>setFiles</name></member>
       <member refid="class_file_manager_1a84bbcd4e3807e076ecdbd0e5dfbefa5f" prot="private" virt="non-virtual"><scope>FileManager</scope><name>state</name></member>
-      <member refid="class_file_manager_1a77cb9ec2885923dd6b7a9674cb75f85f" prot="public" virt="non-virtual"><scope>FileManager</scope><name>write</name></member>
-      <member refid="class_file_manager_1ad4c96727180b0055942d20b7b5bfe5f8" prot="public" virt="non-virtual"><scope>FileManager</scope><name>write</name></member>
+      <member refid="class_file_manager_1a00ecad8c4cdb3fd24d0199379c604947" prot="public" virt="non-virtual"><scope>FileManager</scope><name>write</name></member>
+      <member refid="class_file_manager_1a1a22f9564b45af8380f3f000aef842e4" prot="public" virt="non-virtual"><scope>FileManager</scope><name>write</name></member>
       <member refid="class_file_manager_1abaed33b5b0c13b8a597db9335a1aacfa" prot="public" virt="non-virtual"><scope>FileManager</scope><name>~FileManager</name></member>
     </listofallmembers>
   </compounddef>
