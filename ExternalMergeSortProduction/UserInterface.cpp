@@ -13,7 +13,7 @@
 #include <conio.h>
 using namespace std;
 
-void matrixTime() {
+void UserInterface::matrixTime() {
 	string matr("matrix");
 	string buf;
 	cin.clear();
