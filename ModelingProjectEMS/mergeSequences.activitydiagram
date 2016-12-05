@@ -9,12 +9,12 @@
             <elementDefinition Id="7f8b1845-956b-46f4-8a41-004cbee886b3" />
             <flowNodeTargets>
               <controlFlow Id="ed4a70b0-c705-45fe-89ff-b00aa92f849c" isLeaf="false">
-                <opaqueActionMoniker Id="26683de5-82a5-44ee-a0a2-772b2bef5858" LastKnownName="Получить первые элементы последовательностей, обнулить счетчики" />
+                <opaqueActionMoniker Id="26683de5-82a5-44ee-a0a2-772b2bef5858" LastKnownName="Получить первые n элементов последовательностей, обнулить счетчики" />
                 <elementDefinition Id="0c03d5ce-959e-4de4-8459-9cf6936f9f05" />
               </controlFlow>
             </flowNodeTargets>
           </initialNode>
-          <opaqueAction Id="26683de5-82a5-44ee-a0a2-772b2bef5858" name="Получить первые элементы последовательностей, обнулить счетчики" isLeaf="false">
+          <opaqueAction Id="26683de5-82a5-44ee-a0a2-772b2bef5858" name="Получить первые n элементов последовательностей, обнулить счетчики" isLeaf="false">
             <elementDefinition Id="c20ff318-80ee-4528-804d-dc92f2923190" />
             <flowNodeTargets>
               <controlFlow Id="9cb0d62c-48d1-42e4-b770-5d0a2321d918" isLeaf="false">
@@ -57,9 +57,9 @@
           <opaqueAction Id="d0287083-ea09-4f7b-b0e4-e117bec983a1" name="Получить следующий элемент первой последовательности" isLeaf="false">
             <elementDefinition Id="bd7291df-cdda-46b5-8048-9992a0d0c625" />
             <flowNodeTargets>
-              <controlFlow Id="f650cea4-bc51-4d55-b432-332f473d5581" isLeaf="false">
-                <mergeNodeMoniker Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" LastKnownName="Merge1" />
-                <elementDefinition Id="e6ffefd8-909b-4c89-9356-441746df62f1" />
+              <controlFlow Id="33b5bf9a-fb69-49ff-8ff0-1d91149d94f0" isLeaf="false">
+                <opaqueActionMoniker Id="99f8ba81-c59c-4103-aa13-bd7e05599e60" LastKnownName="Если элементы в буфере кончились, считать следующие n элементов из файла1" />
+                <elementDefinition Id="a6845708-fc9d-41a3-85b2-d75f1862d163" />
               </controlFlow>
             </flowNodeTargets>
           </opaqueAction>
@@ -75,9 +75,9 @@
           <opaqueAction Id="f72dbd5f-7f59-484d-899c-df1ad828b0b6" name="Получить следующий элемент второй последовательности" isLeaf="false">
             <elementDefinition Id="b6033042-65ef-4867-8cd2-6424eaf45cd4" />
             <flowNodeTargets>
-              <controlFlow Id="e4e38f59-ec7c-487d-94f0-e7e8e868c3ea" isLeaf="false">
-                <mergeNodeMoniker Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" LastKnownName="Merge1" />
-                <elementDefinition Id="c7b7fd19-e2ed-4b3b-954d-47b90f277a85" />
+              <controlFlow Id="c73128e8-86f7-49ed-8091-ed1474853b4c" isLeaf="false">
+                <opaqueActionMoniker Id="e169fd86-4386-4a3d-b407-35556cea9cf6" LastKnownName="Если элементы в буфере кончились, считать следующие n элементов из файла" />
+                <elementDefinition Id="7ed5dc35-0573-4ab4-a7d5-5c2934f9bc1c" />
               </controlFlow>
             </flowNodeTargets>
           </opaqueAction>
@@ -124,6 +124,24 @@
           <activityFinalNode Id="88f5c37d-3f44-44c7-a683-d408990eca06" name="ActivityFinal1" isLeaf="false">
             <elementDefinition Id="898e88eb-c822-418f-9538-d3b74d0baaa7" />
           </activityFinalNode>
+          <opaqueAction Id="e169fd86-4386-4a3d-b407-35556cea9cf6" name="Если элементы в буфере кончились, считать следующие n элементов из файла" isLeaf="false">
+            <elementDefinition Id="f79456ab-6361-4c82-a3cd-011745f3e78d" />
+            <flowNodeTargets>
+              <controlFlow Id="d3bf5cd1-9d57-4ecc-a6a9-2c0fcc9eda1b" isLeaf="false">
+                <mergeNodeMoniker Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" LastKnownName="Merge1" />
+                <elementDefinition Id="8fed32e4-a829-46d6-8d1b-3c0a67cc2f4b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="99f8ba81-c59c-4103-aa13-bd7e05599e60" name="Если элементы в буфере кончились, считать следующие n элементов из файла1" isLeaf="false">
+            <elementDefinition Id="803d412b-422e-40a9-b6fb-168ef3610ed5" />
+            <flowNodeTargets>
+              <controlFlow Id="4b26ad26-158d-41b8-bfc0-ae3588492cfc" isLeaf="false">
+                <mergeNodeMoniker Id="455ac8f4-d8bd-4ddd-90a8-ef0e14023131" LastKnownName="Merge1" />
+                <elementDefinition Id="72c6560b-57a5-4ebc-a5dd-5bddeb2e3542" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
         </nodes>
       </activity>
     </activityRootModelHasActivity>

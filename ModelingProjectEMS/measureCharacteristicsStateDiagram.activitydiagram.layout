@@ -3,10 +3,10 @@
   <activityRootModelMoniker Id="90cbc0a3-7ed7-48a9-9b03-e4ac0279fa2e" />
   <nestedChildShapes>
     <actionShape Id="ca93e0f3-cdff-45f0-b3e4-41ffebb1e68c" absoluteBounds="0.5, 1, 1.125, 0.375" customColor="161, 199, 231">
-      <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор измеряемой характеристики" />
+      <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор изменяемой характеристики" />
     </actionShape>
     <actionShape Id="dcdaa866-bef5-4ba8-a8db-1b9fcb4b12b5" absoluteBounds="2.75, 1, 1.125, 0.375" customColor="161, 199, 231">
-      <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Выбор изменяемой характеристики" />
+      <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Задание остальных параметров" />
     </actionShape>
     <actionShape Id="1f88b154-b9f1-4d7d-8307-89f19fe361eb" absoluteBounds="2.625, 2.75, 1.125, 0.625" customColor="161, 199, 231">
       <opaqueActionMoniker Id="b86b0342-3d2d-4de5-8dfe-75b8fecf5654" LastKnownName="Сгенерировать новую последовательность" />

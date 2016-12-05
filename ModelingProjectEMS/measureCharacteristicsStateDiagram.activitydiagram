@@ -36,20 +36,20 @@
       <activity Id="e498bd34-085a-4341-861d-6e90a1c263fc" name="measureCharacteristicsStateDiagram" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
         <elementDefinition Id="1af7bd24-ca92-4134-92db-13145d8863fa" />
         <nodes>
-          <opaqueAction Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" name="Выбор измеряемой характеристики" isLeaf="false">
+          <opaqueAction Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" name="Выбор изменяемой характеристики" isLeaf="false">
             <elementDefinition Id="71635f9d-c230-4bf0-a0e0-57800b610a1b" />
             <flowNodeTargets>
               <controlFlow Id="e7786e7a-b439-40d5-b1a5-cd9fbdbe7151" isLeaf="false">
-                <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор измеряемой характеристики" />
+                <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор изменяемой характеристики" />
                 <elementDefinition Id="1ccb8816-5bcf-42a3-8503-fdb76820127f" />
               </controlFlow>
               <controlFlow Id="dbb8c5ac-f790-40af-aedb-11d365f7e7b9" isLeaf="false">
-                <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Выбор изменяемой характеристики" />
+                <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Задание остальных параметров" />
                 <elementDefinition Id="23896d4a-8008-42bf-b5b1-90ff61169ae5" />
               </controlFlow>
             </flowNodeTargets>
           </opaqueAction>
-          <opaqueAction Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" name="Выбор изменяемой характеристики" isLeaf="false">
+          <opaqueAction Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" name="Задание остальных параметров" isLeaf="false">
             <elementDefinition Id="f5cc18ef-01d3-444c-8995-22711362f4c7" />
             <flowNodeTargets>
               <controlFlow Id="dbf5c3b3-b8f4-4e48-8580-94f87e385199" isLeaf="false">
@@ -57,7 +57,7 @@
                 <elementDefinition Id="d96837d3-48ac-45f2-80e0-17402fabe935" />
               </controlFlow>
               <controlFlow Id="781423d6-164d-4e76-9794-01f92f09e66b" isLeaf="false">
-                <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Выбор изменяемой характеристики" />
+                <opaqueActionMoniker Id="3c9c2b7f-8290-4a57-a133-2cfbe347fd24" LastKnownName="Задание остальных параметров" />
                 <elementDefinition Id="7649cf0e-5a2b-4225-957f-a386d3f38343" />
               </controlFlow>
             </flowNodeTargets>
@@ -136,7 +136,7 @@
             <elementDefinition Id="a0382ac2-2418-4ff0-b9f2-99bc15b7db44" />
             <flowNodeTargets>
               <controlFlow Id="711bac63-2c52-4fac-ac6a-8796dcc7958c" isLeaf="false">
-                <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор измеряемой характеристики" />
+                <opaqueActionMoniker Id="111e6ea2-1a42-4dad-b230-b1e41822c84d" LastKnownName="Выбор изменяемой характеристики" />
                 <elementDefinition Id="84bd0f00-b0f7-465b-95e3-f3d0b451b4a0" />
               </controlFlow>
             </flowNodeTargets>
